@@ -1,0 +1,34 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A70a a bf:Instance ;
+    rdfs:label "Remembering Jack Kerouac" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A70 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Limited to 500 copies signed by Burroughs, 49 of which are numbered and 26 of which are lettered." ],
+        [ a bf:Note ;
+            rdf:value "10) Broadside." ],
+        [ a bf:Note ;
+            rdf:value "(Heaven Poster Series; No." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:white-fields-press ;
+            bf:date "1994" ;
+            bf:place abrp:louisville-ky ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "White Fields Press" ;
+            bf:date "1994" ;
+            bf:place "[Louisville, Ky.]" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Remembering Jack Kerouac" ] .
+

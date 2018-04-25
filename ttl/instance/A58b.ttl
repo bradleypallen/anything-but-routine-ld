@@ -1,0 +1,42 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A58b a bf:Instance ;
+    rdfs:label "The Adding Machine: Collected Essays" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A58 ;
+    bf:note [ a bf:Note ;
+            rdf:value "“Originally published in Great Britain under the title The Adding Machine: Collected Essays.”—T.p." ],
+        [ a bf:Note ;
+            rdf:value "verso." ],
+        [ a bf:Note ;
+            rdf:value "Distributed by H. Holt." ],
+        [ a bf:Note ;
+            rdf:value "(above)." ],
+        [ a bf:Note ;
+            rdf:value "Includes “Bugger the Queen,” excluded from Calder ed." ],
+        [ a bf:Note ;
+            rdf:value "1st American ed." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Seaver Books" ;
+            bf:date "1986" ;
+            bf:place "New York" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:seaver-books ;
+            bf:date "1986" ;
+            bf:place abrp:new-york ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Adding Machine: Selected Essays" ] .
+

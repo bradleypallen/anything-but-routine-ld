@@ -1,0 +1,40 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A78a a bf:Instance ;
+    rdfs:label "Parler pour Joe" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A78 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Staplebound." ],
+        [ a bf:Note ;
+            rdf:value "No equivalent English-language edition." ],
+        [ a bf:Note ;
+            rdf:value "Originally published in Univers, No." ],
+        [ a bf:Note ;
+            rdf:value "Translation and adaptation by Mary Beach of “To Talk for Joe” (published in Transatlantic Review,  No." ],
+        [ a bf:Note ;
+            rdf:value "10 (1977)." ],
+        [ a bf:Note ;
+            rdf:value "60 (June 1977); see Section C below)." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:derriere-la-salle-de-bains ;
+            bf:date "2001" ;
+            bf:place abrp:rouen-france ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Derrière la Salle de Bains" ;
+            bf:date "2001" ;
+            bf:place "Rouen, France" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Parler pour Joe" ] .
+

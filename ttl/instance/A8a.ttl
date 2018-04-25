@@ -1,0 +1,54 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A8a a bf:Instance ;
+    rdfs:label "The Yage Letters" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A8 ;
+    bf:note [ a bf:Note ;
+            rdf:value "2 (Summer 1959)] and [No." ],
+        [ a bf:Note ;
+            rdf:value "1 [(1963)].”—T.p." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "5 [(1961)]." ],
+        [ a bf:Note ;
+            rdf:value "With Allen Ginsberg." ],
+        [ a bf:Note ;
+            rdf:value "3 (1961)]." ],
+        [ a bf:Note ;
+            rdf:value "(See Section C below)  2nd printing, 1965." ],
+        [ a bf:Note ;
+            rdf:value "Burroughs’ 1960 letter was in [The] Floating Bear No." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A8a}  An epistolary novel." ],
+        [ a bf:Note ;
+            rdf:value "3rd printing, 1966." ],
+        [ a bf:Note ;
+            rdf:value "verso." ],
+        [ a bf:Note ;
+            rdf:value "‘I am Dying, Meester?’ was in City Lights Journal No." ],
+        [ a bf:Note ;
+            rdf:value "“The 1953 letters were ... [originally] published in Big Table [No." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "City Lights Books" ;
+            bf:date "1963" ;
+            bf:place "San Francisco" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:city-lights-books ;
+            bf:date "1963" ;
+            bf:place abrp:san-francisco ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Yage Letters" ] .
+

@@ -1,0 +1,36 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A5c a bf:Instance ;
+    rdfs:label "The Soft Machine" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A5 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A5c}" ],
+        [ a bf:Note ;
+            rdf:value "1st Evergreen Black Cat ed." ],
+        [ a bf:Note ;
+            rdf:value "(An Evergreen Black Cat Book, BC-131) ©1966." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:grove-press ;
+            bf:date "1967" ;
+            bf:place abrp:new-york ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Grove Press" ;
+            bf:date "1967" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Soft Machine" ] .
+

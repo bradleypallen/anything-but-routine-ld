@@ -1,0 +1,44 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A21a a bf:Instance ;
+    rdfs:label "The Dead Star" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A21 ;
+    bf:note [ a bf:Note ;
+            rdf:value "5) Distributed by City Lights Books." ],
+        [ a bf:Note ;
+            rdf:value "(Nova Broadcast, No." ],
+        [ a bf:Note ;
+            rdf:value "13  (August 1965)." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A14a}  Pamphlet with long folding broadside tipped in." ],
+        [ a bf:Note ;
+            rdf:value "[Atticus]" ],
+        [ a bf:Note ;
+            rdf:value "Staplebound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "First standalone publication of piece that originally appeared in a different form in The Dead Star, No." ],
+        [ a bf:Note ;
+            rdf:value "[See Section C below] Variant printing exists with copyright page blank and “©1969 by William Burroughs” in holograph on first page of text." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Nova Broadcast Press" ;
+            bf:date "1969" ;
+            bf:place "San Francisco" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:nova-broadcast-press ;
+            bf:date "1969" ;
+            bf:place abrp:san-francisco ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Dead Star" ] .
+

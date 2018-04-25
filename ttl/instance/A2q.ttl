@@ -1,0 +1,36 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A2q a bf:Instance ;
+    rdfs:label "Naked Lunch" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A2 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Edited by James Grauerholz and Barry Miles." ],
+        [ a bf:Note ;
+            rdf:value "With an Introduction by John Walsh." ],
+        [ a bf:Note ;
+            rdf:value "[BeatBooks 59]" ],
+        [ a bf:Note ;
+            rdf:value "(Banned Books; 14) \"Includes the accompanying essays that Burroughs added to later editions, but omits the editors' note and the newly discovered material and outtakes which appear in the edition above.\"" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:paperview-harper-perennial ;
+            bf:date "[n.d. (2007?)]" ;
+            bf:place abrp:london ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Paperview/Harper Perennial" ;
+            bf:date "[n.d. (2007?)]" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Naked Lunch: The Restored Text" ] .
+

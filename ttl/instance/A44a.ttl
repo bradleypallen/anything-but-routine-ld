@@ -1,0 +1,32 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A44a a bf:Instance ;
+    rdfs:label "Scrapbook 3" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A44 ;
+    bf:note [ a bf:Note ;
+            rdf:value "manuscripts, photographs [Skyline] “Color facsimile of one of Burroughs’ personal scrapbooks, reproducing his handwritten and typed manuscripts, photographs, newspaper articles, collages, etc.” [Skyline]" ],
+        [ a bf:Note ;
+            rdf:value "Limited to 30 numbered, signed copies." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Editions Claude Givaudan]" ;
+            bf:date "[1979]" ;
+            bf:place "[Geneva" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:editions-claude-givaudan ;
+            bf:date "[1979]" ;
+            bf:place abrp:geneva ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Scrapbook 3" ] .
+

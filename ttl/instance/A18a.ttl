@@ -1,0 +1,46 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A18a a bf:Instance ;
+    rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A18 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(, No." ],
+        [ a bf:Note ;
+            rdf:value "In French." ],
+        [ a bf:Note ;
+            rdf:value "{M&M D11}  Includes 55 copies with uncut signatures - numbered 1-40 and lettered A-O with lithograph by Jean Hélion." ],
+        [ a bf:Note ;
+            rdf:value "Translation of Burroughs and Kaufman texts by Mary Beach and Claude Pélieu." ],
+        [ a bf:Note ;
+            rdf:value "[Jordan Davies]   No equivalent U.S. or U.K. edition." ],
+        [ a bf:Note ;
+            rdf:value "Cover title: L’Herne Textes: Burroughs, Pélieu, Kaufman." ],
+        [ a bf:Note ;
+            rdf:value "Vivants 1: Etats-Unis) Paris: Éditions de LHerne, 1967." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "Includes the first French translation of Nova Express and two previously unpublished letters from Burroughs to Pélieu." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Éditions de L'Herne" ;
+            bf:date "1967" ;
+            bf:place "Paris" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:editions-de-l-herne ;
+            bf:date "1967" ;
+            bf:place abrp:paris ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ] .
+

@@ -1,0 +1,38 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A24d a bf:Instance ;
+    rdfs:label "Electronic Revolution 1970-71" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A24 ;
+    bf:note [ a bf:Note ;
+            rdf:value "3rd ed., exp." ],
+        [ a bf:Note ;
+            rdf:value "In German and English." ],
+        [ a bf:Note ;
+            rdf:value "German translation by Carl Weissner." ],
+        [ a bf:Note ;
+            rdf:value "Includes “Feedback from Watergate to the Garden of Eden.” German and English text bound tête-bêche." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:expanded-media-editions ;
+            bf:date "1982" ;
+            bf:place abrp:bonn ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Expanded Media Editions" ;
+            bf:date "1982" ;
+            bf:place "[Bonn]" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Die elektronische Revolution = Electronic Revolution" ] .
+

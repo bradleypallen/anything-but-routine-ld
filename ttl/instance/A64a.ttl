@@ -1,0 +1,36 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A64a a bf:Instance ;
+    rdfs:label "Interzone" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A64 ;
+    bf:note [ a bf:Note ;
+            rdf:value "“A collection of previously unpublished short stories, routines, letters, and notebook entries, dating from the mid-50s, rediscovered among Allen Ginsberg’s papers at Columbia University in 1984.” [BeatBooks 51] “’Interzone’ was the working title for ... Naked Lunch.”—Dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "Edited by James Grauerholz." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "Includes “WORD,” “... that had been cut, save for a few scattered fragments, from the final manuscript of Naked Lunch.”—Dustjacket." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Viking Penguin" ;
+            bf:date "1989" ;
+            bf:place "New York" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:viking-penguin ;
+            bf:date "1989" ;
+            bf:place abrp:new-york ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Interzone" ] .
+

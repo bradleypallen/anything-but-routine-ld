@@ -1,0 +1,46 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A56a a bf:Instance ;
+    rdfs:label "The Place of Dead Roads" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A56 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "[Shoaf 1] 1." ],
+        [ a bf:Note ;
+            rdf:value "©1983." ],
+        [ a bf:Note ;
+            rdf:value "[Press Kit]." ],
+        [ a bf:Note ;
+            rdf:value "New York: Holt, Rinehart and Winston, 1984." ],
+        [ a bf:Note ;
+            rdf:value "Includes 300 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publisher's slipcase." ],
+        [ a bf:Note ;
+            rdf:value "Two “issues” of first printing—one in brown cloth full binding with bronze spine lettering, one in orange- brown cloth quarter binding with silver spine lettering." ],
+        [ a bf:Note ;
+            rdf:value "Full-color preview of dustjacket and photocopied “Brief Description” on HRW letterhead." ],
+        [ a bf:Note ;
+            rdf:value "“The original title of this book was The Johnson Family.”—Prefatory note." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:holt-rinehart-and-winston ;
+            bf:date "1984" ;
+            bf:place abrp:new-york ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Holt, Rinehart, and Winston" ;
+            bf:date "1984" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Place of Dead Roads" ] .
+

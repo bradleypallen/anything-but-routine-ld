@@ -1,0 +1,32 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A2c a bf:Instance ;
+    rdfs:label "Naked Lunch" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A2 ;
+    bf:note [ a bf:Note ;
+            rdf:value "“Taiwan piracy of Grove Press first edition, smaller in both height and width than the Grove edition and thinner as well, but having the same dust jacket design, printed on cheap paper, some copies with Taiwan Booksellers’ stamp on rear leaf.” [Shoaf 1]" ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Grove Press" ;
+            bf:date "[n.d.]" ;
+            bf:place "New York" ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:grove-press ;
+            bf:date "[n.d.]" ;
+            bf:place abrp:new-york ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Naked Lunch" ] .
+

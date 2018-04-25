@@ -1,0 +1,36 @@
+@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
+@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
+@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
+@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A1e a bf:Instance ;
+    rdfs:label "Junkie" ;
+    bf:contributor abra:burroughs-william-s ;
+    bf:instanceOf abrw:A1 ;
+    bf:note [ a bf:Note ;
+            rdf:value "{M&M A1e} Includes “Glossary.” “The first, and only, English-language edition in hardcover.” [BeatBooks 65]" ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "Preface by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Foreword by Carl Solomon." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent abra:david-bruce-watson ;
+            bf:date "1973" ;
+            bf:place abrp:london ],
+        [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "David Bruce & Watson" ;
+            bf:date "1973" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Junkie" ] .
+
