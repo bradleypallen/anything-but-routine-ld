@@ -25,14 +25,14 @@ I'm focusing on using [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html
 
 I currently start out with two notebooks, each implementing a part of the workflow involved.
 
-- [generate-csv-from-pdf](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-csv-from-pdf.ipynb): Convert the v4.0 PDF catalog to a set of CSV files, one per instance type A through I
-- For each instance type CSV file:
-    - *Manually edit* the CSV file to eliminate PDF conversion errors and artifacts
-    - [generate-ttl-from-csv](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-ttl-from-csv.ipynb): Convert the manually cleansed CSV to a set of Turtle files
-- For each generated TTL file:
-    - *Manually edit* the TTL files to apply modeling best practices that aren't automated in the above step
+- [generate-csv-from-pdf](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-csv-from-pdf.ipynb): Convert the ABR v4.0 .pdf catalog to a set of .csv files, one per instance type A through I
+- For each instance type .csv file:
+    - *Manually edit* the .csv file to eliminate PDF conversion errors and artifacts
+    - [generate-ttl-from-csv](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-ttl-from-csv.ipynb): Convert the manually cleansed .ttl to a set of Turtle files
+- For each generated .ttl file:
+    - *Manually edit* the .ttl files to apply modeling best practices that aren't automated in the above step
 
-The PDF-to-text conversion can't handle a lot of the notes in the instance annotations, which I am modeling using bf:Note. That's the reason for the manual step in the above workflow. I'm not sure that I will be able to improve that to any degree, but I may be able to reduce the tweaking to a minimum. In any case, working with the PDF and CSV files is only a transitional phase to get the bibliographic data into .ttl files under Git version control.
+The PDF-to-text conversion can't handle a lot of the notes in the instance annotations, which I am modeling using bf:Note. That's the reason for the manual step in the above workflow. I'm not sure that I will be able to improve that to any degree, but I may be able to reduce the tweaking to a minimum. In any case, working with the .pdf and .csv files is only a transitional phase to get the bibliographic data into .ttl files under Git version control.
 
 Once the workflow has been completely executed, it should be possible to work moving forward off of the TTL files, without further reference to the source PDF and CSV files.
 
