@@ -4,17 +4,16 @@
 
 This repository contains work towards a linked data representation of
 the bibliographical metadata captured in [Anything But Routine](http://escholarship.org/uc/item/0xj4d6bm),
-Brian Schottlaender's scholarly bibliography of works by and about William S. Burroughs, the American Beat Generation
+Brian E.C. Schottlaender's annotated bibliography of works by and about [William S. Burroughs](https://en.wikipedia.org/wiki/William_S._Burroughs), the American Beat Generation
 author.
 
 ## Goals
 
-- Demonstrate the utility of BIBFRAME 2.0 for catalogs of rare materials typical of those generated
-by and for rare book collectors and sellers
-- Generate lessons learned for the description of such materials in BIBFRAME 2.0 and its proposed extensions
-- Provide a platform for in-depth analytics applied to the data in rare book catalogs
-- Demonstrate the utility of linked data as a next-generation approach to the creation of online catalogs for rare materials
-- Provide a nifty Web presence for my own Burroughs collection
+- Demonstrate the utility of [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html) for catalogs of rare materials typical of those created by and for rare book collectors and sellers
+- Gain and share experience in the description of such materials in BIBFRAME 2.0 and other BIBFRAME extension ontologies
+- Provide a platform for data analytics applied to rare book catalogs, in the spirit of the [Santa Barbara Statement on Collections as Data](https://collectionsasdata.github.io/statement/)
+- Demonstrate the utility of linked data combined with Github-style collaboration platforms in creating and maintaining catalogs for rare materials
+- Exploit all of the above in building a flashy new resource for [my own Burroughs collection](http://bradleypallen.org/wsb-catalog)
 
 ## Approach
 
@@ -25,8 +24,8 @@ by and for rare book collectors and sellers
 
 ### Vocabularies
 
-- BIBFRAME 2.0
-- ARM
+- [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html)
+- [Art and Rare Materials Ontologies](https://github.com/LD4P/arm)
 
 ## License
 
