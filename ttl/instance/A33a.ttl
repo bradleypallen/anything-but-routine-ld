@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,24 +9,25 @@
 
 abri:A33a a bf:Instance ;
     rdfs:label "Verdelgen" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A33a" ] ;
     bf:instanceOf abrw:A33 ;
     bf:note [ a bf:Note ;
-            rdf:value "There is no English-language equivalent of this title.” [Skyline]" ],
-        [ a bf:Note ;
             rdf:value "“A Dutch collection of Burroughs material." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
+            rdf:value "There is no English-language equivalent of this title.” [Skyline]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Agathon" ;
             bf:date "1975" ;
-            bf:place "[Holland]" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:agathon ;
-            bf:date "1975" ;
-            bf:place abrp:holland ] ;
+            bf:place "[Holland]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Verdelgen" ] .
 

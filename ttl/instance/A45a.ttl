@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,24 +9,37 @@
 
 abri:A45a a bf:Instance ;
     rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bookslinger" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Walker Art Center Reading Series" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A45a" ] ;
     bf:instanceOf abrw:A45 ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 125 numbered and 26 lettered copies, signed by Burroughs." ],
+            rdf:value "Broadside." ],
         [ a bf:Note ;
             rdf:value "“... printed at the Toothpaste Press for Bookslinger on the occasion of the author’s reading at the Walker Art  Center, October 24, 1979.” Also issued as part of: 16 Broadsides: Walker Art Center Reading Series, 1979–1980 (St. Paul, Minn.: Bookslinger, 1980)." ],
         [ a bf:Note ;
-            rdf:value "Broadside." ] ;
+            rdf:value "Limited to 125 numbered and 26 lettered copies, signed by Burroughs." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Bookslinger" ;
             bf:date "1979" ;
-            bf:place "[St. Paul, Minn.]" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:bookslinger ;
-            bf:date "1979" ;
-            bf:place abrp:st-paul-minn ] ;
+            bf:place "[St. Paul, Minn.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ] .
 

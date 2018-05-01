@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,24 +9,33 @@
 
 abri:A36b a bf:Instance ;
     rdfs:label "The Third Mind" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Grove Press" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Announced" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A36b" ] ;
     bf:instanceOf abrw:A36 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket (no softbound issued)." ],
-        [ a bf:Note ;
             rdf:value "Announced for publication by Grove Press in 1970 but never released." ],
         [ a bf:Note ;
-            rdf:value ", 1978." ],
+            rdf:value "[1st American ed.]." ],
         [ a bf:Note ;
             rdf:value "First published as uvre Croissé, above." ],
         [ a bf:Note ;
-            rdf:value "[1st American ed.]." ] ;
+            rdf:value ", 1978." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket (no softbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:viking-press ;
-            bf:date "1978" ;
-            bf:place abrp:new-york ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking Press" ;
             bf:date "1978" ;

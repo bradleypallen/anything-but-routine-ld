@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,22 +9,34 @@
 
 abri:A17a a bf:Instance ;
     rdfs:label "So Who Owns Death TV?" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Claude Pélieu" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Carl Weissner" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A13a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A17a" ] ;
     bf:instanceOf abrw:A17 ;
     bf:note [ a bf:Note ;
-            rdf:value "Staplebound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "{M&M A13a}  Two printings:   one printed in black ink on white paper, with cover printed in black and red ink on white paper  (50¢ price);  one printed in silver ink on black paper, including cover (no price)." ],
-        [ a bf:Note ;
             rdf:value "(A Black Bag Pamphlet) Distributed by City Lights Books." ],
         [ a bf:Note ;
-            rdf:value "With Claude Pélieu and Carl Weissner." ] ;
+            rdf:value "Staplebound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "With Claude Pélieu and Carl Weissner." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A13a}  Two printings:   one printed in black ink on white paper, with cover printed in black and red ink on white paper  (50¢ price);  one printed in silver ink on black paper, including cover (no price)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:beach-books-texts-documents ;
-            bf:date "1967" ;
-            bf:place abrp:san-francisco ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Beach Books, Texts, & Documents" ;
             bf:date "1967" ;

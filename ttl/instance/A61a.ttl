@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,12 +9,26 @@
 
 abri:A61a a bf:Instance ;
     rdfs:label "From The Western Lands" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Casa Sin Nombre" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Santa Fe" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A61a" ] ;
     bf:instanceOf abrw:A61 ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 750 copies." ],
-        [ a bf:Note ;
             rdf:value "From The Western Lands." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 750 copies." ],
         [ a bf:Note ;
             rdf:value "Santa Fe, N.M.: Casa Sin Nombre, 1987." ],
         [ a bf:Note ;

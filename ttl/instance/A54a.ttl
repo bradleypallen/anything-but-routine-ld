@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,28 +9,61 @@
 
 abri:A54a a bf:Instance ;
     rdfs:label "The Burroughs File" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Alan Ansen" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Book" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "John Brady" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Postcard" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Postcard" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Francisco" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Paul Bowles" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Cobblestone Gardens" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A54a" ] ;
     bf:instanceOf abrw:A54 ;
     bf:note [ a bf:Note ;
-            rdf:value "San Francisco: City Lights Books, [1984?]" ],
-        [ a bf:Note ;
-            rdf:value "“Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket." ],
-        [ a bf:Note ;
-            rdf:value "Hardbound, and softbound." ],
+            rdf:value "[Promotional Postcard]." ],
         [ a bf:Note ;
             rdf:value "1." ],
         [ a bf:Note ;
-            rdf:value "[Promotional Postcard]." ],
+            rdf:value "“Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket." ],
         [ a bf:Note ;
-            rdf:value "2nd printing, 1991." ],
+            rdf:value "Postcard." ],
         [ a bf:Note ;
-            rdf:value "Postcard." ] ;
+            rdf:value "San Francisco: City Lights Books, [1984?]" ],
+        [ a bf:Note ;
+            rdf:value "Hardbound, and softbound." ],
+        [ a bf:Note ;
+            rdf:value "2nd printing, 1991." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:city-lights-books ;
-            bf:date "1984" ;
-            bf:place abrp:san-francisco ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;
             bf:date "1984" ;

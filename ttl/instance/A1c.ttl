@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,24 +9,32 @@
 
 abri:A1c a bf:Instance ;
     rdfs:label "Junkie" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Carl Solomon" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A1c" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A1c" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
             rdf:value "{M&M A1c}  1st separate U.S. publication, and 1st   1st state: .50¢ cover price; 2nd state: (Ace Star, 41841) and .60¢ cover price." ],
         [ a bf:Note ;
-            rdf:value "[BeatBooks 51]    Reprinted in 1970 and 1973 (the latter with a different cover)." ],
-        [ a bf:Note ;
             rdf:value "Foreword by Carl Solomon." ],
         [ a bf:Note ;
-            rdf:value "[M&M]" ],
+            rdf:value "[BeatBooks 51]    Reprinted in 1970 and 1973 (the latter with a different cover)." ],
         [ a bf:Note ;
-            rdf:value "(Ace Star, K202) Softbound (no hardbound issued)." ] ;
+            rdf:value "(Ace Star, K202) Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "[M&M]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:ace-books ;
-            bf:date "1964" ;
-            bf:place abrp:new-york ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Ace Books" ;
             bf:date "1964" ;

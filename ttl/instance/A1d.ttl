@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,26 +9,34 @@
 
 abri:A1d a bf:Instance ;
     rdfs:label "Junkie" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "A1A" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A1d" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A1d" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
+            rdf:value "(The Olympia Press Travellers Companion Series, No." ],
+        [ a bf:Note ;
             rdf:value "114)." ],
         [ a bf:Note ;
             rdf:value "[M&M]" ],
         [ a bf:Note ;
-            rdf:value "[PBA 327] In this edition, “Notes,” originally printed in the text (see A1A above), are printed in a separate section at the end—out of context and preceding the newly added “Glossary.” Reprinted in 1969 and 1972 with different covers." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "{M&M A1d}  Issued in clear tissue jacket." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "(The Olympia Press Travellers Companion Series, No." ] ;
+            rdf:value "[PBA 327] In this edition, “Notes,” originally printed in the text (see A1A above), are printed in a separate section at the end—out of context and preceding the newly added “Glossary.” Reprinted in 1969 and 1972 with different covers." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:new-english-library ;
-            bf:date "1966" ;
-            bf:place abrp:london ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "New English Library" ;
             bf:date "1966" ;

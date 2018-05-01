@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,9 +9,29 @@
 
 abri:A29a a bf:Instance ;
     rdfs:label "Port of Saints" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Wild Boys" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Miles" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A29a" ] ;
     bf:instanceOf abrw:A29 ;
     bf:note [ a bf:Note ;
+            rdf:value "A re-working of Wild Boys  material.” [Miles]" ],
+        [ a bf:Note ;
             rdf:value "Limited 1st ed." ],
         [ a bf:Note ;
             rdf:value "." ],
@@ -22,21 +40,14 @@ abri:A29a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "Limited to 200 copies, including 100 numbered copies signed by Burroughs and issued in publisher's slipcase." ],
         [ a bf:Note ;
-            rdf:value "A re-working of Wild Boys  material.” [Miles]" ],
+            rdf:value "“The t.p." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
-            rdf:value "“The t.p." ] ;
+            rdf:value "Hardbound in dustjacket." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Covent Garden Press Limited; Ollon, Switzerland: Am Here Books" ;
             bf:date "1973 [i.e., 1975]" ;
-            bf:place "London: Covent Garden Press Limited; Ollon, Switzerland" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:covent-garden-press-limited-ollon-switzerland-am-here-books ;
-            bf:date "1973 [i.e., 1975]" ;
-            bf:place abrp:london-covent-garden-press-limited-ollon-switzerland ] ;
+            bf:place "London: Covent Garden Press Limited; Ollon, Switzerland" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Port of Saints" ] .
 

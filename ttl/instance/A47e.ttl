@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,7 +9,14 @@
 
 abri:A47e a bf:Instance ;
     rdfs:label "Cities of the Red Night" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:copyrightDate "1981" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A47e" ] ;
     bf:instanceOf abrw:A47 ;
     bf:note [ a bf:Note ;
             rdf:value "Softbound." ],
@@ -23,12 +28,7 @@ abri:A47e a bf:Instance ;
                 bf:Publication ;
             bf:agent "H. Holt" ;
             bf:date "1995" ;
-            bf:place "New York" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:h-holt ;
-            bf:date "1995" ;
-            bf:place abrp:new-york ] ;
+            bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] .
 

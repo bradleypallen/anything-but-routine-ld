@@ -36,7 +36,7 @@ The PDF-to-text conversion can't handle a lot of the notes in the instance annot
 
 Once the workflow has been completely executed, it should be possible to work moving forward off of the .ttl files, without further reference to the source .pdf and .csv files.
 
-[generate-graph-from-ttl](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-graph-from-ttl.ipynb) hints at what's possible once we've gotten things to that stage. It loads all of the .ttl files into an rdflib.Graph and shows how the graph can be queried and query results visualized. It hints at the ability to generate future versions of ABR directly from the graph, and at the use of collaborative Git-based development of the data in the individual .ttl files to be where the work of catalog refinement and maintenance is done in the future.
+[generate-graph-from-ttl](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-graph-from-ttl.ipynb) hints at what's possible once we've gotten things to that stage. It loads all of the .ttl files into an rdflib.Graph and shows how the graph can be queried and query results visualized. It hints at the ability to generate future versions of ABR directly from the graph, and at the use of collaborative Git-based development of the data in the individual .ttl files as where the work of catalog refinement and maintenance is done in the future.
 
 ## License
 

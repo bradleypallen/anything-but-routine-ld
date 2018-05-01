@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,7 +9,25 @@
 
 abri:A60a a bf:Instance ;
     rdfs:label "The Cat Inside" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Gysin" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Brion Gysin" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A60a" ] ;
     bf:instanceOf abrw:A60 ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 133 numbered copies, all signed by Burroughs and Gysin: 1–115 bound in quarter vellum with red and black hand-painted paper over boards; i–xviii bound in full vellum with a Gysin drawing stamped in gold on the front cover, in quarter vellum clamshell box." ],
@@ -23,12 +39,7 @@ abri:A60a a bf:Instance ;
                 bf:Publication ;
             bf:agent "Grenfell Press" ;
             bf:date "1986" ;
-            bf:place "New York" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:grenfell-press ;
-            bf:date "1986" ;
-            bf:place abrp:new-york ] ;
+            bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Cat Inside" ] .
 

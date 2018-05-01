@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,30 +9,44 @@
 
 abri:A2p a bf:Instance ;
     rdfs:label "Naked Lunch" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Barry Miles" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
+    bf:copyrightDate "2001" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A2p" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "©2001." ],
+            rdf:value "Edited by James Grauerholz and Barry Miles." ],
         [ a bf:Note ;
-            rdf:value "“... corrects numerous textual errors accumulated over the years." ],
+            rdf:value "©2001." ],
         [ a bf:Note ;
             rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "Edited by James Grauerholz and Barry Miles." ],
+            rdf:value "... also incorporates Burroughs’s own notes on the text, all the accompanying essays that he added to later editions [i.e., to editions later than the first, but preceding this edition], and ... an appendix of abundant, newly discovered material and alternate drafts from the original manuscript ...”—Dustjacket." ],
         [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
-            rdf:value "... also incorporates Burroughs’s own notes on the text, all the accompanying essays that he added to later editions [i.e., to editions later than the first, but preceding this edition], and ... an appendix of abundant, newly discovered material and alternate drafts from the original manuscript ...”—Dustjacket." ] ;
+            rdf:value "“... corrects numerous textual errors accumulated over the years." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;
             bf:date "[2003?]" ;
-            bf:place "New York" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:grove-press ;
-            bf:date "[2003?]" ;
-            bf:place abrp:new-york ] ;
+            bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch: The Restored Text" ] .
 

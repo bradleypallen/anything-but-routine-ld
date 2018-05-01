@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,30 +9,66 @@
 
 abri:A13b a bf:Instance ;
     rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Mary Beach" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Documents" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Health Bulletin" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "First" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Claude Pélieu" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Beach Books" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Lacks" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "San Francisco" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A13b" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A12b" ] ;
     bf:instanceOf abrw:A13 ;
     bf:note [ a bf:Note ;
+            rdf:value "[San Francisco]: Beach Books, Texts, & Documents, [1966?" ],
+        [ a bf:Note ;
             rdf:value "Collection compiled by Mary Beach and Claude Pélieu." ],
         [ a bf:Note ;
             rdf:value "“First Burroughs-approved edition.” [PBA 198] Reprinted, 1967." ],
         [ a bf:Note ;
-            rdf:value "[San Francisco]: Beach Books, Texts, & Documents, [1966?" ],
-        [ a bf:Note ;
-            rdf:value "{M&M A12b} “Number One.” Lacks “Locked Out of Time” and “Apomorphine Statement 2” from Health Bulletin: APO-33, A Metabolic Regulator: A Report on the Synthesis of the Apomorphine Formula, above." ],
+            rdf:value "]; distributed by City Lights." ],
         [ a bf:Note ;
             rdf:value "Staplebound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "]; distributed by City Lights." ] ;
+            rdf:value "{M&M A12b} “Number One.” Lacks “Locked Out of Time” and “Apomorphine Statement 2” from Health Bulletin: APO-33, A Metabolic Regulator: A Report on the Synthesis of the Apomorphine Formula, above." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Beach Books, Texts, & Documents" ;
             bf:date "[1966?]" ;
-            bf:place "[San Francisco]" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:beach-books-texts-documents ;
-            bf:date "[1966?]" ;
-            bf:place abrp:san-francisco ] ;
+            bf:place "[San Francisco]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ] .
 

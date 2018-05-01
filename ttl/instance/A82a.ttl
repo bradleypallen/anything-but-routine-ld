@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,34 +9,79 @@
 
 abri:A82a a bf:Instance ;
     rdfs:label "The Travel Agency Is on Fire" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Henry W." ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Public Library" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Postcard" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Kathy Acker" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Byron James Bignell" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Manuscripts Library" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Albert A. Berg Collection" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Alex" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Rare Books" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A82a" ] ;
     bf:instanceOf abrw:A82 ;
     bf:note [ a bf:Note ;
-            rdf:value "[Promotional Postcard]." ],
-        [ a bf:Note ;
-            rdf:value "5, No." ],
-        [ a bf:Note ;
-            rdf:value "Alex Wermer-Colan, ed." ],
-        [ a bf:Note ;
             rdf:value "“Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p." ],
         [ a bf:Note ;
             rdf:value "verso." ],
         [ a bf:Note ;
             rdf:value "2) Staplebound." ],
         [ a bf:Note ;
-            rdf:value "[New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015.]" ],
+            rdf:value "[Promotional Postcard]." ],
         [ a bf:Note ;
             rdf:value "(Lost and Found: The CUNY Poetics Document Initiative; Ser." ],
         [ a bf:Note ;
+            rdf:value "On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)" ],
+        [ a bf:Note ;
             rdf:value "1." ],
         [ a bf:Note ;
-            rdf:value "On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)" ] ;
+            rdf:value "[New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015.]" ],
+        [ a bf:Note ;
+            rdf:value "Alex Wermer-Colan, ed." ],
+        [ a bf:Note ;
+            rdf:value "5, No." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:the-center-for-the-humanities-the-graduate-center-the-city-university-of-new-york ;
-            bf:date "2015" ;
-            bf:place abrp:new-york ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "The Center for the Humanities, The Graduate Center, The City University of New York" ;
             bf:date "2015" ;

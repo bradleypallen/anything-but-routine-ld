@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,28 +9,44 @@
 
 abri:A4a a bf:Instance ;
     rdfs:label "Minutes To Go" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Gregory Corso" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Sinclair Beiles" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Brion Gysin" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A4a" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A3a" ] ;
     bf:instanceOf abrw:A4 ;
     bf:note [ a bf:Note ;
-            rdf:value "With Sinclair Beiles, Gregory Corso, and Brion Gysin." ],
-        [ a bf:Note ;
-            rdf:value "Not on “fine paper,” as M&M claims." ],
-        [ a bf:Note ;
             rdf:value "[Shoaf 1]" ],
+        [ a bf:Note ;
+            rdf:value "With Sinclair Beiles, Gregory Corso, and Brion Gysin." ],
         [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "{M&M A3a}  “The first collection of cut-ups.” [BeatBooks 65]  “Some [early] copies were issued with a white wraparound band ...” [M&M]  Includes 10 numbered copies (of which only 5 were offered for sale), signed by the publisher and including a manuscript page from each of the four authors." ] ;
+            rdf:value "{M&M A3a}  “The first collection of cut-ups.” [BeatBooks 65]  “Some [early] copies were issued with a white wraparound band ...” [M&M]  Includes 10 numbered copies (of which only 5 were offered for sale), signed by the publisher and including a manuscript page from each of the four authors." ],
+        [ a bf:Note ;
+            rdf:value "Not on “fine paper,” as M&M claims." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Two Cities Editions" ;
             bf:date "[1960]" ;
-            bf:place "[Paris]" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:two-cities-editions ;
-            bf:date "[1960]" ;
-            bf:place abrp:paris ] ;
+            bf:place "[Paris]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Minutes To Go" ] .
 

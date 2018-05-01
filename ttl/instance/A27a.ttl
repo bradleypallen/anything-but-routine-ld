@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,7 +9,44 @@
 
 abri:A27a a bf:Instance ;
     rdfs:label "Exterminator!" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Esquire" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Antaeus" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Evergreen Review" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Daily Telegraph" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Mayfair" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Atlantic Monthly" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Rolling Stone" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A27a" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A23a" ] ;
     bf:instanceOf abrw:A27 ;
     bf:note [ a bf:Note ;
             rdf:value "{M&M A23a}   “Portions of this volume have been previously published, in somewhat different form, in the following publications: Antaeus, Atlantic Monthly, Cavalier, Daily Telegraph (London), Esquire, Evergreen Review, The Expatriate Review, Mayfair, Rolling Stone, [and] The Village Voice.”—T.p." ],
@@ -23,12 +58,7 @@ abri:A27a a bf:Instance ;
                 bf:Publication ;
             bf:agent "Viking Press" ;
             bf:date "1973" ;
-            bf:place "New York" ],
-        [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:viking-press ;
-            bf:date "1973" ;
-            bf:place abrp:new-york ] ;
+            bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator! A Novel" ] .
 

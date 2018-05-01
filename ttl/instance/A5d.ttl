@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,22 +9,23 @@
 
 abri:A5d a bf:Instance ;
     rdfs:label "The Soft Machine" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A5d" ] ;
     bf:instanceOf abrw:A5 ;
     bf:note [ a bf:Note ;
             rdf:value "ed." ],
         [ a bf:Note ;
-            rdf:value "{M&M A5d and A5e} Third version: “... this final, definitive edition has been considerably revised by the author from the two earlier versions.”—Dustjacket (rear)." ],
+            rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
             rdf:value "Rev." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ] ;
+            rdf:value "{M&M A5d and A5e} Third version: “... this final, definitive edition has been considerably revised by the author from the two earlier versions.”—Dustjacket (rear)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:calder-and-boyars ;
-            bf:date "1968" ;
-            bf:place abrp:london ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Calder and Boyars" ;
             bf:date "1968" ;

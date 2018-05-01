@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,32 +9,50 @@
 
 abri:A2m a bf:Instance ;
     rdfs:label "Naked Lunch" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Dangerous Drugs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Vol" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Terry Southern" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Vol" ;
+            bf:role "contributor" ] ;
+    bf:copyrightDate "1990" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A2m" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
             rdf:value "Includes, at the beginning as “Introduction,” “Deposition: Testimony Concerning a Sickness” [originally published in Evergreen Review, Vol." ],
         [ a bf:Note ;
-            rdf:value "Reprinted several times, including in 2000 with an Introduction by Terry Southern." ],
+            rdf:value "11 (January-February 1960); see Section C below]” and “Afterthoughts on a Deposition” (October 1991); and, at the end as “Appendix,” “Letter from a Master Addict to Dangerous Drugs” [originally published in The British Journal of Addiction, Vol." ],
         [ a bf:Note ;
-            rdf:value "2 (January 1957); see Section C below]." ],
+            rdf:value "Reprinted several times, including in 2000 with an Introduction by Terry Southern." ],
         [ a bf:Note ;
             rdf:value "53, No." ],
         [ a bf:Note ;
-            rdf:value "11 (January-February 1960); see Section C below]” and “Afterthoughts on a Deposition” (October 1991); and, at the end as “Appendix,” “Letter from a Master Addict to Dangerous Drugs” [originally published in The British Journal of Addiction, Vol." ],
-        [ a bf:Note ;
-            rdf:value "©1990." ],
-        [ a bf:Note ;
-            rdf:value "1st Evergreen ed." ],
+            rdf:value "2 (January 1957); see Section C below]." ],
         [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "4, No." ] ;
+            rdf:value "4, No." ],
+        [ a bf:Note ;
+            rdf:value "©1990." ],
+        [ a bf:Note ;
+            rdf:value "1st Evergreen ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:grove-press ;
-            bf:date "1992" ;
-            bf:place abrp:new-york ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;
             bf:date "1992" ;

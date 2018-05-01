@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,20 +9,26 @@
 
 abri:A22c a bf:Instance ;
     rdfs:label "The Last Words of Dutch Schultz" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Grove Press" ;
+            bf:role "contributor" ] ;
+    bf:copyrightDate "1975" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A22c" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
             rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "©1975; distributed by Grove Press." ],
+            rdf:value "1st paperbound ed." ],
         [ a bf:Note ;
-            rdf:value "1st paperbound ed." ] ;
+            rdf:value "©1975; distributed by Grove Press." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:seaver-books ;
-            bf:date "1981" ;
-            bf:place abrp:new-york ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Seaver Books" ;
             bf:date "1981" ;

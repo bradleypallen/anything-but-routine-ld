@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,18 +9,22 @@
 
 abri:A6e a bf:Instance ;
     rdfs:label "The Ticket That Exploded" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A6e" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A6f" ] ;
     bf:instanceOf abrw:A6 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A6f}" ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "{M&M A6f}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:corgi-books ;
-            bf:date "1971" ;
-            bf:place abrp:london ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Corgi Books" ;
             bf:date "1971" ;

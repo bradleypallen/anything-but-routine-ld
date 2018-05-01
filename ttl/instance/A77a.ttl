@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,22 +9,27 @@
 
 abri:A77a a bf:Instance ;
     rdfs:label "In Search of Yage: A William S. Burroughs Pictorial" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A77a" ] ;
     bf:instanceOf abrw:A77 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound; handbound (no hardbound issued)." ],
+            rdf:value "The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon." ],
         [ a bf:Note ;
             rdf:value "Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon." ],
         [ a bf:Note ;
-            rdf:value "The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon." ],
+            rdf:value "“This edition consists of 26 lettered copies." ],
         [ a bf:Note ;
-            rdf:value "“This edition consists of 26 lettered copies." ] ;
+            rdf:value "Softbound; handbound (no hardbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:skyline-books ;
-            bf:date "1999" ;
-            bf:place abrp:forest-knolls-calif ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Skyline Books" ;
             bf:date "1999" ;

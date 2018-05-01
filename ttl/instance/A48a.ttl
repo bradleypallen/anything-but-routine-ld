@@ -1,8 +1,6 @@
-@prefix abra: <https://w3id.org/schottlaender/4.0/agent/> .
-@prefix abri: <https://w3id.org/schottlaender/4.0/instance/> .
-@prefix abrp: <https://w3id.org/schottlaender/4.0/place/> .
-@prefix abrw: <https://w3id.org/schottlaender/4.0/work/> .
-@prefix arm: <https://w3id.org/arm/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,24 +9,45 @@
 
 abri:A48a a bf:Instance ;
     rdfs:label "Early Routines" ;
-    bf:contributor abra:burroughs-william-s ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Ian Sommerville" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Grove" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "David Hockney" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A48a" ] ;
     bf:instanceOf abrw:A48 ;
     bf:note [ a bf:Note ;
-            rdf:value "[Skyline]" ],
+            rdf:value "1st ed." ],
         [ a bf:Note ;
             rdf:value "Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville." ],
         [ a bf:Note ;
-            rdf:value "1st ed." ],
+            rdf:value "[Skyline]" ],
         [ a bf:Note ;
-            rdf:value "“... some of the earliest and hitherto uncollected & unpublished writings ... including a long ‘Interzone’ passage from NAKED LUNCH which did not appear in either the Olympia or Grove Press editions ...” —Publisher’s catalogue." ],
+            rdf:value "Hardbound in tissue dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in tissue dustjacket, and softbound." ] ;
+            rdf:value "“... some of the earliest and hitherto uncollected & unpublished writings ... including a long ‘Interzone’ passage from NAKED LUNCH which did not appear in either the Olympia or Grove Press editions ...” —Publisher’s catalogue." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
-                bf:Publication ;
-            bf:agent abra:cadmus-editions ;
-            bf:date "1981" ;
-            bf:place abrp:santa-barbara-calif ],
-        [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Cadmus Editions" ;
             bf:date "1981" ;
