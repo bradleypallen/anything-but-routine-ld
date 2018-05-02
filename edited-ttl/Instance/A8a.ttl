@@ -16,10 +16,10 @@ abri:A8a a bf:Instance ;
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Allen Ginsberg" ;
-            bf:role "contributor" ] ;
+            [ a bf:Agent,
+                    bf:Person ;
+                rdfs:label "Allen Ginsberg" ;
+                bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A8a" ],

@@ -1,0 +1,34 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abrw:A2 a bf:Text,
+        bf:Work ;
+    rdfs:label "Naked Lunch" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            bf:role "author" ;
+            rdfs:label "William S. Burroughs" ] ;
+    bf:hasInstance abri:A2a,
+        abri:A2b,
+        abri:A2c,
+        abri:A2d,
+        abri:A2e,
+        abri:A2f,
+        abri:A2g,
+        abri:A2h,
+        abri:A2i,
+        abri:A2j,
+        abri:A2k,
+        abri:A2l,
+        abri:A2m,
+        abri:A2n,
+        abri:A2o,
+        abri:A2p,
+        abri:A2q,
+        abri:A2r .
