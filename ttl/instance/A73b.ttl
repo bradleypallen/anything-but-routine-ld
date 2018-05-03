@@ -18,9 +18,9 @@ abri:A73b a bf:Instance ;
             rdf:value "A73b" ] ;
     bf:instanceOf abrw:A73 ;
     bf:note [ a bf:Note ;
-            rdf:value "1st British ed." ],
+            rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ] ;
+            rdf:value "1st British ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Picador" ;

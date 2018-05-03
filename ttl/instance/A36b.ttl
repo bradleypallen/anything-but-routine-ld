@@ -26,15 +26,15 @@ abri:A36b a bf:Instance ;
             rdf:value "A36b" ] ;
     bf:instanceOf abrw:A36 ;
     bf:note [ a bf:Note ;
+            rdf:value "First published as uvre Croissé, above." ],
+        [ a bf:Note ;
             rdf:value "Announced for publication by Grove Press in 1970 but never released." ],
         [ a bf:Note ;
             rdf:value "[1st American ed.]." ],
         [ a bf:Note ;
-            rdf:value "First published as uvre Croissé, above." ],
+            rdf:value "Hardbound in dustjacket (no softbound issued)." ],
         [ a bf:Note ;
-            rdf:value ", 1978." ],
-        [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket (no softbound issued)." ] ;
+            rdf:value ", 1978." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking Press" ;

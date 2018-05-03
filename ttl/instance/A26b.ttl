@@ -24,9 +24,9 @@ abri:A26b a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "©1971." ],
         [ a bf:Note ;
-            rdf:value "{M&M A20b&c}" ],
+            rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ] ;
+            rdf:value "{M&M A20b&c}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Calder & Boyars" ;

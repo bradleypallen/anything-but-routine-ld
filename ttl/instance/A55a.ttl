@@ -11,12 +11,12 @@ abri:A55a a bf:Instance ;
     rdfs:label "The Four Horsemen of the Apocalypse" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Speech" ;
             bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Christof Kohlhöfer" ;
@@ -26,19 +26,19 @@ abri:A55a a bf:Instance ;
             rdf:value "A55a" ] ;
     bf:instanceOf abrw:A55 ;
     bf:note [ a bf:Note ;
-            rdf:value "verso." ],
-        [ a bf:Note ;
-            rdf:value "Reprinted 1988, 1993, 1996, and 2003." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "In English and German." ],
-        [ a bf:Note ;
-            rdf:value "1st German ed." ],
+            rdf:value "Illustrated by Christof Kohlhöfer." ],
         [ a bf:Note ;
             rdf:value "“Speech delivered 1980 at the occasion of the Institute of Ecotechnics’ ‘1980 Planet Earth Conference’ in Aix-en-Provence.”—T.p." ],
         [ a bf:Note ;
-            rdf:value "Illustrated by Christof Kohlhöfer." ] ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "1st German ed." ],
+        [ a bf:Note ;
+            rdf:value "In English and German." ],
+        [ a bf:Note ;
+            rdf:value "verso." ],
+        [ a bf:Note ;
+            rdf:value "Reprinted 1988, 1993, 1996, and 2003." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;

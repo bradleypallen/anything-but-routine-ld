@@ -22,9 +22,9 @@ abri:A22b a bf:Instance ;
             rdf:value "A22b" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
-            rdf:value "“First American edition, extensively revised and augmented with reproductions of police photographs, and more exacting film directions.” [Ursus]" ],
-        [ a bf:Note ;
             rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "“First American edition, extensively revised and augmented with reproductions of police photographs, and more exacting film directions.” [Ursus]" ],
         [ a bf:Note ;
             rdf:value "“A Richard Seaver book.”—T.p." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

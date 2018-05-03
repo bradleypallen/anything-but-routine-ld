@@ -12,7 +12,7 @@ abri:A2j a bf:Instance ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Jennie Skerl" ;
-            bf:role "contributor" ],
+            bf:role "writer of introduction" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;

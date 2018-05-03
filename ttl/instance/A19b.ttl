@@ -11,11 +11,11 @@ abri:A19b a bf:Instance ;
     rdfs:label "Scientology Revisited" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "See Section" ;
+            rdfs:label "William S. Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
+            rdfs:label "See Section" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -30,19 +30,19 @@ abri:A19b a bf:Instance ;
             rdf:value "A19b" ] ;
     bf:instanceOf abrw:A19 ;
     bf:note [ a bf:Note ;
-            rdf:value "Staplebound pamphlet." ],
-        [ a bf:Note ;
-            rdf:value "Text substantially altered from 1968 version, above." ],
-        [ a bf:Note ;
-            rdf:value "“... by William S. Burroughs, author of Nova Express, The Soft Machine.”—cover." ],
-        [ a bf:Note ;
             rdf:value "3, No." ],
         [ a bf:Note ;
-            rdf:value "1 (January 1968); See Section C below] as a free public service.”—Back cover." ],
+            rdf:value "Staplebound pamphlet." ],
         [ a bf:Note ;
             rdf:value "B&W matte wraps; 1 staple." ],
         [ a bf:Note ;
-            rdf:value "“Reprinted from Mayfair magazine [Vol." ] ;
+            rdf:value "“... by William S. Burroughs, author of Nova Express, The Soft Machine.”—cover." ],
+        [ a bf:Note ;
+            rdf:value "1 (January 1968); See Section C below] as a free public service.”—Back cover." ],
+        [ a bf:Note ;
+            rdf:value "“Reprinted from Mayfair magazine [Vol." ],
+        [ a bf:Note ;
+            rdf:value "Text substantially altered from 1968 version, above." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Scientology Revisited" ] .
 

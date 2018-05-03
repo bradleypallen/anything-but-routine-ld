@@ -16,7 +16,7 @@ abri:A2q a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "John Walsh" ;
-            bf:role "contributor" ],
+            bf:role "writer of introduction" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;

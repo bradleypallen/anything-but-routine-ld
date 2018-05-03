@@ -11,24 +11,24 @@ abri:A77a a bf:Instance ;
     rdfs:label "In Search of Yage: A William S. Burroughs Pictorial" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A77a" ] ;
     bf:instanceOf abrw:A77 ;
     bf:note [ a bf:Note ;
-            rdf:value "The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon." ],
-        [ a bf:Note ;
             rdf:value "Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon." ],
         [ a bf:Note ;
-            rdf:value "“This edition consists of 26 lettered copies." ],
+            rdf:value "The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon." ],
         [ a bf:Note ;
-            rdf:value "Softbound; handbound (no hardbound issued)." ] ;
+            rdf:value "Softbound; handbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "“This edition consists of 26 lettered copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Skyline Books" ;

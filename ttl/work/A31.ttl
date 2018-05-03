@@ -12,7 +12,8 @@ abrw:A31 a bf:Text,
     rdfs:label "The Book of Breething" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A31a,
         abri:A31b,
         abri:A31c .

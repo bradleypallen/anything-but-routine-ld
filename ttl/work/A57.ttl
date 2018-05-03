@@ -12,6 +12,8 @@ abrw:A57 a bf:Text,
     rdfs:label "Ruski" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
-    bf:hasInstance abri:A57a .
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasInstance abri:A57a,
+        abri:A57b .
 

@@ -11,26 +11,26 @@ abri:A79a a bf:Instance ;
     rdfs:label "Words of Advice for Young People" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Michael Montfort" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Michael Montfort" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A79a" ] ;
     bf:instanceOf abrw:A79 ;
     bf:note [ a bf:Note ;
+            rdf:value "Limited to 250 numbered and 26 lettered copies signed by the photographer." ],
+        [ a bf:Note ;
             rdf:value "(FreeThought Flyer, No." ],
         [ a bf:Note ;
             rdf:value "Includes five copies stamped “publisher’s copy.” [Shoaf 2]" ],
         [ a bf:Note ;
-            rdf:value "Cover photo of Burroughs by Michael Montfort." ],
+            rdf:value "16) Staplebound." ],
         [ a bf:Note ;
-            rdf:value "Limited to 250 numbered and 26 lettered copies signed by the photographer." ],
-        [ a bf:Note ;
-            rdf:value "16) Staplebound." ] ;
+            rdf:value "Cover photo of Burroughs by Michael Montfort." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "FreeThought Publications" ;

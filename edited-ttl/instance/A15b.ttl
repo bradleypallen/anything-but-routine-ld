@@ -1,0 +1,39 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A15b a bf:Instance ;
+    rdfs:label "Time" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A15b" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A11b" ] ;
+    bf:instanceOf abrw:A15 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Staplebound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "“... bought [sic] for you ... using anarchist duplicator ... 5 runs of 99 copies each ...”—Cover verso." ],
+        [ a bf:Note ;
+            rdf:value "Legal-size mimeographed sheets, stapled. An admitted piracy, by Roy Pennington, of the “C” Press edition. [M&M]" ],
+        [ a bf:Note ;
+            rdf:value "“Reproduces the contents of the first edition, though in slightly different order, and leaving out p. 9 of the original.” [BeatBooks 51]" ],
+        [ a bf:Note ;
+            rdf:value "“Estimates are that only about 100 copies were actually distributed.” [Shoaf 1]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Urgency Press Rip-Off" ;
+            bf:date "[1972?]" ;
+            bf:place "Sussex, England" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Time" ] .

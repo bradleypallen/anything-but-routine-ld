@@ -12,7 +12,8 @@ abrw:A23 a bf:Text,
     rdfs:label "Ali's Smile" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A23a,
         abri:A23b .
 

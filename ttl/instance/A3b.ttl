@@ -1,0 +1,43 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A3b a bf:Instance ;
+    rdfs:label "The Exterminator" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Brion Gysin" ;
+            bf:role "contributor" ] ;
+    bf:copyrightDate "1960" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A4b" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A3b" ] ;
+    bf:instanceOf abrw:A3 ;
+    bf:note [ a bf:Note ;
+            rdf:value "2nd ed." ],
+        [ a bf:Note ;
+            rdf:value "©1960; distributed by City Lights Books." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A4b}  New cover design, with calligraphy by Brion Gysin." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Dave Haselwood Books" ;
+            bf:date "1967" ;
+            bf:place "San Francisco" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Exterminator" ] .
+

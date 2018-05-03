@@ -1,0 +1,40 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A35a a bf:Instance ;
+    rdfs:label "The Retreat Diaries" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Allen Ginsberg" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A35a" ] ;
+    bf:instanceOf abrw:A35 ;
+    bf:note [ a bf:Note ;
+            rdf:value "With The Dream of Tibet by Allen Ginsberg." ],
+        [ a bf:Note ;
+            rdf:value "(City Moon Broadcast;  No. 3)" ],
+        [ a bf:Note ;
+            rdf:value "Staplebound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "“Printed in an edition of 2,000 copies with a limited edition of 100 [numbered/lettered and] wrapt [sic] in a  color jacket, 26 of them signed and numbered [i.e., lettered] by the author.”—T.p. verso." ],
+        [ a bf:Note ;
+            rdf:value "The “color jacket” is a manila-colored clasp envelope with a die cut window in the front, behind which is affixed a sticker that reads: “The cover lettering for this limited edition of one hundred copies ... is from the handwriting of the Author, William S. Burroughs.”" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "City Moon" ;
+            bf:date "1976" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Retreat Diaries" ] .

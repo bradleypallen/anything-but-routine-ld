@@ -15,7 +15,7 @@ abri:A47a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
+            rdfs:label "Arthur" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -23,20 +23,20 @@ abri:A47a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Arthur" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A47a" ] ;
     bf:instanceOf abrw:A47 ;
     bf:note [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
             rdf:value "Includes 500 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publishers slipcase." ],
         [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
             rdf:value "“Grateful acknowledgment is made for use of a portion of ‘The Too Fat Polka’ by Ross MacLean and Arthur Richardson.”—T.p." ],
-        [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
             rdf:value "verso." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

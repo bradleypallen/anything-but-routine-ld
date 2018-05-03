@@ -18,9 +18,9 @@ abri:A27c a bf:Instance ;
             rdf:value "A27c" ] ;
     bf:instanceOf abrw:A27 ;
     bf:note [ a bf:Note ;
-            rdf:value "Viking Compass ed." ],
+            rdf:value "(A Viking Compass Book; C 575) Softbound." ],
         [ a bf:Note ;
-            rdf:value "(A Viking Compass Book; C 575) Softbound." ] ;
+            rdf:value "Viking Compass ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking Press" ;

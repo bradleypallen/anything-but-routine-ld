@@ -18,11 +18,11 @@ abri:A14a a bf:Instance ;
             rdf:value "A14a" ] ;
     bf:instanceOf abrw:A14 ;
     bf:note [ a bf:Note ;
+            rdf:value "“... printed in silver ink." ],
+        [ a bf:Note ;
             rdf:value "Folio broadside." ],
         [ a bf:Note ;
-            rdf:value "Only 80 copies were produced—less [sic] were distributed.” [Am Here 3]" ],
-        [ a bf:Note ;
-            rdf:value "“... printed in silver ink." ] ;
+            rdf:value "Only 80 copies were produced—less [sic] were distributed.” [Am Here 3]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "[n.p.]" ;

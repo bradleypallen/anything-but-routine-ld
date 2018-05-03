@@ -12,6 +12,7 @@ abrw:A30 a bf:Text,
     rdfs:label "White Subway" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A30a .
 

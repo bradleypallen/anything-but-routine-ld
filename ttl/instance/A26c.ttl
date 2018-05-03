@@ -21,9 +21,9 @@ abri:A26c a bf:Instance ;
             rdf:value "A26c" ] ;
     bf:instanceOf abrw:A26 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A20d} “Later printings of this edition had the Grove Press/Evergreen Black Cat publisher’s design and number (B-370) ...” [M&M]" ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "{M&M A20d} “Later printings of this edition had the Grove Press/Evergreen Black Cat publisher’s design and number (B-370) ...” [M&M]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

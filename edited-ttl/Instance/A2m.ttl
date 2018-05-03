@@ -16,7 +16,7 @@ abri:A2m a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Terry Southern" ;
-            bf:role "contributor" ] ;
+            bf:role "writer of introduction" ] ;
     bf:copyrightDate "1990" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

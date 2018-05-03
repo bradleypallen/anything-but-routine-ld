@@ -12,7 +12,8 @@ abrw:A13 a bf:Text,
     rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A13a,
         abri:A13b,
         abri:A13c .

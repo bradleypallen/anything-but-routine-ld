@@ -20,12 +20,12 @@ abri:A57a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Staplebound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "“An apparent piracy of the Hand-Job edition ...” [Shoaf 1] “... limited to 50 [numbered] copies bound in hand-made paper ...”—Colophon." ] ;
+            rdf:value "Limited to 500 numbered copies, printed on cardstock" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:agent "Odd-Job Press" ;
+            bf:agent "Hand-Job Press" ;
             bf:date "1984" ;
-            bf:place "New York" ] ;
+            bf:place "Brooklyn, N.Y." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ruski" ] .
 

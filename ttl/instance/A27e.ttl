@@ -19,11 +19,11 @@ abri:A27e a bf:Instance ;
             rdf:value "A27e" ] ;
     bf:instanceOf abrw:A27 ;
     bf:note [ a bf:Note ;
-            rdf:value "©1973." ],
-        [ a bf:Note ;
             rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "Reprinted 1981, 1985 (different cover)." ] ;
+            rdf:value "Reprinted 1981, 1985 (different cover)." ],
+        [ a bf:Note ;
+            rdf:value "©1973." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Penguin Books" ;

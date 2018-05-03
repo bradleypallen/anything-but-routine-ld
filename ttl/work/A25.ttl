@@ -12,6 +12,7 @@ abrw:A25 a bf:Text,
     rdfs:label "Jack Kerouac" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A25a .
 

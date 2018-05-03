@@ -26,11 +26,11 @@ abri:A71a a bf:Instance ;
             rdf:value "A71a" ] ;
     bf:instanceOf abrw:A71 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound." ],
-        [ a bf:Note ;
             rdf:value "No equivalent English-language edition." ],
         [ a bf:Note ;
-            rdf:value "Translated into French by Mary Beach and Claude Pélieu." ] ;
+            rdf:value "Translated into French by Mary Beach and Claude Pélieu." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Cahiers de Nuit" ;

@@ -18,9 +18,9 @@ abri:A52b a bf:Instance ;
             rdf:value "A52b" ] ;
     bf:instanceOf abrw:A52 ;
     bf:note [ a bf:Note ;
-            rdf:value "“Colophon notes ‘limited to only 50 copies,’ but less [sic] than 10 were actually printed.” [Shoaf 2]" ],
+            rdf:value "New York:  “An apparent piracy of the Pequod edition, printed on bond and bound in ... handmade paper but really just a photocopy of the original work.” [Shoaf 1] Limited to 50 copies." ],
         [ a bf:Note ;
-            rdf:value "New York:  “An apparent piracy of the Pequod edition, printed on bond and bound in ... handmade paper but really just a photocopy of the original work.” [Shoaf 1] Limited to 50 copies." ] ;
+            rdf:value "“Colophon notes ‘limited to only 50 copies,’ but less [sic] than 10 were actually printed.” [Shoaf 2]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Sinki's Sauna" ] .
 

@@ -15,11 +15,7 @@ abri:A50a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Mr. Burroughs" ;
+            rdfs:label "James Grauerholz" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -27,12 +23,16 @@ abri:A50a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "James Grauerholz" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ] ;
+            rdfs:label "Mr. Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A50a" ] ;
@@ -40,13 +40,13 @@ abri:A50a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "On 30 January 1981, Mr. Burroughs oversaw revisions of the text by James Grauerholz and Steve Miller, and this is that version.”—Colophon." ],
         [ a bf:Note ;
-            rdf:value "Limited to 160 numbered copies signed by Burroughs and Buchwald." ],
+            rdf:value "Drawings by Howard Buchwald." ],
         [ a bf:Note ;
-            rdf:value "Hardbound, issued without dust jacket." ],
+            rdf:value "Limited to 160 numbered copies signed by Burroughs and Buchwald." ],
         [ a bf:Note ;
             rdf:value "“The Streets of Chance is a complete story found in the 1968 version [of The Soft Machine] and nowhere else." ],
         [ a bf:Note ;
-            rdf:value "Drawings by Howard Buchwald." ] ;
+            rdf:value "Hardbound, issued without dust jacket." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Red Ozier Press" ;

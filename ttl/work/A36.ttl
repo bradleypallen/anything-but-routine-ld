@@ -12,7 +12,8 @@ abrw:A36 a bf:Text,
     rdfs:label "The Third Mind" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A36a,
         abri:A36b,
         abri:A36c,

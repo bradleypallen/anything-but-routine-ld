@@ -17,7 +17,7 @@ abri:A5k a bf:Instance ;
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
             bf:role "editor",
-                "contributor" ] ;
+                "writer of introduction" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A5k" ] ;

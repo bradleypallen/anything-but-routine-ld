@@ -16,7 +16,7 @@ abri:A1j a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
-            bf:role "contributor",
+            bf:role "writer of introduction",
                 "editor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

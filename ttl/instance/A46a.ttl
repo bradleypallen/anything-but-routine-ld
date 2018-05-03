@@ -11,10 +11,6 @@ abri:A46a a bf:Instance ;
     rdfs:label "The Soft Machine; Nova Express; The Wild Boys: Three Novels" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Allen Ginsberg" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -24,7 +20,11 @@ abri:A46a a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Random House" ;
-            bf:role "contributor" ] ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A46a" ] ;
@@ -32,13 +32,13 @@ abri:A46a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Reprinted, 1982." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ],
+            rdf:value "With an epilogue by Allen Ginsberg: an interview with William Burroughs." ],
         [ a bf:Note ;
             rdf:value "1st Black Cat ed." ],
         [ a bf:Note ;
-            rdf:value "Distributed by Random House." ],
+            rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "With an epilogue by Allen Ginsberg: an interview with William Burroughs." ] ;
+            rdf:value "Distributed by Random House." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

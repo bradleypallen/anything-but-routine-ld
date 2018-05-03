@@ -16,7 +16,7 @@ abri:A8e a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
-            bf:role "contributor",
+            bf:role "writer of introduction",
                 "editor" ],
         [ a bf:Agent,
                 bf:Person ;

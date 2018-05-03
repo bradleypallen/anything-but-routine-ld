@@ -21,9 +21,9 @@ abri:A56f a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "(An Owl Book) ©1983." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ],
+            rdf:value "2nd Owl Book ed." ],
         [ a bf:Note ;
-            rdf:value "2nd Owl Book ed." ] ;
+            rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "H. Holt" ;

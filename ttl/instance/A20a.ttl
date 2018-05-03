@@ -11,33 +11,33 @@ abri:A20a a bf:Instance ;
     rdfs:label "Apomorphine" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Mary Beach" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Claude Pélieu" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Les Livres Noirs" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Les Livres Noirs" ;
+            rdfs:label "Mary Beach" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A20a" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "D14" ] ;
+            rdf:value "D14" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A20a" ] ;
     bf:instanceOf abrw:A20 ;
     bf:note [ a bf:Note ;
             rdf:value "In French; Translated by Mary Beach and Claude Pélieu." ],
         [ a bf:Note ;
-            rdf:value "{M&M D14}   ncludes translations of “Apomorphine,” “The Day the Records Went Up,” “Coldspring News,” “The  Conspiracy,” “Exterminator!,” “Parenthetically 7 Hertz,” and “Chappaqua, a Film by Conrad Rooks.” No equivalent U.S. or U.K. edition." ],
+            rdf:value "(Les Livres Noirs) Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "(Les Livres Noirs) Softbound (no hardbound issued)." ] ;
+            rdf:value "{M&M D14}   ncludes translations of “Apomorphine,” “The Day the Records Went Up,” “Coldspring News,” “The  Conspiracy,” “Exterminator!,” “Parenthetically 7 Hertz,” and “Chappaqua, a Film by Conrad Rooks.” No equivalent U.S. or U.K. edition." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Éditions de L'Herne" ;

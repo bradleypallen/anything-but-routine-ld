@@ -12,6 +12,7 @@ abrw:A37 a bf:Text,
     rdfs:label "Ali's Smile; Naked Scientology" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A37a .
 

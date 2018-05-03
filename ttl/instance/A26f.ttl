@@ -21,9 +21,9 @@ abri:A26f a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "1st Evergreen ed." ],
+            rdf:value "©1971." ],
         [ a bf:Note ;
-            rdf:value "©1971." ] ;
+            rdf:value "1st Evergreen ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

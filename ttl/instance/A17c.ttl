@@ -24,9 +24,9 @@ abri:A17c a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Pirate edition, printed in black ink on white paper only and lacking the photo of Claude Pélieu from the original [i.e., 2nd expanded] ed." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ],
+            rdf:value "[BeatBooks 42]" ],
         [ a bf:Note ;
-            rdf:value "[BeatBooks 42]" ] ;
+            rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "TOPY Heart" ;

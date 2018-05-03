@@ -12,6 +12,7 @@ abrw:A35 a bf:Text,
     rdfs:label "The Retreat Diaries" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A35a .
 

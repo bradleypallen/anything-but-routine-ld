@@ -12,7 +12,8 @@ abrw:A40 a bf:Text,
     rdfs:label "Ah Pook Is Here" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A40a,
         abri:A40b .
 

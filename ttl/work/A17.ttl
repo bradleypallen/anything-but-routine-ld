@@ -12,7 +12,8 @@ abrw:A17 a bf:Text,
     rdfs:label "So Who Owns Death TV?" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A17a,
         abri:A17b,
         abri:A17c .

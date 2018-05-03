@@ -12,7 +12,8 @@ abrw:A18 a bf:Text,
     rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A18a,
         abri:A18b .
 

@@ -13,7 +13,7 @@ abri:A6k a bf:Instance ;
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
             bf:role "editor",
-                "contributor" ],
+                "writer of introduction" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Brion Gysin" ;

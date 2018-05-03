@@ -16,7 +16,7 @@ abri:A10f a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
-            bf:role "contributor",
+            bf:role "writer of introduction",
                 "editor" ] ;
     bf:copyrightDate "2013" ;
     bf:identifiedBy [ a bf:Identifier ;

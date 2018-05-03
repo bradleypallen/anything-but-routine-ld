@@ -11,20 +11,20 @@ abri:A19a a bf:Instance ;
     rdfs:label "Scientology Revisited" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "See Section" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Naked" ;
             bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Scientology East" ;
@@ -34,17 +34,17 @@ abri:A19a a bf:Instance ;
             rdf:value "A19a" ] ;
     bf:instanceOf abrw:A19 ;
     bf:note [ a bf:Note ;
-            rdf:value "“For further information contact Scientology East, 122 76th St.”—Back cover." ],
-        [ a bf:Note ;
-            rdf:value "“Excerpted from Mayfair magazine [Vol." ],
-        [ a bf:Note ;
-            rdf:value "Four-color glossy wraps; 2 staples." ],
-        [ a bf:Note ;
-            rdf:value "3, No." ],
-        [ a bf:Note ;
             rdf:value "“... by William S. Burroughs, author of Naked Lunch.”—cover." ],
         [ a bf:Note ;
             rdf:value "1 (January 1968); See Section C below] as a free public service.”—Inside back cover." ],
+        [ a bf:Note ;
+            rdf:value "“Excerpted from Mayfair magazine [Vol." ],
+        [ a bf:Note ;
+            rdf:value "3, No." ],
+        [ a bf:Note ;
+            rdf:value "“For further information contact Scientology East, 122 76th St.”—Back cover." ],
+        [ a bf:Note ;
+            rdf:value "Four-color glossy wraps; 2 staples." ],
         [ a bf:Note ;
             rdf:value "Staplebound pamphlet." ] ;
     bf:title [ a bf:Title ;

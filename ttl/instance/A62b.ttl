@@ -19,9 +19,9 @@ abri:A62b a bf:Instance ;
             rdf:value "A62b" ] ;
     bf:instanceOf abrw:A62 ;
     bf:note [ a bf:Note ;
-            rdf:value "©1987." ],
+            rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "©1987." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Penguin Books" ;

@@ -16,7 +16,7 @@ abri:A1h a bf:Instance ;
         [ a bf:Agent,
             bf:Person ;
             rdfs:label "Will Self" ;
-            bf:role "contributor" ] ;
+            bf:role "writer of introduction" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A1h" ] ;

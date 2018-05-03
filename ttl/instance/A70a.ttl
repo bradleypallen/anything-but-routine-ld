@@ -11,26 +11,26 @@ abri:A70a a bf:Instance ;
     rdfs:label "Remembering Jack Kerouac" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Broadside" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A70a" ] ;
     bf:instanceOf abrw:A70 ;
     bf:note [ a bf:Note ;
+            rdf:value "10) Broadside." ],
+        [ a bf:Note ;
             rdf:value "(Heaven Poster Series; No." ],
         [ a bf:Note ;
-            rdf:value "Limited to 500 copies signed by Burroughs, 49 of which are numbered and 26 of which are lettered." ],
-        [ a bf:Note ;
-            rdf:value "10) Broadside." ] ;
+            rdf:value "Limited to 500 copies signed by Burroughs, 49 of which are numbered and 26 of which are lettered." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "White Fields Press" ;

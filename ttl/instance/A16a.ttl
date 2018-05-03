@@ -15,12 +15,12 @@ abri:A16a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "William Burroughs" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William Burroughs" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A16a" ],
@@ -29,11 +29,11 @@ abri:A16a a bf:Instance ;
             rdf:value "F12" ] ;
     bf:instanceOf abrw:A16 ;
     bf:note [ a bf:Note ;
+            rdf:value "{M&M F12} A mimeographed pamphlet containing a script (“Transcript of Dutch Schultz’s Last Words”) for a reading presented by the American Theatre for Poets on February 14, 1965, at the East End Theatre in New York." ],
+        [ a bf:Note ;
             rdf:value "Unnumbered page at end: “The Coldspring News ... (William Burroughs, Editor) ... On the Back Porch of His Farm.”" ],
         [ a bf:Note ;
-            rdf:value "Staplebound." ],
-        [ a bf:Note ;
-            rdf:value "{M&M F12} A mimeographed pamphlet containing a script (“Transcript of Dutch Schultz’s Last Words”) for a reading presented by the American Theatre for Poets on February 14, 1965, at the East End Theatre in New York." ] ;
+            rdf:value "Staplebound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "American Theatre for Poets" ;

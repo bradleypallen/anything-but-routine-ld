@@ -11,10 +11,6 @@ abri:A60a a bf:Instance ;
     rdfs:label "The Cat Inside" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Gysin" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -24,7 +20,11 @@ abri:A60a a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Burroughs" ;
-            bf:role "contributor" ] ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A60a" ] ;
@@ -32,9 +32,9 @@ abri:A60a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 133 numbered copies, all signed by Burroughs and Gysin: 1–115 bound in quarter vellum with red and black hand-painted paper over boards; i–xviii bound in full vellum with a Gysin drawing stamped in gold on the front cover, in quarter vellum clamshell box." ],
         [ a bf:Note ;
-            rdf:value "Hardbound." ],
+            rdf:value "Drawings by Brion Gysin." ],
         [ a bf:Note ;
-            rdf:value "Drawings by Brion Gysin." ] ;
+            rdf:value "Hardbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grenfell Press" ;

@@ -11,7 +11,7 @@ abri:A30a a bf:Instance ;
     rdfs:label "White Subway" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
+            rdfs:label "Per" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -19,7 +19,7 @@ abri:A30a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Per" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
@@ -31,13 +31,13 @@ abri:A30a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Per BeatBooks 42, includes variant issue, omitting title and author on upper wrapper and printing statement on lower wrapper." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "Third printing: [1974?]" ],
+            rdf:value "{M&M A24a}   First printing limited to 1,000 copies, including 25 numbered copies signed by Burroughs." ],
         [ a bf:Note ;
             rdf:value "Second printing (also 1973) limited to 500 copies, with silver-gray covers." ],
         [ a bf:Note ;
-            rdf:value "{M&M A24a}   First printing limited to 1,000 copies, including 25 numbered copies signed by Burroughs." ] ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "Third printing: [1974?]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Aloes seolA [i.e., Aloes Books]" ;

@@ -15,6 +15,22 @@ abri:A81a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "William Lee" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "David Kammerer" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Lucien Carr" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Will Dennison" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Mike Ryko" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -24,31 +40,13 @@ abri:A81a a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "John Kerouac." ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "David Kammerer" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Will Dennison" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Lucien Carr" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William Lee" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A81a" ] ;
     bf:instanceOf abrw:A81 ;
     bf:note [ a bf:Note ;
-            rdf:value "[1]." ],
-        [ a bf:Note ;
-            rdf:value "“Will Dennison chapters written by William Lee, Mike Ryko chapters by John Kerouac.”—p." ],
+            rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
             rdf:value "Written by the authors in 1945 as a fictionalized account of Lucien Carr’s relationship with, and eventual murder of, David Kammerer." ],
         [ a bf:Note ;
@@ -56,7 +54,9 @@ abri:A81a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ] ;
+            rdf:value "[1]." ],
+        [ a bf:Note ;
+            rdf:value "“Will Dennison chapters written by William Lee, Mike Ryko chapters by John Kerouac.”—p." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

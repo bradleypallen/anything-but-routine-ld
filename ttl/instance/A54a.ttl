@@ -11,27 +11,23 @@ abri:A54a a bf:Instance ;
     rdfs:label "The Burroughs File" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Francisco" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Alan Ansen" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Postcard" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Book" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "John Brady" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Postcard" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Postcard" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Francisco" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -39,8 +35,12 @@ abri:A54a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Postcard" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "John Brady" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Cobblestone Gardens" ;
@@ -50,19 +50,19 @@ abri:A54a a bf:Instance ;
             rdf:value "A54a" ] ;
     bf:instanceOf abrw:A54 ;
     bf:note [ a bf:Note ;
+            rdf:value "San Francisco: City Lights Books, [1984?]" ],
+        [ a bf:Note ;
+            rdf:value "2nd printing, 1991." ],
+        [ a bf:Note ;
             rdf:value "[Promotional Postcard]." ],
         [ a bf:Note ;
             rdf:value "1." ],
         [ a bf:Note ;
-            rdf:value "“Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket." ],
+            rdf:value "Hardbound, and softbound." ],
         [ a bf:Note ;
             rdf:value "Postcard." ],
         [ a bf:Note ;
-            rdf:value "San Francisco: City Lights Books, [1984?]" ],
-        [ a bf:Note ;
-            rdf:value "Hardbound, and softbound." ],
-        [ a bf:Note ;
-            rdf:value "2nd printing, 1991." ] ;
+            rdf:value "“Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;

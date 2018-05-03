@@ -11,28 +11,28 @@ abri:A68a a bf:Instance ;
     rdfs:label "Le Temps des Assassins" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Lucien Suel" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Lucien Suel" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A68a" ] ;
     bf:instanceOf abrw:A68 ;
     bf:note [ a bf:Note ;
-            rdf:value "12 (1979)." ],
+            rdf:value "7 (1978) and No." ],
         [ a bf:Note ;
-            rdf:value "French translation by Lucien Suel of Time of the Assassins, originally published in Crawdaddy in 1977 and 1978." ],
+            rdf:value "12 (1979)." ],
         [ a bf:Note ;
             rdf:value "(Collection du Starscrewer, 3) Originally published in The Starscrewer, No." ],
         [ a bf:Note ;
+            rdf:value "French translation by Lucien Suel of Time of the Assassins, originally published in Crawdaddy in 1977 and 1978." ],
+        [ a bf:Note ;
             rdf:value "No equivalent English-language edition." ],
         [ a bf:Note ;
-            rdf:value "(See Section C, below)." ],
-        [ a bf:Note ;
-            rdf:value "7 (1978) and No." ] ;
+            rdf:value "(See Section C, below)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Station Underground d’Emerveillement Littéraire" ;

@@ -20,11 +20,11 @@ abri:A24i a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Softbound." ],
         [ a bf:Note ;
+            rdf:value "In German and English." ],
+        [ a bf:Note ;
             rdf:value "11th ed." ],
         [ a bf:Note ;
-            rdf:value "German and English text bound tête-bêche." ],
-        [ a bf:Note ;
-            rdf:value "In German and English." ] ;
+            rdf:value "German and English text bound tête-bêche." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;

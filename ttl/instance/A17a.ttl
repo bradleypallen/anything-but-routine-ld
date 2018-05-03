@@ -11,16 +11,16 @@ abri:A17a a bf:Instance ;
     rdfs:label "So Who Owns Death TV?" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Claude Pélieu" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Carl Weissner" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Claude Pélieu" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "A13a" ],
@@ -29,13 +29,13 @@ abri:A17a a bf:Instance ;
             rdf:value "A17a" ] ;
     bf:instanceOf abrw:A17 ;
     bf:note [ a bf:Note ;
-            rdf:value "(A Black Bag Pamphlet) Distributed by City Lights Books." ],
-        [ a bf:Note ;
             rdf:value "Staplebound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "With Claude Pélieu and Carl Weissner." ],
+            rdf:value "{M&M A13a}  Two printings:   one printed in black ink on white paper, with cover printed in black and red ink on white paper  (50¢ price);  one printed in silver ink on black paper, including cover (no price)." ],
         [ a bf:Note ;
-            rdf:value "{M&M A13a}  Two printings:   one printed in black ink on white paper, with cover printed in black and red ink on white paper  (50¢ price);  one printed in silver ink on black paper, including cover (no price)." ] ;
+            rdf:value "(A Black Bag Pamphlet) Distributed by City Lights Books." ],
+        [ a bf:Note ;
+            rdf:value "With Claude Pélieu and Carl Weissner." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Beach Books, Texts, & Documents" ;

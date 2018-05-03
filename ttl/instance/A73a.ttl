@@ -12,11 +12,11 @@ abri:A73a a bf:Instance ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A73a" ] ;

@@ -15,19 +15,7 @@ abri:A76a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Jack Kerouac" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "James Grauerholz" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -35,24 +23,36 @@ abri:A76a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Jack Kerouac" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William Burroughs" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A76a" ] ;
     bf:instanceOf abrw:A76 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, issued with compact disc bound in rear." ],
-        [ a bf:Note ;
             rdf:value "A." ],
-        [ a bf:Note ;
-            rdf:value "Compact disc: Selections from The Best of William Burroughs from Giorno Poetry Systems (also issued separately; see Section E below)." ],
         [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
+            rdf:value ", 1998." ],
+        [ a bf:Note ;
             rdf:value "Edited by James Grauerholz and Ira Silverberg, with an Introduction by Ann Douglas." ],
         [ a bf:Note ;
-            rdf:value ", 1998." ],
+            rdf:value "Hardbound in dustjacket, issued with compact disc bound in rear." ],
+        [ a bf:Note ;
+            rdf:value "Compact disc: Selections from The Best of William Burroughs from Giorno Poetry Systems (also issued separately; see Section E below)." ],
         [ a bf:Note ;
             rdf:value "Includes a chapter from Burroughs’ previously unpublished novel written collaboratively with Jack Kerouac, And the Hippos Were Boiled in Their Tanks, below." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

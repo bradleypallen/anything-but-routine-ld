@@ -26,15 +26,15 @@ abri:A36a a bf:Instance ;
             rdf:value "A36a" ] ;
     bf:instanceOf abrw:A36 ;
     bf:note [ a bf:Note ;
-            rdf:value "(Connections) True 1st ed." ],
+            rdf:value "Originally conceived in the Chelsea  Hotel in 1964-65 ...” [BeatBooks 65]" ],
         [ a bf:Note ;
-            rdf:value "With Brion Gysin." ],
+            rdf:value "(Connections) True 1st ed." ],
         [ a bf:Note ;
             rdf:value "“Material on cut-ups, fold-ins, tape recorder experiments, and film." ],
         [ a bf:Note ;
-            rdf:value "French translation by Gérard-Georges Lemaire and Christine Taylor." ],
+            rdf:value "With Brion Gysin." ],
         [ a bf:Note ;
-            rdf:value "Originally conceived in the Chelsea  Hotel in 1964-65 ...” [BeatBooks 65]" ] ;
+            rdf:value "French translation by Gérard-Georges Lemaire and Christine Taylor." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Flammarion" ;

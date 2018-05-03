@@ -1,0 +1,49 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A32a a bf:Instance ;
+    rdfs:label "Snack" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Jim Pennington" ;
+            bf:role "interviewer" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author",
+                "interviewee" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Eric Mottram" ;
+            bf:role "interviewer" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Graham Dawes" ;
+            bf:role "interviewer" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A32a" ] ;
+    bf:instanceOf abrw:A32 ;
+    bf:note [ a bf:Note ;
+            rdf:value "With Eric Mottram." ],
+        [ a bf:Note ;
+            rdf:value "Staplebound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "Title on cover: Snack ...: Two Tape Transcripts." ],
+        [ a bf:Note ;
+            rdf:value "Contains the transcript of a radio broadcast made in 1964 by Mottram, including passages of Burroughs reading from his work, and the transcript of a conversation in 1973 between Burroughs, Mottram, Jim Pennington [the publisher], and Graham Dawes." ],
+        [ a bf:Note ;
+            rdf:value "“Part of this transcript [the first] appeared in Les Langues Modernes, Paris, 1965, with an introduction by Pierre Dommergues.”—p. 2." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Aloes Books" ;
+            bf:date "1975" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Snack" ] .

@@ -19,15 +19,15 @@ abri:A24f a bf:Instance ;
             rdf:value "A24f" ] ;
     bf:instanceOf abrw:A24 ;
     bf:note [ a bf:Note ;
-            rdf:value "German and English text bound tête-bêche." ],
+            rdf:value "8th ed." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "©1976." ],
         [ a bf:Note ;
             rdf:value "In German and English." ],
         [ a bf:Note ;
-            rdf:value "8th ed." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "German and English text bound tête-bêche." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;

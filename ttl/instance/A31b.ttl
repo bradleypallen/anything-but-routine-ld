@@ -26,15 +26,15 @@ abri:A31b a bf:Instance ;
             rdf:value "A31b" ] ;
     bf:instanceOf abrw:A31 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound ed." ],
-        [ a bf:Note ;
-            rdf:value "Illustrations by Robert F. Gale." ],
-        [ a bf:Note ;
             rdf:value "1st [American] ed." ],
+        [ a bf:Note ;
+            rdf:value "(“An Overdrive Book”) Hardbound (issued without dustjacket), and softbound." ],
         [ a bf:Note ;
             rdf:value "limited to 250 copies." ],
         [ a bf:Note ;
-            rdf:value "(“An Overdrive Book”) Hardbound (issued without dustjacket), and softbound." ] ;
+            rdf:value "Hardbound ed." ],
+        [ a bf:Note ;
+            rdf:value "Illustrations by Robert F. Gale." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Blue Wind Press" ;

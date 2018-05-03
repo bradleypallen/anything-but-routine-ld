@@ -15,15 +15,15 @@ abri:A56a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Rinehart" ;
+            rdfs:label "Brief" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -31,7 +31,7 @@ abri:A56a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Brief" ;
+            rdfs:label "Rinehart" ;
             bf:role "contributor" ] ;
     bf:copyrightDate "1983" ;
     bf:identifiedBy [ a bf:Identifier ;
@@ -39,23 +39,23 @@ abri:A56a a bf:Instance ;
             rdf:value "A56a" ] ;
     bf:instanceOf abrw:A56 ;
     bf:note [ a bf:Note ;
+            rdf:value "[Shoaf 1] 1." ],
+        [ a bf:Note ;
+            rdf:value "Two “issues” of first printing—one in brown cloth full binding with bronze spine lettering, one in orange- brown cloth quarter binding with silver spine lettering." ],
+        [ a bf:Note ;
+            rdf:value "New York: Holt, Rinehart and Winston, 1984." ],
+        [ a bf:Note ;
             rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
             rdf:value "[Press Kit]." ],
         [ a bf:Note ;
             rdf:value "©1983." ],
         [ a bf:Note ;
-            rdf:value "Two “issues” of first printing—one in brown cloth full binding with bronze spine lettering, one in orange- brown cloth quarter binding with silver spine lettering." ],
-        [ a bf:Note ;
-            rdf:value "Includes 300 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publisher's slipcase." ],
-        [ a bf:Note ;
-            rdf:value "New York: Holt, Rinehart and Winston, 1984." ],
+            rdf:value "Full-color preview of dustjacket and photocopied “Brief Description” on HRW letterhead." ],
         [ a bf:Note ;
             rdf:value "“The original title of this book was The Johnson Family.”—Prefatory note." ],
         [ a bf:Note ;
-            rdf:value "Full-color preview of dustjacket and photocopied “Brief Description” on HRW letterhead." ],
-        [ a bf:Note ;
-            rdf:value "[Shoaf 1] 1." ] ;
+            rdf:value "Includes 300 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publisher's slipcase." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Holt, Rinehart, and Winston" ;

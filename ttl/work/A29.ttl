@@ -12,7 +12,8 @@ abrw:A29 a bf:Text,
     rdfs:label "Port of Saints" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A29a,
         abri:A29b,
         abri:A29c .

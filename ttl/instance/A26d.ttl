@@ -21,9 +21,9 @@ abri:A26d a bf:Instance ;
             rdf:value "A20e" ] ;
     bf:instanceOf abrw:A26 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A20e}" ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "{M&M A20e}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Corgi Books" ;

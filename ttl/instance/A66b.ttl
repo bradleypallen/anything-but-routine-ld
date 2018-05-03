@@ -26,21 +26,21 @@ abri:A66b a bf:Instance ;
             rdf:value "A66b" ] ;
     bf:instanceOf abrw:A66 ;
     bf:note [ a bf:Note ;
-            rdf:value "1." ],
+            rdf:value "[New York]: High Risk Books, [1995?]" ],
         [ a bf:Note ;
-            rdf:value "Hardbound, issued without dustjacket." ],
+            rdf:value "1." ],
         [ a bf:Note ;
             rdf:value "[Promotional Poster]." ],
         [ a bf:Note ;
+            rdf:value "Includes 125 numbered copies signed by Burroughs, issued in publisher’s slipcase with pullout ribbon." ],
+        [ a bf:Note ;
             rdf:value "Poster." ],
-        [ a bf:Note ;
-            rdf:value "verso." ],
-        [ a bf:Note ;
-            rdf:value "[New York]: High Risk Books, [1995?]" ],
         [ a bf:Note ;
             rdf:value "“First published in 1991 as a limited edition by the Library Fellows of the Whitney Museum of American Art.”—T.p." ],
         [ a bf:Note ;
-            rdf:value "Includes 125 numbered copies signed by Burroughs, issued in publisher’s slipcase with pullout ribbon." ] ;
+            rdf:value "Hardbound, issued without dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "verso." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Serpent’s Tail/High Risk Books" ;

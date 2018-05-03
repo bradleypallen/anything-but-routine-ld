@@ -11,7 +11,7 @@ abri:A23b a bf:Instance ;
     rdfs:label "Ali's Smile" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Carl Weissner" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -19,7 +19,7 @@ abri:A23b a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
+            rdfs:label "Carl Weissner" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
@@ -28,15 +28,15 @@ abri:A23b a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
-            rdf:value "Göttingen: Expanded Media Editions, 1973." ],
-        [ a bf:Note ;
-            rdf:value "Printed in green on ochre paper, on recto only." ],
-        [ a bf:Note ;
             rdf:value "Includes 100 numbered copies signed by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "(e.m.e., 12) In English and German; German translation by Carl Weissner." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "Printed in green on ochre paper, on recto only." ],
+        [ a bf:Note ;
+            rdf:value "Göttingen: Expanded Media Editions, 1973." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;

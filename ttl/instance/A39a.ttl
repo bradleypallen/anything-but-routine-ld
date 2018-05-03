@@ -11,15 +11,7 @@ abri:A39a a bf:Instance ;
     rdfs:label "Where Naked Troubadours Shoot Snotty Baboons" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "James R. Silke" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Cities" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -27,20 +19,28 @@ abri:A39a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ] ;
+            rdfs:label "Cities" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James R. Silke" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A39a" ] ;
     bf:instanceOf abrw:A39 ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 100 numbered and 26 lettered copies, signed by Burroughs and Silke." ],
-        [ a bf:Note ;
             rdf:value "Illustrated by James R. Silke." ],
         [ a bf:Note ;
-            rdf:value "Broadside." ],
+            rdf:value "Limited to 100 numbered and 26 lettered copies, signed by Burroughs and Silke." ],
         [ a bf:Note ;
-            rdf:value "“... a fragment from a forthcoming novel, Cities of the Red Night ...”" ] ;
+            rdf:value "“... a fragment from a forthcoming novel, Cities of the Red Night ...”" ],
+        [ a bf:Note ;
+            rdf:value "Broadside." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Lord John Press" ;

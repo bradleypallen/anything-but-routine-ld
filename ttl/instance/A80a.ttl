@@ -11,23 +11,23 @@ abri:A80a a bf:Instance ;
     rdfs:label "Everything Lost: The Latin American Notebook of William S. Burroughs" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Oliver Harris" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "John M. Bennett" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Geoffrey D. Smith" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Geoffrey D. Smith" ;
+            rdfs:label "Oliver Harris" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "John M. Bennett" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
@@ -36,9 +36,9 @@ abri:A80a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "\"... written by William Burroughs in Latin America during July and August 1953 ...\" - Introduction." ],
         [ a bf:Note ;
-            rdf:value "General editors, Geoffrey D. Smith and John M. Bennett; volume editor, Oliver Harris." ],
+            rdf:value "Hardbound (issued without dustjacket)." ],
         [ a bf:Note ;
-            rdf:value "Hardbound (issued without dustjacket)." ] ;
+            rdf:value "General editors, Geoffrey D. Smith and John M. Bennett; volume editor, Oliver Harris." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "The Ohio State University Press" ;

@@ -22,9 +22,9 @@ abri:A37a a bf:Instance ;
             rdf:value "A37a" ] ;
     bf:instanceOf abrw:A37 ;
     bf:note [ a bf:Note ;
-            rdf:value "In German and English; translated into German and edited by Carl Weissner." ],
-        [ a bf:Note ;
             rdf:value "1st ed." ],
+        [ a bf:Note ;
+            rdf:value "In German and English; translated into German and edited by Carl Weissner." ],
         [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;

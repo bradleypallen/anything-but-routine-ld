@@ -11,11 +11,19 @@ abri:A69a a bf:Instance ;
     rdfs:label "Photos, and Remembering Jack Kerouac" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Kerouac" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Kerouac" ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -23,28 +31,20 @@ abri:A69a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Ginsberg" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A69a" ] ;
     bf:instanceOf abrw:A69 ;
     bf:note [ a bf:Note ;
-            rdf:value "Features photos of Burroughs by Ginsberg and Burroughs’ text about Kerouac, also published separately as a broadside titled Remembering Jack Kerouac, below." ],
-        [ a bf:Note ;
-            rdf:value "1st ed." ],
-        [ a bf:Note ;
             rdf:value "46) Limited to 250 copies, including 49 numbered and 26 lettered copies signed by Burroughs." ],
         [ a bf:Note ;
-            rdf:value "(Heaven Chapbook Series; No." ] ;
+            rdf:value "Features photos of Burroughs by Ginsberg and Burroughs’ text about Kerouac, also published separately as a broadside titled Remembering Jack Kerouac, below." ],
+        [ a bf:Note ;
+            rdf:value "(Heaven Chapbook Series; No." ],
+        [ a bf:Note ;
+            rdf:value "1st ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "White Fields Press" ;

@@ -22,11 +22,11 @@ abri:A52a a bf:Instance ;
             rdf:value "A52a" ] ;
     bf:instanceOf abrw:A52 ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 500 numbered copies." ],
-        [ a bf:Note ;
             rdf:value "Staplebound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Illustrated by James Kearns." ] ;
+            rdf:value "Illustrated by James Kearns." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 500 numbered copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Pequod Press" ;

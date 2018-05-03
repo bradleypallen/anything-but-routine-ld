@@ -23,9 +23,9 @@ abri:A22c a bf:Instance ;
             rdf:value "A22c" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound." ],
-        [ a bf:Note ;
             rdf:value "1st paperbound ed." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ],
         [ a bf:Note ;
             rdf:value "©1975; distributed by Grove Press." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

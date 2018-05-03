@@ -1,0 +1,40 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A68a a bf:Instance ;
+    rdfs:label "Le Temps des Assassins" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Lucien Suel" ;
+            bf:role "translator" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A68a" ] ;
+    bf:instanceOf abrw:A68 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Collection du Starscrewer, 3)" ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)" ],
+        [ a bf:Note ;
+            rdf:value "Originally published in The Starscrewer, No. 7 (1978) and No. 12 (1979)." ],
+        [ a bf:Note ;
+            rdf:value "French translation by Lucien Suel of Time of the Assassins, originally published in Crawdaddy in 1977 and 1978. (See Section C, below)." ],
+        [ a bf:Note ;
+            rdf:value "No equivalent English-language edition." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Station Underground d’Emerveillement Littéraire" ;
+            bf:date "1993" ;
+            bf:place "Berguette, France" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Le Temps des Assassins" ] .

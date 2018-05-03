@@ -12,7 +12,8 @@ abrw:A22 a bf:Text,
     rdfs:label "The Last Words of Dutch Schultz" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A22a,
         abri:A22b,
         abri:A22c,

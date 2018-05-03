@@ -12,7 +12,8 @@ abrw:A24 a bf:Text,
     rdfs:label "Electronic Revolution 1970-71" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A24a,
         abri:A24b,
         abri:A24c,

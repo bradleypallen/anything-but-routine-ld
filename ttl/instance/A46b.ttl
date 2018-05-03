@@ -19,9 +19,9 @@ abri:A46b a bf:Instance ;
             rdf:value "A46b" ] ;
     bf:instanceOf abrw:A46 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound." ],
-        [ a bf:Note ;
             rdf:value "1st Evergreen ed." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ],
         [ a bf:Note ;
             rdf:value "Lacks epilogue." ],
         [ a bf:Note ;
