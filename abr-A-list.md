@@ -1,7 +1,7 @@
 # A. BOOKS, BROADSIDES, AND PAMPHLETS
 
 ## 1953
-### A1
+### A1. _Junkie._
 #### A. _Junkie._ William S. Burroughs, author. New York: Ace Books, 1953. {M&M A1a}
 
 - Issued bound back-to-back with Maurice Helbrant’s Narcotic Agent.
@@ -60,25 +60,25 @@
 - Introduction by Will Self.
 - Softbound.
 
-#### I. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, writer of introduction. New York: Penguin, 2003. 
+#### I. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, writer of introduction, editor. New York: Penguin, 2003. 
 
 - Softbound.
 - Edited and with an Introduction by Oliver Harris.
 - “Apart from making just over a hundred small corrections or changes, this present edition adds to Junky approximately the same amount of new material (around four thousand words) as Junky added to Junkie, but the way it does is, and had to be, quite different.”—Introduction.
 - 50th Anniversary ed.
 
-#### J. _Junky: The Definitive Text of “Junk”._ Oliver Harris, editor; William S. Burroughs, author. New York: Grove Press/Atlantic Monthly, 2012. 
+#### J. _Junky: The Definitive Text of “Junk”._ Oliver Harris, editor, writer of introduction; William S. Burroughs, author. New York: Grove Press/Atlantic Monthly, 2012. 
 
 - Softbound.
 - Edited and with an Introduction by Oliver Harris.
 
-#### K. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, editor. London: Penguin, 2012. 
+#### K. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, editor, writer of introduction. London: Penguin, 2012. 
 
 - Edited and with an Introduction by Oliver Harris.
 - Softbound.
 
 ## 1959
-### A2
+### A2. _Naked Lunch._
 #### A. _The Naked Lunch._ William S. Burroughs, author. Paris: Olympia Press, 1959. {M&M A2a}
 
 - 3rd printing (1965) issued without dustjacket or decorative border around title page, and with price (“Francs: h18”) printed on back cover.
@@ -192,8 +192,8 @@
 - Hardbound, issued without dustjacket .
 
 ## 1960
-### A3
-#### A. _The Exterminator._ Dave L. Haselwood, printer; James F. McIlroy, designer; Brion Gysin, calligrapher; William S. Burroughs, author. San Francisco: Auerhahn Press, 1960. {M&M A4a}
+### A3. _The Exterminator._
+#### A. _The Exterminator._ Dave L. Haselwood, printer, designer; James F. McIlroy, designer, printer; Brion Gysin, calligrapher; William S. Burroughs, author. San Francisco: Auerhahn Press, 1960. {M&M A4a}
 
 - With Brion Gysin.
 - Cover calligraphy by Brion Gysin.
@@ -207,7 +207,7 @@
 - Distributed by City Lights Books.
 - Softbound (no hardbound issued).
 
-### A4
+### A4. _Minutes To Go._
 #### A. _Minutes To Go._ Brion Gysin, author; William S. Burroughs, author; Sinclair Beiles, author; Gregory Corso, author. [Paris]: Two Cities Editions, [1960]. {M&M A3a}
 
 - Softbound (no hardbound issued).
@@ -223,7 +223,7 @@
 - 1st American ed.
 
 ## 1961
-### A5
+### A5. _The Soft Machine._
 #### A. _The Soft Machine._ William S. Burroughs, author; Brion Gysin, calligrapher. Paris: The Olympia Press, 1961. {M&M A5a}
 
 - Dustjacket reproduces calligraphic drawing by Brion Gysin.
@@ -279,7 +279,7 @@
 
 - Softbound.
 
-#### K. _The Soft Machine: The Restored Text._ Oliver Harris, editor; William S. Burroughs, author. New York: Grove Press, 2014. 
+#### K. _The Soft Machine: The Restored Text._ Oliver Harris, editor, writer of introduction; William S. Burroughs, author. New York: Grove Press, 2014. 
 
 - “3rd rev. ed.”
 - “This fourth [sic] edition includes everything published in the second edition while respecting the 1962 MS’s  chapter divisions and restoring the cancelled chapter, entitled ‘Male Image Back In’ ... In the most visible change, this new editon also restores how material from the first edition appeared by putting back a thousand capital letters removed on the galleys in 1965.”—Introduction.
@@ -288,7 +288,7 @@
 - Edited and with an Introduction by Oliver Harris.
 
 ## 1962
-### A6
+### A6. _The Ticket That Exploded._
 #### A. _The Ticket That Exploded._ Michael Portman, contributor; William S. Burroughs, author; Brion Gysin, designer; Ian Sommerville, photographer. Paris: Olympia Press, 1962. {M&M A6a}
 
 - Softbound with dustjacket (no hardbound issued).
@@ -340,7 +340,7 @@
 
 - Softbound.
 
-#### K. _The Ticket That Exploded: The Restored Text._ Oliver Harris, editor; William S. Burroughs, author; Brion Gysin, calligrapher. New York: Grove Press, 2014. 
+#### K. _The Ticket That Exploded: The Restored Text._ Oliver Harris, editor, writer of introduction; William S. Burroughs, author; Brion Gysin, calligrapher. New York: Grove Press, 2014. 
 
 - “A book of The Cut-Up Trilogy.”—Spine.
 - Softbound (no hardbound issued).
@@ -349,7 +349,7 @@
 - “This edition ends by making choices ... cutting “the invisible generation” [sic] essay as an appendix of historical interest (key passages are referenced in the Notes; the full text is available elsewhere) and restoring the integration of Gysin’s calligraphy as the book’s great transcendent gesture.”—Introduction.
 
 ## 1963
-### A7
+### A7. _Dead Fingers Talk._
 #### A. _Dead Fingers Talk._ Ian Sommerville, photographer; William S. Burroughs, author. London: John Calder, 1963. {M&M A7a}
 
 - “Dustjacket reproduces an Ian Sommerville photo-collage of Burroughs’ Olympia Press editions.” [BeatBooks 51]
@@ -368,7 +368,7 @@
 - Softbound (no hardbound issued).
 - (A Star Book)
 
-### A8
+### A8. _The Yage Letters._
 #### A. _The Yage Letters._ William S. Burroughs, author; Allen Ginsberg, contributor. San Francisco: City Lights Books, 1963. {M&M A8a}
 
 - “The 1953 letters were ... [originally] published in Big Table [No. 2 (Summer 1959)] and [No. 3 (1961)]. Burroughs’ 1960 letter was in [The] Floating Bear No. 5 [(1961)]. ‘I am Dying, Meester?’ was in City Lights Journal No. 1 [(1963)].”—T.p. verso. (See Section C below)
@@ -378,14 +378,14 @@
 - Softbound (no hardbound issued).
 
 ## 1964
-### A9
+### A9. _The Coldspring News._
 #### A. _The Coldspring News._ William S. Burroughs, author. [Flint, Michigan]: Fenian Head Centre Press, 1964. 
 
 - Broadside.
 - “Issued simultaneously bound in [or tipped in] to The Spero, Vol. 1, No. 1 [(1965); See Section C below], and in unfolded state.” [Am Here 3]
 - Two printings [or states?]: one with copyright statement and date, one without.
 
-### A10
+### A10. _Nova Express._
 #### A. _Nova Express._ William S. Burroughs, author. New York: Grove Press, 1964. {M&M A10a}
 
 - Hardbound in dustjacket (no softbound issued).
@@ -411,7 +411,7 @@
 
 - 1st Evergreen ed.
 
-#### F. _Nova Express: The Restored Text._ William S. Burroughs, author; Oliver Harris, editor. New York: Grove Press, 2014. ©2013. 
+#### F. _Nova Express: The Restored Text._ William S. Burroughs, author; Oliver Harris, editor, writer of introduction. New York: Grove Press, 2014. ©2013. 
 
 - “1st rev. ed.”
 - “Apart from giving the opening sections of each chapter their own titles, the roughly one hundred changes for this edition mainly correct typos or restore Burroughs’ punctuation (including his occasional use of double colons) and are conventionally based (i.e., supported by multiple manuscript witnesses). The notes detail key changes, comment on apparent errors and twilight zone cases and introduce the richest possible selection of archival material to reveal revisions over time and the intricacy of Burroughs’ working methods.”—Introduction.
@@ -419,14 +419,14 @@
 - “A book of The Cut-Up Trilogy.”—Spine.
 - Edited and with an Introduction by Oliver Harris.
 
-### A11
+### A11. _Pry Yourself Loose And Listen .../._
 #### A. _Pry Yourself Loose And Listen .../._ William S. Burroughs, author. Tangier: Ira Cohen, 1964. 
 
 - Title from cover.
 - “... collects all the Burroughs appearances in Ira Cohen’s legendary magazine Gnaoua from 1964 ...” [See Section C below]—Jed Birmingham in Reality Studio, http://realitystudio.org/bibliographic-bunker/pry-yourself-loose-and-listen/ (accessed 24 Sept 2015).
 - Softbound (no hardbound issued).
 
-### A12
+### A12. _Roosevelt After Inauguration._
 #### A. _Roosevelt After Inauguration._ William S. Burroughs, author; Allen Ginsberg, contributor. New York: Fuck You Press, 1964. {M&M A9a}
 
 - Staplebound mimeograph (no hardbound issued).
@@ -437,7 +437,7 @@
 - Covers by Allen Ginsberg.
 
 ## 1965
-### A13
+### A13. _Health Bulletin: APO-33, A Metabolic Regulator. A Report on the Synthesis of the Apomorphine Formula._
 #### A. _Health Bulletin: APO-33, A Metabolic Regulator. A Report on the Synthesis of the Apomorphine Formula._ William S. Burroughs, author. New York: Fuck You Press, 1965. {M&M A12a}
 
 - Staplebound.
@@ -462,13 +462,13 @@
 - Staplebound (no hardbound issued).
 - “Number One.”
 
-### A14
+### A14. _The Invisible Generation._
 #### A. _The Invisible Generation._ William S. Burroughs, author. London: [n.p.], 1965. 
 
 - “... printed in silver ink. Only 80 copies were produced—less [sic] were distributed.” [Am Here 3]
 - Folio broadside.
 
-### A15
+### A15. _Time._
 #### A. _Time._ William S. Burroughs, author; Brion Gysin, artist. New York: “C” Press, 1965. {M&M A11a}
 
 - “... first printing appears in 4 editions: 4 copies hors commerce; 10 copies numbered [sic] A-J, hardbound, each  containing an original [signed] manuscript page by Burroughs and an original [signed] drawing by Gysin, signed by both; 100 numbered and signed [by both] copies; 886 copies in a trade edition.”—T.p.
@@ -485,7 +485,7 @@
 - Legal-size mimeographed sheets, stapled. An admitted piracy, by Roy Pennington, of the “C” Press edition. [M&M]
 - Staplebound (no hardbound issued).
 
-### A16
+### A16. _Valentines Day Reading._
 #### A. _Valentines Day Reading._ William S. Burroughs, author. New York: American Theatre for Poets, 1965. {M&M F12}
 
 - A mimeographed pamphlet containing a script (“Transcript of Dutch Schultz’s Last Words”) for a reading presented by the American Theatre for Poets on February 14, 1965, at the East End Theatre in New York.
@@ -493,7 +493,7 @@
 - Unnumbered page at end: “The Coldspring News ... (William Burroughs, Editor) ... On the Back Porch of His Farm.”
 
 ## 1967
-### A17
+### A17. _So Who Owns Death TV?._
 #### A. _So Who Owns Death TV?._ William S. Burroughs, author; Carl Weissner, contributor; Claude Pélieu, contributor. San Francisco: Beach Books, Texts, & Documents, 1967. {M&M A13a}
 
 - Two printings: one printed in black ink on white paper, with cover printed in black and red ink on white paper (50¢ price); one printed in silver ink on black paper, including cover (no price).
@@ -515,8 +515,8 @@
 - Pirate edition, printed in black ink on white paper only and lacking the photo of Claude Pélieu from the original [i.e., 2nd expanded] ed. [BeatBooks 42]
 - Softbound.
 
-### A18
-#### A. _William Burroughs, Claude Pélieu, Bob Kaufman._ Bob Kaufman, author; William S. Burroughs, author; Jean Hélion, artist; Claude Pélieu, translator; Mary Beach, translator. Paris: Éditions de L'Herne, 1967. {M&M D11}
+### A18. _William Burroughs, Claude Pélieu, Bob Kaufman._
+#### A. _William Burroughs, Claude Pélieu, Bob Kaufman._ Bob Kaufman, author; William S. Burroughs, author; Jean Hélion, artist; Claude Pélieu, translator, author; Mary Beach, translator. Paris: Éditions de L'Herne, 1967. {M&M D11}
 
 - Includes 55 copies with uncut signatures - numbered 1-40 and lettered A-O with lithograph by Jean Hélion.
 - No equivalent U.S. or U.K. edition.
@@ -528,12 +528,12 @@
 - (L'Herne, No. 9)
 - Softbound (no hardbound issued).
 
-#### B. _William Burroughs, Claude Pélieu, Bob Kaufman._ Jean Hélion, artist; Bob Kaufman, author; William S. Burroughs, author; Mary Beach, translator; Claude Pélieu, translator. Paris: Éditions de L'Herne, 1998. 
+#### B. _William Burroughs, Claude Pélieu, Bob Kaufman._ Jean Hélion, artist; Bob Kaufman, author; William S. Burroughs, author; Mary Beach, translator; Claude Pélieu, translator, author. Paris: Éditions de L'Herne, 1998. 
 
 - Softbound.
 
 ## 1968
-### A19
+### A19. _Scientology Revisited._
 #### A. _Scientology Revisited._ William S. Burroughs, author. [n.p.]: [n.p.], [1968?]. 
 
 - “For further information contact Scientology East, 122 76th St.”—Back cover.
@@ -551,7 +551,7 @@
 - Text substantially altered from 1968 version, above.
 
 ## 1969
-### A20
+### A20. _Apomorphine._
 #### A. _Apomorphine._ Mary Beach, translator; William S. Burroughs, author; Claude Pélieu, translator. Paris: Éditions de L'Herne, 1969. {M&M D14}
 
 - Softbound (no hardbound issued).
@@ -561,7 +561,7 @@
 - No equivalent U.S. or U.K. edition.
 - Includes translations of “Apomorphine,” “The Day the Records Went Up,” “Coldspring News,” “The  Conspiracy,” “Exterminator!,” “Parenthetically 7 Hertz,” and “Chappaqua, a Film by Conrad Rooks.”
 
-### A21
+### A21. _The Dead Star._
 #### A. _The Dead Star._ William S. Burroughs, author. San Francisco: Nova Broadcast Press, 1969. ©1969. {M&M A14a}
 
 - (Nova Broadcast, No. 5)
@@ -572,7 +572,7 @@
 - Distributed by City Lights Books.
 
 ## 1970
-### A22
+### A22. _The Last Words of Dutch Schultz._
 #### A. _The Last Words of Dutch Schultz._ William S. Burroughs, author. London: Cape Goliard Press, 1970. {M&M a17a}
 
 - Hardbound in dustjacket, and softbound.
@@ -600,7 +600,7 @@
 - Softbound.
 
 ## 1971
-### A23
+### A23. _Ali's Smile._
 #### A. _Ali's Smile._ William S. Burroughs, author. Brighton, England: Unicorn Books, 1971. {M&M A19a}
 
 - Side A of record features Burroughs reading second draft of text.
@@ -620,7 +620,7 @@
 - Printed in green on ochre paper, on recto only.
 - (e.m.e., 12)
 
-### A24
+### A24. _Electronic Revolution 1970-71._
 #### A. _Electronic Revolution 1970-71._ Brion Gysin, artist; Jean Chopin, translator; William S. Burroughs, author; Henri Chopin, book designer. Cambridge: Blackmoor Head Press, 1971. {M&M A21a}
 
 - 1. [Prospectus]. In English and French. Ingatestone, Essex: OU, [1971.] 81⁄2” x 13” sheet, folded once. Includes extract “..... Ten tape recorders strapped under their coats .../”, in English and French.
@@ -698,7 +698,7 @@
 - In German and English.
 - Softbound.
 
-### A25
+### A25. _Jack Kerouac._
 #### A. _Jack Kerouac._ William S. Burroughs, contributor; Allen Ginsberg, contributor; Alfred Aranowitz, contributor; Jack Kerouac, contributor; Claude Pélieu, contributor. [Paris]: Éditions de L'Herne, 1971. {M&M A18a}
 
 - {M&M A18a}  A memorial to Kerouac, with interviews, poems, and prose by Kerouac, Burroughs, Ginsberg, Alfred Aranowitz, and Pélieu.
@@ -709,7 +709,7 @@
 - In French.
 - Softbound (no hardbound issued).
 
-### A26
+### A26. _The Wild Boys: A Book of the Dead._
 #### A. _The Wild Boys: A Book of the Dead._ William S. Burroughs, author. New York: Grove Press, 1971. {M&M A20a}
 
 - Hardbound in dustjacket.
@@ -738,7 +738,7 @@
 - Softbound.
 
 ## 1973
-### A27
+### A27. _Exterminator!._
 #### A. _Exterminator! A Novel._ William S. Burroughs, author. New York: Viking Press, 1973. {M&M A23a}
 
 - {M&M A23a}   “Portions of this volume have been previously published, in somewhat different form, in the following publications: Antaeus, Atlantic Monthly, Cavalier, Daily Telegraph (London), Esquire, Evergreen Review, The Expatriate Review, Mayfair, Rolling Stone, [and] The Village Voice.”—T.p. verso.
@@ -768,14 +768,14 @@
 
 - Softbound (no hardbound issued).
 
-### A28
+### A28. _Mayfair Acadamy [sic] Series <More or Less>._
 #### A. _Mayfair Acadamy [sic] Series <More or Less>._ William S. Burroughs, author. Brighton, England: Urgency Press Rip-Off, [1973?]. {M&M A25a}
 
 - Staplebound (no hardbound issued).
 - Collects ten “Bulletins ... written as part of a series entitled ‘The Burroughs Acadamy’ [sic] for the magazine Mayfair, along with “related articles [by Burroughs] from other mags.”—p. 2. [See Section C below]
 - Limited to 650 copies printed on different colored papers.
 
-### A29
+### A29. _Port of Saints._
 #### A. _Port of Saints._ William S. Burroughs, author. Ollon, Switzerland: Am Here Books, 1973 [i.e., 1975]; London: Covent Garden Press Limited, 1973 [i.e., 1975]. 
 
 - Limited to 200 copies, including 100 numbered copies signed by Burroughs and issued in publisher's slipcase.
@@ -804,7 +804,7 @@
 
 - Hardbound in dustjacket, and softbound.
 
-### A30
+### A30. _White Subway._
 #### A. _White Subway._ William S. Burroughs, author. London: Aloes seolA [i.e., Aloes Books], 1973. {M&M A24a}
 
 - First printing limited to 1,000 copies, including 25 numbered copies signed by Burroughs.
@@ -813,7 +813,7 @@
 - Second printing (also 1973) limited to 500 copies, with silver-gray covers. Per BeatBooks 42, includes variant issue, omitting title and author on upper wrapper and printing statement on lower wrapper.
 
 ## 1974
-### A31
+### A31. _The Book of Breething._
 #### A. _The Book of Breething [= Le Livre des Respirations = Het Boek der Ademhalingen]._ Bob Gale, illustrator; William S. Burroughs, author; Jo Verbrugghen, translator; Jean Chopin, translator. Ingatestone, Essex, England: OU-Editions, 1974. 
 
 - Limited to 400 copies, of which the colophon describes 50 copies as being numbered I through L in  Roman numerals and signed by Burroughs “in de luxe presentation” and 350 copies as being numbered 1– 350. Per BeatBooks 36, none of the latter 350 copies were actually numbered and, per an eBay listing posted by Red Snapper Books (London), there is “the possibility that most copies were not distributed at publication.”
@@ -837,8 +837,8 @@
 - 2nd [American] ed.
 
 ## 1975
-### A32
-#### A. _Snack._ Graham Dawes, interviewer; Jim Pennington, interviewer; Eric Mottram, interviewer; William S. Burroughs, author. London: Aloes Books, 1975. 
+### A32. _Snack._
+#### A. _Snack._ Graham Dawes, interviewer; Jim Pennington, interviewer; Eric Mottram, interviewer; William S. Burroughs, author, interviewee. London: Aloes Books, 1975. 
 
 - “Part of this transcript [the first] appeared in Les Langues Modernes, Paris, 1965, with an introduction by Pierre Dommergues.”—p. 2.
 - Contains the transcript of a radio broadcast made in 1964 by Mottram, including passages of Burroughs reading from his work, and the transcript of a conversation in 1973 between Burroughs, Mottram, Jim Pennington [the publisher], and Graham Dawes.
@@ -846,14 +846,14 @@
 - Title on cover: Snack ...: Two Tape Transcripts.
 - Staplebound (no hardbound issued).
 
-### A33
+### A33. _Verdelgen._
 #### A. _Verdelgen._ William S. Burroughs, author. [Holland]: Agathon, 1975. 
 
 - “A Dutch collection of Burroughs material. There is no English-language equivalent of this title.” [Skyline]
 - Softbound.
 
 ## 1976
-### A34
+### A34. _Cobble Stone Gardens._
 #### A. _Cobble Stone Gardens._ Michael Scott Cain, binder; William S. Burroughs, author. Cherry Valley, N.Y.: Cherry Valley Editions, 1976. 
 
 - “A mixture of autobiographical fiction about the author’s youth and family in St. Louis and material drawn from Naked Lunch and The Wild Boys.” [BeatBooks 51]
@@ -863,7 +863,7 @@
 - “Although the colophon calls for ... [the hardbound ed.] ... to be numbered, we don't believe any copies  actually were.” [Skyline]
 - 1st ed.
 
-### A35
+### A35. _The Retreat Diaries._
 #### A. _The Retreat Diaries._ Allen Ginsberg, author; William S. Burroughs, author. New York: City Moon, 1976. 
 
 - With The Dream of Tibet by Allen Ginsberg.
@@ -872,7 +872,7 @@
 - The “color jacket” is a manila-colored clasp envelope with a die cut window in the front, behind which is affixed a sticker that reads: “The cover lettering for this limited edition of one hundred copies ... is from the handwriting of the Author, William S. Burroughs.”
 - “Printed in an edition of 2,000 copies with a limited edition of 100 [numbered/lettered and] wrapt [sic] in a  color jacket, 26 of them signed and numbered [i.e., lettered] by the author.”—T.p. verso.
 
-### A36
+### A36. _The Third Mind._
 #### A. _Œuvre Croisée._ Christine Taylor, translator; Gérard-Georges Lemaire, translator; Brion Gysin, author; William S. Burroughs, author. Paris: Flammarion, 1976. 
 
 - French translation by Gérard-Georges Lemaire and Christine Taylor.
@@ -897,8 +897,8 @@
 - Softbound.
 
 ## 1978
-### A37
-#### A. _Ali's Smile; Naked Scientology._ Carl Weissner, translator; William S. Burroughs, author. Bonn: Expanded Media Editions, 1978. 
+### A37. _Ali's Smile; Naked Scientology._
+#### A. _Ali's Smile; Naked Scientology._ Carl Weissner, translator, editor; William S. Burroughs, author. Bonn: Expanded Media Editions, 1978. 
 
 - Softbound (no hardbound issued).
 - Reprinted, 1985, 2000 (with new cover, per Shoaf 2).
@@ -906,11 +906,11 @@
 - Translated into German and edited by Carl Weissner.
 - In German and English.
 
-### A38
+### A38. _Short Novels._
 #### A. _Short Novels._ William S. Burroughs, author. London: John Calder, 1978. 
 
 
-### A39
+### A39. _Where Naked Troubadours Shoot Snotty Baboons._
 #### A. _Where Naked Troubadours Shoot Snotty Baboons._ James R. Silke, illustrator; William S. Burroughs, author. Northridge, [UK]: Lord John Press, 1978. 
 
 - Broadside.
@@ -919,7 +919,7 @@
 - Limited to 100 numbered and 26 lettered copies, signed by Burroughs and Silke.
 
 ## 1979
-### A40
+### A40. _Ah Pook Is Here, and Other Texts._
 #### A. _Ah Pook Is Here, and Other Texts._ William S. Burroughs, author. London: John Calder, 1979. 
 
 - The illustrations for Ah Pook Is Here were published, without the text, in The Lost Art of Ah Pook Is Here: Images from the Graphic Novel (Seattle: Fantagraphics Books, 2012; see Section G below).
@@ -937,7 +937,7 @@
 - (A Calderbook, CB 371)
 - Softbound.
 
-### A41
+### A41. _Blade Runner: A Movie._
 #### A. _Blade Runner: A Movie._ William S. Burroughs, author. Berkeley, Calif.: Blue Wind Press, 1979. 
 
 - Hardbound ed. includes 100 numbered copies signed by Burroughs.
@@ -952,8 +952,8 @@
 - Reprinted, 1994.
 - Softbound.
 
-### A42
-#### A. _Doctor Benway: A [Variant] Passage from The Naked Lunch._ Patrick Reagh, printer; William S. Burroughs, writer of introduction. Santa Barbara, Calif.: Bradford Morrow, 1979. 
+### A42. _Doctor Benway: A [Variant] Passage from The Naked Lunch._
+#### A. _Doctor Benway: A [Variant] Passage from The Naked Lunch._ Patrick Reagh, printer; William S. Burroughs, writer of introduction, author. Santa Barbara, Calif.: Bradford Morrow, 1979. 
 
 - 1. [Prospectus]. Santa Barbara, Calif.: Bradford Morrow, 1979. Letterpress-printed card on canary cardstock.
 - With a new introduction by Burroughs.
@@ -963,21 +963,21 @@
 - Hardbound in dustjacket, and softbound.
 - “This edition ... published on the 20th anniversary of the original appearance of The Naked Lunch, consists of 324 numbered copies in wrappers, 150 numbered copies signed by the author & bound in cloth & boards, & 26 lettered copies which are hors commerce [and signed by Burroughs, Patrick Reagh (the printer), and K. Anders (the illustrator)].”—[p. 45]
 
-### A43
-#### A. _Roosevelt After Inauguration and Other Atrocities._ William S. Burroughs, author; Francisco, contributor; Burroughs, contributor. San Francisco: City Lights Books, 1979. 
+### A43. _Roosevelt After Inauguration and Other Atrocities._
+#### A. _Roosevelt After Inauguration and Other Atrocities._ William S. Burroughs, author, writer of introduction; Francisco, contributor; Burroughs, contributor. San Francisco: City Lights Books, 1979. 
 
 - Softbound (no hardbound issued).
 - Includes “A New Introduction” [TOC title: “Introduction”) by Burroughs, facsimiles of covers of the original edition (above), plus three other routines: “When Did I Stop Wanting To Be President?,” “The Whole Tamale,” and “Sects and Death.”
 - Cover and spine title: Roosevelt After Inauguration.
 - 2nd printing (1980) includes frontispiece photo not present in 1st printing.
 
-### A44
+### A44. _Scrapbook 3._
 #### A. _Scrapbook 3._ William S. Burroughs, author. [Geneva]: [Editions Claude Givaudan], [1979]. 
 
 - Color facsimile of one of Burroughs' personal scrapbooks, reproducing his handwritten and typed manuscripts, photographs [Skyline] “Color facsimile of one of Burroughs’ personal scrapbooks, reproducing his handwritten and typed manuscripts, photographs, newspaper articles, collages, etc.” [Skyline]
 - Limited to 30 numbered, signed copies.
 
-### A45
+### A45. _Wouldn't You Polish Pine Floors With a South African ...._
 #### A. _Wouldn't You Polish Pine Floors With a South African ...._ William S. Burroughs, author. [St. Paul, Minn.]: Bookslinger, 1979. 
 
 - Broadside.
@@ -986,8 +986,8 @@
 - Limited to 125 numbered and 26 lettered copies, signed by Burroughs.
 
 ## 1980
-### A46
-#### A. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._ William S. Burroughs, author; Allen Ginsberg, writer of supplementary textual content. New York: Grove Press, 1980. 
+### A46. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._
+#### A. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._ William S. Burroughs, author, interviewee; Allen Ginsberg, writer of supplementary textual content, interviewer. New York: Grove Press, 1980. 
 
 - Softbound.
 - 1st Black Cat ed.
@@ -1002,7 +1002,7 @@
 - Lacks epilogue.
 
 ## 1981
-### A47
+### A47. _Cities of the Red Night._
 #### A. _Cities of the Red Night._ Ross MacLean, contributor; William S. Burroughs, author; Arthur Richardson, contributor. New York: Holt, Rinehart, and Winston, 1981. 
 
 - Hardbound in dustjacket.
@@ -1035,7 +1035,7 @@
 - 1st Picador USA ed.
 - Softbound (no hardbound issued).
 
-### A48
+### A48. _Early Routines._
 #### A. _Early Routines._ Ian Sommerville, photographer; David Hockney, artist; William S. Burroughs, author. Santa Barbara, Calif.: Cadmus Editions, 1981. 
 
 - Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville. [Skyline]
@@ -1048,7 +1048,7 @@
 - Hardbound, and softbound.
 - Trade ed.
 
-### A49
+### A49. _Essais._
 #### A. _Essais._ Philippe Mikriammos, translator; William S. Burroughs, author; Gérard-Georges Lemaire, translator. Paris: Christian Bourgois Editeur, 1981-1984. 
 
 - Translated and presented by Gérard-Georges Lemaire and Philippe Mikriammos.
@@ -1057,7 +1057,7 @@
 - 2 vols.
 - (Les Derniers Mots)
 
-### A50
+### A50. _The Streets of Chance._
 #### A. _The Streets of Chance._ James Grauerholz, editor; Steve Miller, editor; William S. Burroughs, author; Howard Buchwald, artist. New York: Red Ozier Press, 1981. 
 
 - Drawings by Howard Buchwald.
@@ -1066,7 +1066,7 @@
 - “The Streets of Chance is a complete story found in the 1968 version [of The Soft Machine] and nowhere else. On 30 January 1981, Mr. Burroughs oversaw revisions of the text by James Grauerholz and Steve Miller, and this is that version.”—Colophon.
 
 ## 1982
-### A51
+### A51. _Mummies._
 #### A. _Mummies._ Carl Apfelschnitt, artist; William S. Burroughs, author. Düsseldorf; New York: Edition Gunnar A. Kaldewey, 1982. 
 
 - With etchings by Carl Apfelschnitt.
@@ -1075,7 +1075,7 @@
 - 1st ed.
 - Hardbound with hand-made orange tissue guards inserted.
 
-### A52
+### A52. _Sinki's Sauna._
 #### A. _Sinki's Sauna._ William S. Burroughs, author; James Kearns, illustrator. New York: Pequod Press, 1982. 
 
 - Illustrated by James Kearns.
@@ -1088,14 +1088,14 @@
 - Limited to 50 copies.
 - “An apparent piracy of the Pequod edition, printed on bond and bound in ... handmade paper but really just a photocopy of the original work.” [Shoaf 1]
 
-### A53
+### A53. _A William Burroughs Reader._
 #### A. _A William Burroughs Reader._ William S. Burroughs, author; John Calder, editor. London: Pan Books/Picador, 1982. 
 
 - Edited by John Calder.
 - Softbound (no hardbound issued).
 
 ## 1984
-### A54
+### A54. _The Burroughs File._
 #### A. _The Burroughs File._ Alan Ansen, contributor; William S. Burroughs, author; Paul Bowles, contributor. San Francisco: City Lights Books, 1984. 
 
 - “Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket.
@@ -1104,7 +1104,7 @@
 - 2nd printing, 1991.
 - Hardbound, and softbound.
 
-### A55
+### A55. _The Four Horsemen of the Apocalypse._
 #### A. _The Four Horsemen of the Apocalypse = Die vier apokalyptischen Reiter._ Christof Kohlhöfer, illustrator; William S. Burroughs, author. Bonn: Expanded Media Editions, 1984. 
 
 - In English and German.
@@ -1114,7 +1114,7 @@
 - Softbound (no hardbound issued).
 - Illustrated by Christof Kohlhöfer.
 
-### A56
+### A56. _The Place of Dead Roads._
 #### A. _The Place of Dead Roads._ William S. Burroughs, author. New York: Holt, Rinehart, and Winston, 1984. ©1983. 
 
 - “The original title of this book was The Johnson Family.”—Prefatory note.
@@ -1155,7 +1155,7 @@
 - 1st Picador USA ed.
 - Softbound (no hardbound issued).
 
-### A57
+### A57. _Ruski._
 #### A. _Ruski._ William S. Burroughs, author. New York: Hand-Job Press, 1984. 
 
 - Staplebound (no hardbound issued).
@@ -1168,7 +1168,7 @@
 - “An apparent piracy of the Hand-Job edition ...” [Shoaf 1]
 
 ## 1985
-### A58
+### A58. _The Adding Machine: Collected Essays._
 #### A. _The Adding Machine: Collected Essays._ William S. Burroughs, author. London: John Calder, 1985. 
 
 - Hardbound in dustjacket, and softbound.
@@ -1186,7 +1186,7 @@
 - 1st Arcade paperback ed.
 - Softbound.
 
-### A59
+### A59. _Queer._
 #### A. _Queer._ William S. Burroughs, author; Robert H. Jackson, contributor. New York: Viking/Penguin, 1985. 
 
 - Written in 1953.
@@ -1206,7 +1206,7 @@
 
 - Softbound.
 
-#### E. _Queer._ William S. Burroughs, author; Oliver Harris, editor. New York: Penguin Books, 2010. 
+#### E. _Queer._ William S. Burroughs, author; Oliver Harris, editor, writer of introduction. New York: Penguin Books, 2010. 
 
 - Softbound.
 - Edited and with an Introduction by Oliver Harris.
@@ -1214,30 +1214,30 @@
 - 25th Anniversary ed.
 
 ## 1986
-### A60
-#### A. _The Cat Inside._ Brion Gysin, artist; William S. Burroughs, author. New York: Grenfell Press, 1986. 
+### A60. _The Cat Inside._
+#### A. _The Cat Inside._ Brion Gysin, artist, illustrator; William S. Burroughs, author. New York: Grenfell Press, 1986. 
 
 - Limited to 133 numbered copies, all signed by Burroughs and Gysin: 1–115 bound in quarter vellum with red and black hand-painted paper over boards; i–xviii bound in full vellum with a Gysin drawing stamped in gold on the front cover, in quarter vellum clamshell box.
 - Hardbound.
 - Drawings by Brion Gysin.
 
-#### B. _The Cat Inside._ William S. Burroughs, author; Brion Gysin, illustrator. New York: Viking Penguin, 1992. 
+#### B. _The Cat Inside._ William S. Burroughs, author; Brion Gysin, illustrator, artist. New York: Viking Penguin, 1992. 
 
 - “The Cat Inside, in different form, was published in a limited edition of 133 copies by The Grenfell Press in 1986, with eight illustrations by Brion Gysin, including those that appear on the cover, title page, and endpapers of this edition.”—T.p. verso.
 - Hardbound (issued without dustjacket).
 
-#### C. _The Cat Inside._ Brion Gysin, illustrator; William S. Burroughs, author. New York: Penguin Books, 2002. ©1992. 
+#### C. _The Cat Inside._ Brion Gysin, illustrator, artist; William S. Burroughs, author. New York: Penguin Books, 2002. ©1992. 
 
 - Softbound.
 
 ## 1987
-### A61
+### A61. _From The Western Lands._
 #### A. _From The Western Lands._ Casa Sin Nombre, contributor; William S. Burroughs, author; Santa Fe, contributor. Santa Fe, N.M.: Casa Sin Nombre, 1987. 
 
 - Broadside.
 - Limited to 750 copies.
 
-### A62
+### A62. _The Western Lands._
 #### A. _The Western Lands._ William S. Burroughs, author. New York: Viking/Penguin, 1987. 
 
 - Hardbound in dustjacket.
@@ -1251,14 +1251,14 @@
 - Hardbound in dustjacket, and softbound.
 
 ## 1989
-### A63
+### A63. _Clause 27 Is Proposition 6 Is the Whole Tamale._
 #### A. _Clause 27 Is Proposition 6 Is the Whole Tamale._ William S. Burroughs, author. [n.p.]: The Horse Press, [1989?]. 
 
 - Issued with two different cover colors, green and blue.
 - Pamphlet.
 - “Short text concerning the anti-gay Proposition 6 in the U.S., reprinted here in an abridged form in response to  the Tories’ homophobic Clause 27 (which later became Clause 28).” [BeatBooks 51]
 
-### A64
+### A64. _Interzone._
 #### A. _Interzone._ William S. Burroughs, author; James Grauerholz, editor. New York: Viking Penguin, 1989. 
 
 - Includes “WORD,” “... that had been cut, save for a few scattered fragments, from the final manuscript of Naked Lunch.”—Dustjacket.
@@ -1275,7 +1275,7 @@
 
 - Softbound.
 
-### A65
+### A65. _Tornado Alley._
 #### A. _Tornado Alley._ S. Clay Wilson, illustrator; William S. Burroughs, author. Cherry Valley, N.Y.: Cherry Valley Editions, 1989. 
 
 - Hardbound edition limited to 400 copies, of which 90 are signed by Burroughs and 10 are signed by Burroughs and Wilson.
@@ -1285,7 +1285,7 @@
 - 1. [Promotional Postcard] a. Berkeley, Calif.: Small Press Distribution, [1989?]. Illustrated postcard. Features one of the illustrations in the volume, by S. Clay Wilson. b. Sudbury, Mass.: Water Row Books [distributor, 1989?]. Illustrated postcard on cream cardstock. Features one of the illustrations in the volume, by S. Clay Wilson.
 
 ## 1991
-### A66
+### A66. _Ghost of Chance._
 #### A. _Ghost of Chance._ George Condo, illustrator; William S. Burroughs, author; James Grauerholz, editor. New York: Library Fellows of the Whitney Museum of American Art, 1991. 
 
 - 1. [Prospectus]. New York: Whitney Museum of American Art, 1991. Pamphlet. Features one of the illustrations in the volume, by George Condo.
@@ -1306,7 +1306,7 @@
 - Softbound.
 
 ## 1992
-### A67
+### A67. _Painting & Guns._
 #### A. _Painting & Guns._ William S. Burroughs, interviewee; Francesco Clemente, interviewer; Raymond Foye, interviewer. Madras, India; New York: Hanuman Books, 1992. 
 
 - (Hanuman Books; 46)
@@ -1314,7 +1314,7 @@
 - Includes “The Creative Observer,” which originated as an interview with Burroughs by Raymond Foye and Francesco Clemente, excerpts from which were originally published in a different form in the exhibition catalogue accompanying Burroughs’ first one-man show, 19 December–24 January 1988, at the Tony Shafrazi Gallery (see Section B below); and “The War Universe,” an interview with Burroughs by Foye, originally published in a slightly different form in Grand Street, Vol. 10, No. 1 (1991). [See Section C below]
 
 ## 1993
-### A68
+### A68. _Le Temps des Assassins._
 #### A. _Le Temps des Assassins._ William S. Burroughs, author; Lucien Suel, translator. Berguette, France: Station Underground d’Emerveillement Littéraire, 1993. 
 
 - French translation by Lucien Suel of Time of the Assassins, originally published in Crawdaddy in 1977 and 1978. (See Section C, below).
@@ -1324,7 +1324,7 @@
 - No equivalent English-language edition.
 
 ## 1994
-### A69
+### A69. _Photos, and Remembering Jack Kerouac._
 #### A. _Photos, and Remembering Jack Kerouac._ Allen Ginsberg, photographer; William S. Burroughs, author. Louisville, Ky.: White Fields Press, [1994]. 
 
 - Staplebound (no hardbound issued).
@@ -1333,14 +1333,14 @@
 - Limited to 250 copies, including 49 numbered and 26 lettered copies signed by Burroughs.
 - (Heaven Chapbook Series; No. 46)
 
-### A70
+### A70. _Remembering Jack Kerouac._
 #### A. _Remembering Jack Kerouac._ Burroughs, contributor; Broadside, contributor; William S. Burroughs, author. [Louisville, Ky.]: White Fields Press, [1994]. 
 
 - Limited to 500 copies signed by Burroughs, 49 of which are numbered and 26 of which are lettered.
 - Broadside.
 - (Heaven Poster Series; No. 10)
 
-### A71
+### A71. _Rien Que Des Mots, Ce Qui En Sort Rugit Sur Cette Page._
 #### A. _Rien Que Des Mots, Ce Qui En Sort Rugit Sur Cette Page._ William S. Burroughs, author; Claude Pélieu, translator; Mary Beach, translator. Caen, France: Cahiers de Nuit, 1994. 
 
 - Translated into French by Mary Beach and Claude Pélieu.
@@ -1348,12 +1348,12 @@
 - No equivalent English-language edition.
 
 ## 1995
-### A72
+### A72. _Junky; Queer; Naked Lunch._
 #### A. _Junky; Queer; Naked Lunch._ William S. Burroughs, author. New York: Quality Paperbook Book Club, 1995. 
 
 - Softbound.
 
-### A73
+### A73. _My Education: A Book of Dreams._
 #### A. _My Education: A Book of Dreams._ William S. Burroughs, author. New York: Viking/Penguin, 1995. 
 
 - “cover art collage derived from [3] paintings by William S. Burroughs” —Dustjacket.
@@ -1368,7 +1368,7 @@
 
 - Softbound (no hardbound issued).
 
-### A74
+### A74. _Pantopon Rose._
 #### A. _Pantopon Rose._ William S. Burroughs, author. Charleston, W.Va.: Parchment Gallery Graphics, Department of Humanities, University of Charleston, 1995. 
 
 - Broadside.
@@ -1377,13 +1377,13 @@
 - Limited to 60 numbered copies signed by Burroughs.
 
 ## 1998
-### A75
+### A75. _A Spiritual Exercise._
 #### A. _A Spiritual Exercise._ William S. Burroughs, author. [Lawrence, Kansas?]: Kavyayantra Press, 1998. 
 
 - Broadside.
 - Limited to 200 copies.
 
-### A76
+### A76. _Word Virus: The William S. Burroughs Reader._
 #### A. _Word Virus: The William S. Burroughs Reader._ James Grauerholz, editor; Ira Silverberg, editor; William S. Burroughs, author; Jack Kerouac, author; Ann Douglas, writer of introduction. New York: Grove Press, 1998. 
 
 - Compact disc: Selections from The Best of William Burroughs from Giorno Poetry Systems (also issued separately; see Section E below).
@@ -1403,7 +1403,7 @@
 - 1st paperback ed.
 
 ## 1999
-### A77
+### A77. _In Search of Yage: A William S. Burroughs Pictorial._
 #### A. _In Search of Yage: A William S. Burroughs Pictorial._ Burroughs, depicted. Forest Knolls, Calif.: Skyline Books, 1999. 
 
 - “This edition consists of 26 lettered copies. The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon.
@@ -1411,15 +1411,15 @@
 - Softbound; handbound (no hardbound issued).
 
 ## 2001
-### A78
-#### A. _Parler pour Joe._ Mary Beach, translator; William S. Burroughs, author. Rouen, France: Derrière la Salle de Bains, 2001. 
+### A78. _Parler pour Joe._
+#### A. _Parler pour Joe._ Mary Beach, translator, adapter; William S. Burroughs, author. Rouen, France: Derrière la Salle de Bains, 2001. 
 
 - Translation and adaptation by Mary Beach of “To Talk for Joe” (published in Transatlantic Review,  No. 60 (June 1977); see Section C below).
 - Originally published in Univers, No. 10 (1977).
 - No equivalent English-language edition.
 - Staplebound.
 
-### A79
+### A79. _Words of Advice for Young People._
 #### A. _Words of Advice for Young People._ William S. Burroughs, author; Michael Montfort, photographer. [Encinitas, Calif.]: FreeThought Publications, 2001. 
 
 - Includes five copies stamped “publisher’s copy.” [Shoaf 2]
@@ -1429,14 +1429,14 @@
 - Limited to 250 numbered and 26 lettered copies signed by the photographer.
 
 ## 2008
-### A80
+### A80. _Everything Lost: The Latin American Notebook of William S. Burroughs._
 #### A. _Everything Lost: The Latin American Notebook of William S. Burroughs._ Oliver Harris, editor; William S. Burroughs, author; John M. Bennett, editor; Geoffrey D. Smith, editor. Columbus, Ohio: The Ohio State University Press, 2008. 
 
 - Hardbound (issued without dustjacket).
 - “... written by William Burroughs in Latin America during July and August 1953 ...” - Introduction.
 - General editors, Geoffrey D. Smith and John M. Bennett; volume editor, Oliver Harris.
 
-### A81
+### A81. _And the Hippos Were Boiled in Their Tanks._
 #### A. _And the Hippos Were Boiled in Their Tanks._ William S. Burroughs, author; Jack Kerouac, author. New York: Grove Press, 2008. 
 
 - 1st ed.
@@ -1446,7 +1446,7 @@
 - Hardbound in dustjacket.
 
 ## 2015
-### A82
+### A82. _The Travel Agency Is on Fire._
 #### A. _The Travel Agency Is on Fire._ Alex Wermer-Colan, editor; William S. Burroughs, author. New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015. 
 
 - “Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p. verso.
