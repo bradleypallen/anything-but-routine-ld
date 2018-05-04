@@ -26,9 +26,9 @@ I'm focusing on using [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html
 I currently start out with two notebooks, each implementing a part of the workflow involved.
 
 - [generate-csv-from-pdf](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-csv-from-pdf.ipynb): Convert the ABR v4.0 .pdf catalog to a set of .csv files, one per instance type A through I
-- For each instance type .csv file:
+- For each instance type .csv file (initially just the A list, for now)
     - *Manually edit* the .csv file to eliminate PDF conversion errors and artifacts
-    - [generate-ttl-from-csv](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-ttl-from-csv.ipynb): Convert the manually cleansed .ttl to a set of Turtle files
+    - [generate-ttl-from-ABR-A-csv](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-ttl-from-ABR-A-csv.ipynb): Convert the manually cleansed .csv to a set of .ttl files
 - For each generated .ttl file:
     - *Manually edit* the .ttl files to apply modeling best practices that aren't automated in the above step
 
