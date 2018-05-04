@@ -9,7 +9,7 @@
 
 abrw:A27 a bf:Text,
         bf:Work ;
-    rdfs:label "Exterminator!" ;
+    rdfs:label "Exterminator! A Novel" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;

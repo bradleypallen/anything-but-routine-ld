@@ -8,7 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:A28a a bf:Instance ;
-    rdfs:label "Mayfair Acadamy [sic] Series <More or Less>" ;
+    rdfs:label "Mayfair Acadamy [sic] Series More or Less" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
@@ -32,4 +32,4 @@ abri:A28a a bf:Instance ;
             bf:date "[1973?]" ;
             bf:place "Brighton, England" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Mayfair Acadamy [sic] Series <More or Less>" ] .
+            rdfs:label "Mayfair Acadamy [sic] Series More or Less" ] .

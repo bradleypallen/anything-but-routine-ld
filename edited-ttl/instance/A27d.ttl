@@ -8,7 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:A27d a bf:Instance ;
-    rdfs:label "Exterminator!" ;
+    rdfs:label "Exterminator! A Novel" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
@@ -26,4 +26,3 @@ abri:A27d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator!" ] .
-

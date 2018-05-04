@@ -9,7 +9,7 @@
 
 abrw:A28 a bf:Text,
         bf:Work ;
-    rdfs:label "Mayfair Acadamy [sic] Series <More or Less>" ;
+    rdfs:label "Mayfair Acadamy [sic] Series More or Less" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
