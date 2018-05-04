@@ -1,0 +1,39 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A59e a bf:Instance ;
+    rdfs:label "Queer" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Oliver Harris" ;
+            bf:role "editor",
+                "writer of introduction"],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A59e" ] ;
+    bf:instanceOf abrw:A59 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Edited and with an Introduction by Oliver Harris." ],
+        [ a bf:Note ;
+            rdf:value "25th Anniversary ed." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
+            rdf:value "“This new edition of Queer is based substantially on the same sources as the 1985 edition ...the most significant differences lie not in the text itself but in its presentation ... First, I have preserved a little more of the roughness in Burroughs’ manuscript, not making a number of very small corrections ... And second, as well as reediting and retitling the epilogue (now, ‘Two Years Later: Mexico City Return’), and re-creating the ‘Panama’ chapter (chapter 7), I have made a number of short insertions of material that was either previously unused or unavailable—roughly five hundred words in the notes and just over a thousand in the text.”—Introduction." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Penguin Books" ;
+            bf:date "2010" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Queer" ] .

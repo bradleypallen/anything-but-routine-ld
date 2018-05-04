@@ -1,0 +1,42 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A66b a bf:Instance ;
+    rdfs:label "Ghost of Chance" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "George Condo" ;
+            bf:role "illustrator" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "editor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A66b" ] ;
+    bf:instanceOf abrw:A66 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Hardbound, issued without dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "“First published in 1991 as a limited edition by the Library Fellows of the Whitney Museum of American Art.”—T.p. verso." ],
+        [ a bf:Note ;
+            rdf:value "Includes 125 numbered copies signed by Burroughs, issued in publisher’s slipcase with pullout ribbon." ],
+        [ a bf:Note ;
+            rdf:value "1. [Promotional Poster]. [New York]: High Risk Books, [1995?] Poster." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Serpent’s Tail/High Risk Books" ;
+            bf:date "1995" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Ghost of Chance" ] .

@@ -1,0 +1,32 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A77a a bf:Instance ;
+    rdfs:label "In Search of Yage: A William S. Burroughs Pictorial" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "depicted" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A77a" ] ;
+    bf:instanceOf abrw:A77 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Softbound; handbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon." ],
+        [ a bf:Note ;
+            rdf:value "“This edition consists of 26 lettered copies. The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Skyline Books" ;
+            bf:date "1999" ;
+            bf:place "Forest Knolls, Calif." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "In Search of Yage: A William S. Burroughs Pictorial" ] .
