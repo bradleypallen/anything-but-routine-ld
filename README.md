@@ -89,7 +89,7 @@ The data now captured in .ttl files, one per bf:work and bf:Instance, is parsed 
 
 ## Roadmap
 
-Beyond cleaning up the horribly ugly chunks of code in the notebooks and chipping away at the modeling issues mentioned above, once the representation of ABR as linked data is mature I want to address the logistics of putting out on the open linked data Web in a way that will be both sustainable and useful. As hinted at above, I think hewing closely to a minimalist approach based on notebooks and git will be key.
+Beyond cleaning up the horribly ugly chunks of code in the notebooks and chipping away at the modeling issues mentioned above, once the representation of ABR as linked data is mature I want to address the logistics of publishing it on the open linked data Web in a way that will be both sustainable and useful. As hinted at above, I think hewing closely to a minimalist approach based on notebooks and git will be key.
 
 ## Acknowledgements
 
