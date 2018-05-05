@@ -14,11 +14,11 @@ abri:A5f a bf:Instance ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A5f" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A5g" ] ;
+            rdf:value "A5g" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A5f" ] ;
     bf:instanceOf abrw:A5 ;
     bf:note [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],

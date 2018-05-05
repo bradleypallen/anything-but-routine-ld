@@ -18,11 +18,11 @@ abri:A56e a bf:Instance ;
             rdf:value "A56e" ] ;
     bf:instanceOf abrw:A56 ;
     bf:note [ a bf:Note ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
             rdf:value "1994." ],
         [ a bf:Note ;
-            rdf:value "Reprinted 2001." ],
-        [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "Reprinted 2001." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Flamingo" ;

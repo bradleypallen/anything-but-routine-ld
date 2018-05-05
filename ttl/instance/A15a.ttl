@@ -11,11 +11,23 @@ abri:A15a a bf:Instance ;
     rdfs:label "Time" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Gysin" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Lost Illusions" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -31,35 +43,23 @@ abri:A15a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
+            rdfs:label "Gysin" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "A11a" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "A15a" ] ;
+            rdf:value "A15a" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A11a" ] ;
     bf:instanceOf abrw:A15 ;
     bf:note [ a bf:Note ;
-            rdf:value "“... the November 30, 1962 issue of Time magazine, with the title ‘India’s Lost Illusions,’ was apparently  chosen by Burroughs for parody because that issue includes a savage review of Naked Lunch, as well as Burroughs’ other Olympia Press works, in which Burroughs and other Beat writers are put down as frauds.” [Shoaf 1]" ],
+            rdf:value "Hardbound, and softbound." ],
         [ a bf:Note ;
             rdf:value "{M&M A11a}  Cover by Burroughs." ],
         [ a bf:Note ;
             rdf:value "“... first printing appears in 4 editions: 4 copies hors commerce; 10 copies numbered [sic] A-J, hardbound, each  containing an original [signed] manuscript page by Burroughs and an original [signed] drawing by Gysin, signed by both; 100 numbered and signed [by both] copies; 886 copies in a trade edition.”—T.p." ],
         [ a bf:Note ;
-            rdf:value "Hardbound, and softbound." ] ;
+            rdf:value "“... the November 30, 1962 issue of Time magazine, with the title ‘India’s Lost Illusions,’ was apparently  chosen by Burroughs for parody because that issue includes a savage review of Naked Lunch, as well as Burroughs’ other Olympia Press works, in which Burroughs and other Beat writers are put down as frauds.” [Shoaf 1]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "“C” Press" ;

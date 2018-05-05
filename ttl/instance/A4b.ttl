@@ -14,20 +14,20 @@ abri:A4b a bf:Instance ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A4b" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A3b" ] ;
+            rdf:value "A3b" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A4b" ] ;
     bf:instanceOf abrw:A4 ;
     bf:note [ a bf:Note ;
             rdf:value "; distributed by City Lights Books." ],
         [ a bf:Note ;
+            rdf:value "1st American ed." ],
+        [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "{M&M A3b}" ],
-        [ a bf:Note ;
-            rdf:value "1st American ed." ] ;
+            rdf:value "{M&M A3b}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Beach Books, Texts, & Documents" ;

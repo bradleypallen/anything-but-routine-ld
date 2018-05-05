@@ -15,45 +15,45 @@ abri:A8a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Meester" ;
+            rdfs:label "Allen Ginsberg" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Allen Ginsberg" ;
+            rdfs:label "Meester" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
+            bf:source "Maynard & Miles" ;
             rdf:value "A8a" ],
         [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
+            bf:source "Schottlaender v4.0" ;
             rdf:value "A8a" ] ;
     bf:instanceOf abrw:A8 ;
     bf:note [ a bf:Note ;
+            rdf:value "2 (Summer 1959)] and [No." ],
+        [ a bf:Note ;
             rdf:value "With Allen Ginsberg." ],
         [ a bf:Note ;
-            rdf:value "verso." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "“The 1953 letters were ... [originally] published in Big Table [No." ],
-        [ a bf:Note ;
-            rdf:value "Burroughs’ 1960 letter was in [The] Floating Bear No." ],
-        [ a bf:Note ;
-            rdf:value "1 [(1963)].”—T.p." ],
+            rdf:value "(See Section C below)  2nd printing, 1965." ],
         [ a bf:Note ;
             rdf:value "3rd printing, 1966." ],
         [ a bf:Note ;
-            rdf:value "2 (Summer 1959)] and [No." ],
+            rdf:value "3 (1961)]." ],
         [ a bf:Note ;
-            rdf:value "5 [(1961)]." ],
+            rdf:value "Burroughs’ 1960 letter was in [The] Floating Bear No." ],
         [ a bf:Note ;
-            rdf:value "(See Section C below)  2nd printing, 1965." ],
+            rdf:value "verso." ],
         [ a bf:Note ;
             rdf:value "{M&M A8a}  An epistolary novel." ],
         [ a bf:Note ;
             rdf:value "‘I am Dying, Meester?’ was in City Lights Journal No." ],
         [ a bf:Note ;
-            rdf:value "3 (1961)]." ] ;
+            rdf:value "“The 1953 letters were ... [originally] published in Big Table [No." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "1 [(1963)].”—T.p." ],
+        [ a bf:Note ;
+            rdf:value "5 [(1961)]." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;

@@ -19,9 +19,9 @@ abri:A47e a bf:Instance ;
             rdf:value "A47e" ] ;
     bf:instanceOf abrw:A47 ;
     bf:note [ a bf:Note ;
-            rdf:value "(An Owl Book) ©1981." ],
-        [ a bf:Note ;
             rdf:value "2nd Owl Book ed." ],
+        [ a bf:Note ;
+            rdf:value "(An Owl Book) ©1981." ],
         [ a bf:Note ;
             rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

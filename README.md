@@ -7,6 +7,19 @@ the bibliographical metadata captured in [Anything But Routine (ABR)](http://esc
 Brian E.C. Schottlaender's annotated bibliography of works by and about [William S. Burroughs](https://en.wikipedia.org/wiki/William_S._Burroughs), the American Beat Generation
 author.
 
+### License
+
+As this work contains adapted material from Schottlaender's
+bibliography, in compliance with the terms of its license, we license
+this work in the same manner, i.e. under a [Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0
+International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+(CC BY-NC-SA 4.0) license.
+
+### Disclaimer
+
+Early days here. Still working out the details and best practices to apply. A long way yet to go to get beyond ABR's A list. I'm not a trained cataloger, though if you hum a few bars I can fake it. Just kidding.
+
 ## Goals
 
 - Demonstrate the utility of [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html) for catalogs of rare materials typical of those created by and for rare book collectors and sellers
@@ -15,34 +28,70 @@ author.
 - Demonstrate the utility of linked data combined with Github-style collaboration platforms in creating and maintaining catalogs for rare materials
 - Exploit all of the above in building a flashy new linked data resource for [my own Burroughs collection](http://bradleypallen.org/wsb-catalog)
 
-## Disclaimer
-
-Early days here. Still working out the details and best practices to apply. A long way yet to go to get beyond ABR's A list. I'm not a trained cataloger, though if you hum a few bars I can fake it. Just kidding.
-
 ## Approach
 
-I'm focusing on using [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html) primarily, with a few classes and modeling recommendations taken from the rapidly evolving [Art and Rare Materials Ontologies](https://github.com/LD4P/arm).
+### Modeling
 
-I currently start out with two notebooks, each implementing a part of the workflow involved.
+I'm using [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html) primarily, with a few classes and modeling recommendations taken from the rapidly evolving [Art and Rare Materials Ontologies](https://github.com/LD4P/arm).
 
-- [generate-csv-from-pdf](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-csv-from-pdf.ipynb): Convert the ABR v4.0 .pdf catalog to a set of .csv files, one per instance type A through I
-- For each instance type .csv file (initially just the A list, for now)
-    - *Manually edit* the .csv file to eliminate PDF conversion errors and artifacts
-    - [generate-ttl-from-ABR-A-csv](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-ttl-from-ABR-A-csv.ipynb): Convert the manually cleansed .csv to a set of .ttl files
-- For each generated .ttl file:
-    - *Manually edit* the .ttl files to apply modeling best practices that aren't automated in the above step
+The experience so far has been natural, with the work/instance distinction implicit in ABR easily made explicit in the model. Most of the information in instances can be easily captured using a handful of attributes, specifically:
 
-The PDF-to-text conversion can't handle a lot of the notes in the instance annotations, which I am modeling using bf:Note. That's the reason for the manual step in the above workflow. I'm not sure that I will be able to improve that to any degree, but I may be able to reduce the tweaking to a minimum. In any case, working with the .pdf and .csv files is only a transitional phase to get the bibliographic data into .ttl files under Git version control.
+- bf:contributor
+- bf:copyrightDate
+- bf:identifiedBy
+- bf:instanceOf
+- bf:note
+- bf:provisionActivity
+- bf:title
 
-Once the workflow has been completely executed, it should be possible to work moving forward off of the .ttl files, without further reference to the source .pdf and .csv files.
+To start with, I'm using string literals to express the basic information in the associated instantiations of bf:Agent, bf:Identifier, bf:Note, and bf:provisionActivity.
+My plan is to work on using various entity resolution resources to augment the labels with URI references linking out to other resources such as Wikidata, DBPedia and/or Library of Congress linked data. For relators in the bf:role of a bf:Agent, I've been trying to keep to the term recommendations in the [LC MARC Code List for Relators.](http://www.loc.gov/marc/relators/relaterm.html)
 
-[generate-graph-from-ttl](https://github.com/bradleypallen/schottlaender-db/blob/master/generate-graph-from-ttl.ipynb) hints at what's possible once we've gotten things to that stage. It loads all of the .ttl files into an rdflib.Graph and shows how the graph can be queried and query results visualized. It hints at the ability to generate future versions of ABR directly from the graph (as shown in [abr-A-list.md](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/abr-A-list.md), where we get close to the layout of the catalog in the ABR .pdf file), and at the use of collaborative Git-based development of the data in the individual .ttl files as where the work of catalog refinement and maintenance is done in the future.
+There are a number of unresolved modeling issues that I plan to chip away at. These include:
 
-## License
+- _Preserving the ordering of notes_: one of the long-standing and less-charming aspects of RDF is its lack of respect for preserving order in data elements. This causes trouble when generating a version of ABR directly from the RDF graph. There are hacks to address this but they will add complexity to what is currently a pretty straightforward representation. Dan Brickley has recent begun to grapple with this issue in the context of schema.org and the evolution of JSON-LD so maybe in the future we can solve this by moving from Turtle to JSON-LD as our choice of serialization.
+- _Representing uncertainty about publication agents, dates and places_: ABR makes liberal use of the cataloger's standards for encoding uncertainty into strings using square brackets and question marks. I'd like to address this by using arm:InaccuracyNote in conjunction with bf:provisionActivity.
+- _Representing citations within notes_: ABR frequently adds citations to specific notes that make reference to other bibliographies or catalogs. I'd like to understand how to augment a bf:Note with that information. 
+- _Converting document forward references into links_: Notes also make reference to other items in the bibliography, for example when expressing the relationship between a book and earlier appearances of material in article form.
+- _Allocating descriptive information between works and instances_: My first cut at the work/instance partitioning of ABR skews heavily towards instances, with little data expressed at the bf:Work level other than the title and links to the various instances of the work. This does not reflect Schottlaender's practice where he often combines a work and instance together into a single record with a single identifier (e.g., A9). In this first pass, I've expediently ignored this nuance, and as a result, have coined identifiers that don't exist in ABR (e.g., A9a). I'll have to address that at some point.
+- _Representing binding information_: There is a lot of information about how instances in ABR are bound; in the [generate-ttl-from-csv notebook](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-ttl-from-csv.ipynb) , you can see that there are 23 different phrases in the notes that contain the string "bound". I expect to exploit the arm:Binding class to capture that information.
 
-As this work contains adapted material from Schottlaender's
-bibliography, in compliance with the terms of its license, we license
-this work in the same manner, i.e. under a [Creative Commons
-Attribution-NonCommercial-ShareAlike 4.0
-International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
-(CC BY-NC-SA 4.0) license.
+Besides these issues, there's undoubtedly a bunch more. Once things are in .ttl files, it will be easy to load them into RDF graphs and then into pandas DataFrames to do the exploratory analysis to determine how best to squeeze more structured data out of the notes and the related items.
+
+### Workflow
+
+The workflow, as it is currently implemented, is shown below:
+
+![[Converting Anything But Routine v4.0 into linked data]](workflow.png)
+
+In the next few sections we describe the various steps in this workflow. (NOTE: the current implementation has only addressed the ABR A list. Work remains to generalize that into code that processes the entire set of data extracted from ABR, but in the following we'll talk as if that's already done.)
+
+#### 1. Generating .csv files from the ABR .pdf
+
+I'm using the [PyPDF2 python library](http://mstamy2.github.io/PyPDF2/) to convert the .pdf file into text. It works, but not very well, on the ABR .pdf file; in the notes, a lot of quotations and other challenging characters get dropped. But it's sufficient to allow me to pattern match against the identifiers and split the text into chunks, each containing the relevant text for that specific instance. I load that into a pandas DataFrame, and do some simple regexp-based extraction of publications, titles and dates from the instance text, saving all of the converted text for an instance to a notes column, then save the DataFrame to .csv files, one per ABR work category. _([generate-csv-from-pdf.ipynb](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-csv-from-pdf.ipynb))_
+
+
+#### 2. Manual cleansing of the .csv files
+
+Because the notes are poorly handled in the .pdf conversion process, I load the .csv file for each category into a spreadsheet application, and then, row by instance row, make corrections to the text in the notes column, with a fair amount of cutting-and-pasting from the original document. Thank God that works.
+
+#### 3. Generating .ttl files from the .csv files
+
+From the cleansed .csv files, I load them into a pandas DataFrame, do some additional information extraction (using both simple regexps and tooling from the [NLTK natural language processing library](http://www.nltk.org/index.html)), and then iterate through the instances to generate triples which are added to an RDF graph build using the [rdflib Python library](http://rdflib.readthedocs.io/en/stable/). Each instance is serialized out to a .ttl file (which choice of serialization seems to be standard within BIBFRAME and ARM circles). We then generate a .ttl file for each work, adding the links to their coorresponding instances.
+_([generate-ttl-from-csv.ipynb](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-ttl-from-csv.ipynb))_
+
+#### 4. Manual cleansing of the .ttl files
+
+The out-of-the-box NLTK sentence tokenization, while useful, doesn't do a great job when confronted with abbreviations and such. In a similar vein, using NLTK's entity chunking to generate values for bf:contributor generates a certain amount of noise in addition to the convenience factor. So I examine and correct each generated .ttl file as needed, comparing it to the entry in the original document, mostly editing notes and agents.
+
+#### 5. Generating an RDF graph from the .ttl files
+
+The data now captured in .ttl files, one per bf:work and bf:Instance, is parsed into an rdflib.Graph. From there, we can explore and visualize the data using either SPARQL queries or by directly walking the graph using rdflib's RDF graph iterators. For ease of analysis, I'm finding that first hewing out data using one or both of those approaches and then creating a pandas DataFrame is a great way to go. The [bibliography.md](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/bibliography.md) is generated using that approach. Bringing the ABR data into a Python notebook environment, together with the use of collaborative Git-based maintenance of the data points towards a way in which the work of catalog refinement and maintenance can be done in the future. _([generate-graph-from-ttl.ipynb](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-graph-from-ttl.ipynb))_
+
+## Roadmap
+
+Beyond cleaning up the horribly ugly chunks of code in the notebooks and chipping away at the modeling issues mentioned above, once the representation of ABR as linked data is mature I want to address the logistics of putting out on the open linked data Web in a way that will be both sustainable and useful. As hinted at above, I think hewing closely to a minimalist approach based on notebooks and git will be key.
+
+## Acknowledgements
+
+Only one, really, at this point: thanks to Brian Schottlaender for the huge amount of effort and devotion that went into the creation of Anything But Routine.

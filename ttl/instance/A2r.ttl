@@ -11,20 +11,20 @@ abri:A2r a bf:Instance ;
     rdfs:label "Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "David L. Ulin" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Barry Miles" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "James Grauerholz" ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "David L. Ulin" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "contributor" ] ;
     bf:copyrightDate "2001" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
@@ -33,13 +33,13 @@ abri:A2r a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "50th Anniversary ed." ],
         [ a bf:Note ;
+            rdf:value "©2001." ],
+        [ a bf:Note ;
             rdf:value "Edited by James Grauerholz and Barry Miles." ],
         [ a bf:Note ;
             rdf:value "Afterword by David L. Ulin." ],
         [ a bf:Note ;
             rdf:value "Cover emulates colors and design of 1st edition, 1st printing dustjacket; slipcase emulates color of 1st edition cover." ],
-        [ a bf:Note ;
-            rdf:value "©2001." ],
         [ a bf:Note ;
             rdf:value "Hardbound, issued without dustjacket ." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

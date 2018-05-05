@@ -11,23 +11,23 @@ abri:A22c a bf:Instance ;
     rdfs:label "The Last Words of Dutch Schultz" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Grove Press" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Grove Press" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:copyrightDate "1975" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A22c" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
-            rdf:value "1st paperbound ed." ],
+            rdf:value "©1975; distributed by Grove Press." ],
         [ a bf:Note ;
             rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "©1975; distributed by Grove Press." ] ;
+            rdf:value "1st paperbound ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Seaver Books" ;

@@ -11,32 +11,32 @@ abri:A59e a bf:Instance ;
     rdfs:label "Queer" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Panama" ;
+            rdfs:label "Oliver Harris" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Panama" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Mexico City Return" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Oliver Harris" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A59e" ] ;
     bf:instanceOf abrw:A59 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound." ],
-        [ a bf:Note ;
-            rdf:value "25th Anniversary ed." ],
+            rdf:value "Edited and with an Introduction by Oliver Harris." ],
         [ a bf:Note ;
             rdf:value "“This new edition of Queer is based substantially on the same sources as the 1985 edition ...the most significant differences lie not in the text itself but in its presentation ... First, I have preserved a little more of the roughness in Burroughs’ manuscript, not making a number of very small corrections ... And second, as well as reediting and retitling the epilogue (now, ‘Two Years Later: Mexico City Return’), and re-creating the ‘Panama’ chapter (chapter 7), I have made a number of short insertions of material that was either previously unused or unavailable—roughly five hundred words in the notes and just over a thousand in the text.”—Introduction." ],
         [ a bf:Note ;
-            rdf:value "Edited and with an Introduction by Oliver Harris." ] ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
+            rdf:value "25th Anniversary ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Penguin Books" ;

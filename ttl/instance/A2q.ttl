@@ -11,10 +11,6 @@ abri:A2q a bf:Instance ;
     rdfs:label "Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Barry Miles" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
@@ -23,24 +19,28 @@ abri:A2q a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "James Grauerholz" ;
+            rdfs:label "Barry Miles" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A2q" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
+            rdf:value "(Banned Books; 14) \"Includes the accompanying essays that Burroughs added to later editions, but omits the editors' note and the newly discovered material and outtakes which appear in the edition above.\"" ],
+        [ a bf:Note ;
             rdf:value "[BeatBooks 59]" ],
         [ a bf:Note ;
             rdf:value "With an Introduction by John Walsh." ],
         [ a bf:Note ;
-            rdf:value "Edited by James Grauerholz and Barry Miles." ],
-        [ a bf:Note ;
-            rdf:value "(Banned Books; 14) \"Includes the accompanying essays that Burroughs added to later editions, but omits the editors' note and the newly discovered material and outtakes which appear in the edition above.\"" ] ;
+            rdf:value "Edited by James Grauerholz and Barry Miles." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Paperview/Harper Perennial" ;

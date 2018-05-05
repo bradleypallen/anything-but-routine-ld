@@ -21,9 +21,9 @@ abri:A2g a bf:Instance ;
             rdf:value "A2g" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A2f}" ],
+            rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ] ;
+            rdf:value "{M&M A2f}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Castle Books" ;

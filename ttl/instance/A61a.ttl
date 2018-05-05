@@ -11,28 +11,28 @@ abri:A61a a bf:Instance ;
     rdfs:label "From The Western Lands" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Santa Fe" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Casa Sin Nombre" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Santa Fe" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A61a" ] ;
     bf:instanceOf abrw:A61 ;
     bf:note [ a bf:Note ;
-            rdf:value "Broadside." ],
+            rdf:value "Limited to 750 copies." ],
         [ a bf:Note ;
             rdf:value "Santa Fe, N.M.: Casa Sin Nombre, 1987." ],
         [ a bf:Note ;
-            rdf:value "Limited to 750 copies." ],
+            rdf:value "From The Western Lands." ],
         [ a bf:Note ;
-            rdf:value "From The Western Lands." ] ;
+            rdf:value "Broadside." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "From The Western Lands" ] .
 

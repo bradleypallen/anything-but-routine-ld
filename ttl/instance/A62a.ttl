@@ -18,13 +18,13 @@ abri:A62a a bf:Instance ;
             rdf:value "A62a" ] ;
     bf:instanceOf abrw:A62 ;
     bf:note [ a bf:Note ;
-            rdf:value "The Western Lands." ],
-        [ a bf:Note ;
             rdf:value "A." ],
+        [ a bf:Note ;
+            rdf:value "New York: Viking/Penguin, 1987." ],
         [ a bf:Note ;
             rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
-            rdf:value "New York: Viking/Penguin, 1987." ] ;
+            rdf:value "The Western Lands." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking/Penguin" ;

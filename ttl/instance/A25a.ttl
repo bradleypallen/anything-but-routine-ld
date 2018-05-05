@@ -11,7 +11,19 @@ abri:A25a a bf:Instance ;
     rdfs:label "Jack Kerouac" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Nouvel Observateur" ;
+            rdfs:label "Alfred Aranowitz" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Kerouac" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Claude Pélieu" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Beatnik" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -27,23 +39,11 @@ abri:A25a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Kerouac" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Les Livres Noirs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Claude Pélieu" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Beatnik" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Alfred Aranowitz" ;
+            rdfs:label "Nouvel Observateur" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
@@ -53,15 +53,15 @@ abri:A25a a bf:Instance ;
             rdf:value "A25a" ] ;
     bf:instanceOf abrw:A25 ;
     bf:note [ a bf:Note ;
-            rdf:value "260 (3–9 November 1969)." ],
-        [ a bf:Note ;
             rdf:value "[See Section C below]  No equivalent English-language edition." ],
+        [ a bf:Note ;
+            rdf:value "260 (3–9 November 1969)." ],
         [ a bf:Note ;
             rdf:value "Includes “Épitaphe pour un Beatnik,” first published in Le Nouvel Observateur, No." ],
         [ a bf:Note ;
-            rdf:value "In French." ],
-        [ a bf:Note ;
             rdf:value "With Claude Pélieu." ],
+        [ a bf:Note ;
+            rdf:value "In French." ],
         [ a bf:Note ;
             rdf:value "{M&M A18a}  A memorial to Kerouac, with interviews, poems, and prose by Kerouac, Burroughs, Ginsberg, Alfred Aranowitz, and Pélieu." ],
         [ a bf:Note ;

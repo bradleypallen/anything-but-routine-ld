@@ -15,28 +15,28 @@ abri:A78a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Mary Beach" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Mary Beach" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A78a" ] ;
     bf:instanceOf abrw:A78 ;
     bf:note [ a bf:Note ;
-            rdf:value "10 (1977)." ],
-        [ a bf:Note ;
-            rdf:value "Originally published in Univers, No." ],
+            rdf:value "Staplebound." ],
         [ a bf:Note ;
             rdf:value "60 (June 1977); see Section C below)." ],
         [ a bf:Note ;
-            rdf:value "Staplebound." ],
+            rdf:value "No equivalent English-language edition." ],
         [ a bf:Note ;
             rdf:value "Translation and adaptation by Mary Beach of “To Talk for Joe” (published in Transatlantic Review,  No." ],
         [ a bf:Note ;
-            rdf:value "No equivalent English-language edition." ] ;
+            rdf:value "10 (1977)." ],
+        [ a bf:Note ;
+            rdf:value "Originally published in Univers, No." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Derrière la Salle de Bains" ;

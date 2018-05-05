@@ -22,13 +22,13 @@ abri:A77a a bf:Instance ;
             rdf:value "A77a" ] ;
     bf:instanceOf abrw:A77 ;
     bf:note [ a bf:Note ;
-            rdf:value "Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon." ],
+            rdf:value "Softbound; handbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon." ],
         [ a bf:Note ;
-            rdf:value "Softbound; handbound (no hardbound issued)." ],
+            rdf:value "“This edition consists of 26 lettered copies." ],
         [ a bf:Note ;
-            rdf:value "“This edition consists of 26 lettered copies." ] ;
+            rdf:value "Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Skyline Books" ;

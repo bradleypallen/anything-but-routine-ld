@@ -22,22 +22,22 @@ abri:A30a a bf:Instance ;
             rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "A24a" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "A30a" ] ;
+            rdf:value "A30a" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A24a" ] ;
     bf:instanceOf abrw:A30 ;
     bf:note [ a bf:Note ;
             rdf:value "Per BeatBooks 42, includes variant issue, omitting title and author on upper wrapper and printing statement on lower wrapper." ],
         [ a bf:Note ;
-            rdf:value "{M&M A24a}   First printing limited to 1,000 copies, including 25 numbered copies signed by Burroughs." ],
-        [ a bf:Note ;
-            rdf:value "Second printing (also 1973) limited to 500 copies, with silver-gray covers." ],
-        [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Third printing: [1974?]" ] ;
+            rdf:value "{M&M A24a}   First printing limited to 1,000 copies, including 25 numbered copies signed by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Third printing: [1974?]" ],
+        [ a bf:Note ;
+            rdf:value "Second printing (also 1973) limited to 500 copies, with silver-gray covers." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Aloes seolA [i.e., Aloes Books]" ;

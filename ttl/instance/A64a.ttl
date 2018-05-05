@@ -11,6 +11,10 @@ abri:A64a a bf:Instance ;
     rdfs:label "Interzone" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Naked" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -21,10 +25,6 @@ abri:A64a a bf:Instance ;
                 bf:Person ;
             rdfs:label "James Grauerholz" ;
             bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Naked" ;
@@ -38,9 +38,9 @@ abri:A64a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "Includes “WORD,” “... that had been cut, save for a few scattered fragments, from the final manuscript of Naked Lunch.”—Dustjacket." ],
         [ a bf:Note ;
-            rdf:value "“A collection of previously unpublished short stories, routines, letters, and notebook entries, dating from the mid-50s, rediscovered among Allen Ginsberg’s papers at Columbia University in 1984.” [BeatBooks 51] “’Interzone’ was the working title for ... Naked Lunch.”—Dustjacket." ],
+            rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ] ;
+            rdf:value "“A collection of previously unpublished short stories, routines, letters, and notebook entries, dating from the mid-50s, rediscovered among Allen Ginsberg’s papers at Columbia University in 1984.” [BeatBooks 51] “’Interzone’ was the working title for ... Naked Lunch.”—Dustjacket." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking Penguin" ;

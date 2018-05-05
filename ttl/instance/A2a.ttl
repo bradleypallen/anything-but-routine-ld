@@ -25,21 +25,21 @@ abri:A2a a bf:Instance ;
             rdf:value "A2a" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
+            rdf:value "First copies printed issued without dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "2nd printing [not to be confused with the “second issue” of the first printing (above)] issued without  dustjacket or decorative border around title page, and with price (“18 francs”) printed on back cover." ],
+        [ a bf:Note ;
+            rdf:value "2nd issue: Price (“New Price NF 18”) stamped over old price in lower right corner of back cover, following the revaluation of the franc in January 1960." ],
+        [ a bf:Note ;
             rdf:value "{M&M A2a} Dustjacket designed by Burroughs." ],
         [ a bf:Note ;
             rdf:value "3rd printing (1965) issued without dustjacket or decorative border around title page, and with price (“Francs: h18”) printed on back cover." ],
         [ a bf:Note ;
             rdf:value "76) Softbound in dustjacket (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "First copies printed issued without dustjacket." ],
-        [ a bf:Note ;
             rdf:value "[M&M]  1st printing comprised two “issues:”  1st issue: Price (“Francs: 1,500”) printed in lower right corner of back cover." ],
         [ a bf:Note ;
-            rdf:value "2nd issue: Price (“New Price NF 18”) stamped over old price in lower right corner of back cover, following the revaluation of the franc in January 1960." ],
-        [ a bf:Note ;
-            rdf:value "(The Travellers Companion Series, No." ],
-        [ a bf:Note ;
-            rdf:value "2nd printing [not to be confused with the “second issue” of the first printing (above)] issued without  dustjacket or decorative border around title page, and with price (“18 francs”) printed on back cover." ] ;
+            rdf:value "(The Travellers Companion Series, No." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Olympia Press" ;

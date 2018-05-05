@@ -23,11 +23,11 @@ abri:A2k a bf:Instance ;
             rdf:value "A2k" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
             rdf:value "©1982." ],
         [ a bf:Note ;
-            rdf:value "Reprinted in 1990 and 1992 (with different cover and titled: Naked Lunch)." ],
-        [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "Reprinted in 1990 and 1992 (with different cover and titled: Naked Lunch)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Paladin/Grafton Books" ;

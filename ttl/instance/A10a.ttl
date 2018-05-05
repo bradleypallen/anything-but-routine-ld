@@ -21,9 +21,9 @@ abri:A10a a bf:Instance ;
             rdf:value "A10a" ] ;
     bf:instanceOf abrw:A10 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A10a}" ],
+            rdf:value "Hardbound in dustjacket (no softbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket (no softbound issued)." ] ;
+            rdf:value "{M&M A10a}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

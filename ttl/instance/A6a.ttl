@@ -11,14 +11,6 @@ abri:A6a a bf:Instance ;
     rdfs:label "The Ticket That Exploded" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Brion" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Michael Portman" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -27,8 +19,16 @@ abri:A6a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Brion" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Olympia Press" ;
-            bf:role "contributor" ] ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "A6a" ],
@@ -39,19 +39,19 @@ abri:A6a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "ed.” planned by Olympia Press for publication in 1963 was never published." ],
         [ a bf:Note ;
-            rdf:value "and enl." ],
+            rdf:value "The design on p. [183] is by Brion Gysin.”—[p. 4] A “new rev." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A6a}  First version." ],
+        [ a bf:Note ;
+            rdf:value "(The Travellers Companion Series, No." ],
         [ a bf:Note ;
             rdf:value "Dustjacket photo-collage by Ian Sommerville." ],
         [ a bf:Note ;
             rdf:value "“The sections entitled ‘In a Strange Bed’ and ‘The Black Fruit’ were written in collaboration with Michael Portman." ],
         [ a bf:Note ;
-            rdf:value "(The Travellers Companion Series, No." ],
+            rdf:value "and enl." ],
         [ a bf:Note ;
-            rdf:value "{M&M A6a}  First version." ],
-        [ a bf:Note ;
-            rdf:value "91) Softbound with dustjacket (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "The design on p. [183] is by Brion Gysin.”—[p. 4] A “new rev." ] ;
+            rdf:value "91) Softbound with dustjacket (no hardbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Olympia Press" ;

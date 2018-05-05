@@ -26,15 +26,15 @@ abri:A31c a bf:Instance ;
             rdf:value "A31c" ] ;
     bf:instanceOf abrw:A31 ;
     bf:note [ a bf:Note ;
+            rdf:value "2nd [American] ed." ],
+        [ a bf:Note ;
             rdf:value "includes 175 numbered copies signed by Burroughs." ],
         [ a bf:Note ;
-            rdf:value "2nd [American] ed." ],
+            rdf:value "Berkeley, Calif.: Blue Wind Press, 1980." ],
         [ a bf:Note ;
             rdf:value "Hardbound ed." ],
         [ a bf:Note ;
-            rdf:value "Hardbound (issued without dustjacket), and softbound." ],
-        [ a bf:Note ;
-            rdf:value "Berkeley, Calif.: Blue Wind Press, 1980." ] ;
+            rdf:value "Hardbound (issued without dustjacket), and softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Blue Wind Press" ;

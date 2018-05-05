@@ -11,38 +11,38 @@ abri:A29a a bf:Instance ;
     rdfs:label "Port of Saints" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Miles" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Wild Boys" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Miles" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A29a" ] ;
     bf:instanceOf abrw:A29 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "Limited to 200 copies, including 100 numbered copies signed by Burroughs and issued in publisher's slipcase." ],
-        [ a bf:Note ;
-            rdf:value "Limited 1st ed." ],
-        [ a bf:Note ;
-            rdf:value "“The t.p." ],
-        [ a bf:Note ;
-            rdf:value "." ],
         [ a bf:Note ;
             rdf:value "A re-working of Wild Boys  material.” [Miles]" ],
         [ a bf:Note ;
-            rdf:value "says 1973, but publication was delayed by the London paper shortage." ] ;
+            rdf:value "." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "Limited 1st ed." ],
+        [ a bf:Note ;
+            rdf:value "says 1973, but publication was delayed by the London paper shortage." ],
+        [ a bf:Note ;
+            rdf:value "“The t.p." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Covent Garden Press Limited; Ollon, Switzerland: Am Here Books" ;

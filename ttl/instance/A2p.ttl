@@ -15,31 +15,31 @@ abri:A2p a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Barry Miles" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "contributor" ] ;
     bf:copyrightDate "2001" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A2p" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "... also incorporates Burroughs’s own notes on the text, all the accompanying essays that he added to later editions [i.e., to editions later than the first, but preceding this edition], and ... an appendix of abundant, newly discovered material and alternate drafts from the original manuscript ...”—Dustjacket." ],
-        [ a bf:Note ;
             rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "©2001." ],
+            rdf:value "... also incorporates Burroughs’s own notes on the text, all the accompanying essays that he added to later editions [i.e., to editions later than the first, but preceding this edition], and ... an appendix of abundant, newly discovered material and alternate drafts from the original manuscript ...”—Dustjacket." ],
         [ a bf:Note ;
             rdf:value "“... corrects numerous textual errors accumulated over the years." ],
         [ a bf:Note ;
             rdf:value "Edited by James Grauerholz and Barry Miles." ],
+        [ a bf:Note ;
+            rdf:value "©2001." ],
         [ a bf:Note ;
             rdf:value "1st ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

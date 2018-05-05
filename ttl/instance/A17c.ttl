@@ -11,22 +11,22 @@ abri:A17c a bf:Instance ;
     rdfs:label "So Who Owns Death TV?" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Claude Pélieu" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Claude Pélieu" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A17c" ] ;
     bf:instanceOf abrw:A17 ;
     bf:note [ a bf:Note ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
             rdf:value "Pirate edition, printed in black ink on white paper only and lacking the photo of Claude Pélieu from the original [i.e., 2nd expanded] ed." ],
         [ a bf:Note ;
-            rdf:value "[BeatBooks 42]" ],
-        [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "[BeatBooks 42]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "TOPY Heart" ;

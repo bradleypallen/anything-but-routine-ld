@@ -18,11 +18,11 @@ abri:A41b a bf:Instance ;
             rdf:value "A41b" ] ;
     bf:instanceOf abrw:A41 ;
     bf:note [ a bf:Note ;
+            rdf:value "Reprinted, 1994." ],
+        [ a bf:Note ;
             rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "2nd ed." ],
-        [ a bf:Note ;
-            rdf:value "Reprinted, 1994." ] ;
+            rdf:value "2nd ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Blue Wind Press" ;

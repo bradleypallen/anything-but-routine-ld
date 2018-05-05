@@ -15,18 +15,18 @@ abri:A2f a bf:Instance ;
             bf:role "author" ] ;
     bf:copyrightDate "1959" ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A2f" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A2e" ] ;
+            rdf:value "A2e" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A2f" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "©1959." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "{M&M A2e} Reprinted in 1969, 1972, and 1974 (with different cover)." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "©1959." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Corgi Books" ;

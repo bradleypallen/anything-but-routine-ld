@@ -11,12 +11,12 @@ abri:A60b a bf:Instance ;
     rdfs:label "The Cat Inside" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Brion Gysin" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Brion Gysin" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A60b" ] ;
@@ -24,9 +24,9 @@ abri:A60b a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "“The Cat Inside, in different form, was published in a limited edition of 133 copies by The Grenfell Press in 1986, with eight illustrations by Brion Gysin, including those that appear on the cover, title page, and endpapers of this edition.”—T.p." ],
         [ a bf:Note ;
-            rdf:value "verso." ],
+            rdf:value "Hardbound (issued without dustjacket)." ],
         [ a bf:Note ;
-            rdf:value "Hardbound (issued without dustjacket)." ] ;
+            rdf:value "verso." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking Penguin" ;

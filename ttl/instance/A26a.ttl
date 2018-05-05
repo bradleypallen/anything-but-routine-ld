@@ -14,11 +14,11 @@ abri:A26a a bf:Instance ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A26a" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A20a" ] ;
+            rdf:value "A20a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A26a" ] ;
     bf:instanceOf abrw:A26 ;
     bf:note [ a bf:Note ;
             rdf:value "{M&M A20a}" ],

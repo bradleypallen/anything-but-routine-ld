@@ -22,9 +22,9 @@ abri:A1k a bf:Instance ;
             rdf:value "A1k" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound." ],
+            rdf:value "Edited and with an Introduction by Oliver Harris." ],
         [ a bf:Note ;
-            rdf:value "Edited and with an Introduction by Oliver Harris." ] ;
+            rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Penguin" ;

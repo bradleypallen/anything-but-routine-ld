@@ -19,11 +19,11 @@ abri:A5i a bf:Instance ;
             rdf:value "A5i" ] ;
     bf:instanceOf abrw:A5 ;
     bf:note [ a bf:Note ;
-            rdf:value "1st Evergreen ed." ],
+            rdf:value "©1966." ],
         [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "©1966." ] ;
+            rdf:value "1st Evergreen ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

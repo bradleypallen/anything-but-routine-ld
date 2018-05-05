@@ -11,20 +11,20 @@ abri:A53a a bf:Instance ;
     rdfs:label "A William Burroughs Reader" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "John Calder" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "John Calder" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A53a" ] ;
     bf:instanceOf abrw:A53 ;
     bf:note [ a bf:Note ;
-            rdf:value "Edited by John Calder." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "Edited by John Calder." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Pan Books/Picador" ;

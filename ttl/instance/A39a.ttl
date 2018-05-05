@@ -11,14 +11,6 @@ abri:A39a a bf:Instance ;
     rdfs:label "Where Naked Troubadours Shoot Snotty Baboons" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Silke" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Cities" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -28,17 +20,25 @@ abri:A39a a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Silke" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A39a" ] ;
     bf:instanceOf abrw:A39 ;
     bf:note [ a bf:Note ;
-            rdf:value "Illustrated by James R. Silke." ],
+            rdf:value "“... a fragment from a forthcoming novel, Cities of the Red Night ...”" ],
         [ a bf:Note ;
             rdf:value "Limited to 100 numbered and 26 lettered copies, signed by Burroughs and Silke." ],
         [ a bf:Note ;
-            rdf:value "“... a fragment from a forthcoming novel, Cities of the Red Night ...”" ],
+            rdf:value "Illustrated by James R. Silke." ],
         [ a bf:Note ;
             rdf:value "Broadside." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

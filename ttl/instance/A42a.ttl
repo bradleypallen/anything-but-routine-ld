@@ -11,11 +11,15 @@ abri:A42a a bf:Instance ;
     rdfs:label "Doctor Benway: A [Variant] Passage from The Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Alan Ansen" ;
+            rdfs:label "Santa" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Patrick Reagh" ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Alan Ansen" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -27,38 +31,34 @@ abri:A42a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Publisher" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Santa" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
+            rdfs:label "Patrick Reagh" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Bradford Morrow" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Publisher" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A42a" ] ;
     bf:instanceOf abrw:A42 ;
     bf:note [ a bf:Note ;
-            rdf:value "Letterpress-printed card on canary cardstock." ],
+            rdf:value "[Prospectus]." ],
         [ a bf:Note ;
             rdf:value "“This edition ... published on the 20th anniversary of the original appearance of The Naked Lunch, consists of 324 numbered copies in wrappers, 150 numbered copies signed by the author & bound in cloth & boards, & 26 lettered copies which are hors commerce [and signed by Burroughs, Patrick Reagh (the printer), and K. Anders (the illustrator)].”—[p. 45] “... the softbound wraps edition did not begin with number ‘1’ but rather with number ‘151.’ That is, after the run of the 150 signed hardbound copies.” [Shoaf 2] “... the first publication of the earliest known version of the Doctor Benway chapter from ..." ],
         [ a bf:Note ;
-            rdf:value "The Naked Lunch ...” [Publisher’s prospectus, below] “... taken from the original manuscript which had been left in the possession of Alan Ansen in Venice in the late 1950s and rediscovered by him in 1973.” [BeatBooks 65] 1." ],
+            rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
             rdf:value "Santa Barbara, Calif.: Bradford Morrow, 1979." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ],
-        [ a bf:Note ;
             rdf:value "With a new introduction by Burroughs." ],
         [ a bf:Note ;
-            rdf:value "[Prospectus]." ] ;
+            rdf:value "The Naked Lunch ...” [Publisher’s prospectus, below] “... taken from the original manuscript which had been left in the possession of Alan Ansen in Venice in the late 1950s and rediscovered by him in 1973.” [BeatBooks 65] 1." ],
+        [ a bf:Note ;
+            rdf:value "Letterpress-printed card on canary cardstock." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Bradford Morrow" ;

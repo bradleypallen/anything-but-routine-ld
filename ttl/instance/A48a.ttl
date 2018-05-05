@@ -11,7 +11,7 @@ abri:A48a a bf:Instance ;
     rdfs:label "Early Routines" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "David Hockney" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -19,32 +19,32 @@ abri:A48a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Ian Sommerville" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "David Hockney" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A48a" ] ;
     bf:instanceOf abrw:A48 ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville." ],
-        [ a bf:Note ;
-            rdf:value "“... some of the earliest and hitherto uncollected & unpublished writings ... including a long ‘Interzone’ passage from NAKED LUNCH which did not appear in either the Olympia or Grove Press editions ...” —Publisher’s catalogue." ],
+            rdf:value "1st ed." ],
         [ a bf:Note ;
             rdf:value "Hardbound in tissue dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "1st ed." ],
+            rdf:value "Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville." ],
+        [ a bf:Note ;
+            rdf:value "“... some of the earliest and hitherto uncollected & unpublished writings ... including a long ‘Interzone’ passage from NAKED LUNCH which did not appear in either the Olympia or Grove Press editions ...” —Publisher’s catalogue." ],
         [ a bf:Note ;
             rdf:value "[Skyline]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

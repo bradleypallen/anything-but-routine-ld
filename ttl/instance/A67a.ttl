@@ -11,15 +11,11 @@ abri:A67a a bf:Instance ;
     rdfs:label "Painting & Guns" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Hanuman Books" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Raymond Foye" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "See Section" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -27,27 +23,31 @@ abri:A67a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Foye" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Vol" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Francesco Clemente" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Hanuman Books" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "See Section" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Raymond Foye" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Foye" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
@@ -56,9 +56,9 @@ abri:A67a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "[See Section C below]" ],
         [ a bf:Note ;
-            rdf:value "10, No." ],
-        [ a bf:Note ;
             rdf:value "1 (1991)." ],
+        [ a bf:Note ;
+            rdf:value "10, No." ],
         [ a bf:Note ;
             rdf:value "(Hanuman Books; 46) Softbound in dustjacket (no hardbound issued)." ],
         [ a bf:Note ;

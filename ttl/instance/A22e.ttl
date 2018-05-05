@@ -19,9 +19,9 @@ abri:A22e a bf:Instance ;
             rdf:value "A22e" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound." ],
+            rdf:value "©1975." ],
         [ a bf:Note ;
-            rdf:value "©1975." ] ;
+            rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Arcade" ;

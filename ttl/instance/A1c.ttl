@@ -11,29 +11,29 @@ abri:A1c a bf:Instance ;
     rdfs:label "Junkie" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Carl Solomon" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Carl Solomon" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
+            bf:source "Maynard & Miles" ;
             rdf:value "A1c" ],
         [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
+            bf:source "Schottlaender v4.0" ;
             rdf:value "A1c" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A1c}  1st separate U.S. publication, and 1st   1st state: .50¢ cover price; 2nd state: (Ace Star, 41841) and .60¢ cover price." ],
-        [ a bf:Note ;
-            rdf:value "(Ace Star, K202) Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "[M&M]" ],
         [ a bf:Note ;
             rdf:value "Foreword by Carl Solomon." ],
         [ a bf:Note ;
-            rdf:value "[BeatBooks 51]    Reprinted in 1970 and 1973 (the latter with a different cover)." ] ;
+            rdf:value "[BeatBooks 51]    Reprinted in 1970 and 1973 (the latter with a different cover)." ],
+        [ a bf:Note ;
+            rdf:value "(Ace Star, K202) Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A1c}  1st separate U.S. publication, and 1st   1st state: .50¢ cover price; 2nd state: (Ace Star, 41841) and .60¢ cover price." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Ace Books" ;

@@ -19,11 +19,11 @@ abri:A56c a bf:Instance ;
             rdf:value "A56c" ] ;
     bf:instanceOf abrw:A56 ;
     bf:note [ a bf:Note ;
-            rdf:value "(An Owl Book) ©1983." ],
-        [ a bf:Note ;
             rdf:value "1st Owl Book ed." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
+            rdf:value "(An Owl Book) ©1983." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Holt, Rinehart, and Winston" ;

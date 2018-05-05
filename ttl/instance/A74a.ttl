@@ -15,28 +15,28 @@ abri:A74a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Pantopon Rose" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A74a" ] ;
     bf:instanceOf abrw:A74 ;
     bf:note [ a bf:Note ;
-            rdf:value "Silkscreen print (from the authors handwriting) and colophon page enclosed in a printed folder, which is, in turn, enclosed in a printed envelope." ],
-        [ a bf:Note ;
             rdf:value "“The lyrics for the song ‘Pantopon Rose,’ written in January 1995, are based on a real character ... She appears in several of Burroughs’ books, including The Naked Lunch ...”" ],
         [ a bf:Note ;
-            rdf:value "Broadside." ],
+            rdf:value "Silkscreen print (from the authors handwriting) and colophon page enclosed in a printed folder, which is, in turn, enclosed in a printed envelope." ],
         [ a bf:Note ;
-            rdf:value "Limited to 60 numbered copies signed by Burroughs." ] ;
+            rdf:value "Limited to 60 numbered copies signed by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Broadside." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Parchment Gallery Graphics, Department of Humanities, University of Charleston" ;

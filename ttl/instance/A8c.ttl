@@ -22,15 +22,15 @@ abri:A8c a bf:Instance ;
             rdf:value "A8c" ] ;
     bf:instanceOf abrw:A8 ;
     bf:note [ a bf:Note ;
+            rdf:value "[See Section C below]" ],
+        [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "Expanded to include “Roosevelt After Inauguration,” originally published in The Floating Bear, No." ],
-        [ a bf:Note ;
-            rdf:value "9 (1961)." ],
         [ a bf:Note ;
             rdf:value "3rd ed." ],
         [ a bf:Note ;
-            rdf:value "[See Section C below]" ] ;
+            rdf:value "Expanded to include “Roosevelt After Inauguration,” originally published in The Floating Bear, No." ],
+        [ a bf:Note ;
+            rdf:value "9 (1961)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;

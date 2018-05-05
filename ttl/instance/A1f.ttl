@@ -11,26 +11,26 @@ abri:A1f a bf:Instance ;
     rdfs:label "Junkie" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Allen Ginsberg" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Allen Ginsberg" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A1f" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
-            rdf:value "Later 1977 printing with different cover design." ],
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
+            rdf:value "1st complete and unexpurgated ed." ],
         [ a bf:Note ;
             rdf:value "[Shoaf 1]" ],
         [ a bf:Note ;
-            rdf:value "Softbound." ],
-        [ a bf:Note ;
             rdf:value "With an introduction by Allen Ginsberg." ],
         [ a bf:Note ;
-            rdf:value "1st complete and unexpurgated ed." ] ;
+            rdf:value "Later 1977 printing with different cover design." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Penguin Books" ;

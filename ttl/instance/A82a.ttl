@@ -11,35 +11,7 @@ abri:A82a a bf:Instance ;
     rdfs:label "The Travel Agency Is on Fire" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Byron James Bignell" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Postcard" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Alex" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Henry W." ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Rare Books" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Kathy Acker" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -51,36 +23,64 @@ abri:A82a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Albert A. Berg Collection" ;
+            rdfs:label "Byron James Bignell" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Postcard" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Alex" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Henry W." ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Public Library" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Kathy Acker" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Albert A. Berg Collection" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A82a" ] ;
     bf:instanceOf abrw:A82 ;
     bf:note [ a bf:Note ;
+            rdf:value "5, No." ],
+        [ a bf:Note ;
             rdf:value "verso." ],
-        [ a bf:Note ;
-            rdf:value "“Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p." ],
-        [ a bf:Note ;
-            rdf:value "Alex Wermer-Colan, ed." ],
-        [ a bf:Note ;
-            rdf:value "2) Staplebound." ],
-        [ a bf:Note ;
-            rdf:value "[Promotional Postcard]." ],
-        [ a bf:Note ;
-            rdf:value "(Lost and Found: The CUNY Poetics Document Initiative; Ser." ],
-        [ a bf:Note ;
-            rdf:value "[New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015.]" ],
         [ a bf:Note ;
             rdf:value "1." ],
         [ a bf:Note ;
-            rdf:value "5, No." ],
+            rdf:value "[New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015.]" ],
         [ a bf:Note ;
-            rdf:value "On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)" ] ;
+            rdf:value "On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)" ],
+        [ a bf:Note ;
+            rdf:value "“Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p." ],
+        [ a bf:Note ;
+            rdf:value "2) Staplebound." ],
+        [ a bf:Note ;
+            rdf:value "Alex Wermer-Colan, ed." ],
+        [ a bf:Note ;
+            rdf:value "(Lost and Found: The CUNY Poetics Document Initiative; Ser." ],
+        [ a bf:Note ;
+            rdf:value "[Promotional Postcard]." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "The Center for the Humanities, The Graduate Center, The City University of New York" ;

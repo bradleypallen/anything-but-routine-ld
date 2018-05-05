@@ -11,28 +11,28 @@ abri:A43a a bf:Instance ;
     rdfs:label "Roosevelt After Inauguration and Other Atrocities" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Francisco" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Burroughs" ;
-            bf:role "contributor" ] ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A43a" ] ;
     bf:instanceOf abrw:A43 ;
     bf:note [ a bf:Note ;
+            rdf:value "Roosevelt After Inauguration and Other Atrocities." ],
+        [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "San Francisco: City Lights Books, 1979." ],
         [ a bf:Note ;
             rdf:value "Cover and spine title: Roosevelt After Inauguration." ],
-        [ a bf:Note ;
-            rdf:value "Roosevelt After Inauguration and Other Atrocities." ],
         [ a bf:Note ;
             rdf:value "Includes “A New Introduction” [TOC title: “Introduction”) by Burroughs, facsimiles of covers of the original edition (above), plus three other routines: “When Did I Stop Wanting To Be President?,” “The Whole Tamale,” and “Sects and Death.” 2nd printing (1980) includes frontispiece photo not present in 1st printing." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

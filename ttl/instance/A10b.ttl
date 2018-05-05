@@ -11,23 +11,23 @@ abri:A10b a bf:Instance ;
     rdfs:label "Nova Express" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Black Cat" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Black Cat" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
+            bf:source "Schottlaender v4.0" ;
             rdf:value "A10b" ],
         [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
+            bf:source "Maynard & Miles" ;
             rdf:value "A10b" ] ;
     bf:instanceOf abrw:A10 ;
     bf:note [ a bf:Note ;
-            rdf:value "(An Evergreen Black Cat Book, BC-102) Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "1st Evergreen Black Cat ed." ],
+        [ a bf:Note ;
+            rdf:value "(An Evergreen Black Cat Book, BC-102) Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "{M&M A10b}" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

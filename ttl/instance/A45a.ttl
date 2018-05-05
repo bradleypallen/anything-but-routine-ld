@@ -15,26 +15,26 @@ abri:A45a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Walker Art Center Reading Series" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Walker Art Center Reading Series" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A45a" ] ;
     bf:instanceOf abrw:A45 ;
     bf:note [ a bf:Note ;
+            rdf:value "Limited to 125 numbered and 26 lettered copies, signed by Burroughs." ],
+        [ a bf:Note ;
             rdf:value "Broadside." ],
         [ a bf:Note ;
-            rdf:value "“... printed at the Toothpaste Press for Bookslinger on the occasion of the author’s reading at the Walker Art  Center, October 24, 1979.” Also issued as part of: 16 Broadsides: Walker Art Center Reading Series, 1979–1980 (St. Paul, Minn.: Bookslinger, 1980)." ],
-        [ a bf:Note ;
-            rdf:value "Limited to 125 numbered and 26 lettered copies, signed by Burroughs." ] ;
+            rdf:value "“... printed at the Toothpaste Press for Bookslinger on the occasion of the author’s reading at the Walker Art  Center, October 24, 1979.” Also issued as part of: 16 Broadsides: Walker Art Center Reading Series, 1979–1980 (St. Paul, Minn.: Bookslinger, 1980)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Bookslinger" ;

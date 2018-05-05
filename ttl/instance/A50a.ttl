@@ -15,11 +15,15 @@ abri:A50a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "James Grauerholz" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Steve Miller" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -28,25 +32,21 @@ abri:A50a a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Mr. Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A50a" ] ;
     bf:instanceOf abrw:A50 ;
     bf:note [ a bf:Note ;
-            rdf:value "On 30 January 1981, Mr. Burroughs oversaw revisions of the text by James Grauerholz and Steve Miller, and this is that version.”—Colophon." ],
-        [ a bf:Note ;
             rdf:value "Drawings by Howard Buchwald." ],
-        [ a bf:Note ;
-            rdf:value "Limited to 160 numbered copies signed by Burroughs and Buchwald." ],
         [ a bf:Note ;
             rdf:value "“The Streets of Chance is a complete story found in the 1968 version [of The Soft Machine] and nowhere else." ],
         [ a bf:Note ;
-            rdf:value "Hardbound, issued without dust jacket." ] ;
+            rdf:value "On 30 January 1981, Mr. Burroughs oversaw revisions of the text by James Grauerholz and Steve Miller, and this is that version.”—Colophon." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound, issued without dust jacket." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 160 numbered copies signed by Burroughs and Buchwald." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Red Ozier Press" ;

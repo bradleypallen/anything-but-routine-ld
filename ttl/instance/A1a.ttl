@@ -11,6 +11,22 @@ abri:A1a a bf:Instance ;
     rdfs:label "Junkie" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William Lee" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Maurice Helbrant" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Penguin Books" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -20,44 +36,28 @@ abri:A1a a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Rare Books" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William Lee" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Maurice Helbrant" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Penguin Books" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
+            bf:source "Schottlaender v4.0" ;
             rdf:value "A1a" ],
         [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
+            bf:source "Maynard & Miles" ;
             rdf:value "A1a" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
+            rdf:value "“For the protection of the reader, we have inserted occasional parenthetical notes [i.e., bracketed editor’s notes] to indicate where the author clearly departs from accepted medical fact or makes other statements in an effort to justify his actions.”—Publisher’s Note." ],
+        [ a bf:Note ;
+            rdf:value "Issued bound back-to-back with Maurice Helbrant’s Narcotic Agent." ],
+        [ a bf:Note ;
             rdf:value "{M&M A1a} Published under the pseudonym William Lee." ],
         [ a bf:Note ;
             rdf:value "Title on cover: Junkie: Confessions of an Unredeemed Drug Addict." ],
         [ a bf:Note ;
-            rdf:value "Issued bound back-to-back with Maurice Helbrant’s Narcotic Agent." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "“For the protection of the reader, we have inserted occasional parenthetical notes [i.e., bracketed editor’s notes] to indicate where the author clearly departs from accepted medical fact or makes other statements in an effort to justify his actions.”—Publisher’s Note." ],
-        [ a bf:Note ;
             rdf:value "This manuscript was used by Penguin Books in the issuing of their ‘unexpurgated’ edition of 1977 [below], despite which there are many differences, some important, between the manuscript and that version.”—Bookseller’s note laid in to Columbia’s typescript." ],
         [ a bf:Note ;
-            rdf:value "Autograph note at end of Burroughs’ untitled typescript, examined at Columbia University’s Rare Books and Manuscripts Library: “End of Part I, Junk.” “There are major differences between this manuscript and the first [Ace] edition." ] ;
+            rdf:value "Autograph note at end of Burroughs’ untitled typescript, examined at Columbia University’s Rare Books and Manuscripts Library: “End of Part I, Junk.” “There are major differences between this manuscript and the first [Ace] edition." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Ace Books" ;

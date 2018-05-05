@@ -11,22 +11,22 @@ abri:A37a a bf:Instance ;
     rdfs:label "Ali's Smile; Naked Scientology" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Carl Weissner" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Carl Weissner" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A37a" ] ;
     bf:instanceOf abrw:A37 ;
     bf:note [ a bf:Note ;
-            rdf:value "1st ed." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "In German and English; translated into German and edited by Carl Weissner." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
+            rdf:value "1st ed." ],
         [ a bf:Note ;
             rdf:value "Reprinted, 1985, 2000 (with new cover, per Shoaf 2)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

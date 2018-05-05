@@ -11,38 +11,38 @@ abri:A29b a bf:Instance ;
     rdfs:label "Port of Saints" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A29b" ] ;
     bf:instanceOf abrw:A29 ;
     bf:note [ a bf:Note ;
-            rdf:value "“All copies of the signed limited edition were issued in dustjackets with the upper left-hand corner clipped off since the printed price was correct only for the hardbound trade edition and incorrect for the limited edition." ],
-        [ a bf:Note ;
-            rdf:value "Hardbound ed." ],
-        [ a bf:Note ;
-            rdf:value "verso." ],
-        [ a bf:Note ;
-            rdf:value "The “fourth printing” hardcover was still available from the publisher as late as 2002 but without the dust jacket.” [Shoaf 1]" ],
-        [ a bf:Note ;
-            rdf:value "1st [American] ed." ],
-        [ a bf:Note ;
-            rdf:value "includes 200 numbered copies signed by Burroughs and issued in publisher’s slipcase." ],
-        [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ],
-        [ a bf:Note ;
             rdf:value "“This new edition ... has been extensively rewritten and revised by the author.”—T.p." ],
         [ a bf:Note ;
             rdf:value "They were clipped and sold at a higher price.” [Shoaf (eBay listing)] “The publisher reports that when the first printing hardcover sold out, they were getting ready to do the fourth printing of the softcover." ],
         [ a bf:Note ;
+            rdf:value "Lacks the illustrations in Covent Garden/Am Here ed., above." ],
+        [ a bf:Note ;
+            rdf:value "includes 200 numbered copies signed by Burroughs and issued in publisher’s slipcase." ],
+        [ a bf:Note ;
+            rdf:value "1st [American] ed." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket, and softbound." ],
+        [ a bf:Note ;
+            rdf:value "The “fourth printing” hardcover was still available from the publisher as late as 2002 but without the dust jacket.” [Shoaf 1]" ],
+        [ a bf:Note ;
             rdf:value "So the second printing of the hardcover is actually labeled “fourth printing.” There were some leftover dust jackets from the first printing, so those were used with the “fourth printing” until they ran out." ],
         [ a bf:Note ;
-            rdf:value "Lacks the illustrations in Covent Garden/Am Here ed., above." ] ;
+            rdf:value "“All copies of the signed limited edition were issued in dustjackets with the upper left-hand corner clipped off since the printed price was correct only for the hardbound trade edition and incorrect for the limited edition." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound ed." ],
+        [ a bf:Note ;
+            rdf:value "verso." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Blue Wind Press" ;

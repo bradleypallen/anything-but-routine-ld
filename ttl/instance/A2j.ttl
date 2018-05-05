@@ -11,27 +11,27 @@ abri:A2j a bf:Instance ;
     rdfs:label "Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Jennie Skerl" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Jennie Skerl" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:copyrightDate "1959" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A2j" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "©1959." ],
+            rdf:value "With an introduction by Jennie Skerl." ],
         [ a bf:Note ;
             rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
-            rdf:value "25th Anniversary ed." ],
+            rdf:value "Includes 500 numbered, signed copies issued without dustjacket in slipcase." ],
         [ a bf:Note ;
-            rdf:value "With an introduction by Jennie Skerl." ],
+            rdf:value "©1959." ],
         [ a bf:Note ;
-            rdf:value "Includes 500 numbered, signed copies issued without dustjacket in slipcase." ] ;
+            rdf:value "25th Anniversary ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

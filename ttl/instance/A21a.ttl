@@ -23,28 +23,28 @@ abri:A21a a bf:Instance ;
             bf:role "author" ] ;
     bf:copyrightDate "1969" ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A21a" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A14a" ] ;
+            rdf:value "A14a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A21a" ] ;
     bf:instanceOf abrw:A21 ;
     bf:note [ a bf:Note ;
-            rdf:value "5) Distributed by City Lights Books." ],
-        [ a bf:Note ;
             rdf:value "[Atticus]" ],
+        [ a bf:Note ;
+            rdf:value "(Nova Broadcast, No." ],
         [ a bf:Note ;
             rdf:value "{M&M A14a}  Pamphlet with long folding broadside tipped in." ],
         [ a bf:Note ;
-            rdf:value "(Nova Broadcast, No." ],
+            rdf:value "First standalone publication of piece that originally appeared in a different form in The Dead Star, No." ],
         [ a bf:Note ;
             rdf:value "[See Section C below] Variant printing exists with copyright page blank and “©1969 by William Burroughs” in holograph on first page of text." ],
         [ a bf:Note ;
             rdf:value "13  (August 1965)." ],
         [ a bf:Note ;
-            rdf:value "First standalone publication of piece that originally appeared in a different form in The Dead Star, No." ],
+            rdf:value "Staplebound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Staplebound (no hardbound issued)." ] ;
+            rdf:value "5) Distributed by City Lights Books." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Nova Broadcast Press" ;

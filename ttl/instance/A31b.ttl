@@ -15,12 +15,12 @@ abri:A31b a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Book" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Book" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A31b" ] ;
@@ -28,13 +28,13 @@ abri:A31b a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "1st [American] ed." ],
         [ a bf:Note ;
-            rdf:value "(“An Overdrive Book”) Hardbound (issued without dustjacket), and softbound." ],
-        [ a bf:Note ;
-            rdf:value "limited to 250 copies." ],
+            rdf:value "Illustrations by Robert F. Gale." ],
         [ a bf:Note ;
             rdf:value "Hardbound ed." ],
         [ a bf:Note ;
-            rdf:value "Illustrations by Robert F. Gale." ] ;
+            rdf:value "limited to 250 copies." ],
+        [ a bf:Note ;
+            rdf:value "(“An Overdrive Book”) Hardbound (issued without dustjacket), and softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Blue Wind Press" ;

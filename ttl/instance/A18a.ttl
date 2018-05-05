@@ -11,14 +11,6 @@ abri:A18a a bf:Instance ;
     rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Jordan Davies" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Kaufman" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -27,7 +19,7 @@ abri:A18a a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Claude Pélieu" ;
+            rdfs:label "Nova Express" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -35,41 +27,49 @@ abri:A18a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Claude Pélieu" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Jordan Davies" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Jean Hélion" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Kaufman" ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Nova Express" ;
+            rdfs:label "Kaufman" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A18a" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "D11" ] ;
+            rdf:value "D11" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A18a" ] ;
     bf:instanceOf abrw:A18 ;
     bf:note [ a bf:Note ;
-            rdf:value "(, No." ],
-        [ a bf:Note ;
-            rdf:value "[Jordan Davies]   No equivalent U.S. or U.K. edition." ],
-        [ a bf:Note ;
             rdf:value "In French." ],
         [ a bf:Note ;
-            rdf:value "{M&M D11}  Includes 55 copies with uncut signatures - numbered 1-40 and lettered A-O with lithograph by Jean Hélion." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "Translation of Burroughs and Kaufman texts by Mary Beach and Claude Pélieu." ],
-        [ a bf:Note ;
-            rdf:value "Includes the first French translation of Nova Express and two previously unpublished letters from Burroughs to Pélieu." ],
+            rdf:value "(, No." ],
         [ a bf:Note ;
             rdf:value "Cover title: L’Herne Textes: Burroughs, Pélieu, Kaufman." ],
         [ a bf:Note ;
-            rdf:value "Vivants 1: Etats-Unis) Paris: Éditions de LHerne, 1967." ] ;
+            rdf:value "Vivants 1: Etats-Unis) Paris: Éditions de LHerne, 1967." ],
+        [ a bf:Note ;
+            rdf:value "[Jordan Davies]   No equivalent U.S. or U.K. edition." ],
+        [ a bf:Note ;
+            rdf:value "{M&M D11}  Includes 55 copies with uncut signatures - numbered 1-40 and lettered A-O with lithograph by Jean Hélion." ],
+        [ a bf:Note ;
+            rdf:value "Translation of Burroughs and Kaufman texts by Mary Beach and Claude Pélieu." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "Includes the first French translation of Nova Express and two previously unpublished letters from Burroughs to Pélieu." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Éditions de L'Herne" ;

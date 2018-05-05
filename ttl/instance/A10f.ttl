@@ -33,17 +33,17 @@ abri:A10f a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "©2013." ],
         [ a bf:Note ;
-            rdf:value "ed.”“A book of The Cut-Up Trilogy.”—Spine." ],
+            rdf:value "Edited and with an Introduction by Oliver Harris." ],
         [ a bf:Note ;
             rdf:value "“Apart from giving the opening sections of each chapter their own titles, the roughly one hundred changes for this edition mainly correct typos or restore Burroughs’ punctuation (including his occasional use of double colons) and are conventionally based (i.e., supported by multiple manuscript witnesses)." ],
         [ a bf:Note ;
-            rdf:value "Edited and with an Introduction by Oliver Harris." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
+            rdf:value "The notes detail key changes, comment on apparent errors and twilight zone cases and introduce the richest possible selection of archival material to reveal revisions over time and the intricacy of Burroughs’ working methods.”—Introduction." ],
         [ a bf:Note ;
             rdf:value "“1st rev." ],
         [ a bf:Note ;
-            rdf:value "The notes detail key changes, comment on apparent errors and twilight zone cases and introduce the richest possible selection of archival material to reveal revisions over time and the intricacy of Burroughs’ working methods.”—Introduction." ] ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "ed.”“A book of The Cut-Up Trilogy.”—Spine." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

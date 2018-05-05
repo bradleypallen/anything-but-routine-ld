@@ -11,26 +11,26 @@ abri:A34a a bf:Instance ;
     rdfs:label "Cobble Stone Gardens" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Naked Lunch" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Michael Scott Cain" ;
-            bf:role "contributor" ] ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A34a" ] ;
     bf:instanceOf abrw:A34 ;
     bf:note [ a bf:Note ;
-            rdf:value "1st ed." ],
-        [ a bf:Note ;
             rdf:value "“A more important book than one might first suppose.” [Am Here 62] “A mixture of autobiographical fiction about the author’s youth and family in St. Louis and material drawn  from Naked Lunch and The Wild Boys.” [BeatBooks 51] “50 copies hand bound by Michael Scott Cain numbered and signed by the author.”—[p. 54] “Although the colophon calls for ... [the hardbound ed.]" ],
         [ a bf:Note ;
             rdf:value "Hardbound (issued without dustjacket), and softbound." ],
+        [ a bf:Note ;
+            rdf:value "1st ed." ],
         [ a bf:Note ;
             rdf:value "... to be numbered, we don't believe any copies  actually were.” [Skyline]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

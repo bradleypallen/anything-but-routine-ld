@@ -11,20 +11,20 @@ abri:A12a a bf:Instance ;
     rdfs:label "Roosevelt After Inauguration" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "See Section" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Willy Lee" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Allen Ginsberg" ;
-            bf:role "contributor" ] ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "See Section" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "A9a" ],
@@ -33,19 +33,19 @@ abri:A12a a bf:Instance ;
             rdf:value "A12a" ] ;
     bf:instanceOf abrw:A12 ;
     bf:note [ a bf:Note ;
+            rdf:value "{M&M A9a}  Covers by Allen Ginsberg." ],
+        [ a bf:Note ;
+            rdf:value "Published under the pseudonym Willy Lee." ],
+        [ a bf:Note ;
             rdf:value "9 (1961)." ],
+        [ a bf:Note ;
+            rdf:value "First separate publication of material suppressed from The Yage Letters and originally published in  The Floating Bear, No." ],
         [ a bf:Note ;
             rdf:value "Staplebound mimeograph  (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "[See Section C below]  Limited to 500 copies." ],
         [ a bf:Note ;
-            rdf:value "First separate publication of material suppressed from The Yage Letters and originally published in  The Floating Bear, No." ],
-        [ a bf:Note ;
-            rdf:value "Published under the pseudonym Willy Lee." ],
-        [ a bf:Note ;
-            rdf:value "[PBA, 233] “Some copies ... released ... with the spines not stapled.” [Shoaf 1]" ],
-        [ a bf:Note ;
-            rdf:value "{M&M A9a}  Covers by Allen Ginsberg." ] ;
+            rdf:value "[PBA, 233] “Some copies ... released ... with the spines not stapled.” [Shoaf 1]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Fuck You Press" ;

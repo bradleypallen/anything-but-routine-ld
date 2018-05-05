@@ -15,15 +15,15 @@ abri:A1e a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Carl Solomon" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Includes" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Carl Solomon" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
@@ -33,11 +33,11 @@ abri:A1e a bf:Instance ;
             rdf:value "A1e" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
-            rdf:value "Foreword by Carl Solomon." ],
+            rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
             rdf:value "{M&M A1e} Includes “Glossary.” “The first, and only, English-language edition in hardcover.” [BeatBooks 65]" ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
+            rdf:value "Foreword by Carl Solomon." ],
         [ a bf:Note ;
             rdf:value "Preface by Burroughs." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

@@ -11,23 +11,7 @@ abri:A31a a bf:Instance ;
     rdfs:label "The Book of Breething" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Bob Gale" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Red Snapper Books" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Jo Verbrugghen" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Jean Chopin" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Per" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -35,22 +19,38 @@ abri:A31a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Jo Verbrugghen" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Red Snapper Books" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Per" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bob Gale" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A31a" ] ;
     bf:instanceOf abrw:A31 ;
     bf:note [ a bf:Note ;
-            rdf:value "In English, French, and Dutch; French translation by Jean Chopin; Dutch translation by Jo Verbrugghen." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Limited to 400 copies, of which the colophon describes 50 copies as being numbered I through L in  Roman numerals and signed by Burroughs “in de luxe presentation” and 350 copies as being numbered 1– 350." ],
+            rdf:value "In English, French, and Dutch; French translation by Jean Chopin; Dutch translation by Jo Verbrugghen." ],
         [ a bf:Note ;
             rdf:value "Per BeatBooks 36, none of the latter 350 copies were actually numbered and, per an eBay listing posted by Red Snapper Books (London), there is “the possibility that most copies were not distributed at publication.”" ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
+            rdf:value "Drawings by Bob Gale." ],
         [ a bf:Note ;
-            rdf:value "Drawings by Bob Gale." ] ;
+            rdf:value "Limited to 400 copies, of which the colophon describes 50 copies as being numbered I through L in  Roman numerals and signed by Burroughs “in de luxe presentation” and 350 copies as being numbered 1– 350." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "OU-Editions" ;

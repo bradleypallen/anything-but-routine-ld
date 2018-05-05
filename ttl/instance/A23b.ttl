@@ -11,32 +11,32 @@ abri:A23b a bf:Instance ;
     rdfs:label "Ali's Smile" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Carl Weissner" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A23b" ] ;
     bf:instanceOf abrw:A23 ;
     bf:note [ a bf:Note ;
+            rdf:value "Göttingen: Expanded Media Editions, 1973." ],
+        [ a bf:Note ;
             rdf:value "1st ed." ],
-        [ a bf:Note ;
-            rdf:value "Includes 100 numbered copies signed by Burroughs." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "(e.m.e., 12) In English and German; German translation by Carl Weissner." ],
         [ a bf:Note ;
             rdf:value "Printed in green on ochre paper, on recto only." ],
         [ a bf:Note ;
-            rdf:value "Göttingen: Expanded Media Editions, 1973." ] ;
+            rdf:value "(e.m.e., 12) In English and German; German translation by Carl Weissner." ],
+        [ a bf:Note ;
+            rdf:value "Includes 100 numbered copies signed by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;

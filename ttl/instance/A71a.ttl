@@ -11,16 +11,16 @@ abri:A71a a bf:Instance ;
     rdfs:label "Rien Que Des Mots, Ce Qui En Sort Rugit Sur Cette Page" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "Claude Pélieu" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Mary Beach" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A71a" ] ;
@@ -28,9 +28,9 @@ abri:A71a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "No equivalent English-language edition." ],
         [ a bf:Note ;
-            rdf:value "Translated into French by Mary Beach and Claude Pélieu." ],
+            rdf:value "Softbound." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "Translated into French by Mary Beach and Claude Pélieu." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Cahiers de Nuit" ;

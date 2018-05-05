@@ -15,27 +15,27 @@ abri:A13a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Fuck" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Ed Sanders" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Fuck" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A13a" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A12a" ] ;
+            rdf:value "A12a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A13a" ] ;
     bf:instanceOf abrw:A13 ;
     bf:note [ a bf:Note ;
-            rdf:value "(Burroughs Monograph, 1) Staplebound." ],
+            rdf:value "{M&M A12a} “...aborted edition ... about 10 or 20 of which were distributed before the edition was abandoned.” [Red House 4] “If 10 or 20 copies did exist [as Fuck You Press publisher Ed Sanders claimed], far fewer have been accounted for.” [Skyline] “... that edition had hand-glued photographs to each copy ...” [Am Here]" ],
         [ a bf:Note ;
-            rdf:value "{M&M A12a} “...aborted edition ... about 10 or 20 of which were distributed before the edition was abandoned.” [Red House 4] “If 10 or 20 copies did exist [as Fuck You Press publisher Ed Sanders claimed], far fewer have been accounted for.” [Skyline] “... that edition had hand-glued photographs to each copy ...” [Am Here]" ] ;
+            rdf:value "(Burroughs Monograph, 1) Staplebound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Fuck You Press" ;

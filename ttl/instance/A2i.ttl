@@ -11,24 +11,24 @@ abri:A2i a bf:Instance ;
     rdfs:label "Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "John Calder" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "John Calder" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A2i" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "“A new edition containing the ‘Ugh’ correspondence [originally printed in the Times Literary Supplement No." ],
-        [ a bf:Note ;
-            rdf:value "3,230 (23 January 1964); see Section C below].”—Cover." ],
-        [ a bf:Note ;
             rdf:value "With a Foreword by John Calder." ],
         [ a bf:Note ;
-            rdf:value "(A Calderbook, CB 380) Softbound (no hardbound issued)." ] ;
+            rdf:value "(A Calderbook, CB 380) Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "“A new edition containing the ‘Ugh’ correspondence [originally printed in the Times Literary Supplement No." ],
+        [ a bf:Note ;
+            rdf:value "3,230 (23 January 1964); see Section C below].”—Cover." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "John Calder" ;

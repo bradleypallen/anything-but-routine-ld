@@ -22,15 +22,15 @@ abri:A8b a bf:Instance ;
             rdf:value "A8b" ] ;
     bf:instanceOf abrw:A8 ;
     bf:note [ a bf:Note ;
-            rdf:value "[See Section C below]" ],
+            rdf:value "Expanded to include an additional letter, dated 10 July 1953, originally published in Black Mountain Review No." ],
         [ a bf:Note ;
-            rdf:value "2nd ed." ],
+            rdf:value "[See Section C below]" ],
         [ a bf:Note ;
             rdf:value "7 (Autumn 1957)." ],
         [ a bf:Note ;
-            rdf:value "Expanded to include an additional letter, dated 10 July 1953, originally published in Black Mountain Review No." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "2nd ed." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;

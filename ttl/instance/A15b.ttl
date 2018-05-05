@@ -11,29 +11,29 @@ abri:A15b a bf:Instance ;
     rdfs:label "Time" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Roy Pennington" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Roy Pennington" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A15b" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A11b" ] ;
+            rdf:value "A11b" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A15b" ] ;
     bf:instanceOf abrw:A15 ;
     bf:note [ a bf:Note ;
+            rdf:value "Staplebound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "An admitted piracy, by Roy Pennington, of the “C” Press edition." ],
+        [ a bf:Note ;
             rdf:value "{M&M A11b} “... bought [sic] for you ... using anarchist duplicator ... 5 runs of 99 copies each ...”—Cover verso." ],
         [ a bf:Note ;
             rdf:value "Legal-size mimeographed sheets, stapled." ],
         [ a bf:Note ;
-            rdf:value "[M&M] “Reproduces the contents of the first edition, though in slightly different order, and leaving out p. 9 of the original.” [BeatBooks 51] “Estimates are that only about 100 copies were actually distributed.” [Shoaf 1]" ],
-        [ a bf:Note ;
-            rdf:value "Staplebound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "An admitted piracy, by Roy Pennington, of the “C” Press edition." ] ;
+            rdf:value "[M&M] “Reproduces the contents of the first edition, though in slightly different order, and leaving out p. 9 of the original.” [BeatBooks 51] “Estimates are that only about 100 copies were actually distributed.” [Shoaf 1]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Urgency Press Rip-Off" ;

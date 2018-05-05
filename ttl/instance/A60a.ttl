@@ -11,15 +11,15 @@ abri:A60a a bf:Instance ;
     rdfs:label "The Cat Inside" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Gysin" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Brion Gysin" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Gysin" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;

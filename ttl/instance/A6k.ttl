@@ -15,26 +15,26 @@ abri:A6k a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Gysin" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Gysin" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A6k" ] ;
     bf:instanceOf abrw:A6 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "“2nd rev." ],
         [ a bf:Note ;
             rdf:value "Edited and with an Introduction by Oliver Harris." ],
         [ a bf:Note ;
-            rdf:value "“This edition ends by making choices ... cutting “the invisible generation” [sic] essay as an appendix of historical interest (key passages are referenced in the Notes; the full text is available elsewhere) and restoring the integration of Gysin’s calligraphy as the book’s great transcendent gesture.”—Introduction." ],
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "ed.”  “A book of The Cut-Up Trilogy.”—Spine." ] ;
+            rdf:value "ed.”  “A book of The Cut-Up Trilogy.”—Spine." ],
+        [ a bf:Note ;
+            rdf:value "“This edition ends by making choices ... cutting “the invisible generation” [sic] essay as an appendix of historical interest (key passages are referenced in the Notes; the full text is available elsewhere) and restoring the integration of Gysin’s calligraphy as the book’s great transcendent gesture.”—Introduction." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

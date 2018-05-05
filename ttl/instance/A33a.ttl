@@ -18,11 +18,11 @@ abri:A33a a bf:Instance ;
             rdf:value "A33a" ] ;
     bf:instanceOf abrw:A33 ;
     bf:note [ a bf:Note ;
-            rdf:value "“A Dutch collection of Burroughs material." ],
+            rdf:value "Softbound." ],
         [ a bf:Note ;
             rdf:value "There is no English-language equivalent of this title.” [Skyline]" ],
         [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "“A Dutch collection of Burroughs material." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Agathon" ;

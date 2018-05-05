@@ -11,7 +11,7 @@ abri:A8e a bf:Instance ;
     rdfs:label "The Yage Letters" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Francisco" ;
+            rdfs:label "Oliver Harris" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -19,26 +19,26 @@ abri:A8e a bf:Instance ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Oliver Harris" ;
+            rdfs:label "Francisco" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A8e" ] ;
     bf:instanceOf abrw:A8 ;
     bf:note [ a bf:Note ;
-            rdf:value "xlvii-xlviii." ],
-        [ a bf:Note ;
-            rdf:value "Edited and with an Introduction by Oliver Harris." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "San Francisco: City Lights Books, 2006." ],
         [ a bf:Note ;
             rdf:value "Expanded to include extensive Introduction, Appendices, and Notes." ],
         [ a bf:Note ;
+            rdf:value "Edited and with an Introduction by Oliver Harris." ],
+        [ a bf:Note ;
+            rdf:value "“Redux makes a large number of changes and corrections—around 250—most of which are small ... the  Appendix section ... include[s] previously unpublished primary materials ...”—pp." ],
+        [ a bf:Note ;
+            rdf:value "xlvii-xlviii." ],
+        [ a bf:Note ;
             rdf:value "4th ed." ],
         [ a bf:Note ;
-            rdf:value "“Redux makes a large number of changes and corrections—around 250—most of which are small ... the  Appendix section ... include[s] previously unpublished primary materials ...”—pp." ] ;
+            rdf:value "Softbound (no hardbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;

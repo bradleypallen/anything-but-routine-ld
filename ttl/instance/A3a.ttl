@@ -11,19 +11,19 @@ abri:A3a a bf:Instance ;
     rdfs:label "The Exterminator" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Dave L. Haselwood" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Brion Gysin" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "James F. McIlroy" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Dave L. Haselwood" ;
+            rdfs:label "Brion Gysin" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -37,13 +37,13 @@ abri:A3a a bf:Instance ;
             rdf:value "A3a" ] ;
     bf:instanceOf abrw:A3 ;
     bf:note [ a bf:Note ;
-            rdf:value "With Brion Gysin." ],
-        [ a bf:Note ;
             rdf:value "{M&M A4a} “This book was designed and printed by Dave L. Haselwood and James F. McIlroy ...”—Colophon." ],
         [ a bf:Note ;
-            rdf:value "Cover calligraphy by Brion Gysin." ],
+            rdf:value "With Brion Gysin." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "Cover calligraphy by Brion Gysin." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Auerhahn Press" ;

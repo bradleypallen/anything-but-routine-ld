@@ -19,9 +19,9 @@ abri:A76c a bf:Instance ;
             rdf:value "A76c" ] ;
     bf:instanceOf abrw:A76 ;
     bf:note [ a bf:Note ;
-            rdf:value "1st paperback ed." ],
-        [ a bf:Note ;
             rdf:value "©1998." ],
+        [ a bf:Note ;
+            rdf:value "1st paperback ed." ],
         [ a bf:Note ;
             rdf:value "Softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

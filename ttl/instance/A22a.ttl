@@ -15,23 +15,23 @@ abri:A22a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Goliard Press" ;
-            bf:role "contributor" ],
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            rdfs:label "Goliard Press" ;
+            bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "17a&b" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "A22a" ] ;
+            rdf:value "A22a" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "17a&b" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
-            rdf:value "London: Cape Goliard Press, 1970." ],
-        [ a bf:Note ;
             rdf:value "1st ed." ],
+        [ a bf:Note ;
+            rdf:value "London: Cape Goliard Press, 1970." ],
         [ a bf:Note ;
             rdf:value "{M&M 17a&b}  Hardbound printing includes 100 numbered copies signed by Burroughs, in unprinted glassine dustjacket." ],
         [ a bf:Note ;

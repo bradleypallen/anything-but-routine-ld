@@ -11,12 +11,12 @@ abri:A1d a bf:Instance ;
     rdfs:label "Junkie" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "A1A" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "A1A" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A1d" ],
@@ -25,15 +25,15 @@ abri:A1d a bf:Instance ;
             rdf:value "A1d" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
-            rdf:value "{M&M A1d}  Issued in clear tissue jacket." ],
+            rdf:value "[PBA 327] In this edition, “Notes,” originally printed in the text (see A1A above), are printed in a separate section at the end—out of context and preceding the newly added “Glossary.” Reprinted in 1969 and 1972 with different covers." ],
         [ a bf:Note ;
             rdf:value "(The Olympia Press Travellers Companion Series, No." ],
         [ a bf:Note ;
-            rdf:value "[PBA 327] In this edition, “Notes,” originally printed in the text (see A1A above), are printed in a separate section at the end—out of context and preceding the newly added “Glossary.” Reprinted in 1969 and 1972 with different covers." ],
+            rdf:value "{M&M A1d}  Issued in clear tissue jacket." ],
         [ a bf:Note ;
             rdf:value "[M&M]" ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "114)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

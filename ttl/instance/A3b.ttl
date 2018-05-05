@@ -19,20 +19,20 @@ abri:A3b a bf:Instance ;
             bf:role "contributor" ] ;
     bf:copyrightDate "1960" ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "A4b" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "A3b" ] ;
+            rdf:value "A3b" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A4b" ] ;
     bf:instanceOf abrw:A3 ;
     bf:note [ a bf:Note ;
-            rdf:value "2nd ed." ],
-        [ a bf:Note ;
-            rdf:value "©1960; distributed by City Lights Books." ],
-        [ a bf:Note ;
             rdf:value "{M&M A4b}  New cover design, with calligraphy by Brion Gysin." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ] ;
+            rdf:value "2nd ed." ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "©1960; distributed by City Lights Books." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Dave Haselwood Books" ;

@@ -11,32 +11,32 @@ abri:A2d a bf:Instance ;
     rdfs:label "Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "March" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Ian Sommerville" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ] ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "March" ;
+            bf:role "contributor" ] ;
     bf:copyrightDate "1959" ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "A2d" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "A2c" ] ;
+            rdf:value "A2c" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A2d" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
             rdf:value "{M&M A2c} Cover photo of Burroughs by Ian Sommerville." ],
         [ a bf:Note ;
-            rdf:value "©1959." ],
+            rdf:value "Reprinted 1965 (3 times: February, March, August), 1966, and 1970." ],
         [ a bf:Note ;
             rdf:value "Hardbound in dustjacket." ],
         [ a bf:Note ;
-            rdf:value "Reprinted 1965 (3 times: February, March, August), 1966, and 1970." ] ;
+            rdf:value "©1959." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "John Calder" ;

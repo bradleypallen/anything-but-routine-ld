@@ -19,7 +19,7 @@ abri:A27a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Mayfair" ;
+            rdfs:label "Daily Telegraph" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -27,20 +27,20 @@ abri:A27a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Mayfair" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Evergreen Review" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Daily Telegraph" ;
+            rdfs:label "Rolling Stone" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Rolling Stone" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "A23a" ],
@@ -49,9 +49,9 @@ abri:A27a a bf:Instance ;
             rdf:value "A27a" ] ;
     bf:instanceOf abrw:A27 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M A23a}   “Portions of this volume have been previously published, in somewhat different form, in the following publications: Antaeus, Atlantic Monthly, Cavalier, Daily Telegraph (London), Esquire, Evergreen Review, The Expatriate Review, Mayfair, Rolling Stone, [and] The Village Voice.”—T.p." ],
-        [ a bf:Note ;
             rdf:value "verso." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A23a}   “Portions of this volume have been previously published, in somewhat different form, in the following publications: Antaeus, Atlantic Monthly, Cavalier, Daily Telegraph (London), Esquire, Evergreen Review, The Expatriate Review, Mayfair, Rolling Stone, [and] The Village Voice.”—T.p." ],
         [ a bf:Note ;
             rdf:value "Hardbound in dustjacket (no softbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

@@ -19,12 +19,12 @@ abri:A49a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
+            rdfs:label "Les Derniers Mots" ;
+            bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Les Derniers Mots" ;
-            bf:role "contributor" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A49a" ] ;
@@ -32,11 +32,11 @@ abri:A49a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "No equivalent English-language edition." ],
         [ a bf:Note ;
+            rdf:value "(Les Derniers Mots) Essays by and about Burroughs." ],
+        [ a bf:Note ;
             rdf:value "Translated and presented by Gérard-Georges Lemaire and Philippe Mikriammos." ],
         [ a bf:Note ;
-            rdf:value "2 vols." ],
-        [ a bf:Note ;
-            rdf:value "(Les Derniers Mots) Essays by and about Burroughs." ] ;
+            rdf:value "2 vols." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Christian Bourgois Editeur" ;

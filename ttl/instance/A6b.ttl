@@ -21,9 +21,9 @@ abri:A6b a bf:Instance ;
             rdf:value "A6b" ] ;
     bf:instanceOf abrw:A6 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket (no softbound issued)." ],
+            rdf:value "{M&M A6b} Second version—a rearrangement of the Olympia Press text, with additions and expansions, plus “The Invisible Generation.”" ],
         [ a bf:Note ;
-            rdf:value "{M&M A6b} Second version—a rearrangement of the Olympia Press text, with additions and expansions, plus “The Invisible Generation.”" ] ;
+            rdf:value "Hardbound in dustjacket (no softbound issued)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;

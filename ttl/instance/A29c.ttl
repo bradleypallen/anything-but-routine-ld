@@ -19,9 +19,9 @@ abri:A29c a bf:Instance ;
             rdf:value "A29c" ] ;
     bf:instanceOf abrw:A29 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket, and softbound." ],
+            rdf:value "©1980." ],
         [ a bf:Note ;
-            rdf:value "©1980." ] ;
+            rdf:value "Hardbound in dustjacket, and softbound." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "John Calder" ;

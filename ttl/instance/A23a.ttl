@@ -15,15 +15,15 @@ abri:A23a a bf:Instance ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
+            rdfs:label "Unicorn Books" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Skyline" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Unicorn Books" ;
             bf:role "contributor" ],
         [ a bf:Agent,
                 bf:Person ;
@@ -37,15 +37,15 @@ abri:A23a a bf:Instance ;
             rdf:value "A19a" ] ;
     bf:instanceOf abrw:A23 ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 99 numbered copies signed by Burroughs, “of which ... numbers 1 to 99 are hors commerce.” Side A of record features Burroughs reading second draft of text." ],
-        [ a bf:Note ;
             rdf:value "“According to the publisher, a good many of the [LP] records were destroyed by heat, so not all copies of the book were accompanied by the record.” [Skyline] “There were probably less [sic] than 50 full sets distributed including a number of which went to libraries.” [Shoaf 1 (quoting the publisher)]" ],
         [ a bf:Note ;
-            rdf:value "{M&M A19a}  A section of the novel Exterminator!, below." ],
+            rdf:value "Limited to 99 numbered copies signed by Burroughs, “of which ... numbers 1 to 99 are hors commerce.” Side A of record features Burroughs reading second draft of text." ],
         [ a bf:Note ;
             rdf:value "Brighton, England: Unicorn Books, 1971." ],
         [ a bf:Note ;
-            rdf:value "Hardbound, issued without dustjacket in Side A, white; Side B, black;  matrix number: UB LP 1 A S/S]." ] ;
+            rdf:value "Hardbound, issued without dustjacket in Side A, white; Side B, black;  matrix number: UB LP 1 A S/S]." ],
+        [ a bf:Note ;
+            rdf:value "{M&M A19a}  A section of the novel Exterminator!, below." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Unicorn Books" ;

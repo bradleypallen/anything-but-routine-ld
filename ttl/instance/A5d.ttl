@@ -20,11 +20,11 @@ abri:A5d a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "{M&M A5d and A5e} Third version: “... this final, definitive edition has been considerably revised by the author from the two earlier versions.”—Dustjacket (rear)." ],
         [ a bf:Note ;
-            rdf:value "Rev." ],
+            rdf:value "ed." ],
         [ a bf:Note ;
             rdf:value "Hardbound in dustjacket, and softbound." ],
         [ a bf:Note ;
-            rdf:value "ed." ] ;
+            rdf:value "Rev." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Calder and Boyars" ;

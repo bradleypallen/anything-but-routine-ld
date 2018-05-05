@@ -11,42 +11,42 @@ abri:A24b a bf:Instance ;
     rdfs:label "Electronic Revolution 1970-71" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Carl Weissner" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Berg" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Carl Weissner" ;
             bf:role "contributor" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A24b" ] ;
     bf:instanceOf abrw:A24 ;
     bf:note [ a bf:Note ;
-            rdf:value "1." ],
+            rdf:value "; 1) Softbound in dustjacket (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "Features a photograph of Burroughs, and German and English description of, and quote from, the title." ],
         [ a bf:Note ;
             rdf:value "In German and English." ],
         [ a bf:Note ;
-            rdf:value "Limited to 900 trade edition copies, plus 100 numbered and signed copies." ],
-        [ a bf:Note ;
-            rdf:value "Göttingen: Expanded Media Editions, 1972." ],
-        [ a bf:Note ;
             rdf:value "[Prospectus]." ],
-        [ a bf:Note ;
-            rdf:value "(e.m.e." ],
-        [ a bf:Note ;
-            rdf:value "Pamphlet, folded in thirds." ],
-        [ a bf:Note ;
-            rdf:value "German translation by Carl Weissner." ],
         [ a bf:Note ;
             rdf:value "NOTE: Berg collection at NYPL holds one unnumbered, signed copy." ],
         [ a bf:Note ;
-            rdf:value "; 1) Softbound in dustjacket (no hardbound issued)." ] ;
+            rdf:value "German translation by Carl Weissner." ],
+        [ a bf:Note ;
+            rdf:value "Göttingen: Expanded Media Editions, 1972." ],
+        [ a bf:Note ;
+            rdf:value "(e.m.e." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 900 trade edition copies, plus 100 numbered and signed copies." ],
+        [ a bf:Note ;
+            rdf:value "Pamphlet, folded in thirds." ],
+        [ a bf:Note ;
+            rdf:value "1." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;
