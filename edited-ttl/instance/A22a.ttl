@@ -18,8 +18,8 @@ abri:A22a a bf:Instance ;
             rdf:value "A22a" ],
         [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "a17a",
-                "a17b" ] ;
+            rdf:value "A17a",
+                "A17b" ] ;
     bf:instanceOf abrw:A22 ;
     bf:note [ a bf:Note ;
             rdf:value "1st ed." ],
