@@ -8,10 +8,11 @@ install:
 script:
   - python main.py
 deploy:
-  provider: releases
+  provider: pages
   api_key: $GITHUB_TOKEN
   file:
     - "docs/index.md"
   skip_cleanup: true
+  keep-history: true
   on:
-    tags: true
+    branch: master
