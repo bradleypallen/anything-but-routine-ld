@@ -1,0 +1,46 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A2q a bf:Instance ;
+    rdfs:label "Naked Lunch" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Barry Miles" ;
+            bf:role "editor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "John Walsh" ;
+            bf:role "writer of introduction" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "editor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A2q" ] ;
+    bf:instanceOf abrw:A2 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Edited by James Grauerholz and Barry Miles." ],
+        [ a bf:Note ;
+            rdf:value "With an Introduction by John Walsh." ],
+        [ a bf:Note ;
+            rdf:value "(Banned Books; 14)" ],
+        [ a bf:Note ;
+            rdf:value "\"Includes the accompanying essays that Burroughs added to later editions, but omits the editors' note and the newly discovered material and outtakes which appear in the edition above.\" [BeatBooks 59]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Paperview/Harper Perennial" ;
+            bf:date "[n.d. (2007?)]" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Naked Lunch: The Restored Text" ] .

@@ -1,0 +1,65 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A66a a bf:Instance ;
+    rdfs:label "Ghost of Chance" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "George Condo" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Whitney Museum" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "George Condo" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A66a" ] ;
+    bf:instanceOf abrw:A66 ;
+    bf:note [ a bf:Note ;
+            rdf:value "[Edited by James Grauerholz.]" ],
+        [ a bf:Note ;
+            rdf:value "Features one of the illustrations in the volume, by George Condo." ],
+        [ a bf:Note ;
+            rdf:value "Pamphlet." ],
+        [ a bf:Note ;
+            rdf:value "Illustrated by George Condo." ],
+        [ a bf:Note ;
+            rdf:value "New York: Whitney Museum of American Art, 1991." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 160 copies printed at the Grenfell Press, signed by Burroughs and Condo." ],
+        [ a bf:Note ;
+            rdf:value "[Prospectus]." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound; handbound (issued without dustjacket in slipcase)." ],
+        [ a bf:Note ;
+            rdf:value "1." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Library Fellows of the Whitney Museum of American Art" ;
+            bf:date "1991" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Ghost of Chance" ] .
+

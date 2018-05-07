@@ -1,0 +1,50 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A7a a bf:Instance ;
+    rdfs:label "Dead Fingers Talk" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Ian Sommerville" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Olympia Press" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A7a" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A7a" ] ;
+    bf:instanceOf abrw:A7 ;
+    bf:note [ a bf:Note ;
+            rdf:value "{M&M A7a} “Dead Fingers Talk is not a book of selections but a new novel constructed out of these three earlier books [The Naked Lunch, The Soft Machine, and The Ticket That Exploded] together with some new material.”—Dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "“Dustjacket reproduces an Ian Sommerville photo-collage of Burroughs’ Olympia Press editions.” [BeatBooks 51]" ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket (no softbound issued)." ],
+        [ a bf:Note ;
+            rdf:value "In association with Olympia Press." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "John Calder" ;
+            bf:date "1963" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Dead Fingers Talk" ] .
+

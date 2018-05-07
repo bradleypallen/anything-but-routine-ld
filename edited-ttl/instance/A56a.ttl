@@ -1,0 +1,39 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A56a a bf:Instance ;
+    rdfs:label "The Place of Dead Roads" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:copyrightDate "1983" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A56a" ] ;
+    bf:instanceOf abrw:A56 ;
+    bf:note [ a bf:Note ;
+            rdf:value "First ed." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound in dustjacket." ],
+        [ a bf:Note ;
+            rdf:value "“The original title of this book was The Johnson Family.”—Prefatory note." ],
+        [ a bf:Note ;
+            rdf:value "Includes 300 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publisher's slipcase." ],
+        [ a bf:Note ;
+            rdf:value "Two “issues” of first printing—one in brown cloth full binding with bronze spine lettering, one in orange- brown cloth quarter binding with silver spine lettering. [Shoaf 1]" ],
+        [ a bf:Note ;
+            rdf:value "1. [Press Kit]. New York: Holt, Rinehart and Winston, 1984. Full-color preview of dustjacket and photocopied “Brief Description” on HRW letterhead." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Holt, Rinehart, and Winston" ;
+            bf:date "1984" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Place of Dead Roads" ] .

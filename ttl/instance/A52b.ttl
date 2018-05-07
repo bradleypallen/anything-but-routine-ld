@@ -1,0 +1,26 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A52b a bf:Instance ;
+    rdfs:label "Sinki's Sauna" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A52b" ] ;
+    bf:instanceOf abrw:A52 ;
+    bf:note [ a bf:Note ;
+            rdf:value "New York:  “An apparent piracy of the Pequod edition, printed on bond and bound in ... handmade paper but really just a photocopy of the original work.” [Shoaf 1] Limited to 50 copies." ],
+        [ a bf:Note ;
+            rdf:value "“Colophon notes ‘limited to only 50 copies,’ but less [sic] than 10 were actually printed.” [Shoaf 2]" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Sinki's Sauna" ] .
+

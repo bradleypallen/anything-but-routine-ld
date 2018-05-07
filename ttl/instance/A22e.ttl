@@ -1,0 +1,32 @@
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A22e a bf:Instance ;
+    rdfs:label "The Last Words of Dutch Schultz" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:copyrightDate "1975" ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A22e" ] ;
+    bf:instanceOf abrw:A22 ;
+    bf:note [ a bf:Note ;
+            rdf:value "©1975." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Arcade" ;
+            bf:date "1993" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script" ] .
+
