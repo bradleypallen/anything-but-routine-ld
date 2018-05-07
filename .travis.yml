@@ -9,10 +9,8 @@ script:
   - python main.py
 deploy:
   provider: pages
-  api_key: $GITHUB_TOKEN
-  file:
-    - "docs/index.md"
   skip_cleanup: true
+  github-token: $GITHUB_TOKEN
   keep-history: true
   on:
     branch: master
