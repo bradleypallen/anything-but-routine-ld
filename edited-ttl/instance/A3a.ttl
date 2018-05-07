@@ -39,7 +39,7 @@ abri:A3a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
-            rdf:value "{M&M A4a} “This book was designed and printed by Dave L. Haselwood and James F. McIlroy ...”—Colophon." ],
+            rdf:value "“This book was designed and printed by Dave L. Haselwood and James F. McIlroy ...”—Colophon." ],
         [ a bf:Note ;
             rdf:value "Cover calligraphy by Brion Gysin." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
