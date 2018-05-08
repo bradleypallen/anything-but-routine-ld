@@ -14,5 +14,5 @@ abrw:A57 a bf:Text,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasInstance abri:A57a .
-
+    bf:hasInstance abri:A57a,
+        abri:A57b .

@@ -21,7 +21,9 @@ abri:A2a a bf:Instance ;
             rdf:value "A2a" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "(The Travellers Companion Series, No. 76) Softbound in dustjacket (no hardbound issued)." ],
+            rdf:value "(The Travellers Companion Series, No. 76)" ],
+        [ a bf:Note ;
+            rdf:value "Softbound in dustjacket (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "Dustjacket designed by Burroughs." ],
         [ a bf:Note ;

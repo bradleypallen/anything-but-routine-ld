@@ -20,6 +20,8 @@ abri:A44a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 30 numbered, signed copies." ],
         [ a bf:Note ;
+            rdf:value "Hardbound." ],
+        [ a bf:Note ;
             rdf:value "Color facsimile of one of Burroughs' personal scrapbooks, reproducing his handwritten and typed manuscripts, photographs [Skyline] “Color facsimile of one of Burroughs’ personal scrapbooks, reproducing his handwritten and typed manuscripts, photographs, newspaper articles, collages, etc.” [Skyline]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;

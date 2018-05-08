@@ -28,6 +28,8 @@ abri:A49a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Translated and presented by Gérard-Georges Lemaire and Philippe Mikriammos." ],
         [ a bf:Note ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
             rdf:value "2 vols." ],
         [ a bf:Note ;
             rdf:value "(Les Derniers Mots)" ],

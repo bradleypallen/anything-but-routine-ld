@@ -24,7 +24,9 @@ abri:A2i a bf:Instance ;
     bf:note [ a bf:Note ;
                 rdf:value "With a Foreword by John Calder." ],
         [ a bf:Note ;
-            rdf:value "(A Calderbook, CB 380) Softbound (no hardbound issued)." ],
+            rdf:value "(A Calderbook, CB 380)" ],
+        [ a bf:Note ;
+            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "“A new edition containing the ‘Ugh’ correspondence [originally printed in the Times Literary Supplement No. 3,230 (23 January 1964); see Section C below].”—Cover." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

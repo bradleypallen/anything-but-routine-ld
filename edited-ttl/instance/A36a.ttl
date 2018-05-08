@@ -32,13 +32,15 @@ abri:A36a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "With Brion Gysin." ],
         [ a bf:Note ;
+            rdf:value "Softbound."],
+        [ a bf:Note ;
             rdf:value "French translation by Gérard-Georges Lemaire and Christine Taylor." ],
         [ a bf:Note ;
             rdf:value "(Connections)" ],
         [ a bf:Note ;
             rdf:value "True 1st ed." ],
         [ a bf:Note ;
-            rdf:value "“Material on cut-ups, fold-ins, tape recorder experiments, and film. Originally conceived in the Chelsea  Hotel in 1964-65 ...” [BeatBooks 65]" ] ;
+            rdf:value "“Material on cut-ups, fold-ins, tape recorder experiments, and film. Originally conceived in the Chelsea Hotel in 1964-65 ...” [BeatBooks 65]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Flammarion" ;
