@@ -83,13 +83,18 @@ _([generate-ttl-from-csv.ipynb](https://github.com/bradleypallen/anything-but-ro
 
 The out-of-the-box NLTK sentence tokenization, while useful, doesn't do a great job when confronted with abbreviations and such. In a similar vein, using NLTK's entity chunking to generate values for bf:contributor generates a certain amount of noise in addition to the convenience factor. So I examine and correct each generated .ttl file as needed, comparing it to the entry in the original document, mostly editing notes and agents.
 
-#### 5. Generating an RDF graph from the .ttl files
+#### 5. Generating an .md document from the .ttl files
 
-The data now captured in .ttl files, one per bf:work and bf:Instance, is parsed into an rdflib.Graph. From there, we can explore and visualize the data using either SPARQL queries or by directly walking the graph using rdflib's RDF graph iterators. For ease of analysis, I'm finding that first hewing out data using one or both of those approaches and then creating a pandas DataFrame is a great way to go. The (partial) bibliography at [doc/index.md](doc/index.md) is generated using that approach. Bringing the ABR data into a Python notebook environment, together with the use of collaborative Git-based maintenance of the data points towards a way in which the work of catalog refinement and maintenance can be done in the future. _([generate-graph-from-ttl.ipynb](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-graph-from-ttl.ipynb))_
+The data captured in .ttl files is parsed into an rdflib.Graph. From there, the instance data is loaded into a pandas.DataFrame and then iterated through to generate Markdown summaries of the bibliographical metadata per instance. These are written out to the /docs directory. Integration with [Travis-CI](https://travis-ci.org) is set up so that any updated to the Github repository (e.g. by updates to a work or instance .ttl file) triggers an automated build and push of updated bibliography .md files from /docs to a gh-pages branch of the repository, and from there served up by [Github Pages](https://pages.github.com). The end result is at [http://bradleypallen.org/anything-but-routine-ld/](http://bradleypallen.org/anything-but-routine-ld/). _([main.py](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/main.py))_
+
+### Exploring the dataset
+
+When the .ttl files are loaded into an rdflib.Graph we can of course do more than just re-render a bibliography document from that data; we can explore and visualize the data using either SPARQL queries or by directly walking the graph using rdflib's RDF graph iterators. For ease of doing data science, using one or both of those approaches and then convert the data into a pandas DataFrame works well.
+([generate-graph-from-ttl.ipynb](https://github.com/bradleypallen/anything-but-routine-ld/blob/master/generate-graph-from-ttl.ipynb)) demonstrates how this approach can be used to explore the number of instances published per year plotted as a bar chart.
 
 ## Roadmap
 
-Beyond cleaning up the horribly ugly chunks of code in the notebooks and chipping away at the modeling issues mentioned above, once the representation of ABR as linked data is mature I want to address the logistics of publishing it on the open linked data Web in a way that will be both sustainable and useful. As hinted at above, I think hewing closely to a minimalist approach based on notebooks and git will be key.
+Beyond cleaning up ugly code and chipping away at the modeling issues mentioned above, once the representation of ABR as linked data is mature I want to address the logistics of publishing it on the open linked data Web in a way that will be both sustainable and useful. As hinted at above, I think hewing closely to a minimalist approach based on notebooks and git will be key. Bringing the ABR data into a Python notebook environment, together with the use of collaborative Git-based maintenance of the data points towards a way in which the work of catalog refinement and maintenance might be done in the future.
 
 ## Acknowledgements
 
