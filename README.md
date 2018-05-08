@@ -1,5 +1,7 @@
 # anything-but-routine-ld
 
+[![Build Status](https://travis-ci.org/bradleypallen/anything-but-routine-ld.svg?branch=master)](https://travis-ci.org/bradleypallen/anything-but-routine-ld)
+
 ## Overview
 
 This repository contains work towards a linked data representation of
