@@ -61,27 +61,28 @@ class ABRBibliography():
                         print(f"### A{current_work}. _{current_work_title}._", file=mdfile)
                 instance = URIRef(i['instance'])
                 entry = ''
+
+                # bf:identifiedBy
                 ids = {}
                 for id in self.graph.objects(instance, self.bf.identifiedBy):
-                    ids['{}'.format(self.graph.value(id, self.bf.source))] = '{}'.format(self.graph.value(id, RDF.value))
+                    ids['{}'.format(self.graph.value(id, self.bf.source))] = [ id_str for id_str in self.graph.objects(id, RDF.value) ]
+
                 # Schottlaender no. + bf:title
+                schottlaender_id = ids['Schottlaender v4.0'][0]
                 # titles can be more complex
-                schottlaender_id = ids['Schottlaender v4.0']
                 title = self.graph.value(self.graph.value(instance, self.bf.title), RDFS.label)
                 if title[-1] in terminating_chars:
                     entry += '#### {}. _{}_ '.format(schottlaender_id[-1].upper(), title)
                 else:
                     entry += '#### {}. _{}._ '.format(schottlaender_id[-1].upper(), title)
+
                 # bf:contributor
                 for contributor in self.graph.objects(instance, self.bf.contributor):
                     agent = self.graph.value(contributor, RDFS.label)
-                    # agents can have more than one role
-                    roles = ''
-                    for role in self.graph.objects(contributor, self.bf.role):
-                        roles += '{}, '.format(role)
-                    roles = roles[:-2]
+                    roles = ', '.join([ role for role in self.graph.objects(contributor, self.bf.role) ])
                     entry += '{}, {}; '.format(agent, roles)
                 entry = "{}. ".format(entry[:-2])
+
                 # bf:provisionActivity
                 for publisher in self.graph.objects(instance, self.bf.provisionActivity):
                     # provisionActivities can have more than one place
@@ -91,14 +92,17 @@ class ABRBibliography():
                     date = self.graph.value(publisher, self.bf.date)
                     entry += '{}: {}, {}; '.format(place, agent, date)
                 entry = "{}. ".format(entry[:-2])
+
                 # bf:copyrightDate
                 if self.graph.value(instance, self.bf.copyrightDate):
                     entry += '©{}. '.format(self.graph.value(instance, self.bf.copyrightDate))
+
                 # M&M no. (if present)
                 if 'Maynard & Miles' in ids:
-                    entry += '{' + 'M&M {}'.format(ids['Maynard & Miles']) + '}'
+                    entry += '{M&M ' + ', '.join(ids['Maynard & Miles']) + '}'
                 print(entry, file=mdfile)
                 print('', file=mdfile)
+
                 # bf.note
                 for note in self.graph.objects(instance, self.bf.note):
                     print('- {}'.format(self.graph.value(note, RDF.value)), file=mdfile)
