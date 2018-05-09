@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -24,8 +25,6 @@ abri:A59a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Written in 1953." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "“With grateful acknowledgement [sic] of the kind cooperation of Robert H. Jackson, and for his aid in the publication of this book.”—T.p. verso." ],
         [ a bf:Note ;
             rdf:value "1. [Press Release]. New York: Viking Penguin, [1985]. Two 81⁄2”x14” sheets, stapled once, folded twice." ] ;
@@ -35,4 +34,9 @@ abri:A59a a bf:Instance ;
             bf:date "1985" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Queer" ] .
+            rdfs:label "Queer" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket." ] ] .
+

@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -25,8 +26,6 @@ abri:A8b a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "2nd ed." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "Expanded to include an additional letter, dated 10 July 1953, originally published in Black Mountain Review No. 7 (Autumn 1957). [See Section C below]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -34,4 +33,9 @@ abri:A8b a bf:Instance ;
             bf:date "1975" ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Yage Letters" ] .
+            rdfs:label "The Yage Letters" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

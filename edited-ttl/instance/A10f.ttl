@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -16,8 +17,8 @@ abri:A10f a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
-            bf:role "writer of introduction",
-                "editor" ] ;
+            bf:role "editor",
+                "writer of introduction" ] ;
     bf:copyrightDate "2013" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
@@ -25,8 +26,6 @@ abri:A10f a bf:Instance ;
     bf:instanceOf abrw:A10 ;
     bf:note [ a bf:Note ;
             rdf:value "Edited and with an Introduction by Oliver Harris." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "“1st rev. ed.”" ],
         [ a bf:Note ;
@@ -39,4 +38,9 @@ abri:A10f a bf:Instance ;
             bf:date "2014" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Nova Express: The Restored Text" ] .
+            rdfs:label "Nova Express: The Restored Text" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

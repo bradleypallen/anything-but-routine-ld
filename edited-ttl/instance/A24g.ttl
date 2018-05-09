@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -22,8 +23,6 @@ abri:A24g a bf:Instance ;
         [ a bf:Note ;
             rdf:value "9th ed." ],
         [ a bf:Note ;
-            rdf:value "Softbound." ],
-        [ a bf:Note ;
             rdf:value "German and English text bound tête-bêche." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -31,4 +30,9 @@ abri:A24g a bf:Instance ;
             bf:date "1996" ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Die elektronische Revolution = Electronic Revolution" ] .
+            rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound." ] ] .
+

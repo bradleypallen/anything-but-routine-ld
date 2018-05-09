@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -26,9 +27,7 @@ abri:A1f a bf:Instance ;
         [ a bf:Note ;
             rdf:value "1st complete and unexpurgated ed." ],
         [ a bf:Note ;
-            rdf:value "Later 1977 printing with different cover design. [Shoaf 1]" ],
-        [ a bf:Note ;
-            rdf:value "Softbound." ] ;
+            rdf:value "Later 1977 printing with different cover design. [Shoaf 1]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Penguin Books" ;
@@ -36,4 +35,9 @@ abri:A1f a bf:Instance ;
             bf:place "Harmondsworth, England",
                 "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Junky" ] .
+            rdfs:label "Junky" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound." ] ] .
+

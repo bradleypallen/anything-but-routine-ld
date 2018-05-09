@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -22,8 +23,6 @@ abri:A2b a bf:Instance ;
             rdf:value "A2b" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "“The text in this edition differs quite extensively from the Olympia first edition.” [BeatBooks 65]  Includes, at beginning as “Introduction,” “Deposition: Testimony Concerning a Sickness” [originally published in Evergreen Review, Vol. 4, No. 11 (January-February 1960); see Section C below] and, at end as “Appendix,” “Letter from a Master Addict to Dangerous Drugs” [originally published in The British Journal of Addiction, Vol. 53, No. 2 (January 1957); see Section C below]." ],
         [ a bf:Note ;
             rdf:value "Some copies issued in wraparound band. [M&M]" ],
@@ -43,4 +42,9 @@ abri:A2b a bf:Instance ;
             bf:date "[1962]" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Naked Lunch" ] .
+            rdfs:label "Naked Lunch" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket." ] ] .
+

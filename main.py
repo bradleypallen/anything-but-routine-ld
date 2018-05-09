@@ -7,11 +7,13 @@ class ABRBibliography():
     def __init__(self, ttl='edited-ttl/*/*.ttl'):
         self.bf = rdflib.Namespace("http://id.loc.gov/ontologies/bibframe/")
         self.arm = rdflib.Namespace("https://w3id.org/arm/core/ontology/0.1/")
+        self.dcterms = rdflib.Namespace("http://purl.org/dc/terms/")
         self.graph = rdflib.Graph()
         self.graph.bind("abri", "https://w3id.org/anything-but-routine/4.0/instance/")
         self.graph.bind("abrw", "https://w3id.org/anything-but-routine/4.0/work/")
         self.graph.bind("bf", "http://id.loc.gov/ontologies/bibframe/")
         self.graph.bind("arm", "https://w3id.org/arm/core/ontology/0.1/")
+        self.graph.bind("dcterms", "http://purl.org/dc/terms/")
         for infile in glob.glob(ttl):
             self.graph.parse(infile, format='n3')
 
@@ -96,6 +98,12 @@ class ABRBibliography():
                 # bf:copyrightDate
                 if self.graph.value(instance, self.bf.copyrightDate):
                     entry += '©{}. '.format(self.graph.value(instance, self.bf.copyrightDate))
+
+                # dcterms:hasPart
+                binding = self.graph.value(instance, self.dcterms.hasPart)
+                if binding:
+                    descriptive_note = self.graph.value(binding, self.bf.note)
+                    entry += '{} '.format(self.graph.value(descriptive_note, RDF.value))
 
                 # M&M no. (if present)
                 if 'Maynard & Miles' in ids:

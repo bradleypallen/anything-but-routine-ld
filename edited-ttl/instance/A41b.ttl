@@ -8,32 +8,29 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:A24f a bf:Instance ;
-    rdfs:label "Electronic Revolution 1970-71" ;
+abri:A41b a bf:Instance ;
+    rdfs:label "Blade Runner: A Movie" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:copyrightDate "1976" ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "A24f" ] ;
-    bf:instanceOf abrw:A24 ;
+            rdf:value "A41b" ] ;
+    bf:instanceOf abrw:A41 ;
     bf:note [ a bf:Note ;
-            rdf:value "In German and English." ],
+            rdf:value "2nd ed." ],
         [ a bf:Note ;
-            rdf:value "8th ed." ],
-        [ a bf:Note ;
-            rdf:value "German and English text bound tête-bêche." ] ;
+            rdf:value "Reprinted, 1994." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:agent "Expanded Media Editions" ;
-            bf:date "1994" ;
-            bf:place "Bonn" ] ;
+            bf:agent "Blue Wind Press" ;
+            bf:date "1986" ;
+            bf:place "Berkeley, Calif." ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
+            rdfs:label "Blade Runner: A Movie" ] ;
     ns1:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
-                    rdf:value "Softbound (no hardbound issued)." ] ] .
+                    rdf:value "Softbound." ] ] .
 

@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -30,8 +31,6 @@ abri:A48a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in tissue dustjacket, and softbound." ],
-        [ a bf:Note ;
             rdf:value "Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville. [Skyline]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -39,4 +38,9 @@ abri:A48a a bf:Instance ;
             bf:date "1981" ;
             bf:place "Santa Barbara, Calif." ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Early Routines" ] .
+            rdfs:label "Early Routines" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in tissue dustjacket, and softbound." ] ] .
+

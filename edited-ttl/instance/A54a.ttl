@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -26,8 +27,6 @@ abri:A54a a bf:Instance ;
             rdf:value "A54a" ] ;
     bf:instanceOf abrw:A54 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound, and softbound." ],
-        [ a bf:Note ;
             rdf:value "“Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket." ],
         [ a bf:Note ;
             rdf:value "Hardbound ed. limited to 300 copies. [BeatBooks 42]" ],
@@ -41,4 +40,9 @@ abri:A54a a bf:Instance ;
             bf:date "1984" ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Burroughs File" ] .
+            rdfs:label "The Burroughs File" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound, and softbound." ] ] .
+

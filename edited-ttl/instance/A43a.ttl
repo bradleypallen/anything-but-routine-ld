@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -27,8 +28,6 @@ abri:A43a a bf:Instance ;
             rdf:value "A43a" ] ;
     bf:instanceOf abrw:A43 ;
     bf:note [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "Cover and spine title: Roosevelt After Inauguration." ],
         [ a bf:Note ;
             rdf:value "Includes “A New Introduction” [TOC title: “Introduction”) by Burroughs, facsimiles of covers of the original edition (above), plus three other routines: “When Did I Stop Wanting To Be President?,” “The Whole Tamale,” and “Sects and Death.”" ],
@@ -40,4 +39,9 @@ abri:A43a a bf:Instance ;
             bf:date "1979" ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Roosevelt After Inauguration and Other Atrocities" ] .
+            rdfs:label "Roosevelt After Inauguration and Other Atrocities" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -16,18 +17,16 @@ abri:A1i a bf:Instance ;
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "Oliver Harris" ;
-            bf:role "writer of introduction",
-                "editor" ] ;
+            bf:role "editor",
+                "writer of introduction" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "A1i" ] ;
     bf:instanceOf abrw:A1 ;
     bf:note [ a bf:Note ;
-        rdf:value "Edited and with an Introduction by Oliver Harris." ],
+            rdf:value "Edited and with an Introduction by Oliver Harris." ],
         [ a bf:Note ;
             rdf:value "50th Anniversary ed." ],
-        [ a bf:Note ;
-            rdf:value "Softbound." ],
         [ a bf:Note ;
             rdf:value "“Apart from making just over a hundred small corrections or changes, this present edition adds to Junky approximately the same amount of new material (around four thousand words) as Junky added to Junkie, but the way it does is, and had to be, quite different.”—Introduction." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
@@ -36,4 +35,9 @@ abri:A1i a bf:Instance ;
             bf:date "2003" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Junky: The Definitive Text of “Junk”" ] .
+            rdfs:label "Junky: The Definitive Text of “Junk”" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound." ] ] .
+

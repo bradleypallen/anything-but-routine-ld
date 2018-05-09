@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -27,8 +28,6 @@ abri:A15a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "With 4 drawings by Brion Gysin." ],
         [ a bf:Note ;
-            rdf:value "Hardbound, and softbound." ],
-        [ a bf:Note ;
             rdf:value "Cover by Burroughs." ],
         [ a bf:Note ;
             rdf:value "“... first printing appears in 4 editions: 4 copies hors commerce; 10 copies numbered [sic] A-J, hardbound, each  containing an original [signed] manuscript page by Burroughs and an original [signed] drawing by Gysin, signed by both; 100 numbered and signed [by both] copies; 886 copies in a trade edition.”—T.p." ],
@@ -40,4 +39,9 @@ abri:A15a a bf:Instance ;
             bf:date "1965" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Time" ] .
+            rdfs:label "Time" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound, and softbound." ] ] .
+

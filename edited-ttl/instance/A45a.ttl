@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -18,8 +19,6 @@ abri:A45a a bf:Instance ;
             rdf:value "A45a" ] ;
     bf:instanceOf abrw:A45 ;
     bf:note [ a bf:Note ;
-            rdf:value "Broadside." ],
-        [ a bf:Note ;
             rdf:value "Limited to 125 numbered and 26 lettered copies, signed by Burroughs." ],
         [ a bf:Note ;
             rdf:value "“... printed at the Toothpaste Press for Bookslinger on the occasion of the author’s reading at the Walker Art  Center, October 24, 1979.”" ],
@@ -31,4 +30,9 @@ abri:A45a a bf:Instance ;
             bf:date "1979" ;
             bf:place "[St. Paul, Minn.]" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ] .
+            rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Broadside." ] ] .
+

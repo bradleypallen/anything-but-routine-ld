@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -28,8 +29,6 @@ abri:A55a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "1st German ed." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "“Speech delivered 1980 at the occasion of the Institute of Ecotechnics’ ‘1980 Planet Earth Conference’ in Aix-en-Provence.”—T.p. verso." ],
         [ a bf:Note ;
             rdf:value "Reprinted 1988, 1993, 1996, and 2003." ] ;
@@ -39,4 +38,9 @@ abri:A55a a bf:Instance ;
             bf:date "1984" ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Four Horsemen of the Apocalypse = Die vier apokalyptischen Reiter" ] .
+            rdfs:label "The Four Horsemen of the Apocalypse = Die vier apokalyptischen Reiter" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

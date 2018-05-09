@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -36,8 +37,6 @@ abri:A31a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "French translation by Jean Chopin; Dutch translation by Jo Verbrugghen." ],
         [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "Limited to 400 copies, of which the colophon describes 50 copies as being numbered I through L in  Roman numerals and signed by Burroughs “in de luxe presentation” and 350 copies as being numbered 1– 350. Per BeatBooks 36, none of the latter 350 copies were actually numbered and, per an eBay listing posted by Red Snapper Books (London), there is “the possibility that most copies were not distributed at publication.”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -45,4 +44,9 @@ abri:A31a a bf:Instance ;
             bf:date "1974" ;
             bf:place "Ingatestone, Essex, England" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Book of Breething [= Le Livre des Respirations = Het Boek der Ademhalingen]" ] .
+            rdfs:label "The Book of Breething [= Le Livre des Respirations = Het Boek der Ademhalingen]" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

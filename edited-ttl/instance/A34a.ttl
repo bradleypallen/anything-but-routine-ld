@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -24,8 +25,6 @@ abri:A34a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
-            rdf:value "Hardbound (issued without dustjacket), and softbound." ],
-        [ a bf:Note ;
             rdf:value "“A more important book than one might first suppose.” [Am Here 62]" ],
         [ a bf:Note ;
             rdf:value "“A mixture of autobiographical fiction about the author’s youth and family in St. Louis and material drawn from Naked Lunch and The Wild Boys.” [BeatBooks 51]" ],
@@ -39,4 +38,9 @@ abri:A34a a bf:Instance ;
             bf:date "1976" ;
             bf:place "Cherry Valley, N.Y." ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Cobble Stone Gardens" ] .
+            rdfs:label "Cobble Stone Gardens" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound (issued without dustjacket), and softbound." ] ] .
+

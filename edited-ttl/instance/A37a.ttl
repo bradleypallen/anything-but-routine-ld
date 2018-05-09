@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -25,11 +26,9 @@ abri:A37a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "In German and English." ],
         [ a bf:Note ;
-                rdf:value "Translated into German and edited by Carl Weissner." ],
+            rdf:value "Translated into German and edited by Carl Weissner." ],
         [ a bf:Note ;
             rdf:value "1st ed." ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "Reprinted, 1985, 2000 (with new cover, per Shoaf 2)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
@@ -38,4 +37,9 @@ abri:A37a a bf:Instance ;
             bf:date "1978" ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Ali's Smile; Naked Scientology" ] .
+            rdfs:label "Ali's Smile; Naked Scientology" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

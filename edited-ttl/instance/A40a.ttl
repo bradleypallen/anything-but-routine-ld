@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -18,8 +19,6 @@ abri:A40a a bf:Instance ;
             rdf:value "A40a" ] ;
     bf:instanceOf abrw:A40 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "Contains the texts of Ah Pook Is Here, The Book of Breeething, and Electronic Revolution, above." ],
         [ a bf:Note ;
             rdf:value "“Ah Pook Is Here was originally planned as a picture book modelled on the surviving Mayan codices. Malcolm McNeill [sic] was to do the illustrations, and I [Burroughs] was to provide the text ... However, owing partly to the expense of full-color reproduction, and because the book falls into neither the category of the conventional illustrated book nor that of a comix publication, there have been difficulties with the arrangements for the complete work ... Finally Malcolm McNeill [sic] and I have decided to publish the text without the artwork, still in hopes of seeing the eventual publication of this work that has been eight years in preparation.”—Preface." ],
@@ -31,4 +30,9 @@ abri:A40a a bf:Instance ;
             bf:date "1979" ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Ah Pook Is Here, and Other Texts" ] .
+            rdfs:label "Ah Pook Is Here, and Other Texts" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket." ] ] .
+

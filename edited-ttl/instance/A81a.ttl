@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -26,8 +27,6 @@ abri:A81a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "1st ed." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "Written by the authors in 1945 as a fictionalized account of Lucien Carr’s relationship with, and eventual murder of, David Kammerer." ],
         [ a bf:Note ;
             rdf:value "“Will Dennison chapters written by William Lee, Mike Ryko chapters by John Kerouac.”—p. [1]." ] ;
@@ -37,4 +36,9 @@ abri:A81a a bf:Instance ;
             bf:date "2008" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "And the Hippos Were Boiled in Their Tanks" ] .
+            rdfs:label "And the Hippos Were Boiled in Their Tanks" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket." ] ] .
+

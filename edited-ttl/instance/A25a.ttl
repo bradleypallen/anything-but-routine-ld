@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -37,13 +38,11 @@ abri:A25a a bf:Instance ;
             rdf:value "A18a" ] ;
     bf:instanceOf abrw:A25 ;
     bf:note [ a bf:Note ;
-                rdf:value "With Claude Pélieu." ],
+            rdf:value "With Claude Pélieu." ],
         [ a bf:Note ;
             rdf:value "In French." ],
         [ a bf:Note ;
             rdf:value "(Les Livres Noirs)" ],
-        [ a bf:Note ;
-            rdf:value "Softbound (no hardbound issued)." ],
         [ a bf:Note ;
             rdf:value "{M&M A18a}  A memorial to Kerouac, with interviews, poems, and prose by Kerouac, Burroughs, Ginsberg, Alfred Aranowitz, and Pélieu." ],
         [ a bf:Note ;
@@ -56,4 +55,9 @@ abri:A25a a bf:Instance ;
             bf:date "1971" ;
             bf:place "[Paris]" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Jack Kerouac" ] .
+            rdfs:label "Jack Kerouac" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

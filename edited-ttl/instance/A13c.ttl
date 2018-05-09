@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -31,8 +32,6 @@ abri:A13c a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Distributed by City Lights." ],
         [ a bf:Note ;
-            rdf:value "Staplebound (no hardbound issued)." ],
-        [ a bf:Note ;
             rdf:value "“Number One.”" ],
         [ a bf:Note ;
             rdf:value "“Second printing.”" ] ;
@@ -42,4 +41,9 @@ abri:A13c a bf:Instance ;
             bf:date "1968" ;
             bf:place "[San Francisco]" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ] .
+            rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Staplebound (no hardbound issued)." ] ] .
+

@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -21,8 +22,6 @@ abri:A23a a bf:Instance ;
             rdf:value "A19a" ] ;
     bf:instanceOf abrw:A23 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound, issued without dustjacket in Side A, white; Side B, black;  matrix number: UB LP 1 A S/S]." ],
-        [ a bf:Note ;
             rdf:value "A section of the novel Exterminator!, below." ],
         [ a bf:Note ;
             rdf:value "Limited to 99 numbered copies signed by Burroughs, “of which ... numbers 1 to 99 are hors commerce.”" ],
@@ -38,4 +37,9 @@ abri:A23a a bf:Instance ;
             bf:date "1971" ;
             bf:place "Brighton, England" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Ali's Smile" ] .
+            rdfs:label "Ali's Smile" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound, issued without dustjacket in cardboard carton with 12” LP record [blank labels— Side A, white; Side B, black; matrix number: UB LP 1 A S/S]." ] ] .
+

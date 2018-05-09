@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -32,8 +33,6 @@ abri:A80a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "General editors, Geoffrey D. Smith and John M. Bennett; volume editor, Oliver Harris." ],
         [ a bf:Note ;
-            rdf:value "Hardbound (issued without dustjacket)." ],
-        [ a bf:Note ;
             rdf:value "“... written by William Burroughs in Latin America during July and August 1953 ...” - Introduction." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -41,4 +40,9 @@ abri:A80a a bf:Instance ;
             bf:date "2008" ;
             bf:place "Columbus, Ohio" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Everything Lost: The Latin American Notebook of William S. Burroughs" ] .
+            rdfs:label "Everything Lost: The Latin American Notebook of William S. Burroughs" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound, issued without dustjacket." ] ] .
+

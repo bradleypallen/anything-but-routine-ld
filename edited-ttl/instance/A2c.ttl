@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -18,8 +19,6 @@ abri:A2c a bf:Instance ;
             rdf:value "A2c" ] ;
     bf:instanceOf abrw:A2 ;
     bf:note [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "“Taiwan piracy of Grove Press first edition, smaller in both height and width than the Grove edition and thinner as well, but having the same dust jacket design, printed on cheap paper, some copies with Taiwan Booksellers’ stamp on rear leaf.” [Shoaf 1]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -27,4 +26,9 @@ abri:A2c a bf:Instance ;
             bf:date "[n.d.]" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Naked Lunch" ] .
+            rdfs:label "Naked Lunch" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket." ] ] .
+

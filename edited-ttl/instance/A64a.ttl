@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -24,12 +25,10 @@ abri:A64a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Edited by James Grauerholz." ],
         [ a bf:Note ;
-            rdf:value "Hardbound in dustjacket." ],
-        [ a bf:Note ;
             rdf:value "“A collection of previously unpublished short stories, routines, letters, and notebook entries, dating from the mid-50s, rediscovered among Allen Ginsberg’s papers at Columbia University in 1984.” [BeatBooks 51]" ],
         [ a bf:Note ;
             rdf:value "“’Interzone’ was the working title for ... Naked Lunch.”—Dustjacket." ],
-        [a bf:Note ;
+        [ a bf:Note ;
             rdf:value "Includes “WORD,” “... that had been cut, save for a few scattered fragments, from the final manuscript of Naked Lunch.”—Dustjacket." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
@@ -37,4 +36,9 @@ abri:A64a a bf:Instance ;
             bf:date "1989" ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Interzone" ] .
+            rdfs:label "Interzone" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket." ] ] .
+

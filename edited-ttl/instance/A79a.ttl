@@ -2,6 +2,7 @@
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -24,8 +25,6 @@ abri:A79a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "(FreeThought Flyer, No. 16)" ],
         [ a bf:Note ;
-            rdf:value "Staplebound." ],
-        [ a bf:Note ;
             rdf:value "Cover photo of Burroughs by Michael Montfort." ],
         [ a bf:Note ;
             rdf:value "Limited to 250 numbered and 26 lettered copies signed by the photographer." ],
@@ -37,4 +36,9 @@ abri:A79a a bf:Instance ;
             bf:date "2001" ;
             bf:place "[Encinitas, Calif.]" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Words of Advice for Young People" ] .
+            rdfs:label "Words of Advice for Young People" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Staplebound." ] ] .
+
