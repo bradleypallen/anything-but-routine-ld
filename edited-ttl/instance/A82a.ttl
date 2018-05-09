@@ -27,7 +27,7 @@ abri:A82a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "“Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p. verso." ],
         [ a bf:Note ;
-            rdf:value "1. [Promotional Postcard]. [New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015.] On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)" ] ;
+            rdf:value "1. [Promotional Postcard]. [New York]: [The Center for the Humanities, The Graduate Center, The City University of New York], [2015]. On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "The Center for the Humanities, The Graduate Center, The City University of New York" ;
