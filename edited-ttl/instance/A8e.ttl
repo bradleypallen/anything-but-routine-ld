@@ -30,8 +30,6 @@ abri:A8e a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Edited and with an Introduction by Oliver Harris." ],
         [ a bf:Note ;
-            rdf:value "San Francisco: City Lights Books, 2006." ],
-        [ a bf:Note ;
             rdf:value "4th ed." ],
         [ a bf:Note ;
             rdf:value "Expanded to include extensive Introduction, Appendices, and Notes." ],
@@ -48,4 +46,3 @@ abri:A8e a bf:Instance ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
-
