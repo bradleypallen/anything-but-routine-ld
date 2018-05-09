@@ -23,8 +23,6 @@ abri:A82a a bf:Instance ;
             rdf:value "A82a" ] ;
     bf:instanceOf abrw:A82 ;
     bf:note [ a bf:Note ;
-            rdf:value "Alex Wermer-Colan, ed." ],
-        [ a bf:Note ;
             rdf:value "(Lost and Found: The CUNY Poetics Document Initiative; Ser. 5, No. 2)" ],
         [ a bf:Note ;
             rdf:value "“Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p. verso." ],
@@ -41,4 +39,3 @@ abri:A82a a bf:Instance ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound." ] ] .
-
