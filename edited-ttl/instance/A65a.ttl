@@ -32,7 +32,7 @@ abri:A65a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "1a. [Promotional Postcard] Berkeley, Calif.: Small Press Distribution, [1989?]. Illustrated postcard. Features one of the illustrations in the volume, by S. Clay Wilson." ],
         [ a bf:Note ;
-            rdf:value "1b. [Promotional Postcard] Sudbury, Mass.: Water Row Books [distributor, 1989?]. Illustrated postcard on cream cardstock. Features one of the illustrations in the volume, by S. Clay Wilson." ] ;
+            rdf:value "1b. [Promotional Postcard] Sudbury, Mass.: Water Row Books, [1989?]. [Distributed by Water Row Books?] Illustrated postcard on cream cardstock. Features one of the illustrations in the volume, by S. Clay Wilson." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Cherry Valley Editions" ;

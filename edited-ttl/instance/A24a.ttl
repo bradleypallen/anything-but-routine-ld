@@ -50,7 +50,7 @@ abri:A24a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "At least one unnumbered copy is known to exist." ],
         [ a bf:Note ;
-            rdf:value "1. [Prospectus]. Ingatestone, Essex: OU, [1971.] 81⁄2” x 13” sheet, folded once. In English and French. Includes extract “..... Ten tape recorders strapped under their coats .../”, in English and French." ] ;
+            rdf:value "1. [Prospectus]. Ingatestone, Essex: OU, [1971]. 81⁄2” x 13” sheet, folded once. In English and French. Includes extract “..... Ten tape recorders strapped under their coats .../”, in English and French." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Blackmoor Head Press" ;
