@@ -7,35 +7,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:A65a a bf:Instance ;
-    rdfs:label "Tornado Alley" ;
+abri:A24a1 a bf:Instance ;
+    rdfs:label "Prospectus for Electronic Revolution 1970-71" ;
     bf:contributor [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "S. Clay Wilson" ;
-            bf:role "illustrator" ],
-        [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "A65a" ] ;
-    bf:instanceOf abrw:A65 ;
+            rdf:value "A24a1" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Illustrations by S. Clay Wilson." ],
+            rdf:value "Includes extract “..... Ten tape recorders strapped under their coats .../”, in English and French." ],
         [ a bf:Note ;
-            rdf:value "1st ed." ],
+            rdf:value "In English and French." ],
         [ a bf:Note ;
-            rdf:value "Hardbound (issued without dustjacket), and softbound." ],
-        [ a bf:Note ;
-            rdf:value "Hardbound edition limited to 400 copies, of which 90 are signed by Burroughs and 10 are signed by Burroughs and Wilson." ] ;
+            rdf:value "8 1⁄2” x 13” sheet, folded once." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:agent "Cherry Valley Editions" ;
-            bf:date "1989" ;
-            bf:place "Cherry Valley, N.Y." ] ;
-    bf:relatedTo abri:A65a1a,
-        abri:A65a1b ;
-    bf:title [ a bf:Title ;
-            rdfs:label "Tornado Alley" ] .
-
+            bf:agent "OU" ;
+            bf:date "[1971]" ;
+            bf:place "Ingatestone, Essex" ] ;
+    bf:relatedTo abri:A24a .

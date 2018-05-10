@@ -31,14 +31,13 @@ abri:A66a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "Illustrated by George Condo." ],
         [ a bf:Note ;
-            rdf:value "Limited to 160 copies printed at the Grenfell Press, signed by Burroughs and Condo." ],
-        [ a bf:Note ;
-            rdf:value "1. [Prospectus]. New York: Whitney Museum of American Art, 1991. Pamphlet. Features one of the illustrations in the volume, by George Condo." ] ;
+            rdf:value "Limited to 160 copies printed at the Grenfell Press, signed by Burroughs and Condo." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Library Fellows of the Whitney Museum of American Art" ;
             bf:date "1991" ;
             bf:place "New York" ] ;
+    bf:relatedTo abri:A66a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Ghost of Chance" ] ;
     ns1:hasPart [ a arm:Binding ;

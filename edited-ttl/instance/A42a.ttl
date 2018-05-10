@@ -32,14 +32,13 @@ abri:A42a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "“... the first publication of the earliest known version of the Doctor Benway chapter from ...The Naked Lunch ...” [Publisher’s prospectus, below]" ],
         [ a bf:Note ;
-            rdf:value "“... taken from the original manuscript which had been left in the possession of Alan Ansen in Venice in the late 1950s and rediscovered by him in 1973.” [BeatBooks 65]" ],
-        [ a bf:Note ;
-            rdf:value "1. [Prospectus]. Santa Barbara, Calif.: Bradford Morrow, 1979. Letterpress-printed card on canary cardstock." ] ;
+            rdf:value "“... taken from the original manuscript which had been left in the possession of Alan Ansen in Venice in the late 1950s and rediscovered by him in 1973.” [BeatBooks 65]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Bradford Morrow" ;
             bf:date "1979" ;
             bf:place "Santa Barbara, Calif." ] ;
+    bf:relatedTo abri:A42a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Doctor Benway: A [Variant] Passage from The Naked Lunch" ] ;
     ns1:hasPart [ a arm:Binding ;

@@ -25,14 +25,13 @@ abri:A59a a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "Written in 1953." ],
         [ a bf:Note ;
-            rdf:value "“With grateful acknowledgement [sic] of the kind cooperation of Robert H. Jackson, and for his aid in the publication of this book.”—T.p. verso." ],
-        [ a bf:Note ;
-            rdf:value "1. [Press Release]. New York: Viking Penguin, [1985]. Two 81⁄2”x14” sheets, stapled once, folded twice." ] ;
+            rdf:value "“With grateful acknowledgement [sic] of the kind cooperation of Robert H. Jackson, and for his aid in the publication of this book.”—T.p. verso." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Viking/Penguin" ;
             bf:date "1985" ;
             bf:place "New York" ] ;
+    bf:relatedTo abri:A59a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Queer" ] ;
     ns1:hasPart [ a arm:Binding ;

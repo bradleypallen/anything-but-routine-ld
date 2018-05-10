@@ -31,14 +31,13 @@ abri:A24b a bf:Instance ;
         [ a bf:Note ;
             rdf:value "Limited to 900 trade edition copies, plus 100 numbered and signed copies." ],
         [ a bf:Note ;
-            rdf:value "NOTE: Berg collection at NYPL holds one unnumbered, signed copy." ],
-        [ a bf:Note ;
-            rdf:value "1. [Prospectus]. Göttingen: Expanded Media Editions, 1972. Pamphlet, folded in thirds. Features a photograph of Burroughs, and German and English description of, and quote from, the title." ] ;
+            rdf:value "NOTE: Berg collection at NYPL holds one unnumbered, signed copy." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Expanded Media Editions" ;
             bf:date "1972" ;
             bf:place "Göttingen" ] ;
+    bf:relatedTo abri:A24b1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
     ns1:hasPart [ a arm:Binding ;

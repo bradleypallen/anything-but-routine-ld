@@ -31,20 +31,18 @@ abri:A2b a bf:Instance ;
         [ a bf:Note ;
             rdf:value "2nd printing: dustjacket identical to 1st printing; “second printing” noted on collation page. [Shoaf 1]" ],
         [ a bf:Note ;
-            rdf:value " 3rd–7th printings: lower-case Roman numeral printing enumeration on rear panel of dustjacket. [Shoaf 1]" ],
+            rdf:value "3rd–7th printings: lower-case Roman numeral printing enumeration on rear panel of dustjacket. [Shoaf 1]" ],
         [ a bf:Note ;
-            rdf:value "8th–15th printings: lower-case Roman numeral printing enumeration on rear panel of dustjacket, Grove Press catalog number [GP 244] at bottom of spine, Zip code in publisher’s address. [Shoaf 1]" ],
-        [ a bf:Note ;
-            rdf:value "1. [Prospectus]. New York: Grove Press, [1962]. Pamphlet. {M&M F7}  Contains reviews of and an excerpt from Naked Lunch. Reviews and comments by: Terry Southern, E. S. Seldon, John Ciardi, Norman Mailer, Robert Lowell, and Jack Kerouac. Limited to 100 copies. [PBA 198]" ] ;
+            rdf:value "8th–15th printings: lower-case Roman numeral printing enumeration on rear panel of dustjacket, Grove Press catalog number [GP 244] at bottom of spine, Zip code in publisher’s address. [Shoaf 1]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;
             bf:date "[1962]" ;
             bf:place "New York" ] ;
+    bf:relatedTo abri:A2b1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
     ns1:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
-

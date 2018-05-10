@@ -31,14 +31,13 @@ abri:A54a a bf:Instance ;
         [ a bf:Note ;
             rdf:value "Hardbound ed. limited to 300 copies. [BeatBooks 42]" ],
         [ a bf:Note ;
-            rdf:value "2nd printing, 1991." ],
-        [ a bf:Note ;
-            rdf:value "1. [Promotional Postcard]. San Francisco: City Lights Books, [1984?] Postcard." ] ;
+            rdf:value "2nd printing, 1991." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "City Lights Books" ;
             bf:date "1984" ;
             bf:place "San Francisco" ] ;
+    bf:relatedTo abri:A54a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "The Burroughs File" ] ;
     ns1:hasPart [ a arm:Binding ;
