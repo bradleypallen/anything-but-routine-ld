@@ -125,10 +125,10 @@ class ABRBibliography():
 
                 # bf:relatedTo (if present)
                 if self.graph.value(instance, self.bf.relatedTo):
-                    print('##### Related works and instances', file=mdfile)
+                    print('##### Related materials', file=mdfile)
                     print('', file=mdfile)
                     for related in self.graph.objects(instance, self.bf.relatedTo):
-                        print('###### {}'.format(self.instance_entry(related)), file=mdfile)
+                        print('##### {}'.format(self.instance_entry(related)), file=mdfile)
                         print('', file=mdfile)
                         for note in self.graph.objects(related, self.bf.note):
                             print('- {}'.format(self.graph.value(note, RDF.value)), file=mdfile)
