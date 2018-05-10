@@ -12,8 +12,8 @@ abrw:A5 a bf:Text,
     rdfs:label "The Soft Machine" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A5a,
         abri:A5b,
         abri:A5c,
@@ -24,4 +24,8 @@ abrw:A5 a bf:Text,
         abri:A5h,
         abri:A5i,
         abri:A5j,
-        abri:A5k .
+        abri:A5k ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A5" ] .
+

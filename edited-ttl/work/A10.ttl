@@ -12,11 +12,15 @@ abrw:A10 a bf:Text,
     rdfs:label "Nova Express" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A10a,
         abri:A10b,
         abri:A10c,
         abri:A10d,
         abri:A10e,
-        abri:A10f .
+        abri:A10f ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A10" ] .
+

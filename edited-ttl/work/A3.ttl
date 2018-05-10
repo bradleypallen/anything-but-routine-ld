@@ -12,7 +12,11 @@ abrw:A3 a bf:Text,
     rdfs:label "The Exterminator" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A3a,
-        abri:A3b .
+        abri:A3b ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A3" ] .
+

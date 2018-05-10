@@ -18,4 +18,8 @@ abrw:A12 a bf:Text,
                 bf:Person ;
             rdfs:label "Allen Ginsberg" ;
             bf:role "contributor" ] ;
-    bf:hasInstance abri:A12a .
+    bf:hasInstance abri:A12a ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A12" ] .
+

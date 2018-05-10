@@ -18,4 +18,8 @@ abrw:A22 a bf:Text,
         abri:A22b,
         abri:A22c,
         abri:A22d,
-        abri:A22e .
+        abri:A22e ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A22" ] .
+

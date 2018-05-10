@@ -12,8 +12,8 @@ abrw:A1 a bf:Text,
     rdfs:label "Junkie" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A1a,
         abri:A1b,
         abri:A1c,
@@ -24,4 +24,8 @@ abrw:A1 a bf:Text,
         abri:A1h,
         abri:A1i,
         abri:A1j,
-        abri:A1k .
+        abri:A1k ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A1" ] .
+

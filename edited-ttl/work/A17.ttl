@@ -24,4 +24,8 @@ abrw:A17 a bf:Text,
             bf:role "author" ] ;
     bf:hasInstance abri:A17a,
         abri:A17b,
-        abri:A17c .
+        abri:A17c ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A17" ] .
+

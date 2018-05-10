@@ -16,5 +16,8 @@ abrw:A73 a bf:Text,
             bf:role "author" ] ;
     bf:hasInstance abri:A73a,
         abri:A73b,
-        abri:A73c .
+        abri:A73c ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A73" ] .
 

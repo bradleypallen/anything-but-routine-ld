@@ -15,5 +15,8 @@ abrw:A52 a bf:Text,
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
     bf:hasInstance abri:A52a,
-        abri:A52b .
+        abri:A52b ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A52" ] .
 

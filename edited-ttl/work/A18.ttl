@@ -26,10 +26,14 @@ abrw:A18 a bf:Text,
                 bf:Person ;
             rdfs:label "Claude Pélieu" ;
             bf:role "author",
-                "translator"],
+                "translator" ],
         [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
     bf:hasInstance abri:A18a,
-        abri:A18b .
+        abri:A18b ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A18" ] .
+

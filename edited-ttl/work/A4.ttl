@@ -12,7 +12,11 @@ abrw:A4 a bf:Text,
     rdfs:label "Minutes To Go" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A4a,
-        abri:A4b .
+        abri:A4b ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A4" ] .
+

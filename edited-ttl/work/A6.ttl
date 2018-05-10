@@ -12,8 +12,8 @@ abrw:A6 a bf:Text,
     rdfs:label "The Ticket That Exploded" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A6a,
         abri:A6b,
         abri:A6c,
@@ -24,4 +24,8 @@ abrw:A6 a bf:Text,
         abri:A6h,
         abri:A6i,
         abri:A6j,
-        abri:A6k .
+        abri:A6k ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A6" ] .
+

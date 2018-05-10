@@ -22,4 +22,8 @@ abrw:A24 a bf:Text,
         abri:A24f,
         abri:A24g,
         abri:A24h,
-        abri:A24i .
+        abri:A24i ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A24" ] .
+

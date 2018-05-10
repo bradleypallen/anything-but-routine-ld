@@ -12,8 +12,12 @@ abrw:A7 a bf:Text,
     rdfs:label "Dead Fingers Talk" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A7a,
         abri:A7b,
-        abri:A7c .
+        abri:A7c ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A7" ] .
+

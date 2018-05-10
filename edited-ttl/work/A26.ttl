@@ -19,4 +19,8 @@ abrw:A26 a bf:Text,
         abri:A26c,
         abri:A26d,
         abri:A26e,
-        abri:A26f .
+        abri:A26f ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A26" ] .
+

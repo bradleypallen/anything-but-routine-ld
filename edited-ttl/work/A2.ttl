@@ -12,8 +12,8 @@ abrw:A2 a bf:Text,
     rdfs:label "Naked Lunch" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
     bf:hasInstance abri:A2a,
         abri:A2b,
         abri:A2c,
@@ -31,4 +31,8 @@ abrw:A2 a bf:Text,
         abri:A2o,
         abri:A2p,
         abri:A2q,
-        abri:A2r .
+        abri:A2r ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A2" ] .
+

@@ -19,4 +19,8 @@ abrw:A27 a bf:Text,
         abri:A27c,
         abri:A27d,
         abri:A27e,
-        abri:A27f .
+        abri:A27f ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A27" ] .
+

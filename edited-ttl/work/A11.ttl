@@ -12,6 +12,10 @@ abrw:A11 a bf:Text,
     rdfs:label "Pry Yourself Loose And Listen .../" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            bf:role "author" ;
-            rdfs:label "William S. Burroughs" ] ;
-    bf:hasInstance abri:A11a .
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasInstance abri:A11a ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A11" ] .
+

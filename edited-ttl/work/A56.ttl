@@ -20,5 +20,8 @@ abrw:A56 a bf:Text,
         abri:A56d,
         abri:A56e,
         abri:A56f,
-        abri:A56g .
+        abri:A56g ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A56" ] .
 

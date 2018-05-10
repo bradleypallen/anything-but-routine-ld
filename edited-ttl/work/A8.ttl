@@ -18,10 +18,14 @@ abrw:A8 a bf:Text,
                 bf:Person ;
             rdfs:label "Allen Ginsberg" ;
             bf:role "contributor" ] ;
-    bf:note [ a bf:Note ;
-                rdf:value "With Allen Ginsberg." ] ;
     bf:hasInstance abri:A8a,
         abri:A8b,
         abri:A8c,
         abri:A8d,
-        abri:A8e .
+        abri:A8e ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A8" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "With Allen Ginsberg." ] .
+

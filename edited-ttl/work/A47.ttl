@@ -19,5 +19,8 @@ abrw:A47 a bf:Text,
         abri:A47c,
         abri:A47d,
         abri:A47e,
-        abri:A47f .
+        abri:A47f ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A47" ] .
 
