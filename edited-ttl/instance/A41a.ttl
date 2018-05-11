@@ -1,3 +1,4 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
 @prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
@@ -9,6 +10,7 @@
 
 abri:A41a a bf:Instance ;
     rdfs:label "Blade Runner: A Movie" ;
+    bf:classification abrc:A ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
@@ -34,3 +36,4 @@ abri:A41a a bf:Instance ;
             bf:place "Berkeley, Calif." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Blade Runner: A Movie" ] .
+

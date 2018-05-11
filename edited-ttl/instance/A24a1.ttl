@@ -1,3 +1,4 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
 @prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
@@ -9,6 +10,7 @@
 
 abri:A24a1 a bf:Instance ;
     rdfs:label "Prospectus for Electronic Revolution 1970-71" ;
+    bf:classification abrc:A ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
@@ -28,3 +30,4 @@ abri:A24a1 a bf:Instance ;
             bf:date "[1971]" ;
             bf:place "Ingatestone, Essex" ] ;
     bf:relatedTo abri:A24a .
+

@@ -1,3 +1,4 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
 @prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
@@ -9,6 +10,7 @@
 
 abri:A42a1 a bf:Instance ;
     rdfs:label "Prospectus for Doctor Benway: A [Variant] Passage from The Naked Lunch" ;
+    bf:classification abrc:A ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
@@ -24,3 +26,4 @@ abri:A42a1 a bf:Instance ;
             bf:date "1979" ;
             bf:place "Santa Barbara, Calif." ] ;
     bf:relatedTo abri:A42a .
+

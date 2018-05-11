@@ -1,3 +1,4 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
 @prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
 @prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
@@ -10,6 +11,7 @@
 
 abri:A57a a bf:Instance ;
     rdfs:label "Ruski" ;
+    bf:classification abrc:A ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
