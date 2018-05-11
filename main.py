@@ -125,7 +125,7 @@ class ABRBibliography():
 
                 # bf:relatedTo (if present)
                 if self.graph.value(instance, self.bf.relatedTo):
-                    print('##### Related materials', file=mdfile)
+                    print('#### Related entities', file=mdfile)
                     print('', file=mdfile)
                     for related in self.graph.objects(instance, self.bf.relatedTo):
                         print('##### {}'.format(self.instance_entry(related)), file=mdfile)
