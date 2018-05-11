@@ -6,7 +6,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abrc:I a bf:Classification ;
+abrc:Schottlaender_v4_0 a bf:Classification ;
     rdfs:label "Schottlaender v4.0" ;
-    ns1:definition "The broad categorization scheme used in Brian E.C. Schottlaender’s \"ANYTHING BUT ROUTINE: A Selectively Annotated Bibliography of William S. Burroughs v. 4.0\"" .
-
+    ns1:definition "Works by and about William S. Burroughs, listed in Brian E.C. Schottlaender’s \"ANYTHING BUT ROUTINE: A Selectively Annotated Bibliography of William S. Burroughs v. 4.0\"" .
