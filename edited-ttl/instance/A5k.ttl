@@ -30,7 +30,7 @@ abri:A5k a bf:Instance ;
         [ a bf:Note ;
             rdf:value "“A book of The Cut-Up Trilogy.”—Spine." ],
         [ a bf:Note ;
-            rdf:value "“This fourth [sic] edition includes everything published in the second edition while respecting the 1962 MS’s  chapter divisions and restoring the cancelled chapter, entitled ‘Male Image Back In’ ... In the most visible change, this new editon also restores how material from the first edition appeared by putting back a thousand capital letters removed on the galleys in 1965.”—Introduction." ] ;
+            rdf:value "“This fourth [sic] edition includes everything published in the second edition while respecting the 1962 MS’s  chapter divisions and restoring the cancelled chapter, entitled ‘Male Image Back In’ ... In the most visible change, this new edition also restores how material from the first edition appeared by putting back a thousand capital letters removed on the galleys in 1965.”—Introduction." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:agent "Grove Press" ;
@@ -42,4 +42,3 @@ abri:A5k a bf:Instance ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
-
