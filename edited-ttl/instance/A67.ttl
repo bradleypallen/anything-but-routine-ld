@@ -1,0 +1,45 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A67 a bf:Instance ;
+    rdfs:label "Painting & Guns" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Raymond Foye" ;
+            bf:role "interviewer" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "interviewee" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Francesco Clemente" ;
+            bf:role "interviewer" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A67" ] ;
+    bf:instanceOf abrw:A67 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Hanuman Books; 46)" ],
+        [ a bf:Note ;
+            rdf:value "Includes “The Creative Observer,” which originated as an interview with Burroughs by Raymond Foye and Francesco Clemente, excerpts from which were originally published in a different form in the exhibition catalogue accompanying Burroughs’ first one-man show, 19 December–24 January 1988, at the Tony Shafrazi Gallery (see Section B below); and “The War Universe,” an interview with Burroughs by Foye, originally published in a slightly different form in Grand Street, Vol. 10, No. 1 (1991). [See Section C below]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Hanuman Books" ;
+            bf:date "1992" ;
+            bf:place "Madras, India; New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Painting & Guns" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound in dustjacket (no hardbound issued)." ] ] .

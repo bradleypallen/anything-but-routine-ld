@@ -44,4 +44,3 @@ abri:A37a a bf:Instance ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
-
