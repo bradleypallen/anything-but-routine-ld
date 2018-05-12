@@ -1,0 +1,34 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A41b a bf:Instance ;
+    rdfs:label "Blade Runner: A Movie" ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A41b" ] ;
+    bf:instanceOf abrw:A41 ;
+    bf:note [ a bf:Note ;
+            rdf:value "2nd ed." ],
+        [ a bf:Note ;
+            rdf:value "Softbound." ],
+        [ a bf:Note ;
+            rdf:value "Reprinted, 1994." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Blue Wind Press" ;
+            bf:date "1986" ;
+            bf:place "Berkeley, Calif." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Blade Runner: A Movie" ] .
+

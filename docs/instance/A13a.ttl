@@ -1,0 +1,45 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A13a a bf:Instance ;
+    rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A12a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A13a" ] ;
+    bf:instanceOf abrw:A13 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Burroughs Monograph, 1)" ],
+        [ a bf:Note ;
+            rdf:value "“...aborted edition ... about 10 or 20 of which were distributed before the edition was abandoned.” [Red House 4]" ],
+        [ a bf:Note ;
+            rdf:value "“If 10 or 20 copies did exist [as Fuck You Press publisher Ed Sanders claimed], far fewer have been accounted for.” [Skyline]" ],
+        [ a bf:Note ;
+            rdf:value "“... that edition had hand-glued photographs to each copy ...” [Am Here]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Fuck You Press" ;
+            bf:date "1965" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Health Bulletin: APO-33, A Metabolic Regulator. A Report on the Synthesis of the Apomorphine Formula" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Staplebound." ] ] .
+
