@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, RDFS
 class ABRBibliography():
 
     def __init__(self, ttl='docs/4.0/*/*.ttl'):
-        self.ld_path_prefix = "https://bradleypallen.org/anything-but-routine-ld/4.0/"
+        self.ld_path_prefix = "http://bradleypallen.org/anything-but-routine-ld/4.0/"
         self.abrc = rdflib.Namespace(self.ld_path_prefix + "classification/")
         self.abri = rdflib.Namespace(self.ld_path_prefix + "instance/")
         self.abrw = rdflib.Namespace(self.ld_path_prefix + "work/")
