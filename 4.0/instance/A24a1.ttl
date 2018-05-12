@@ -1,0 +1,33 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A24a1 a bf:Instance ;
+    rdfs:label "Prospectus for Electronic Revolution 1970-71" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A24a1" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "Includes extract “..... Ten tape recorders strapped under their coats .../”, in English and French." ],
+        [ a bf:Note ;
+            rdf:value "In English and French." ],
+        [ a bf:Note ;
+            rdf:value "8 1⁄2” x 13” sheet, folded once." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "OU" ;
+            bf:date "[1971]" ;
+            bf:place "Ingatestone, Essex" ] ;
+    bf:relatedTo abri:A24a .
+

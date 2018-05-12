@@ -1,0 +1,13 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abrc:H a bf:Classification ;
+    rdfs:label "BIOGRAPHY, INTERVIEWS, AND LETTERS" ;
+    rdfs:subClassOf abrc:Schottlaender_v4_0 ;
+    ns1:definition "\"... biographies of, interviews with, and letters by Burroughs\"-Introduction." .
+

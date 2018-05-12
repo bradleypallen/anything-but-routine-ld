@@ -1,0 +1,42 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A82 a bf:Instance ;
+    rdfs:label "The Travel Agency Is on Fire" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Alex Wermer-Colan" ;
+            bf:role "editor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A82" ] ;
+    bf:instanceOf abrw:A82 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Lost and Found: The CUNY Poetics Document Initiative; Ser. 5, No. 2)" ],
+        [ a bf:Note ;
+            rdf:value "“Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p. verso." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "The Center for the Humanities, The Graduate Center, The City University of New York" ;
+            bf:date "2015" ;
+            bf:place "New York" ] ;
+    bf:relatedTo abri:A82a1 ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Travel Agency Is on Fire" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Staplebound." ] ] .

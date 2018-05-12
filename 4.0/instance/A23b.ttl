@@ -1,0 +1,50 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A23b a bf:Instance ;
+    rdfs:label "Ali's Smile" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Carl Weissner" ;
+            bf:role "translator" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A23b" ] ;
+    bf:instanceOf abrw:A23 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(e.m.e., 12)" ],
+        [ a bf:Note ;
+            rdf:value "In English and German." ],
+        [ a bf:Note ;
+            rdf:value "German translation by Carl Weissner." ],
+        [ a bf:Note ;
+            rdf:value "1st ed." ],
+        [ a bf:Note ;
+            rdf:value "Includes 100 numbered copies signed by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Printed in green on ochre paper, on recto only." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Expanded Media Editions" ;
+            bf:date "1973" ;
+            bf:place "Göttingen" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Ali's Smile" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

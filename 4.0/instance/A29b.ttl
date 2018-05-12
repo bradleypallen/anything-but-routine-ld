@@ -1,0 +1,46 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A29b a bf:Instance ;
+    rdfs:label "Port of Saints" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A29b" ] ;
+    bf:instanceOf abrw:A29 ;
+    bf:note [ a bf:Note ;
+            rdf:value "1st [American] ed." ],
+        [ a bf:Note ;
+            rdf:value "Lacks the illustrations in Covent Garden/Am Here ed., above." ],
+        [ a bf:Note ;
+            rdf:value "“This new edition ... has been extensively rewritten and revised by the author.”—T.p. verso." ],
+        [ a bf:Note ;
+            rdf:value "Hardbound ed. includes 200 numbered copies signed by Burroughs and issued in publisher’s slipcase." ],
+        [ a bf:Note ;
+            rdf:value "“All copies of the signed limited edition were issued in dustjackets with the upper left-hand corner clipped off since the printed price was correct only for the hardbound trade edition and incorrect for the limited edition. They were clipped and sold at a higher price.” [Shoaf (eBay listing)]" ],
+        [ a bf:Note ;
+            rdf:value "“The publisher reports that when the first printing hardcover sold out, they were getting ready to do the fourth printing of the softcover. So the second printing of the hardcover is actually labeled “fourth printing.” There were some leftover dust jackets from the first printing, so those were used with the “fourth printing” until they ran out. The “fourth printing” hardcover was still available from the publisher as late as 2002 but without the dust jacket.” [Shoaf 1]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Blue Wind Press" ;
+            bf:date "1980" ;
+            bf:place "Berkeley, Calif." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Port of Saints" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound in dustjacket, and softbound." ] ] .
+

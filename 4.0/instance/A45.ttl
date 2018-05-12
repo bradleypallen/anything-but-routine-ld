@@ -1,0 +1,39 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A45 a bf:Instance ;
+    rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A45" ] ;
+    bf:instanceOf abrw:A45 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Limited to 125 numbered and 26 lettered copies, signed by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "“... printed at the Toothpaste Press for Bookslinger on the occasion of the author’s reading at the Walker Art  Center, October 24, 1979.”" ],
+        [ a bf:Note ;
+            rdf:value "Also issued as part of: 16 Broadsides: Walker Art Center Reading Series, 1979–1980 (St. Paul, Minn.: Bookslinger, 1980)." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Bookslinger" ;
+            bf:date "1979" ;
+            bf:place "[St. Paul, Minn.]" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Broadside." ] ] .

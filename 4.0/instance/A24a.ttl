@@ -1,0 +1,66 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A24a a bf:Instance ;
+    rdfs:label "Electronic Revolution 1970-71" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Jean Chopin" ;
+            bf:role "translator" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Henri Chopin" ;
+            bf:role "book designer" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Brion Gysin" ;
+            bf:role "artist" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A21a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A24a" ] ;
+    bf:instanceOf abrw:A24 ;
+    bf:note [ a bf:Note ;
+            rdf:value "In English and French." ],
+        [ a bf:Note ;
+            rdf:value "French translation by Jean Chopin." ],
+        [ a bf:Note ;
+            rdf:value "Cover: original drawings by Brion Gysin." ],
+        [ a bf:Note ;
+            rdf:value "Lay-Out: Henri Chopin." ],
+        [ a bf:Note ;
+            rdf:value "(Collection OU, No. 2)" ],
+        [ a bf:Note ;
+            rdf:value "Printed at the Blackmoor Head Press, 1971." ],
+        [ a bf:Note ;
+            rdf:value "501 lettered/numbered copies: one signed by Burroughs, on special paper, lettered “A,” in cardboard wallet containing all manuscripts and two silkscreens signed by Brion Gysin; 50 signed by Burroughs, on Hayle paper, numbered 1–50, issued loose in cardboard folder along with two silkscreens signed by Brion Gysin in a separate folder, in publisher’s slipcase with printed paper label; 450 softbound and numbered 51–500." ],
+        [ a bf:Note ;
+            rdf:value "At least one unnumbered copy is known to exist." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Blackmoor Head Press" ;
+            bf:date "1971" ;
+            bf:place "Cambridge" ] ;
+    bf:relatedTo abri:A24a1 ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Electronic Revolution 1970-71" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

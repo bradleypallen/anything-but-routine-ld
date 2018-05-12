@@ -1,0 +1,37 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A65a1b a bf:Instance ;
+    rdfs:label "Promotional Postcard for Tornado Alley" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "S Clay Wilson" ;
+            bf:role "illustrator" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A65a1b" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "[Distributed by Water Row Books?]" ],
+        [ a bf:Note ;
+            rdf:value "Features one of the illustrations in the volume, by S. Clay Wilson." ],
+        [ a bf:Note ;
+            rdf:value "Illustrated postcard on cream cardstock." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Water Row Books" ;
+            bf:date "[1989?]" ;
+            bf:place "Sudbury, Mass." ] ;
+    bf:relatedTo abri:A65a .
+

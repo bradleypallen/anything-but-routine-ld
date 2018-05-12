@@ -1,0 +1,37 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A70 a bf:Instance ;
+    rdfs:label "Remembering Jack Kerouac" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A70" ] ;
+    bf:instanceOf abrw:A70 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Heaven Poster Series; No. 10)" ],
+        [ a bf:Note ;
+            rdf:value "Limited to 500 copies signed by Burroughs, 49 of which are numbered and 26 of which are lettered." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "White Fields Press" ;
+            bf:date "[1994]" ;
+            bf:place "[Louisville, Ky.]" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Remembering Jack Kerouac" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Broadside." ] ] .

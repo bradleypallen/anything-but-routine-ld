@@ -1,0 +1,44 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A10d a bf:Instance ;
+    rdfs:label "Nova Express" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A10d",
+                "A10f" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A10d" ] ;
+    bf:instanceOf abrw:A10 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Panther Science Fiction)" ],
+        [ a bf:Note ;
+            rdf:value "Reprinted in 1969 and 1972 with different covers (per M&M), in 1978, and in 1982 (per Shoaf 1)." ],
+        [ a bf:Note ;
+            rdf:value "1978 printing: title misspelled as Nova Expresss on title page." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Panther Books/Granada Publishing" ;
+            bf:date "1968" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Nova Express" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

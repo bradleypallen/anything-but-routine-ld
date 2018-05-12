@@ -1,0 +1,51 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A50 a bf:Instance ;
+    rdfs:label "The Streets of Chance" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Howard Buchwald" ;
+            bf:role "artist" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "editor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Steve Miller" ;
+            bf:role "editor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A50" ] ;
+    bf:instanceOf abrw:A50 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Drawings by Howard Buchwald." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 160 numbered copies signed by Burroughs and Buchwald." ],
+        [ a bf:Note ;
+            rdf:value "“The Streets of Chance is a complete story found in the 1968 version [of The Soft Machine] and nowhere else. On 30 January 1981, Mr. Burroughs oversaw revisions of the text by James Grauerholz and Steve Miller, and this is that version.”—Colophon." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Red Ozier Press" ;
+            bf:date "1981" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Streets of Chance" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound, issued without dustjacket." ] ] .

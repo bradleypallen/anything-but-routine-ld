@@ -1,0 +1,49 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A15a a bf:Instance ;
+    rdfs:label "Time" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Brion Gysin" ;
+            bf:role "artist" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "A11a" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A15a" ] ;
+    bf:instanceOf abrw:A15 ;
+    bf:note [ a bf:Note ;
+            rdf:value "With 4 drawings by Brion Gysin." ],
+        [ a bf:Note ;
+            rdf:value "Cover by Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "“... first printing appears in 4 editions: 4 copies hors commerce; 10 copies numbered [sic] A-J, hardbound, each  containing an original [signed] manuscript page by Burroughs and an original [signed] drawing by Gysin, signed by both; 100 numbered and signed [by both] copies; 886 copies in a trade edition.”—T.p." ],
+        [ a bf:Note ;
+            rdf:value "“... the November 30, 1962 issue of Time magazine, with the title ‘India’s Lost Illusions,’ was apparently chosen by Burroughs for parody because that issue includes a savage review of Naked Lunch, as well as Burroughs’ other Olympia Press works, in which Burroughs and other Beat writers are put down as frauds.” [Shoaf 1]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "“C” Press" ;
+            bf:date "1965" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Time" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Hardbound, and softbound." ] ] .
+

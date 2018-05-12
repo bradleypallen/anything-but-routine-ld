@@ -1,0 +1,70 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A18a a bf:Instance ;
+    rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Bob Kaufman" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Mary Beach" ;
+            bf:role "translator" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Jean Hélion" ;
+            bf:role "artist" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Claude Pélieu" ;
+            bf:role "author",
+                "translator" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "D11" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A18a" ] ;
+    bf:instanceOf abrw:A18 ;
+    bf:note [ a bf:Note ;
+            rdf:value "In French." ],
+        [ a bf:Note ;
+            rdf:value "Translation of Burroughs and Kaufman texts by Mary Beach and Claude Pélieu." ],
+        [ a bf:Note ;
+            rdf:value "(L'Herne, No. 9)" ],
+        [ a bf:Note ;
+            rdf:value "(L'Écriture des Vivants 1: Etats-Unis)" ],
+        [ a bf:Note ;
+            rdf:value "Includes 55 copies with uncut signatures - numbered 1-40 and lettered A-O with lithograph by Jean Hélion." ],
+        [ a bf:Note ;
+            rdf:value "Cover title: L’Herne Textes: Burroughs, Pélieu, Kaufman." ],
+        [ a bf:Note ;
+            rdf:value "Includes the first French translation of Nova Express and two previously unpublished letters from Burroughs to Pélieu. [Jordan Davies]" ],
+        [ a bf:Note ;
+            rdf:value "No equivalent U.S. or U.K. edition." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Éditions de L'Herne" ;
+            bf:date "1967" ;
+            bf:place "Paris" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound (no hardbound issued)." ] ] .
+

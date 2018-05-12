@@ -1,0 +1,52 @@
+@prefix abrc: <https://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abri: <https://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
+@prefix abrw: <https://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:A76b a bf:Instance ;
+    rdfs:label "Word Virus: The William S. Burroughs Reader" ;
+    bf:classification abrc:A ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "James Grauerholz" ;
+            bf:role "editor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Ann Douglas" ;
+            bf:role "writer of introduction" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Jack Kerouac" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Ira Silverberg" ;
+            bf:role "editor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "A76b" ] ;
+    bf:instanceOf abrw:A76 ;
+    bf:note [ a bf:Note ;
+            rdf:value "(Modern Classic)" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Flamingo" ;
+            bf:date "1999" ;
+            bf:place "London" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Word Virus: The William S. Burroughs Reader" ] ;
+    ns1:hasPart [ a arm:Binding ;
+            bf:note [ a bf:Note,
+                        arm:DescriptiveNote ;
+                    rdf:value "Softbound." ] ] .
+
