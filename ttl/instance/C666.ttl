@@ -1,0 +1,59 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:C666 a bf:Instance ;
+    rdfs:label "Sensitive Skin, No. 8 (2012)" ;
+    bf:classification abrc:C ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Ginsberg" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Taylor" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Steven Taylor" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Ginsberg" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Burroughs" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C666" ] ;
+    bf:instanceOf abrw:C666 ;
+    bf:note [ a bf:Note ;
+            rdf:value "Originally published in 1992 in The San Francisco Review of Books (Vol." ],
+        [ a bf:Note ;
+            rdf:value "17, No." ],
+        [ a bf:Note ;
+            rdf:value "   the many hours of taped conversation [between Burroughs and Ginsberg] which took place in Lawrence, Kansas, from March 17p." ],
+        [ a bf:Note ;
+            rdf:value "30." ],
+        [ a bf:Note ;
+            rdf:value "Transcribed by Steven Taylor, with initial edits by Taylor and Ginsberg." ],
+        [ a bf:Note ;
+            rdf:value "1 (1992), above) under the published in Burroughs Live (Los Angeles, 2001) [see Section H, belowThe   2 0 1 4" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "2012" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Sensitive Skin, No. 8 (2012)" ] .
+

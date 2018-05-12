@@ -1,0 +1,33 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:C624 a bf:Instance ;
+    rdfs:label "The San Francisco Review of Books, Vol. 17, No. 1 (1992)" ;
+    bf:classification abrc:C ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C624" ] ;
+    bf:instanceOf abrw:C624 ;
+    bf:note [ a bf:Note ;
+            rdf:value "87" ],
+        [ a bf:Note ;
+            rdf:value "32." ],
+        [ a bf:Note ;
+            rdf:value "   taped conversation that took place in Lawrence, March 17p." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1992" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The San Francisco Review of Books, Vol. 17, No. 1 (1992)" ] .
+

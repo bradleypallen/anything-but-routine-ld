@@ -1,0 +1,37 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:C525 a bf:Instance ;
+    rdfs:label "Stereo Headphones, No. 8-9-10 (1982)" ;
+    bf:classification abrc:C ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Lourdes Castro" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Barry McCallion" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C525" ] ;
+    bf:instanceOf abrw:C525 ;
+    bf:note [ a bf:Note ;
+            rdf:value " commerce copies, numbered H.C.1 to H.C.7, are printed on special paper and additionally contain a signed hand-made silhouette multiple by Lourdes Castro, a signed silk-screen print by Barry McCallion, [ and] a   Includes sound recording (EMI Australia, PRS-Heidsieck." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1982" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Stereo Headphones, No. 8-9-10 (1982)" ] .
+

@@ -10,6 +10,7 @@ class ABRBibliography():
         self.dcterms = rdflib.Namespace("http://purl.org/dc/terms/")
         self.terminating_chars = ['!', '?', '.']
         self.graph = rdflib.Graph()
+        self.graph.bind("abrc", "https://w3id.org/anything-but-routine/4.0/classification/")
         self.graph.bind("abri", "https://w3id.org/anything-but-routine/4.0/instance/")
         self.graph.bind("abrw", "https://w3id.org/anything-but-routine/4.0/work/")
         self.graph.bind("bf", "http://id.loc.gov/ontologies/bibframe/")
@@ -70,10 +71,12 @@ class ABRBibliography():
 
     def to_records(self):
         qres = self.graph.query(
-            """SELECT DISTINCT ?title ?abrno ?date ?i
+            """SELECT DISTINCT ?w ?title ?c ?cl ?abrno ?date ?i
                WHERE {
                   ?w rdf:type bf:Work .
                   ?w rdfs:label ?title .
+                  ?w bf:classification ?c .
+                  ?c rdfs:label ?cl .
                   ?i bf:instanceOf ?w .
                   ?i bf:identifiedBy ?id .
                   ?id bf:source 'Schottlaender v4.0' .
@@ -82,39 +85,48 @@ class ABRBibliography():
                   ?pa bf:date ?date .
                }
                ORDER BY ASC(?date)""")
-        results = [ [row[0].toPython(), row[1].toPython(), row[2].toPython(), row[3].toPython() ] for row in qres ]
-        instance_df = pd.DataFrame(results, columns=['worktitle', 'id', 'date', 'instance'])
-        instance_df['workid'] = instance_df['id'].str[1:-1]
-        instance_df['workid'] = instance_df['workid'].apply(pd.to_numeric)
-        instance_df['instanceltr'] = instance_df['id'].str[-1]
-        instance_df['instanceltr'] = instance_df['instanceltr'].str.upper()
+        results = [ [ row[i].toPython() for i in range(len(row)) ] for row in qres ]
+        instance_df = pd.DataFrame(results, columns=['work', 'worktitle', 'category', 'catlabel', 'id', 'date', 'instance'])
+        instance_df['workid'] = instance_df['work'].apply(lambda x: x[x.rfind('/')+1:])
+        instance_df['workidsort'] = instance_df['workid'].apply(lambda x: x[0] + x[1:].rjust(5, '0'))
+        instance_df['category'] = instance_df['category'].str[-1]
+        #instance_df['instanceltr'] = instance_df['id'].str[-1]
+        #instance_df['instanceltr'] = instance_df['instanceltr'].str.upper()
         instance_df['year'] = instance_df['date'].str.extract('\[?(\d\d\d\d)', expand=False)
-        instance_df = instance_df.sort_values(by=['workid', 'instanceltr'])
-        instance_df = instance_df[['year', 'workid', 'worktitle', 'instanceltr', 'instance']]
+        #instance_df = instance_df.sort_values(by=['workidsort', 'instanceltr'])
+        instance_df = instance_df.sort_values(by=['workidsort', 'id'])
+        instance_df = instance_df[['year', 'workid', 'category', 'catlabel', 'worktitle', 'id', 'instance']]
         return instance_df.to_dict('records')
 
     def to_markdown(self, file='docs/index.md'):
         with open(file, 'w') as mdfile:
-            print("# A. BOOKS, BROADSIDES, AND PAMPHLETS", file=mdfile)
-            print('', file=mdfile)
+            current_category = None
             current_work = None
-            current_work_title = None
             current_year = '0000'
             for i in self.to_records():
+                instance = URIRef(i['instance'])
+                if i['category'] != current_category:
+                    current_category = i['category']
+                    current_year = '0000'
+                    print(f"# {current_category}. {i['catlabel']}", file=mdfile)
+                    print('', file=mdfile)
                 if i['workid'] != current_work:
                     if i['year'] > current_year:
                         current_year = i['year']
                         print(f"## {current_year}", file=mdfile)
                         print('', file=mdfile)
                     current_work = i['workid']
-                    current_work_title = i['worktitle']
-                    if current_work_title[-1] in self.terminating_chars:
-                        print(f"### A{current_work}. _{current_work_title}_", file=mdfile)
-                    else:
-                        print(f"### A{current_work}. _{current_work_title}._", file=mdfile)
-                    print('', file=mdfile)
-                instance = URIRef(i['instance'])
-                print('#### {}'.format(self.instance_entry(instance)), file=mdfile)
+                    if i['workid'] != i['id']:
+                        if i['worktitle'][-1] in self.terminating_chars:
+                            print(f"### {current_work}. _{i['worktitle']}_", file=mdfile)
+                            print('', file=mdfile)
+                        else:
+                            print(f"### {current_work}. _{i['worktitle']}._", file=mdfile)
+                            print('', file=mdfile)
+                if i['workid'] != i['id']:
+                    print('#### {}'.format(self.instance_entry(instance)), file=mdfile)
+                else:
+                    print('### {}'.format(self.instance_entry(instance)), file=mdfile)
                 print('', file=mdfile)
 
                 # bf:note

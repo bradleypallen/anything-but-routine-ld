@@ -1,0 +1,35 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:C601 a bf:Instance ;
+    rdfs:label "Self and Society: The European Journal of Humanistic Psychology, Vol. 17, No. 2 (March/April 1989)" ;
+    bf:classification abrc:C ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C601" ] ;
+    bf:instanceOf abrw:C601 ;
+    bf:note [ a bf:Note ;
+            rdf:value "   Exterminator!" ],
+        [ a bf:Note ;
+            rdf:value "DO EASY is a meditative state for everyday life and William Burroughs gives us a marvellous [sic] account of Colonel (retd) Sutton-p. 50." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1989" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Self and Society: The European Journal of Humanistic Psychology, Vol. 17, No. 2 (March/April 1989)" ] .
+

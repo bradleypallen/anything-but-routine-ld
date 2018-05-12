@@ -1,0 +1,40 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:C34 a bf:Instance ;
+    rdfs:label "Rhinozeros, No. 5 (1961)" ;
+    bf:classification abrc:C ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Anselm Hollo" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C38" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C34" ] ;
+    bf:instanceOf abrw:C34 ;
+    bf:note [ a bf:Note ;
+            rdf:value "{M&M C38}    German translation by Anselm Hollo." ],
+        [ a bf:Note ;
+            rdf:value "German and English on opposite pages." ],
+        [ a bf:Note ;
+            rdf:value "A hand-lettered version of the penultimate paragraph in the American edition of The Soft Machine." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1961" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Rhinozeros, No. 5 (1961)" ] .
+

@@ -1,0 +1,45 @@
+@prefix abrc: <https://w3id.org/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://w3id.org/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://w3id.org/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:C412 a bf:Instance ;
+    rdfs:label "Rush, Vol. 1, No. 3 (December 1976)" ;
+    bf:classification abrc:C ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Malcolm McNeill" ;
+            bf:role "contributor" ],
+        [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "Malcolm Mc Neill" ;
+            bf:role "contributor" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C412" ] ;
+    bf:instanceOf abrw:C412 ;
+    bf:note [ a bf:Note ;
+            rdf:value "It was conceived in 1970 as an attempt to extend the possibilities of sequential imagery, in book form, at present only utilised [sicp." ],
+        [ a bf:Note ;
+            rdf:value "39." ],
+        [ a bf:Note ;
+            rdf:value "  [with Malcolm Mc Neill]  -novel by William S. Burroughs and Malcolm McNeill [sic]." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:date "1976" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Rush, Vol. 1, No. 3 (December 1976)" ] .
+
