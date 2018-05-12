@@ -5,6 +5,9 @@ from rdflib.namespace import RDF, RDFS
 class ABRBibliography():
 
     def __init__(self, ttl='edited-ttl/*/*.ttl'):
+        self.abrc = rdflib.Namespace("https://w3id.org/anything-but-routine/4.0/classification/")
+        self.abri = rdflib.Namespace("https://w3id.org/anything-but-routine/4.0/instance/")
+        self.abrw = rdflib.Namespace("https://w3id.org/anything-but-routine/4.0/work/")
         self.bf = rdflib.Namespace("http://id.loc.gov/ontologies/bibframe/")
         self.arm = rdflib.Namespace("https://w3id.org/arm/core/ontology/0.1/")
         self.dcterms = rdflib.Namespace("http://purl.org/dc/terms/")
@@ -22,6 +25,9 @@ class ABRBibliography():
     def instance_entry(self, instance):
         entry = ''
 
+        # bf:classification
+        category = self.graph.value(instance, self.bf.classification)
+
         # bf:identifiedBy
         ids = {}
         for id in self.graph.objects(instance, self.bf.identifiedBy):
@@ -37,21 +43,11 @@ class ABRBibliography():
             entry += '{}. _{}._ '.format(schottlaender_id, title)
 
         # bf:contributor
-        for contributor in self.graph.objects(instance, self.bf.contributor):
-            agent = self.graph.value(contributor, RDFS.label)
-            roles = ', '.join([ role for role in self.graph.objects(contributor, self.bf.role) ])
-            entry += '{}, {}; '.format(agent, roles)
-        entry = "{}. ".format(entry[:-2])
+        entry += "{}. ".format('; '.join([ '{}, {}'.format(self.graph.value(contributor, RDFS.label), ', '.join([ role for role in self.graph.objects(contributor, self.bf.role) ])) for contributor in self.graph.objects(instance, self.bf.contributor) ]))
 
         # bf:provisionActivity
-        for publisher in self.graph.objects(instance, self.bf.provisionActivity):
-            # provisionActivities can have more than one place
-            place = self.graph.value(publisher, self.bf.place)
-            # provisionActivities can have more than one agent
-            agent = self.graph.value(publisher, self.bf.agent)
-            date = self.graph.value(publisher, self.bf.date)
-            entry += '{}: {}, {}; '.format(place, agent, date)
-        entry = "{}. ".format(entry[:-2])
+        if category not in [ self.abrc['C'] ]:
+            entry += "{}. ".format('; '.join([ '{}: {}, {}'.format(self.graph.value(publisher, self.bf.place), self.graph.value(publisher, self.bf.agent), self.graph.value(publisher, self.bf.date)) for publisher in self.graph.objects(instance, self.bf.provisionActivity) ]))
 
         # bf:copyrightDate
         if self.graph.value(instance, self.bf.copyrightDate):
@@ -90,10 +86,7 @@ class ABRBibliography():
         instance_df['workid'] = instance_df['work'].apply(lambda x: x[x.rfind('/')+1:])
         instance_df['workidsort'] = instance_df['workid'].apply(lambda x: x[0] + x[1:].rjust(5, '0'))
         instance_df['category'] = instance_df['category'].str[-1]
-        #instance_df['instanceltr'] = instance_df['id'].str[-1]
-        #instance_df['instanceltr'] = instance_df['instanceltr'].str.upper()
         instance_df['year'] = instance_df['date'].str.extract('\[?(\d\d\d\d)', expand=False)
-        #instance_df = instance_df.sort_values(by=['workidsort', 'instanceltr'])
         instance_df = instance_df.sort_values(by=['workidsort', 'id'])
         instance_df = instance_df[['year', 'workid', 'category', 'catlabel', 'worktitle', 'id', 'instance']]
         return instance_df.to_dict('records')
