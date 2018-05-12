@@ -4,18 +4,19 @@ from rdflib.namespace import RDF, RDFS
 
 class ABRBibliography():
 
-    def __init__(self, ttl='edited-ttl/*/*.ttl'):
-        self.abrc = rdflib.Namespace("https://w3id.org/anything-but-routine/4.0/classification/")
-        self.abri = rdflib.Namespace("https://w3id.org/anything-but-routine/4.0/instance/")
-        self.abrw = rdflib.Namespace("https://w3id.org/anything-but-routine/4.0/work/")
+    def __init__(self, ttl='docs/4.0/*/*.ttl'):
+        self.ld_path_prefix = "https://bradleypallen.org/anything-but-routine-ld/4.0/"
+        self.abrc = rdflib.Namespace(self.ld_path_prefix + "classification/")
+        self.abri = rdflib.Namespace(self.ld_path_prefix + "instance/")
+        self.abrw = rdflib.Namespace(self.ld_path_prefix + "work/")
         self.bf = rdflib.Namespace("http://id.loc.gov/ontologies/bibframe/")
         self.arm = rdflib.Namespace("https://w3id.org/arm/core/ontology/0.1/")
         self.dcterms = rdflib.Namespace("http://purl.org/dc/terms/")
         self.terminating_chars = ['!', '?', '.']
         self.graph = rdflib.Graph()
-        self.graph.bind("abrc", "https://w3id.org/anything-but-routine/4.0/classification/")
-        self.graph.bind("abri", "https://w3id.org/anything-but-routine/4.0/instance/")
-        self.graph.bind("abrw", "https://w3id.org/anything-but-routine/4.0/work/")
+        self.graph.bind("abrc", self.ld_path_prefix + "classification/")
+        self.graph.bind("abri", self.ld_path_prefix + "instance/")
+        self.graph.bind("abrw", self.ld_path_prefix + "work/")
         self.graph.bind("bf", "http://id.loc.gov/ontologies/bibframe/")
         self.graph.bind("arm", "https://w3id.org/arm/core/ontology/0.1/")
         self.graph.bind("dcterms", "http://purl.org/dc/terms/")
@@ -62,6 +63,9 @@ class ABRBibliography():
         # M&M no. (if present)
         if 'Maynard & Miles' in ids:
             entry += '{M&M ' + ', '.join(ids['Maynard & Miles']) + '}'
+
+        # Link to .ttl
+        entry += ' _[.ttl]({}.ttl)_'
 
         return entry
 
