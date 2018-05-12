@@ -65,7 +65,7 @@ class ABRBibliography():
             entry += '{M&M ' + ', '.join(ids['Maynard & Miles']) + '}'
 
         # Link to .ttl
-        entry += ' _[.ttl]({}.ttl)_'
+        entry += ' _[.ttl]({}.ttl)_'.format(instance)
 
         return entry
 
