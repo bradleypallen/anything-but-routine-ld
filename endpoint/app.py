@@ -4,12 +4,9 @@ from rdflib import Graph
 import urllib2
 app = Flask(__name__)
 
-@app.route("/<path:entity>")
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
-def get_entity(entity, media_type):
-    gh_pages_ttl = "http://bradleypallen.org/anything-but-routine-ld{}.ttl".format(entity[entity.rfind('/4.0'):])
+def emit_acceptable_serialization(ttl_uri, media_type):
     try:
-        graph = Graph().parse(gh_pages_ttl, format='n3')
+        graph = Graph().parse(ttl_uri, format='n3')
     except urllib2.HTTPError as e:
         abort(e.code)
     if media_type == 'application/rdf+xml':
@@ -22,3 +19,15 @@ def get_entity(entity, media_type):
         response = make_response(graph.serialize(None, format='turtle'))
         response.headers['content-type'] = 'text/turtle'
     return response
+
+@app.route('/')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+def get_void(media_type):
+    void_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/void.ttl"
+    return emit_acceptable_serialization(void_ttl_uri, media_type)
+
+@app.route("/<path:entity>")
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+def get_entity(entity, media_type):
+    entity_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld{}.ttl".format(entity[entity.rfind('/4.0'):])
+    return emit_acceptable_serialization(entity_ttl_uri, media_type)
