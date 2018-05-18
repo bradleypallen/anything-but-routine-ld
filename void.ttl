@@ -120,6 +120,6 @@ abr: a void:Dataset ;
         abrw:C2,
         abrw:C3 ;
     void:vocabulary bf:,
-        arm: ;
+        arm:,
+        dcterms: ;
     foaf:homepage <http://bradleypallen.org/anything-but-routine-ld/> .
-
