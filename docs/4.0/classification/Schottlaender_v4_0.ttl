@@ -1,4 +1,4 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .

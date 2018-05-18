@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, RDFS
 class ABRBibliography():
 
     def __init__(self, ttl='docs/4.0/*/*.ttl'):
-        self.ld_path_prefix = "http://bradleypallen.org/anything-but-routine-ld/4.0/"
+        self.ld_path_prefix = "https://wsburroughs.link/anything-but-routine/4.0/"
         self.abrc = rdflib.Namespace(self.ld_path_prefix + "classification/")
         self.abri = rdflib.Namespace(self.ld_path_prefix + "instance/")
         self.abrw = rdflib.Namespace(self.ld_path_prefix + "work/")
@@ -25,15 +25,12 @@ class ABRBibliography():
 
     def instance_entry(self, instance):
         entry = ''
-
         # bf:classification
         category = self.graph.value(instance, self.bf.classification)
-
         # bf:identifiedBy
         ids = {}
         for id in self.graph.objects(instance, self.bf.identifiedBy):
             ids['{}'.format(self.graph.value(id, self.bf.source))] = [ id_str for id_str in self.graph.objects(id, RDF.value) ]
-
         # Schottlaender no. + bf:title
         schottlaender_id = ids['Schottlaender v4.0'][0]
         # titles can be more complex
@@ -42,31 +39,24 @@ class ABRBibliography():
             entry += '{}. _{}_ '.format(schottlaender_id, title)
         else:
             entry += '{}. _{}._ '.format(schottlaender_id, title)
-
         # bf:contributor
         entry += "{}. ".format('; '.join([ '{}, {}'.format(self.graph.value(contributor, RDFS.label), ', '.join([ role for role in self.graph.objects(contributor, self.bf.role) ])) for contributor in self.graph.objects(instance, self.bf.contributor) ]))
-
         # bf:provisionActivity
         if category not in [ self.abrc['C'] ]:
             entry += "{}. ".format('; '.join([ '{}: {}, {}'.format(self.graph.value(publisher, self.bf.place), self.graph.value(publisher, self.bf.agent), self.graph.value(publisher, self.bf.date)) for publisher in self.graph.objects(instance, self.bf.provisionActivity) ]))
-
         # bf:copyrightDate
         if self.graph.value(instance, self.bf.copyrightDate):
             entry += '©{}. '.format(self.graph.value(instance, self.bf.copyrightDate))
-
         # dcterms:hasPart
         binding = self.graph.value(instance, self.dcterms.hasPart)
         if binding:
             descriptive_note = self.graph.value(binding, self.bf.note)
             entry += '{} '.format(self.graph.value(descriptive_note, RDF.value))
-
         # M&M no. (if present)
         if 'Maynard & Miles' in ids:
             entry += '{M&M ' + ', '.join(ids['Maynard & Miles']) + '}'
-
         # Link to .ttl
-        entry += ' _[.ttl]({}.ttl)_'.format(instance)
-
+        entry += ' _[ttl]({})_'.format(instance)
         return entry
 
     def to_records(self):
@@ -125,13 +115,10 @@ class ABRBibliography():
                 else:
                     print('### {}'.format(self.instance_entry(instance)), file=mdfile)
                 print('', file=mdfile)
-
                 # bf:note
                 for note in self.graph.objects(instance, self.bf.note):
                     print('- {}'.format(self.graph.value(note, RDF.value)), file=mdfile)
-
                 print('', file=mdfile)
-
                 # bf:relatedTo (if present)
                 if self.graph.value(instance, self.bf.relatedTo):
                     print('#### Related entities', file=mdfile)
@@ -141,7 +128,6 @@ class ABRBibliography():
                         print('', file=mdfile)
                         for note in self.graph.objects(related, self.bf.note):
                             print('- {}'.format(self.graph.value(note, RDF.value)), file=mdfile)
-
                         print('', file=mdfile)
 
 if __name__ == "__main__":

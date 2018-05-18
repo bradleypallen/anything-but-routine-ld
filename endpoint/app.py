@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/<path:entity>")
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
 def get_entity(entity, media_type):
-    gh_pages_ttl = "http://bradleypallen.org/{}.ttl".format(entity)
+    gh_pages_ttl = "http://bradleypallen.org/anything-but-routine-ld{}.ttl".format(entity[entity.rfind('/4.0'):])
     try:
         graph = Graph().parse(gh_pages_ttl, format='n3')
     except urllib2.HTTPError as e:
