@@ -1,0 +1,125 @@
+@prefix abr: <https://wsburroughs.link/anything-but-routine/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abr: a void:Dataset ;
+    dcterms:created "2018-05-18"^^xsd:date ;
+    dcterms:creator [ a bf:Agent,
+                bf:Person,
+                foaf:Person ;
+            rdfs:label "Bradley P. Allen" ;
+            bf:role "editor" ;
+            foaf:homepage <http://bradleypallen.org> ;
+            foaf:mbox <mailto:bradley.p.allen@gmail.com> ] ;
+    dcterms:description "Brian E.C. Schottlaender's annotated bibliography of William S. Burroughs rendered as a linked data resource." ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode> ;
+    dcterms:modified "2018-05-18T16:09:47.681449-07:00"^^xsd:dateTime ;
+    dcterms:source <https://escholarship.org/uc/item/0xj4d6bm> ;
+    dcterms:subject <http://dbpedia.org/resource/Category:20th-century_American_novelists>,
+        <http://dbpedia.org/resource/William_S._Burroughs> ;
+    dcterms:title "Anything But Routine LD" ;
+    void:exampleResource abrc:B,
+        abri:A3c,
+        abrw:A8 ;
+    void:feature <http://www.w3.org/ns/formats/N-Triples>,
+        <http://www.w3.org/ns/formats/RDF_XML>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:rootResource abrw:A1,
+        abrw:A10,
+        abrw:A11,
+        abrw:A12,
+        abrw:A13,
+        abrw:A14,
+        abrw:A15,
+        abrw:A16,
+        abrw:A17,
+        abrw:A18,
+        abrw:A19,
+        abrw:A2,
+        abrw:A20,
+        abrw:A21,
+        abrw:A22,
+        abrw:A23,
+        abrw:A24,
+        abrw:A25,
+        abrw:A26,
+        abrw:A27,
+        abrw:A28,
+        abrw:A29,
+        abrw:A3,
+        abrw:A30,
+        abrw:A31,
+        abrw:A32,
+        abrw:A33,
+        abrw:A34,
+        abrw:A35,
+        abrw:A36,
+        abrw:A37,
+        abrw:A38,
+        abrw:A39,
+        abrw:A4,
+        abrw:A40,
+        abrw:A41,
+        abrw:A42,
+        abrw:A43,
+        abrw:A44,
+        abrw:A45,
+        abrw:A46,
+        abrw:A47,
+        abrw:A48,
+        abrw:A49,
+        abrw:A5,
+        abrw:A50,
+        abrw:A51,
+        abrw:A52,
+        abrw:A53,
+        abrw:A54,
+        abrw:A55,
+        abrw:A56,
+        abrw:A57,
+        abrw:A58,
+        abrw:A59,
+        abrw:A6,
+        abrw:A60,
+        abrw:A61,
+        abrw:A62,
+        abrw:A63,
+        abrw:A64,
+        abrw:A65,
+        abrw:A66,
+        abrw:A67,
+        abrw:A68,
+        abrw:A69,
+        abrw:A7,
+        abrw:A70,
+        abrw:A71,
+        abrw:A72,
+        abrw:A73,
+        abrw:A74,
+        abrw:A75,
+        abrw:A76,
+        abrw:A77,
+        abrw:A78,
+        abrw:A79,
+        abrw:A8,
+        abrw:A80,
+        abrw:A81,
+        abrw:A82,
+        abrw:A9,
+        abrw:C1,
+        abrw:C2,
+        abrw:C3 ;
+    void:vocabulary bf:,
+        arm: ;
+    foaf:homepage <http://bradleypallen.org/anything-but-routine-ld/> .
+
