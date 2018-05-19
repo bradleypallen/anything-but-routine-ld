@@ -20,7 +20,7 @@ def emit_acceptable_serialization(ttl_uri, media_type):
         response.headers['content-type'] = 'text/turtle'
     return response
 
-@app.route('/')
+@app.route('/anything-but-routine/')
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
 def get_void(media_type):
     void_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/void.ttl"
