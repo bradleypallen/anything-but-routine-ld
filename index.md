@@ -6,43 +6,43 @@
 
 #### A1a. _Junkie._ William S. Burroughs, author. New York: Ace Books, 1953. Softbound (no hardbound issued). {M&M A1a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1a)_
 
-- Published under the pseudonym William Lee.
+- Title on cover: Junkie: Confessions of an Unredeemed Drug Addict.
 - This manuscript was used by Penguin Books in the issuing of their ‘unexpurgated’ edition of 1977 [below], despite which there are many differences, some important, between the manuscript and that version.”—Bookseller’s note laid in to Columbia’s typescript.
 - Issued bound back-to-back with Maurice Helbrant’s Narcotic Agent.
 - “For the protection of the reader, we have inserted occasional parenthetical notes [i.e., bracketed editor’s notes] to indicate where the author clearly departs from accepted medical fact or makes other statements in an effort to justify his actions.”—Publisher’s Note.
+- Published under the pseudonym William Lee.
 - Autograph note at end of Burroughs’ untitled typescript, examined at Columbia University’s Rare Books and Manuscripts Library: “End of Part I, Junk.” “There are major differences between this manuscript and the first [Ace] edition.
-- Title on cover: Junkie: Confessions of an Unredeemed Drug Addict.
 
 #### A1b. _Junkie: Confessions of an Unredeemed Drug Addict._ William S. Burroughs, author. London: Digit Books, 1957. Softbound (no hardbound issued). {M&M A1b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1b)_
 
 - Subsequently withdrawn and remaining copies pulped. [Miles]
-- First standalone publication of Junkie.
 - Published under the pseudonym William Lee.
+- First standalone publication of Junkie.
 
 #### A1c. _Junkie._ Carl Solomon, contributor; William S. Burroughs, author. New York: Ace Books, 1964. ©1953. Softbound (no hardbound issued). {M&M A1c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1c)_
 
-- 1st state: (Ace Star, K202) and .50¢ cover price. [BeatBooks 51]
-- (Ace Star, K202)
-- 2nd state: (Ace Star, 41841) and .60¢ cover price. [BeatBooks 51]
 - Foreword by Carl Solomon.
-- Reprinted in 1970 and 1973 (the latter with a different cover). [M&M]
+- 1st state: (Ace Star, K202) and .50¢ cover price. [BeatBooks 51]
+- 2nd state: (Ace Star, 41841) and .60¢ cover price. [BeatBooks 51]
 - 1st separate U.S. publication, and 1st publication under Burroughs' own name.
+- (Ace Star, K202)
+- Reprinted in 1970 and 1973 (the latter with a different cover). [M&M]
 
 #### A1d. _Junkie._ William S. Burroughs, author. London: New English Library, 1966. ©1953. Softbound (no hardbound issued). {M&M A1d} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1d)_
 
-- (The Olympia Press Traveller's Companion Series, No. 114).
-- In this edition, “Notes,” originally printed in the text (see A1A above), are printed in a separate section at the end—out of context and preceding the newly added “Glossary.”
 - Issued in clear tissue jacket. [PBA 327]
 - Reprinted in 1969 and 1972 with different covers. [M&M]
+- In this edition, “Notes,” originally printed in the text (see A1A above), are printed in a separate section at the end—out of context and preceding the newly added “Glossary.”
+- (The Olympia Press Traveller's Companion Series, No. 114).
 
 #### A1e. _Junkie._ Carl Solomon, contributor; William S. Burroughs, author. London: David Bruce & Watson, 1973. Hardbound in dustjacket. {M&M A1e} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1e)_
 
 - Foreword by Carl Solomon.
 - Preface by Burroughs.
-- Includes “Glossary.”
 - “The first, and only, English-language edition in hardcover.” [BeatBooks 65]
+- Includes “Glossary.”
 
-#### A1f. _Junky._ William S. Burroughs, author; Allen Ginsberg, writer of introduction. Harmondsworth, England: Penguin Books, 1977. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1f)_
+#### A1f. _Junky._ Allen Ginsberg, writer of introduction; William S. Burroughs, author. Harmondsworth, England: Penguin Books, 1977. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1f)_
 
 - Later 1977 printing with different cover design. [Shoaf 1]
 - With an introduction by Allen Ginsberg.
@@ -55,17 +55,17 @@
 
 - Introduction by Will Self.
 
-#### A1i. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, writer of introduction, editor. New York: Penguin, 2003. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1i)_
+#### A1i. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, editor, writer of introduction. New York: Penguin, 2003. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1i)_
 
-- “Apart from making just over a hundred small corrections or changes, this present edition adds to Junky approximately the same amount of new material (around four thousand words) as Junky added to Junkie, but the way it does is, and had to be, quite different.”—Introduction.
 - 50th Anniversary ed.
+- “Apart from making just over a hundred small corrections or changes, this present edition adds to Junky approximately the same amount of new material (around four thousand words) as Junky added to Junkie, but the way it does is, and had to be, quite different.”—Introduction.
 - Edited and with an Introduction by Oliver Harris.
 
-#### A1j. _Junky: The Definitive Text of “Junk”._ Oliver Harris, writer of introduction, editor; William S. Burroughs, author. New York: Grove Press/Atlantic Monthly, 2012. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1j)_
+#### A1j. _Junky: The Definitive Text of “Junk”._ Oliver Harris, editor, writer of introduction; William S. Burroughs, author. New York: Grove Press/Atlantic Monthly, 2012. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1j)_
 
 - Edited and with an Introduction by Oliver Harris.
 
-#### A1k. _Junky: The Definitive Text of “Junk”._ William S. Burroughs, author; Oliver Harris, writer of introduction, editor. London: Penguin, 2012. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1k)_
+#### A1k. _Junky: The Definitive Text of “Junk”._ Oliver Harris, writer of introduction, editor; William S. Burroughs, author. London: Penguin, 2012. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A1k)_
 
 - Edited and with an Introduction by Oliver Harris.
 
@@ -76,24 +76,24 @@
 #### A2a. _The Naked Lunch._ William S. Burroughs, author. Paris: Olympia Press, 1959. Softbound in dustjacket (no hardbound issued). {M&M A2a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2a)_
 
 - (The Travellers Companion Series, No. 76)
-- 2nd printing [not to be confused with the “second issue” of the first printing (above)] issued without  dustjacket or decorative border around title page, and with price (“18 francs”) printed on back cover.
-- Dustjacket designed by Burroughs.
 - 3rd printing (1965) issued without dustjacket or decorative border around title page, and with price (“Francs: h18”) printed on back cover.
-- 1st printing comprised two “issues:”  1st issue: Price (“Francs: 1,500”) printed in lower right corner of back cover. 2nd issue: Price (“New Price NF 18”) stamped over old price in lower right corner of back cover, following the revaluation of the franc in January 1960.
 - First copies printed issued without dustjacket. [M&M]
+- Dustjacket designed by Burroughs.
+- 1st printing comprised two “issues:”  1st issue: Price (“Francs: 1,500”) printed in lower right corner of back cover. 2nd issue: Price (“New Price NF 18”) stamped over old price in lower right corner of back cover, following the revaluation of the franc in January 1960.
+- 2nd printing [not to be confused with the “second issue” of the first printing (above)] issued without  dustjacket or decorative border around title page, and with price (“18 francs”) printed on back cover.
 
 #### A2b. _Naked Lunch._ William S. Burroughs, author. New York: Grove Press, [1962]. ©1959. Hardbound in dustjacket. {M&M A2b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2b)_
 
 - “The text in this edition differs quite extensively from the Olympia first edition.” [BeatBooks 65]  Includes, at beginning as “Introduction,” “Deposition: Testimony Concerning a Sickness” [originally published in Evergreen Review, Vol. 4, No. 11 (January-February 1960); see Section C below] and, at end as “Appendix,” “Letter from a Master Addict to Dangerous Drugs” [originally published in The British Journal of Addiction, Vol. 53, No. 2 (January 1957); see Section C below].
 - 8th–15th printings: lower-case Roman numeral printing enumeration on rear panel of dustjacket, Grove Press catalog number [GP 244] at bottom of spine, Zip code in publisher’s address. [Shoaf 1]
-- “First issue jacket [printed] with no zip code on rear panel and no roman [sic] numerals on lower spine near back panel.” [PBA 327]
-- 2nd printing: dustjacket identical to 1st printing; “second printing” noted on collation page. [Shoaf 1]
 - 3rd–7th printings: lower-case Roman numeral printing enumeration on rear panel of dustjacket. [Shoaf 1]
+- 2nd printing: dustjacket identical to 1st printing; “second printing” noted on collation page. [Shoaf 1]
 - Some copies issued in wraparound band. [M&M]
+- “First issue jacket [printed] with no zip code on rear panel and no roman [sic] numerals on lower spine near back panel.” [PBA 327]
 
 #### Related entities
 
-##### A2b1. _Prospectus for Naked Lunch._ Norman Mailer, contributor; Terry Southern, contributor; Jack Kerouac, contributor; Robert Lowell, contributor; John Ciardi, contributor; William S. Burroughs, author; E. S. Seldon, contributor. New York: Grove Press, [1962]. Pamphlet. {M&M F7} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2b1)_
+##### A2b1. _Prospectus for Naked Lunch._ Norman Mailer, contributor; Jack Kerouac, contributor; John Ciardi, contributor; E. S. Seldon, contributor; Robert Lowell, contributor; William S. Burroughs, author; Terry Southern, contributor. New York: Grove Press, [1962]. Pamphlet. {M&M F7} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2b1)_
 
 - Contains reviews of and an excerpt from Naked Lunch. Reviews and comments by: Terry Southern, E. S. Seldon, John Ciardi, Norman Mailer, Robert Lowell, and Jack Kerouac.
 - Limited to 100 copies. [PBA 198]
@@ -102,7 +102,7 @@
 
 - “Taiwan piracy of Grove Press first edition, smaller in both height and width than the Grove edition and thinner as well, but having the same dust jacket design, printed on cheap paper, some copies with Taiwan Booksellers’ stamp on rear leaf.” [Shoaf 1]
 
-#### A2d. _The Naked Lunch._ March, contributor; William S. Burroughs, author; Ian Sommerville, photographer. London: John Calder, 1964. ©1959. Hardbound in dustjacket. {M&M A2c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2d)_
+#### A2d. _The Naked Lunch._ William S. Burroughs, author; Ian Sommerville, photographer; March, contributor. London: John Calder, 1964. ©1959. Hardbound in dustjacket. {M&M A2c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2d)_
 
 - Cover photo of Burroughs by Ian Sommerville.
 - Reprinted 1965 (3 times: February, March, August), 1966, and 1970.
@@ -123,17 +123,17 @@
 #### A2h. _Naked Lunch._ William S. Burroughs, author. New York: Ballantine Books, 1973. Softbound (no hardbound issued). {M&M A2g} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2h)_
 
 
-#### A2i. _The Naked Lunch._ William S. Burroughs, author; John Calder, contributor. London: John Calder, 1982. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2i)_
+#### A2i. _The Naked Lunch._ John Calder, contributor; William S. Burroughs, author. London: John Calder, 1982. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2i)_
 
 - (A Calderbook, CB 380)
 - “A new edition containing the ‘Ugh’ correspondence [originally printed in the Times Literary Supplement No. 3,230 (23 January 1964); see Section C below].”—Cover.
 - With a Foreword by John Calder.
 
-#### A2j. _Naked Lunch._ Jennie Skerl, writer of introduction; William S. Burroughs, author. New York: Grove Press, 1984. ©1959. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2j)_
+#### A2j. _Naked Lunch._ William S. Burroughs, author; Jennie Skerl, writer of introduction. New York: Grove Press, 1984. ©1959. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2j)_
 
 - With an introduction by Jennie Skerl.
-- Includes 500 numbered, signed copies issued without dustjacket in slipcase.
 - 25th Anniversary ed.
+- Includes 500 numbered, signed copies issued without dustjacket in slipcase.
 
 #### A2k. _The Naked Lunch._ William S. Burroughs, author. London: Paladin/Grafton Books, 1986. ©1982. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2k)_
 
@@ -156,55 +156,55 @@
 
 - Printed separately and as part of nine-volume box set titled The Swinging Sixties.
 
-#### A2p. _Naked Lunch: The Restored Text._ William S. Burroughs, author; James Grauerholz, editor; Barry Miles, editor; Burroughs, contributor. New York: Grove Press, [2003?]. ©2001. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2p)_
+#### A2p. _Naked Lunch: The Restored Text._ Burroughs, contributor; Barry Miles, editor; William S. Burroughs, author; James Grauerholz, editor. New York: Grove Press, [2003?]. ©2001. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2p)_
 
 - “... corrects numerous textual errors accumulated over the years. ... also incorporates Burroughs’s own notes on the text, all the accompanying essays that he added to later editions [i.e., to editions later than the first, but preceding this edition], and ... an appendix of abundant, newly discovered material and alternate drafts from the original manuscript ...”—Dustjacket.
 - 1st ed.
 - Edited by James Grauerholz and Barry Miles.
 
-#### A2q. _Naked Lunch: The Restored Text._ William S. Burroughs, author; John Walsh, writer of introduction; James Grauerholz, editor; Barry Miles, editor. London: Paperview/Harper Perennial, [n.d. (2007?)].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2q)_
+#### A2q. _Naked Lunch: The Restored Text._ William S. Burroughs, author; James Grauerholz, editor; Barry Miles, editor; John Walsh, writer of introduction. London: Paperview/Harper Perennial, [n.d. (2007?)].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2q)_
 
-- (Banned Books; 14)
-- "Includes the accompanying essays that Burroughs added to later editions, but omits the editors' note and the newly discovered material and outtakes which appear in the edition above." [BeatBooks 59]
 - With an Introduction by John Walsh.
+- (Banned Books; 14)
 - Edited by James Grauerholz and Barry Miles.
+- "Includes the accompanying essays that Burroughs added to later editions, but omits the editors' note and the newly discovered material and outtakes which appear in the edition above." [BeatBooks 59]
 
-#### A2r. _Naked Lunch: The Restored Text._ David L. Ulin, contributor; Barry Miles, editor; James Grauerholz, editor; William S. Burroughs, author. New York: Grove Press, [2009]. ©2001. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2r)_
+#### A2r. _Naked Lunch: The Restored Text._ James Grauerholz, editor; Barry Miles, editor; David L. Ulin, contributor; William S. Burroughs, author. New York: Grove Press, [2009]. ©2001. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A2r)_
 
 - Afterword by David L. Ulin.
 - 50th Anniversary ed.
-- Edited by James Grauerholz and Barry Miles.
 - Cover emulates colors and design of 1st edition, 1st printing dustjacket; slipcase emulates color of 1st edition cover.
+- Edited by James Grauerholz and Barry Miles.
 
 ## 1960
 
 ### A3. _The Exterminator._
 
-#### A3a. _The Exterminator._ William S. Burroughs, author; James F. McIlroy, printer, designer; Brion Gysin, calligrapher; Dave L. Haselwood, designer, printer. San Francisco: Auerhahn Press, 1960. Softbound (no hardbound issued). {M&M A4a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A3a)_
+#### A3a. _The Exterminator._ William S. Burroughs, author; Brion Gysin, calligrapher; James F. McIlroy, designer, printer; Dave L. Haselwood, printer, designer. San Francisco: Auerhahn Press, 1960. Softbound (no hardbound issued). {M&M A4a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A3a)_
 
 - Cover calligraphy by Brion Gysin.
 - “This book was designed and printed by Dave L. Haselwood and James F. McIlroy ...”—Colophon.
 - With Brion Gysin.
 
-#### A3b. _The Exterminator._ William S. Burroughs, author; Brion Gysin, calligrapher. San Francisco: Dave Haselwood Books, 1967. ©1960. Softbound (no hardbound issued). {M&M A4b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A3b)_
+#### A3b. _The Exterminator._ Brion Gysin, calligrapher; William S. Burroughs, author. San Francisco: Dave Haselwood Books, 1967. ©1960. Softbound (no hardbound issued). {M&M A4b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A3b)_
 
-- New cover design, with calligraphy by Brion Gysin.
-- Distributed by City Lights Books.
 - 2nd ed.
+- Distributed by City Lights Books.
+- New cover design, with calligraphy by Brion Gysin.
 
 ### A4. _Minutes To Go._
 
-#### A4a. _Minutes To Go._ Sinclair Beiles, author; Brion Gysin, author; Gregory Corso, author; William S. Burroughs, author. [Paris]: Two Cities Editions, [1960]. Softbound (no hardbound issued). {M&M A3a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A4a)_
+#### A4a. _Minutes To Go._ Brion Gysin, author; Sinclair Beiles, author; William S. Burroughs, author; Gregory Corso, author. [Paris]: Two Cities Editions, [1960]. Softbound (no hardbound issued). {M&M A3a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A4a)_
 
 - “The first collection of cut-ups.” [BeatBooks 65]
-- With Sinclair Beiles, Gregory Corso, and Brion Gysin.
 - Includes 10 numbered copies (of which only 5 were offered for sale), signed by the publisher and including a manuscript page from each of the four authors. Not on “fine paper,” as M&M claims. [Shoaf 1]
+- With Sinclair Beiles, Gregory Corso, and Brion Gysin.
 - “Some [early] copies were issued with a white wraparound band ...” [M&M]
 
-#### A4b. _Minutes To Go._ Sinclair Beiles, author; Gregory Corso, author; William S. Burroughs, author; Brion Gysin, author. San Francisco: Beach Books, Texts, & Documents, 1968. Softbound (no hardbound issued). {M&M A3b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A4b)_
+#### A4b. _Minutes To Go._ Gregory Corso, author; Sinclair Beiles, author; William S. Burroughs, author; Brion Gysin, author. San Francisco: Beach Books, Texts, & Documents, 1968. Softbound (no hardbound issued). {M&M A3b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A4b)_
 
-- Distributed by City Lights Books.
 - 1st American ed.
+- Distributed by City Lights Books.
 
 ## 1961
 
@@ -214,8 +214,8 @@
 
 - First version.
 - Dustjacket reproduces calligraphic drawing by Brion Gysin.
-- All copies of the book were issued exactly the same. Some copies, however (so-called “second issue”), had a price change (“New Price NF18”) stamped (or added on sticker) on back cover at a later date.
 - (The Travellers Companion Series, No. 88)
+- All copies of the book were issued exactly the same. Some copies, however (so-called “second issue”), had a price change (“New Price NF18”) stamped (or added on sticker) on back cover at a later date.
 
 #### A5b. _The Soft Machine._ William S. Burroughs, author. New York: Grove Press, 1966. Hardbound in dustjacket (no softbound issued). {M&M A5b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5b)_
 
@@ -225,13 +225,13 @@
 
 #### A5c. _The Soft Machine._ William S. Burroughs, author. New York: Grove Press, 1967. ©1966. Softbound (no hardbound issued). {M&M A5c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5c)_
 
-- 1st Evergreen Black Cat ed.
 - (An Evergreen Black Cat Book, BC-131)
+- 1st Evergreen Black Cat ed.
 
 #### A5d. _The Soft Machine: A Novel._ William S. Burroughs, author. London: Calder and Boyars, 1968. Hardbound in dustjacket, and softbound. {M&M A5d, A5e} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5d)_
 
-- Rev. ed.
 - Third version: “... this final, definitive edition has been considerably revised by the author from the two earlier versions.”—Dustjacket (rear).
+- Rev. ed.
 
 #### A5e. _The Soft Machine._ William S. Burroughs, author. London: Corgi Books, 1970. Softbound (no hardbound issued). {M&M A5f} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5e)_
 
@@ -245,8 +245,8 @@
 
 #### A5h. _The Soft Machine._ William S. Burroughs, author. London: Flamingo, 1992. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5h)_
 
-- Reissued in 2001 with different cover.
 - (A Flamingo Modern Classic)
+- Reissued in 2001 with different cover.
 
 #### A5i. _The Soft Machine._ William S. Burroughs, author. New York: Grove Press, 1992. ©1966. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5i)_
 
@@ -255,18 +255,18 @@
 #### A5j. _The Soft Machine._ William S. Burroughs, author. London: Flamingo, 2001. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5j)_
 
 
-#### A5k. _The Soft Machine: The Restored Text._ Oliver Harris, writer of introduction, editor; William S. Burroughs, author. New York: Grove Press, 2014. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5k)_
+#### A5k. _The Soft Machine: The Restored Text._ Oliver Harris, editor, writer of introduction; William S. Burroughs, author. New York: Grove Press, 2014. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A5k)_
 
-- Edited and with an Introduction by Oliver Harris.
 - “A book of The Cut-Up Trilogy.”—Spine.
-- “3rd rev. ed.”
+- Edited and with an Introduction by Oliver Harris.
 - “This fourth [sic] edition includes everything published in the second edition while respecting the 1962 MS’s  chapter divisions and restoring the cancelled chapter, entitled ‘Male Image Back In’ ... In the most visible change, this new edition also restores how material from the first edition appeared by putting back a thousand capital letters removed on the galleys in 1965.”—Introduction.
+- “3rd rev. ed.”
 
 ## 1962
 
 ### A6. _The Ticket That Exploded._
 
-#### A6a. _The Ticket That Exploded._ William S. Burroughs, author; Ian Sommerville, photographer; Brion Gysin, designer; Michael Portman, contributor. Paris: Olympia Press, 1962. Softbound with dustjacket (no hardbound issued). {M&M A6a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6a)_
+#### A6a. _The Ticket That Exploded._ Brion Gysin, designer; Michael Portman, contributor; Ian Sommerville, photographer; William S. Burroughs, author. Paris: Olympia Press, 1962. Softbound with dustjacket (no hardbound issued). {M&M A6a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6a)_
 
 - First version.
 - Dustjacket photo-collage by Ian Sommerville.
@@ -280,10 +280,10 @@
 
 #### A6c. _The Ticket That Exploded._ William S. Burroughs, author. New York: Grove Press, 1968. Softbound (no hardbound issued). {M&M A6c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6c)_
 
-- (An Evergreen Black Cat Book, B-164)
 - Includes “The Invisible Generation.”
+- (An Evergreen Black Cat Book, B-164)
 
-#### A6d. _The Ticket That Exploded._ William S. Burroughs, author. London: Calder and Boyars, 1968. Hardbound in dustjacket, and softbound. {M&M A6d, A6e} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6d)_
+#### A6d. _The Ticket That Exploded._ William S. Burroughs, author. London: Calder and Boyars, 1968. Hardbound in dustjacket, and softbound. {M&M A6e, A6d} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6d)_
 
 
 #### A6e. _The Ticket That Exploded._ William S. Burroughs, author. London: Corgi Books, 1971. Softbound (no hardbound issued). {M&M A6f} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6e)_
@@ -291,8 +291,8 @@
 
 #### A6f. _The Ticket That Exploded._ William S. Burroughs, author; John Calder, contributor. London: Calder, 1985. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6f)_
 
-- Includes “Preface to the New Edition” by John Calder.
 - 2nd ed.
+- Includes “Preface to the New Edition” by John Calder.
 
 #### A6g. _The Ticket That Exploded._ William S. Burroughs, author. New York: Grove Press, 1987. ©1967. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6g)_
 
@@ -307,24 +307,24 @@
 #### A6j. _The Ticket That Exploded._ William S. Burroughs, author. London: Flamingo, 2001. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6j)_
 
 
-#### A6k. _The Ticket That Exploded: The Restored Text._ Oliver Harris, writer of introduction, editor; Brion Gysin, calligrapher; William S. Burroughs, author. New York: Grove Press, 2014. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6k)_
+#### A6k. _The Ticket That Exploded: The Restored Text._ Oliver Harris, editor, writer of introduction; Brion Gysin, calligrapher; William S. Burroughs, author. New York: Grove Press, 2014. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A6k)_
 
-- Edited and with an Introduction by Oliver Harris.
 - “A book of The Cut-Up Trilogy.”—Spine.
-- “2nd rev. ed.”
 - “This edition ends by making choices ... cutting “the invisible generation” [sic] essay as an appendix of historical interest (key passages are referenced in the Notes; the full text is available elsewhere) and restoring the integration of Gysin’s calligraphy as the book’s great transcendent gesture.”—Introduction.
+- “2nd rev. ed.”
+- Edited and with an Introduction by Oliver Harris.
 
 ## 1963
 
 ### A7. _Dead Fingers Talk._
 
-#### A7a. _Dead Fingers Talk._ Ian Sommerville, photographer; William S. Burroughs, author. London: John Calder, 1963. Hardbound in dustjacket (no softbound issued). {M&M A7a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A7a)_
+#### A7a. _Dead Fingers Talk._ William S. Burroughs, author; Ian Sommerville, photographer. London: John Calder, 1963. Hardbound in dustjacket (no softbound issued). {M&M A7a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A7a)_
 
 - In association with Olympia Press.
 - “Dead Fingers Talk is not a book of selections but a new novel constructed out of these three earlier books [The Naked Lunch, The Soft Machine, and The Ticket That Exploded] together with some new material.”—Dustjacket.
 - “Dustjacket reproduces an Ian Sommerville photo-collage of Burroughs’ Olympia Press editions.” [BeatBooks 51]
 
-#### A7b. _Dead Fingers Talk._ William S. Burroughs, author. London: Tandem Books, 1966. Softbound (no hardbound issued). {M&M A7c, A7b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A7b)_
+#### A7b. _Dead Fingers Talk._ William S. Burroughs, author. London: Tandem Books, 1966. Softbound (no hardbound issued). {M&M A7b, A7c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A7b)_
 
 - Reprinted (by Universal-Tandem) in 1970 with different cover. [M&M]
 - “A Tandem Book, T55”
@@ -337,32 +337,32 @@
 
 #### A8a. _The Yage Letters._ William S. Burroughs, author; Allen Ginsberg, contributor. San Francisco: City Lights Books, 1963. Softbound (no hardbound issued). {M&M A8a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8a)_
 
-- An epistolary novel.
-- “The 1953 letters were ... [originally] published in Big Table [No. 2 (Summer 1959)] and [No. 3 (1961)]. Burroughs’ 1960 letter was in [The] Floating Bear No. 5 [(1961)]. ‘I am Dying, Meester?’ was in City Lights Journal No. 1 [(1963)].”—T.p. verso. (See Section C below)
-- 3rd printing, 1966.
 - 2nd printing, 1965.
+- An epistolary novel.
+- 3rd printing, 1966.
+- “The 1953 letters were ... [originally] published in Big Table [No. 2 (Summer 1959)] and [No. 3 (1961)]. Burroughs’ 1960 letter was in [The] Floating Bear No. 5 [(1961)]. ‘I am Dying, Meester?’ was in City Lights Journal No. 1 [(1963)].”—T.p. verso. (See Section C below)
 
-#### A8b. _The Yage Letters._ Allen Ginsberg, contributor; William S. Burroughs, author. San Francisco: City Lights Books, 1975. ©1963. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8b)_
+#### A8b. _The Yage Letters._ William S. Burroughs, author; Allen Ginsberg, contributor. San Francisco: City Lights Books, 1975. ©1963. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8b)_
 
 - 2nd ed.
 - Expanded to include an additional letter, dated 10 July 1953, originally published in Black Mountain Review No. 7 (Autumn 1957). [See Section C below]
 
 #### A8c. _The Yage Letters._ Allen Ginsberg, contributor; William S. Burroughs, author. San Francisco: City Lights Books, 1988. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8c)_
 
-- Expanded to include “Roosevelt After Inauguration,” originally published in The Floating Bear, No. 9 (1961). [See Section C below]
 - 3rd ed.
+- Expanded to include “Roosevelt After Inauguration,” originally published in The Floating Bear, No. 9 (1961). [See Section C below]
 
-#### A8d. _The Yage Letters._ Allen Ginsberg, contributor; William S. Burroughs, author. San Francisco: City Lights Books, 1990. ©1975. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8d)_
+#### A8d. _The Yage Letters._ William S. Burroughs, author; Allen Ginsberg, contributor. San Francisco: City Lights Books, 1990. ©1975. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8d)_
 
 - This actually appears to be a new printing of the 3rd ed., above.
 - 4th [sic] ed.
 
-#### A8e. _The Yage Letters Redux._ Oliver Harris, writer of introduction, editor; William S. Burroughs, author; Allen Ginsberg, contributor. San Francisco: City Lights Books, 2006. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8e)_
+#### A8e. _The Yage Letters Redux._ William S. Burroughs, author; Allen Ginsberg, contributor; Oliver Harris, writer of introduction, editor. San Francisco: City Lights Books, 2006. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A8e)_
 
 - 4th ed.
-- “Redux makes a large number of changes and corrections—around 250—most of which are small ... the  Appendix section ... include[s] previously unpublished primary materials ...”—pp. xlvii-xlviii.
-- Expanded to include extensive Introduction, Appendices, and Notes.
 - Edited and with an Introduction by Oliver Harris.
+- Expanded to include extensive Introduction, Appendices, and Notes.
+- “Redux makes a large number of changes and corrections—around 250—most of which are small ... the  Appendix section ... include[s] previously unpublished primary materials ...”—pp. xlvii-xlviii.
 
 ## 1964
 
@@ -384,17 +384,17 @@
 #### A10c. _Nova Express._ William S. Burroughs, author. London: Jonathan Cape, 1966. ©1964. Hardbound in dustjacket (no softbound issued). {M&M A10c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A10c)_
 
 
-#### A10d. _Nova Express._ William S. Burroughs, author. London: Panther Books/Granada Publishing, 1968. Softbound (no hardbound issued). {M&M A10d, A10f} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A10d)_
+#### A10d. _Nova Express._ William S. Burroughs, author. London: Panther Books/Granada Publishing, 1968. Softbound (no hardbound issued). {M&M A10f, A10d} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A10d)_
 
-- (Panther Science Fiction)
 - 1978 printing: title misspelled as Nova Expresss on title page.
+- (Panther Science Fiction)
 - Reprinted in 1969 and 1972 with different covers (per M&M), in 1978, and in 1982 (per Shoaf 1).
 
 #### A10e. _Nova Express._ William S. Burroughs, author. New York: Grove Press, 1992.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A10e)_
 
 - 1st Evergreen ed.
 
-#### A10f. _Nova Express: The Restored Text._ Oliver Harris, writer of introduction, editor; William S. Burroughs, author. New York: Grove Press, 2014. ©2013. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A10f)_
+#### A10f. _Nova Express: The Restored Text._ Oliver Harris, editor, writer of introduction; William S. Burroughs, author. New York: Grove Press, 2014. ©2013. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A10f)_
 
 - Edited and with an Introduction by Oliver Harris.
 - “1st rev. ed.”
@@ -408,11 +408,11 @@
 
 ### A12. _Roosevelt After Inauguration._ William S. Burroughs, author; Allen Ginsberg, contributor. New York: Fuck You Press, 1964. Staplebound mimeograph (no hardbound issued). {M&M A9a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A12)_
 
-- Limited to 500 copies. [PBA 233]
 - Covers by Allen Ginsberg.
-- First separate publication of material suppressed from The Yage Letters and originally published in  The Floating Bear, No. 9 (1961). [See Section C below]
-- Published under the pseudonym Willy Lee.
 - “Some copies ... released ... with the spines not stapled.” [Shoaf 1]
+- Published under the pseudonym Willy Lee.
+- Limited to 500 copies. [PBA 233]
+- First separate publication of material suppressed from The Yage Letters and originally published in  The Floating Bear, No. 9 (1961). [See Section C below]
 
 ## 1965
 
@@ -425,19 +425,19 @@
 - “...aborted edition ... about 10 or 20 of which were distributed before the edition was abandoned.” [Red House 4]
 - “If 10 or 20 copies did exist [as Fuck You Press publisher Ed Sanders claimed], far fewer have been accounted for.” [Skyline]
 
-#### A13b. _APO-33 Bulletin: A Metabolic Regulator._ William S. Burroughs, author; Mary Beach, compiler; Claude Pélieu, compiler. [San Francisco]: Beach Books, Texts, & Documents, [1966?]. Staplebound (no hardbound issued). {M&M A12b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A13b)_
+#### A13b. _APO-33 Bulletin: A Metabolic Regulator._ Claude Pélieu, compiler; Mary Beach, compiler; William S. Burroughs, author. [San Francisco]: Beach Books, Texts, & Documents, [1966?]. Staplebound (no hardbound issued). {M&M A12b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A13b)_
 
-- Lacks “Locked Out of Time” and “Apomorphine Statement 2” from Health Bulletin: APO-33, A Metabolic Regulator: A Report on the Synthesis of the Apomorphine Formula, above.
-- “First Burroughs-approved edition.” [PBA 198]
-- “Number One.”
-- Collection compiled by Mary Beach and Claude Pélieu.
 - Reprinted, 1967.
+- Lacks “Locked Out of Time” and “Apomorphine Statement 2” from Health Bulletin: APO-33, A Metabolic Regulator: A Report on the Synthesis of the Apomorphine Formula, above.
+- Collection compiled by Mary Beach and Claude Pélieu.
+- “Number One.”
+- “First Burroughs-approved edition.” [PBA 198]
 
 #### A13c. _APO-33 Bulletin: A Metabolic Regulator._ Mary Beach, compiler; Claude Pélieu, compiler; William S. Burroughs, author. [San Francisco]: Beach Books, Texts, & Documents, 1968. Staplebound (no hardbound issued). {M&M A12c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A13c)_
 
-- Distributed by City Lights.
 - “Second printing.”
 - “Number One.”
+- Distributed by City Lights.
 
 ### A14. _The Invisible Generation._ William S. Burroughs, author. London: [n.p.], 1965. Folio broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A14)_
 
@@ -445,61 +445,61 @@
 
 ### A15. _Time._
 
-#### A15a. _Time._ William S. Burroughs, author; Brion Gysin, artist. New York: “C” Press, 1965. Hardbound, and softbound. {M&M A11a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A15a)_
+#### A15a. _Time._ Brion Gysin, artist; William S. Burroughs, author. New York: “C” Press, 1965. Hardbound, and softbound. {M&M A11a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A15a)_
 
-- “... the November 30, 1962 issue of Time magazine, with the title ‘India’s Lost Illusions,’ was apparently chosen by Burroughs for parody because that issue includes a savage review of Naked Lunch, as well as Burroughs’ other Olympia Press works, in which Burroughs and other Beat writers are put down as frauds.” [Shoaf 1]
 - Cover by Burroughs.
+- “... the November 30, 1962 issue of Time magazine, with the title ‘India’s Lost Illusions,’ was apparently chosen by Burroughs for parody because that issue includes a savage review of Naked Lunch, as well as Burroughs’ other Olympia Press works, in which Burroughs and other Beat writers are put down as frauds.” [Shoaf 1]
 - “... first printing appears in 4 editions: 4 copies hors commerce; 10 copies numbered [sic] A-J, hardbound, each  containing an original [signed] manuscript page by Burroughs and an original [signed] drawing by Gysin, signed by both; 100 numbered and signed [by both] copies; 886 copies in a trade edition.”—T.p.
 - With 4 drawings by Brion Gysin.
 
 #### A15b. _Time._ William S. Burroughs, author. Sussex, England: Urgency Press Rip-Off, [1972?]. Staplebound (no hardbound issued). {M&M A11b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A15b)_
 
-- “Reproduces the contents of the first edition, though in slightly different order, and leaving out p. 9 of the original.” [BeatBooks 51]
-- “Estimates are that only about 100 copies were actually distributed.” [Shoaf 1]
 - Legal-size mimeographed sheets, stapled. An admitted piracy, by Roy Pennington, of the “C” Press edition. [M&M]
 - “... bought [sic] for you ... using anarchist duplicator ... 5 runs of 99 copies each ...”—Cover verso.
+- “Reproduces the contents of the first edition, though in slightly different order, and leaving out p. 9 of the original.” [BeatBooks 51]
+- “Estimates are that only about 100 copies were actually distributed.” [Shoaf 1]
 
 ### A16. _Valentines Day Reading._ William S. Burroughs, author. New York: American Theatre for Poets, 1965. Staplebound. {M&M F12} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A16)_
 
-- A mimeographed pamphlet containing a script (“Transcript of Dutch Schultz’s Last Words”) for a reading presented by the American Theatre for Poets on February 14, 1965, at the East End Theatre in New York.
 - Unnumbered page at end: “The Coldspring News ... (William Burroughs, Editor) ... On the Back Porch of His Farm.”
+- A mimeographed pamphlet containing a script (“Transcript of Dutch Schultz’s Last Words”) for a reading presented by the American Theatre for Poets on February 14, 1965, at the East End Theatre in New York.
 
 ## 1967
 
 ### A17. _So Who Owns Death TV?_
 
-#### A17a. _So Who Owns Death TV?_ Carl Weissner, contributor; William S. Burroughs, author; Claude Pélieu, contributor. San Francisco: Beach Books, Texts, & Documents, 1967. Staplebound (no hardbound issued). {M&M A13a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A17a)_
+#### A17a. _So Who Owns Death TV?_ William S. Burroughs, author; Carl Weissner, contributor; Claude Pélieu, contributor. San Francisco: Beach Books, Texts, & Documents, 1967. Staplebound (no hardbound issued). {M&M A13a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A17a)_
 
 - (A Black Bag Pamphlet)
-- Two printings: one printed in black ink on white paper, with cover printed in black and red ink on white paper (50¢ price); one printed in silver ink on black paper, including cover (no price).
 - Distributed by City Lights Books.
+- Two printings: one printed in black ink on white paper, with cover printed in black and red ink on white paper (50¢ price); one printed in silver ink on black paper, including cover (no price).
 - With Claude Pélieu and Carl Weissner.
 
-#### A17b. _So Who Owns Death TV?_ Jean-Jacques Lebel, artist; Carl Weissner, contributor; Liam O'Gallagher, illustrator; Claude Pélieu, contributor; William S. Burroughs, author. San Francisco: Beach Books, Texts, & Documents, 1967. Staplebound (no hardbound issued). {M&M A13b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A17b)_
+#### A17b. _So Who Owns Death TV?_ William S. Burroughs, author; Liam O'Gallagher, illustrator; Jean-Jacques Lebel, artist; Carl Weissner, contributor; Claude Pélieu, contributor. San Francisco: Beach Books, Texts, & Documents, 1967. Staplebound (no hardbound issued). {M&M A13b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A17b)_
 
-- [2nd expanded ed.]
-- Includes photo of Claude Pélieu, two photo-collages by Jean-Jacques Lebel, and an illustration by Liam O'Gallagher.
 - (A Black Bag Pamphlet)
 - Printed in black ink on white paper, with cover printed in black and red ink on white paper (75¢ price).
+- Includes photo of Claude Pélieu, two photo-collages by Jean-Jacques Lebel, and an illustration by Liam O'Gallagher.
+- [2nd expanded ed.]
 
-#### A17c. _So Who Owns Death TV?_ Claude Pélieu, contributor; Liam O'Gallagher, illustrator; Carl Weissner, contributor; Jean-Jacques Lebel, artist; William S. Burroughs, author. Birmingham, England: TOPY Heart, [n.d.]. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A17c)_
+#### A17c. _So Who Owns Death TV?_ William S. Burroughs, author; Carl Weissner, contributor; Liam O'Gallagher, illustrator; Jean-Jacques Lebel, artist; Claude Pélieu, contributor. Birmingham, England: TOPY Heart, [n.d.]. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A17c)_
 
 - Pirate edition, printed in black ink on white paper only and lacking the photo of Claude Pélieu from the original [i.e., 2nd expanded] ed. [BeatBooks 42]
 
 ### A18. _William Burroughs, Claude Pélieu, Bob Kaufman._
 
-#### A18a. _William Burroughs, Claude Pélieu, Bob Kaufman._ Claude Pélieu, translator, author; Jean Hélion, artist; Mary Beach, translator; William S. Burroughs, author; Bob Kaufman, author. Paris: Éditions de L'Herne, 1967. Softbound (no hardbound issued). {M&M D11} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A18a)_
+#### A18a. _William Burroughs, Claude Pélieu, Bob Kaufman._ Claude Pélieu, author, translator; Jean Hélion, artist; Bob Kaufman, author; William S. Burroughs, author; Mary Beach, translator. Paris: Éditions de L'Herne, 1967. Softbound (no hardbound issued). {M&M D11} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A18a)_
 
-- Translation of Burroughs and Kaufman texts by Mary Beach and Claude Pélieu.
 - Cover title: L’Herne Textes: Burroughs, Pélieu, Kaufman.
-- (L'Herne, No. 9)
+- Includes the first French translation of Nova Express and two previously unpublished letters from Burroughs to Pélieu. [Jordan Davies]
 - In French.
 - No equivalent U.S. or U.K. edition.
 - Includes 55 copies with uncut signatures - numbered 1-40 and lettered A-O with lithograph by Jean Hélion.
-- Includes the first French translation of Nova Express and two previously unpublished letters from Burroughs to Pélieu. [Jordan Davies]
+- Translation of Burroughs and Kaufman texts by Mary Beach and Claude Pélieu.
+- (L'Herne, No. 9)
 - (L'Écriture des Vivants 1: Etats-Unis)
 
-#### A18b. _William Burroughs, Claude Pélieu, Bob Kaufman._ Claude Pélieu, author, translator; Mary Beach, translator; Jean Hélion, artist; William S. Burroughs, author; Bob Kaufman, author. Paris: Éditions de L'Herne, 1998. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A18b)_
+#### A18b. _William Burroughs, Claude Pélieu, Bob Kaufman._ Claude Pélieu, translator, author; Mary Beach, translator; Bob Kaufman, author; William S. Burroughs, author; Jean Hélion, artist. Paris: Éditions de L'Herne, 1998. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A18b)_
 
 
 ## 1968
@@ -508,35 +508,35 @@
 
 #### A19a. _Scientology Revisited._ William S. Burroughs, author. [n.p.]: [n.p.], [1968?]. Staplebound pamphlet.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A19a)_
 
+- Four-color glossy wraps; 2 staples.
+- “For further information contact Scientology East, 122 76th St.”—Back cover.
 - “... by William S. Burroughs, author of Naked Lunch.”—cover.
 - “Excerpted from Mayfair magazine [Vol. 3, No. 1 (January 1968); See Section C below] as a free public service.”—Inside back cover.
-- “For further information contact Scientology East, 122 76th St.”—Back cover.
-- Four-color glossy wraps; 2 staples.
 
 #### A19b. _Scientology Revisited._ William S. Burroughs, author. [n.p.]: [n.p.], [1969?]. Staplebound pamphlet.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A19b)_
 
-- “Reprinted from Mayfair magazine [Vol. 3, No. 1 (January 1968); See Section C below] as a free public service.”—Back cover.
-- Text substantially altered from 1968 version, above.
 - B&W matte wraps; 1 staple.
 - “... by William S. Burroughs, author of Nova Express, The Soft Machine.”—cover.
+- “Reprinted from Mayfair magazine [Vol. 3, No. 1 (January 1968); See Section C below] as a free public service.”—Back cover.
+- Text substantially altered from 1968 version, above.
 
 ## 1969
 
-### A20. _Apomorphine._ Claude Pélieu, translator; Mary Beach, translator; William S. Burroughs, author. Paris: Éditions de L'Herne, 1969. Softbound (no hardbound issued). {M&M D14} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A20)_
+### A20. _Apomorphine._ William S. Burroughs, author; Claude Pélieu, translator; Mary Beach, translator. Paris: Éditions de L'Herne, 1969. Softbound (no hardbound issued). {M&M D14} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A20)_
 
-- In French.
 - No equivalent U.S. or U.K. edition.
+- In French.
+- (Les Livres Noirs)
 - Includes translations of “Apomorphine,” “The Day the Records Went Up,” “Coldspring News,” “The  Conspiracy,” “Exterminator!,” “Parenthetically 7 Hertz,” and “Chappaqua, a Film by Conrad Rooks.”
 - Translated by Mary Beach and Claude Pélieu.
-- (Les Livres Noirs)
 
 ### A21. _The Dead Star._ William S. Burroughs, author. San Francisco: Nova Broadcast Press, 1969. ©1969. Pamphlet with long folding broadside tipped in. {M&M A14a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A21)_
 
-- First standalone publication of piece that originally appeared in a different form in The Dead Star, No. 13 (August 1965). [See Section C below]
 - Distributed by City Lights Books.
+- First standalone publication of piece that originally appeared in a different form in The Dead Star, No. 13 (August 1965). [See Section C below]
 - Staplebound (no hardbound issued).
-- Variant printing exists with copyright page blank and “©1969 by William Burroughs” in holograph on first page of text. [Atticus]
 - (Nova Broadcast, No. 5)
+- Variant printing exists with copyright page blank and “©1969 by William Burroughs” in holograph on first page of text. [Atticus]
 
 ## 1970
 
@@ -549,13 +549,13 @@
 
 #### A22b. _The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script._ William S. Burroughs, author. New York: Viking Press, 1975. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A22b)_
 
-- “A Richard Seaver book.”—T.p.
 - “First American edition, extensively revised and augmented with reproductions of police photographs, and more exacting film directions.” [Ursus]
+- “A Richard Seaver book.”—T.p.
 
 #### A22c. _The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script._ William S. Burroughs, author. New York: Seaver Books, 1981. ©1975. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A22c)_
 
-- Distributed by Grove Press.
 - 1st paperbound ed.
+- Distributed by Grove Press.
 
 #### A22d. _The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script._ William S. Burroughs, author. London: John Calder, 1986. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A22d)_
 
@@ -569,31 +569,31 @@
 
 #### A23a. _Ali's Smile._ William S. Burroughs, author. Brighton, England: Unicorn Books, 1971. Hardbound, issued without dustjacket in cardboard carton with 12” LP record [blank labels— Side A, white; Side B, black; matrix number: UB LP 1 A S/S]. {M&M A19a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A23a)_
 
-- Limited to 99 numbered copies signed by Burroughs, “of which ... numbers 1 to 99 are hors commerce.”
-- “There were probably less [sic] than 50 full sets distributed including a number of which went to libraries.” [Shoaf 1 (quoting the publisher)]
-- Side A of record features Burroughs reading second draft of text.
 - “According to the publisher, a good many of the [LP] records were destroyed by heat, so not all copies of the book were accompanied by the record.” [Skyline]
+- “There were probably less [sic] than 50 full sets distributed including a number of which went to libraries.” [Shoaf 1 (quoting the publisher)]
 - A section of the novel Exterminator!, below.
+- Side A of record features Burroughs reading second draft of text.
+- Limited to 99 numbered copies signed by Burroughs, “of which ... numbers 1 to 99 are hors commerce.”
 
-#### A23b. _Ali's Smile._ Carl Weissner, translator; William S. Burroughs, author. Göttingen: Expanded Media Editions, 1973. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A23b)_
+#### A23b. _Ali's Smile._ William S. Burroughs, author; Carl Weissner, translator. Göttingen: Expanded Media Editions, 1973. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A23b)_
 
-- German translation by Carl Weissner.
-- In English and German.
-- (e.m.e., 12)
 - Printed in green on ochre paper, on recto only.
+- In English and German.
+- German translation by Carl Weissner.
+- (e.m.e., 12)
 - Includes 100 numbered copies signed by Burroughs.
 - 1st ed.
 
 ### A24. _Electronic Revolution 1970-71._
 
-#### A24a. _Electronic Revolution 1970-71._ Henri Chopin, book designer; William S. Burroughs, author; Jean Chopin, translator; Brion Gysin, artist. Cambridge: Blackmoor Head Press, 1971. Softbound (no hardbound issued). {M&M A21a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24a)_
+#### A24a. _Electronic Revolution 1970-71._ Henri Chopin, book designer; Brion Gysin, artist; William S. Burroughs, author; Jean Chopin, translator. Cambridge: Blackmoor Head Press, 1971. Softbound (no hardbound issued). {M&M A21a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24a)_
 
-- In English and French.
-- Cover: original drawings by Brion Gysin.
+- (Collection OU, No. 2)
 - French translation by Jean Chopin.
 - Printed at the Blackmoor Head Press, 1971.
+- In English and French.
+- Cover: original drawings by Brion Gysin.
 - At least one unnumbered copy is known to exist.
-- (Collection OU, No. 2)
 - Lay-Out: Henri Chopin.
 - 501 lettered/numbered copies: one signed by Burroughs, on special paper, lettered “A,” in cardboard wallet containing all manuscripts and two silkscreens signed by Brion Gysin; 50 signed by Burroughs, on Hayle paper, numbered 1–50, issued loose in cardboard folder along with two silkscreens signed by Brion Gysin in a separate folder, in publisher’s slipcase with printed paper label; 450 softbound and numbered 51–500.
 
@@ -601,17 +601,17 @@
 
 ##### A24a1. _Prospectus for Electronic Revolution 1970-71._ William S. Burroughs, author. Ingatestone, Essex: OU, [1971].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24a1)_
 
-- 8 1⁄2” x 13” sheet, folded once.
 - Includes extract “..... Ten tape recorders strapped under their coats .../”, in English and French.
+- 8 1⁄2” x 13” sheet, folded once.
 - In English and French.
 
 #### A24b. _Die elektronische Revolution = Electronic Revolution._ Carl Weissner, translator; William S. Burroughs, author. Göttingen: Expanded Media Editions, 1972. Softbound in dustjacket (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24b)_
 
-- In German and English.
-- Limited to 900 trade edition copies, plus 100 numbered and signed copies.
-- German translation by Carl Weissner.
 - NOTE: Berg collection at NYPL holds one unnumbered, signed copy.
+- In German and English.
 - (e.m.e.; 1)
+- German translation by Carl Weissner.
+- Limited to 900 trade edition copies, plus 100 numbered and signed copies.
 
 #### Related entities
 
@@ -620,28 +620,28 @@
 - Pamphlet, folded in thirds.
 - Features a photograph of Burroughs, and German and English description of, and quote from, the title.
 
-#### A24c. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author; Carl Weissner, translator. [Bonn]: Expanded Media Editions, 1976. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24c)_
+#### A24c. _Die elektronische Revolution = Electronic Revolution._ Carl Weissner, translator; William S. Burroughs, author. [Bonn]: Expanded Media Editions, 1976. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24c)_
 
 - German and English text bound tête-bêche.
+- In German and English.
 - 2nd ed., exp.
 - German translation by Carl Weissner.
-- In German and English.
 - Includes “Feedback from Watergate to the Garden of Eden.”
 
 #### A24d. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author; Carl Weissner, contributor. [Bonn]: Expanded Media Editions, 1982. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24d)_
 
-- In German and English.
-- German and English text bound tête-bêche.
 - German translation by Carl Weissner.
-- Includes “Feedback from Watergate to the Garden of Eden.”
 - 3rd ed., exp.
+- German and English text bound tête-bêche.
+- Includes “Feedback from Watergate to the Garden of Eden.”
+- In German and English.
 
 #### A24e. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author. Bonn: Expanded Media Editions, 1991. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24e)_
 
-- German translation by Carl Weissner.
-- German and English text bound tête-bêche.
-- 5th ed.
 - In German and English.
+- German translation by Carl Weissner.
+- 5th ed.
+- German and English text bound tête-bêche.
 
 #### A24f. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author. Bonn: Expanded Media Editions, 1994. ©1976. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24f)_
 
@@ -651,29 +651,29 @@
 
 #### A24g. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author. Bonn: Expanded Media Editions, 1996. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24g)_
 
-- German and English text bound tête-bêche.
 - 9th ed.
+- German and English text bound tête-bêche.
 - In German and English.
 
 #### A24h. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author. Bonn: Expanded Media Editions, 1998. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24h)_
 
+- 10th ed.
 - In German and English.
 - German and English text bound tête-bêche.
-- 10th ed.
 
 #### A24i. _Die elektronische Revolution = Electronic Revolution._ William S. Burroughs, author. Bonn: Expanded Media Editions, 2000. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A24i)_
 
+- In German and English.
 - German and English text bound tête-bêche.
 - 11th ed.
-- In German and English.
 
-### A25. _Jack Kerouac._ Allen Ginsberg, contributor; William S. Burroughs, contributor; Alfred Aranowitz, contributor; Jack Kerouac, contributor; Claude Pélieu, contributor. [Paris]: Éditions de L'Herne, 1971. Softbound (no hardbound issued). {M&M A18a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A25)_
+### A25. _Jack Kerouac._ Claude Pélieu, contributor; Jack Kerouac, contributor; Allen Ginsberg, contributor; Alfred Aranowitz, contributor; William S. Burroughs, contributor. [Paris]: Éditions de L'Herne, 1971. Softbound (no hardbound issued). {M&M A18a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A25)_
 
 - Includes “Épitaphe pour un Beatnik,” first published in Le Nouvel Observateur, No. 260 (3–9 November 1969). [See Section C below]
 - With Claude Pélieu.
 - (Les Livres Noirs)
--   No equivalent English-language edition.
 - {M&M A18a}  A memorial to Kerouac, with interviews, poems, and prose by Kerouac, Burroughs, Ginsberg, Alfred Aranowitz, and Pélieu.
+-   No equivalent English-language edition.
 - In French.
 
 ### A26. _The Wild Boys: A Book of the Dead._
@@ -681,7 +681,7 @@
 #### A26a. _The Wild Boys: A Book of the Dead._ William S. Burroughs, author. New York: Grove Press, 1971. Hardbound in dustjacket. {M&M A20a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A26a)_
 
 
-#### A26b. _The Wild Boys: A Book of the Dead._ William S. Burroughs, author. London: Calder & Boyars, 1972. ©1971. Hardbound in dustjacket, and softbound. {M&M A20c, A20b} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A26b)_
+#### A26b. _The Wild Boys: A Book of the Dead._ William S. Burroughs, author. London: Calder & Boyars, 1972. ©1971. Hardbound in dustjacket, and softbound. {M&M A20b, A20c} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A26b)_
 
 
 #### A26c. _The Wild Boys: A Book of the Dead._ William S. Burroughs, author. New York: Grove Press, 1972. Softbound (no hardbound issued). {M&M A20d} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A26c)_
@@ -728,8 +728,8 @@
 
 ### A28. _Mayfair Acadamy [sic] Series More or Less._ William S. Burroughs, author. Brighton, England: Urgency Press Rip-Off, [1973?]. Staplebound (no hardbound issued). {M&M A25a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A28)_
 
-- Limited to 650 copies printed on different colored papers.
 - Collects ten “Bulletins ... written as part of a series entitled ‘The Burroughs Acadamy’ [sic] for the magazine Mayfair, along with “related articles [by Burroughs] from other mags.”—p. 2. [See Section C below]
+- Limited to 650 copies printed on different colored papers.
 
 ### A29. _Port of Saints._
 
@@ -741,10 +741,10 @@
 
 #### A29b. _Port of Saints._ William S. Burroughs, author. Berkeley, Calif.: Blue Wind Press, 1980. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A29b)_
 
-- Hardbound ed. includes 200 numbered copies signed by Burroughs and issued in publisher’s slipcase.
-- 1st [American] ed.
 - “This new edition ... has been extensively rewritten and revised by the author.”—T.p. verso.
 - “The publisher reports that when the first printing hardcover sold out, they were getting ready to do the fourth printing of the softcover. So the second printing of the hardcover is actually labeled “fourth printing.” There were some leftover dust jackets from the first printing, so those were used with the “fourth printing” until they ran out. The “fourth printing” hardcover was still available from the publisher as late as 2002 but without the dust jacket.” [Shoaf 1]
+- 1st [American] ed.
+- Hardbound ed. includes 200 numbered copies signed by Burroughs and issued in publisher’s slipcase.
 - “All copies of the signed limited edition were issued in dustjackets with the upper left-hand corner clipped off since the printed price was correct only for the hardbound trade edition and incorrect for the limited edition. They were clipped and sold at a higher price.” [Shoaf (eBay listing)]
 - Lacks the illustrations in Covent Garden/Am Here ed., above.
 
@@ -754,42 +754,42 @@
 ### A30. _White Subway._ William S. Burroughs, author. London: Aloes seolA [i.e., Aloes Books], 1973. Softbound (no hardbound issued). {M&M A24a} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A30)_
 
 - First printing limited to 1,000 copies, including 25 numbered copies signed by Burroughs.
-- Third printing: [1974?]
 - Second printing (also 1973) limited to 500 copies, with silver-gray covers. Per BeatBooks 42, includes variant issue, omitting title and author on upper wrapper and printing statement on lower wrapper.
+- Third printing: [1974?]
 
 ## 1974
 
 ### A31. _The Book of Breething._
 
-#### A31a. _The Book of Breething [= Le Livre des Respirations = Het Boek der Ademhalingen]._ William S. Burroughs, author; Bob Gale, illustrator; Jean Chopin, translator; Jo Verbrugghen, translator. Ingatestone, Essex, England: OU-Editions, 1974. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A31a)_
+#### A31a. _The Book of Breething [= Le Livre des Respirations = Het Boek der Ademhalingen]._ Bob Gale, illustrator; Jo Verbrugghen, translator; Jean Chopin, translator; William S. Burroughs, author. Ingatestone, Essex, England: OU-Editions, 1974. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A31a)_
 
-- French translation by Jean Chopin; Dutch translation by Jo Verbrugghen.
-- Limited to 400 copies, of which the colophon describes 50 copies as being numbered I through L in  Roman numerals and signed by Burroughs “in de luxe presentation” and 350 copies as being numbered 1– 350. Per BeatBooks 36, none of the latter 350 copies were actually numbered and, per an eBay listing posted by Red Snapper Books (London), there is “the possibility that most copies were not distributed at publication.”
-- In English, French, and Dutch.
 - Drawings by Bob Gale.
+- French translation by Jean Chopin; Dutch translation by Jo Verbrugghen.
+- In English, French, and Dutch.
+- Limited to 400 copies, of which the colophon describes 50 copies as being numbered I through L in  Roman numerals and signed by Burroughs “in de luxe presentation” and 350 copies as being numbered 1– 350. Per BeatBooks 36, none of the latter 350 copies were actually numbered and, per an eBay listing posted by Red Snapper Books (London), there is “the possibility that most copies were not distributed at publication.”
 
-#### A31b. _The Book of Breeething._ Robert F. Gale, illustrator; William S. Burroughs, author. Berkeley, Calif.: Blue Wind Press, 1975.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A31b)_
+#### A31b. _The Book of Breeething._ William S. Burroughs, author; Robert F. Gale, illustrator. Berkeley, Calif.: Blue Wind Press, 1975.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A31b)_
 
 - Illustrations by Robert F. Gale.
 - Hardbound (issued without dustjacket), and softbound.
+- Hardbound ed. limited to 250 copies.
 - (“An Overdrive Book”)
 - 1st [American] ed.
-- Hardbound ed. limited to 250 copies.
 
-#### A31c. _The Book of Breeething._ William S. Burroughs, author; Robert F. Gale, illustrator. Berkeley, Calif.: Blue Wind Press, 1980.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A31c)_
+#### A31c. _The Book of Breeething._ Robert F. Gale, illustrator; William S. Burroughs, author. Berkeley, Calif.: Blue Wind Press, 1980.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A31c)_
 
-- 2nd [American] ed.
 - Hardbound (issued without dustjacket), and softbound.
 - Hardbound ed. includes 175 numbered copies signed by Burroughs.
+- 2nd [American] ed.
 
 ## 1975
 
-### A32. _Snack._ Jim Pennington, interviewer; Eric Mottram, interviewer; Graham Dawes, interviewer; William S. Burroughs, interviewee, author. London: Aloes Books, 1975. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A32)_
+### A32. _Snack._ Jim Pennington, interviewer; William S. Burroughs, interviewee, author; Graham Dawes, interviewer; Eric Mottram, interviewer. London: Aloes Books, 1975. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A32)_
 
+- “Part of this transcript [the first] appeared in Les Langues Modernes, Paris, 1965, with an introduction by Pierre Dommergues.”—p. 2.
+- Title on cover: Snack ...: Two Tape Transcripts.
 - With Eric Mottram.
 - Contains the transcript of a radio broadcast made in 1964 by Mottram, including passages of Burroughs reading from his work, and the transcript of a conversation in 1973 between Burroughs, Mottram, Jim Pennington [the publisher], and Graham Dawes.
-- Title on cover: Snack ...: Two Tape Transcripts.
-- “Part of this transcript [the first] appeared in Les Langues Modernes, Paris, 1965, with an introduction by Pierre Dommergues.”—p. 2.
 
 ### A33. _Verdelgen._ William S. Burroughs, author. [Holland]: Agathon, 1975. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A33)_
 
@@ -799,13 +799,13 @@
 
 ### A34. _Cobble Stone Gardens._ Michael Scott Cain, binder; William S. Burroughs, author. Cherry Valley, N.Y.: Cherry Valley Editions, 1976. Hardbound (issued without dustjacket), and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A34)_
 
+- “A mixture of autobiographical fiction about the author’s youth and family in St. Louis and material drawn from Naked Lunch and The Wild Boys.” [BeatBooks 51]
+- 1st ed.
 - “A more important book than one might first suppose.” [Am Here 62]
 - “Although the colophon calls for ... [the hardbound ed.] ... to be numbered, we don't believe any copies  actually were.” [Skyline]
-- “A mixture of autobiographical fiction about the author’s youth and family in St. Louis and material drawn from Naked Lunch and The Wild Boys.” [BeatBooks 51]
 - “50 copies hand bound by Michael Scott Cain numbered and signed by the author.”—[p. 54]
-- 1st ed.
 
-### A35. _The Retreat Diaries._ Allen Ginsberg, author; William S. Burroughs, author. New York: City Moon, 1976. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A35)_
+### A35. _The Retreat Diaries._ William S. Burroughs, author; Allen Ginsberg, author. New York: City Moon, 1976. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A35)_
 
 - The “color jacket” is a manila-colored clasp envelope with a die cut window in the front, behind which is affixed a sticker that reads: “The cover lettering for this limited edition of one hundred copies ... is from the handwriting of the Author, William S. Burroughs.”
 - “Printed in an edition of 2,000 copies with a limited edition of 100 [numbered/lettered and] wrapt [sic] in a  color jacket, 26 of them signed and numbered [i.e., lettered] by the author.”—T.p. verso.
@@ -814,21 +814,21 @@
 
 ### A36. _The Third Mind._
 
-#### A36a. _Œuvre Croisée._ Gérard-Georges Lemaire, translator; Brion Gysin, author; Christine Taylor, translator; William S. Burroughs, author. Paris: Flammarion, 1976. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36a)_
+#### A36a. _Œuvre Croisée._ Gérard-Georges Lemaire, translator; Christine Taylor, translator; Brion Gysin, author; William S. Burroughs, author. Paris: Flammarion, 1976. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36a)_
 
-- “Material on cut-ups, fold-ins, tape recorder experiments, and film. Originally conceived in the Chelsea Hotel in 1964-65 ...” [BeatBooks 65]
-- (Connections)
-- True 1st ed.
 - With Brion Gysin.
 - French translation by Gérard-Georges Lemaire and Christine Taylor.
+- “Material on cut-ups, fold-ins, tape recorder experiments, and film. Originally conceived in the Chelsea Hotel in 1964-65 ...” [BeatBooks 65]
+- True 1st ed.
+- (Connections)
 
-#### A36b. _The Third Mind._ Brion Gysin, author; William S. Burroughs, author. New York: Viking Press, 1978. Hardbound in dustjacket (no softbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36b)_
+#### A36b. _The Third Mind._ William S. Burroughs, author; Brion Gysin, author. New York: Viking Press, 1978. Hardbound in dustjacket (no softbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36b)_
 
 - First published as Œuvre Croisée, above.
 - [1st American ed.].
 - Announced for publication by Grove Press in 1970 but never released.
 
-#### A36c. _The Third Mind._ William S. Burroughs, author; Brion Gysin, author. London: J. Calder, 1979. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36c)_
+#### A36c. _The Third Mind._ Brion Gysin, author; William S. Burroughs, author. London: J. Calder, 1979. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36c)_
 
 
 #### A36d. _The Third Mind._ William S. Burroughs, author; Brion Gysin, author. New York: Seaver Books, 1982. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A36d)_
@@ -840,19 +840,19 @@
 
 #### A37a. _Ali's Smile; Naked Scientology._ Carl Weissner, editor, translator; William S. Burroughs, author. Bonn: Expanded Media Editions, 1978. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A37a)_
 
-- Translated into German and edited by Carl Weissner.
 - Reprinted, 1985, 2000 (with new cover, per Shoaf 2).
-- 1st ed.
+- Translated into German and edited by Carl Weissner.
 - In German and English.
+- 1st ed.
 
 ### A38. _Short Novels._ William S. Burroughs, author. London: John Calder, 1978.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A38)_
 
 
 ### A39. _Where Naked Troubadours Shoot Snotty Baboons._ James R. Silke, illustrator; William S. Burroughs, author. Northridge, [UK]: Lord John Press, 1978. Broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A39)_
 
-- Illustrated by James R. Silke.
 - Limited to 100 numbered and 26 lettered copies, signed by Burroughs and Silke.
 - “... a fragment from a forthcoming novel, Cities of the Red Night ...”
+- Illustrated by James R. Silke.
 
 ## 1979
 
@@ -861,10 +861,10 @@
 #### A40a. _Ah Pook Is Here, and Other Texts._ William S. Burroughs, author. London: John Calder, 1979. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A40a)_
 
 - “Ah Pook Is Here was originally planned as a picture book modelled on the surviving Mayan codices. Malcolm McNeill [sic] was to do the illustrations, and I [Burroughs] was to provide the text ... However, owing partly to the expense of full-color reproduction, and because the book falls into neither the category of the conventional illustrated book nor that of a comix publication, there have been difficulties with the arrangements for the complete work ... Finally Malcolm McNeill [sic] and I have decided to publish the text without the artwork, still in hopes of seeing the eventual publication of this work that has been eight years in preparation.”—Preface.
-- The illustrations for Ah Pook Is Here were published, without the text, in The Lost Art of Ah Pook Is Here: Images from the Graphic Novel (Seattle: Fantagraphics Books, 2012; see Section G below).
 - Contains the texts of Ah Pook Is Here, The Book of Breeething, and Electronic Revolution, above.
+- The illustrations for Ah Pook Is Here were published, without the text, in The Lost Art of Ah Pook Is Here: Images from the Graphic Novel (Seattle: Fantagraphics Books, 2012; see Section G below).
 
-#### A40b. _Ah Pook Is Here, and Other Texts._ William S. Burroughs, author. New York: Riverrun Press, 1979; London: John Calder, 1979. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A40b)_
+#### A40b. _Ah Pook Is Here, and Other Texts._ William S. Burroughs, author. London: John Calder, 1979; New York: Riverrun Press, 1979. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A40b)_
 
 - (A Calderbook, CB 371)
 
@@ -872,26 +872,26 @@
 
 #### A41a. _Blade Runner: A Movie._ William S. Burroughs, author. Berkeley, Calif.: Blue Wind Press, 1979.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A41a)_
 
-- Hardbound ed. includes 100 numbered copies signed by Burroughs.
-- 1st ed.
-- “The author wishes to thank Alan E. Norse, upon whose book The Bladerunner, characters and situations in this book are based.”—T.p. verso.
 - Hardbound in dustjacket, and softbound.
+- Hardbound ed. includes 100 numbered copies signed by Burroughs.
+- “The author wishes to thank Alan E. Norse, upon whose book The Bladerunner, characters and situations in this book are based.”—T.p. verso.
 - Unrelated to the 1982 feature film with the same title.
+- 1st ed.
 
 #### A41b. _Blade Runner: A Movie._ William S. Burroughs, author; William S. Burroughs, author. Berkeley, Calif.: Blue Wind Press, 1986; Berkeley, Calif.: Blue Wind Press, 1986. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A41b)_
 
 - Reprinted, 1994.
-- 2nd ed.
 - Reprinted, 1994.
+- 2nd ed.
 - Softbound.
 - 2nd ed.
 
-### A42. _Doctor Benway: A [Variant] Passage from The Naked Lunch._ William S. Burroughs, writer of introduction, author; Patrick Reagh, printer. Santa Barbara, Calif.: Bradford Morrow, 1979. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A42)_
+### A42. _Doctor Benway: A [Variant] Passage from The Naked Lunch._ William S. Burroughs, author, writer of introduction; Patrick Reagh, printer. Santa Barbara, Calif.: Bradford Morrow, 1979. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A42)_
 
 - “This edition ... published on the 20th anniversary of the original appearance of The Naked Lunch, consists of 324 numbered copies in wrappers, 150 numbered copies signed by the author & bound in cloth & boards, & 26 lettered copies which are hors commerce [and signed by Burroughs, Patrick Reagh (the printer), and K. Anders (the illustrator)].”—[p. 45]
+- “... the first publication of the earliest known version of the Doctor Benway chapter from ...The Naked Lunch ...” [Publisher’s prospectus, below]
 - With a new introduction by Burroughs.
 - “... the softbound wraps edition did not begin with number ‘1’ but rather with number ‘151.’ That is, after the run of the 150 signed hardbound copies.” [Shoaf 2]
-- “... the first publication of the earliest known version of the Doctor Benway chapter from ...The Naked Lunch ...” [Publisher’s prospectus, below]
 - “... taken from the original manuscript which had been left in the possession of Alan Ansen in Venice in the late 1950s and rediscovered by him in 1973.” [BeatBooks 65]
 
 #### Related entities
@@ -900,10 +900,10 @@
 
 - Letterpress-printed card on canary cardstock.
 
-### A43. _Roosevelt After Inauguration and Other Atrocities._ Francisco, contributor; Burroughs, contributor; William S. Burroughs, author, writer of introduction. San Francisco: City Lights Books, 1979. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A43)_
+### A43. _Roosevelt After Inauguration and Other Atrocities._ Francisco, contributor; Burroughs, contributor; William S. Burroughs, writer of introduction, author. San Francisco: City Lights Books, 1979. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A43)_
 
-- Includes “A New Introduction” [TOC title: “Introduction”) by Burroughs, facsimiles of covers of the original edition (above), plus three other routines: “When Did I Stop Wanting To Be President?,” “The Whole Tamale,” and “Sects and Death.”
 - 2nd printing (1980) includes frontispiece photo not present in 1st printing.
+- Includes “A New Introduction” [TOC title: “Introduction”) by Burroughs, facsimiles of covers of the original edition (above), plus three other routines: “When Did I Stop Wanting To Be President?,” “The Whole Tamale,” and “Sects and Death.”
 - Cover and spine title: Roosevelt After Inauguration.
 
 ### A44. _Scrapbook 3._ William S. Burroughs, author. [Geneva]: [Editions Claude Givaudan], [1979]. Hardbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A44)_
@@ -913,15 +913,15 @@
 
 ### A45. _Wouldn't You Polish Pine Floors With a South African ..._ William S. Burroughs, author. [St. Paul, Minn.]: Bookslinger, 1979. Broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A45)_
 
+- Also issued as part of: 16 Broadsides: Walker Art Center Reading Series, 1979–1980 (St. Paul, Minn.: Bookslinger, 1980).
 - Limited to 125 numbered and 26 lettered copies, signed by Burroughs.
 - “... printed at the Toothpaste Press for Bookslinger on the occasion of the author’s reading at the Walker Art  Center, October 24, 1979.”
-- Also issued as part of: 16 Broadsides: Walker Art Center Reading Series, 1979–1980 (St. Paul, Minn.: Bookslinger, 1980).
 
 ## 1980
 
 ### A46. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._
 
-#### A46a. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._ Allen Ginsberg, writer of supplementary textual content, interviewer; William S. Burroughs, author, interviewee. New York: Grove Press, 1980. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A46a)_
+#### A46a. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._ William S. Burroughs, interviewee, author; Allen Ginsberg, writer of supplementary textual content, interviewer. New York: Grove Press, 1980. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A46a)_
 
 - 1st Black Cat ed.
 - Distributed by Random House.
@@ -930,17 +930,17 @@
 
 #### A46b. _The Soft Machine; Nova Express; The Wild Boys: Three Novels._ William S. Burroughs, author. New York: Grove Weidenfeld, 1988. ©1980. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A46b)_
 
-- Lacks epilogue.
 - 1st Evergreen ed.
+- Lacks epilogue.
 
 ## 1981
 
 ### A47. _Cities of the Red Night._
 
-#### A47a. _Cities of the Red Night._ Ross MacLean, contributor; William S. Burroughs, author; Arthur Richardson, contributor. New York: Holt, Rinehart, and Winston, 1981. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A47a)_
+#### A47a. _Cities of the Red Night._ William S. Burroughs, author; Ross MacLean, contributor; Arthur Richardson, contributor. New York: Holt, Rinehart, and Winston, 1981. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A47a)_
 
-- “Grateful acknowledgment is made for use of a portion of ‘The Too Fat Polka’ by Ross MacLean and Arthur Richardson.”—T.p. verso.
 - 1st ed.
+- “Grateful acknowledgment is made for use of a portion of ‘The Too Fat Polka’ by Ross MacLean and Arthur Richardson.”—T.p. verso.
 - Includes 500 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publishers slipcase.
 
 #### A47b. _Cities of the Red Night._ William S. Burroughs, author. London: John Calder, 1981. Hardbound in dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A47b)_
@@ -948,8 +948,8 @@
 
 #### A47c. _Cities of the Red Night._ William S. Burroughs, author. New York: H. Holt, 1982. ©1981. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A47c)_
 
-- (An Owl Book)
 - 1st Owl Book ed.
+- (An Owl Book)
 
 #### A47d. _Cities of the Red Night._ William S. Burroughs, author. London: Picador, 1982. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A47d)_
 
@@ -965,63 +965,63 @@
 
 ### A48. _Early Routines._
 
-#### A48a. _Early Routines._ David Hockney, artist; William S. Burroughs, author; Ian Sommerville, photographer. Santa Barbara, Calif.: Cadmus Editions, 1981. Hardbound in tissue dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A48a)_
+#### A48a. _Early Routines._ David Hockney, artist; Ian Sommerville, photographer; William S. Burroughs, author. Santa Barbara, Calif.: Cadmus Editions, 1981. Hardbound in tissue dustjacket, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A48a)_
 
-- “... some of the earliest and hitherto uncollected & unpublished writings ... including a long ‘Interzone’ passage from NAKED LUNCH which did not appear in either the Olympia or Grove Press editions ...” —Publisher’s catalogue.
-- Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville. [Skyline]
 - 1st ed.
+- Limited to 125 numbered hardbound copies signed by Burroughs, with portrait by David Hockney on upper board; 26 lettered, specially bound hardbound copies signed by Burroughs and Hockney; and 349 numbered softbound copies, with photo of Burroughs by Ian Sommerville. [Skyline]
+- “... some of the earliest and hitherto uncollected & unpublished writings ... including a long ‘Interzone’ passage from NAKED LUNCH which did not appear in either the Olympia or Grove Press editions ...” —Publisher’s catalogue.
 
-#### A48b. _Early Routines._ Ian Sommerville, photographer; William S. Burroughs, author; David Hockney, artist. Santa Barbara, Calif.: Cadmus Editions, 1982. Hardbound, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A48b)_
+#### A48b. _Early Routines._ William S. Burroughs, author; David Hockney, artist; Ian Sommerville, photographer. Santa Barbara, Calif.: Cadmus Editions, 1982. Hardbound, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A48b)_
 
 - Trade ed.
 
-### A49. _Essais._ Gérard-Georges Lemaire, translator; William S. Burroughs, author; Philippe Mikriammos, translator. Paris: Christian Bourgois Editeur, 1981-1984. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A49)_
+### A49. _Essais._ Philippe Mikriammos, translator; Gérard-Georges Lemaire, translator; William S. Burroughs, author. Paris: Christian Bourgois Editeur, 1981-1984. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A49)_
 
 - No equivalent English-language edition.
-- 2 vols.
 - (Les Derniers Mots)
 - Essays by and about Burroughs.
+- 2 vols.
 - Translated and presented by Gérard-Georges Lemaire and Philippe Mikriammos.
 
-### A50. _The Streets of Chance._ James Grauerholz, editor; Steve Miller, editor; Howard Buchwald, artist; William S. Burroughs, author. New York: Red Ozier Press, 1981. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A50)_
+### A50. _The Streets of Chance._ Steve Miller, editor; James Grauerholz, editor; William S. Burroughs, author; Howard Buchwald, artist. New York: Red Ozier Press, 1981. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A50)_
 
-- Limited to 160 numbered copies signed by Burroughs and Buchwald.
-- Drawings by Howard Buchwald.
 - “The Streets of Chance is a complete story found in the 1968 version [of The Soft Machine] and nowhere else. On 30 January 1981, Mr. Burroughs oversaw revisions of the text by James Grauerholz and Steve Miller, and this is that version.”—Colophon.
+- Drawings by Howard Buchwald.
+- Limited to 160 numbered copies signed by Burroughs and Buchwald.
 
 ## 1982
 
 ### A51. _Mummies._ Carl Apfelschnitt, artist; William S. Burroughs, author. Düsseldorf; New York: Edition Gunnar A. Kaldewey, 1982. Hardbound with hand-made orange tissue guards inserted.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A51)_
 
-- (Edition; Vol. 5)
 - 1st ed.
+- (Edition; Vol. 5)
 - With etchings by Carl Apfelschnitt.
 - Limited to 75 copies, of which 70 are printed in black on Scheufelen paper (with etchings printed in black) and 5 are printed in gold on black Japanese paper (with etchings printed in red). All etchings are signed by the artist.
 
 ### A52. _Sinki's Sauna._
 
-#### A52a. _Sinki's Sauna._ William S. Burroughs, author; James Kearns, illustrator. New York: Pequod Press, 1982. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A52a)_
+#### A52a. _Sinki's Sauna._ James Kearns, illustrator; William S. Burroughs, author. New York: Pequod Press, 1982. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A52a)_
 
 - Limited to 500 numbered copies.
 - Illustrated by James Kearns.
 
 #### A52b. _Sinki's Sauna._ William S. Burroughs, author. New York: [n.p.], [1999?].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A52b)_
 
-- Limited to 50 copies.
 - “An apparent piracy of the Pequod edition, printed on bond and bound in ... handmade paper but really just a photocopy of the original work.” [Shoaf 1]
 - “Colophon notes ‘limited to only 50 copies,’ but less [sic] than 10 were actually printed.” [Shoaf 2]
+- Limited to 50 copies.
 
-### A53. _A William Burroughs Reader._ William S. Burroughs, author; John Calder, editor. London: Pan Books/Picador, 1982. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A53)_
+### A53. _A William Burroughs Reader._ John Calder, editor; William S. Burroughs, author. London: Pan Books/Picador, 1982. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A53)_
 
 - Edited by John Calder.
 
 ## 1984
 
-### A54. _The Burroughs File._ William S. Burroughs, author; Paul Bowles, contributor; Alan Ansen, contributor. San Francisco: City Lights Books, 1984. Hardbound, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A54)_
+### A54. _The Burroughs File._ Alan Ansen, contributor; William S. Burroughs, author; Paul Bowles, contributor. San Francisco: City Lights Books, 1984. Hardbound, and softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A54)_
 
-- “Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket.
-- 2nd printing, 1991.
 - Hardbound ed. limited to 300 copies. [BeatBooks 42]
+- 2nd printing, 1991.
+- “Including complete texts from White Subway, Cobblestone Gardens, and The Retreat Diaries ... Also included are essays on Burroughs by Alan Ansen [“Whoever Can Pick Up a Frying Pan Owns Death”] and Paul Bowles [“Burroughs in Tangier”], and facsimile pages from the famous cut-up scrapbooks of the mid-century: The Book of Hours, John Brady’s Book, and The Old Farmer’s Almanac.”—Dustjacket.
 
 #### Related entities
 
@@ -1033,20 +1033,20 @@
 
 #### A55a. _The Four Horsemen of the Apocalypse = Die vier apokalyptischen Reiter._ William S. Burroughs, author; Christof Kohlhöfer, illustrator. Bonn: Expanded Media Editions, 1984. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A55a)_
 
-- Illustrated by Christof Kohlhöfer.
-- Reprinted 1988, 1993, 1996, and 2003.
-- In English and German.
-- “Speech delivered 1980 at the occasion of the Institute of Ecotechnics’ ‘1980 Planet Earth Conference’ in Aix-en-Provence.”—T.p. verso.
 - 1st German ed.
+- In English and German.
+- Illustrated by Christof Kohlhöfer.
+- “Speech delivered 1980 at the occasion of the Institute of Ecotechnics’ ‘1980 Planet Earth Conference’ in Aix-en-Provence.”—T.p. verso.
+- Reprinted 1988, 1993, 1996, and 2003.
 
 ### A56. _The Place of Dead Roads._
 
 #### A56a. _The Place of Dead Roads._ William S. Burroughs, author. New York: Holt, Rinehart, and Winston, 1984. ©1983. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A56a)_
 
 - First ed.
-- “The original title of this book was The Johnson Family.”—Prefatory note.
 - Two “issues” of first printing—one in brown cloth full binding with bronze spine lettering, one in orange- brown cloth quarter binding with silver spine lettering. [Shoaf 1]
 - Includes 300 numbered and 26 lettered copies, signed by Burroughs, issued without dustjacket in publisher's slipcase.
+- “The original title of this book was The Johnson Family.”—Prefatory note.
 
 #### Related entities
 
@@ -1060,8 +1060,8 @@
 
 #### A56c. _The Place of Dead Roads._ William S. Burroughs, author. New York: Holt, Rinehart, and Winston, 1985. ©1983. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A56c)_
 
-- 1st Owl Book ed.
 - (An Owl Book)
+- 1st Owl Book ed.
 
 #### A56d. _The Place of Dead Roads._ William S. Burroughs, author. London: Paladin, 1987. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A56d)_
 
@@ -1072,8 +1072,8 @@
 
 #### A56f. _The Place of Dead Roads._ William S. Burroughs, author. New York: H. Holt, 1995. ©1983. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A56f)_
 
-- (An Owl Book)
 - 2nd Owl Book ed.
+- (An Owl Book)
 
 #### A56g. _The Place of Dead Roads._ William S. Burroughs, author. New York: Picador USA, 2001. ©1983. Softbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A56g)_
 
@@ -1099,10 +1099,10 @@
 
 #### A58b. _The Adding Machine: Selected Essays._ William S. Burroughs, author. New York: Seaver Books, 1986. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A58b)_
 
-- 1st American ed.
-- Distributed by H. Holt.
-- Includes “Bugger the Queen,” excluded from Calder ed. (above).
 - “Originally published in Great Britain under the title The Adding Machine: Collected Essays.”—T.p. verso.
+- Includes “Bugger the Queen,” excluded from Calder ed. (above).
+- Distributed by H. Holt.
+- 1st American ed.
 
 #### A58c. _The Adding Machine: Selected Essays._ William S. Burroughs, author. New York: Arcade, 1993. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A58c)_
 
@@ -1112,8 +1112,8 @@
 
 #### A59a. _Queer._ Robert H. Jackson, contributor; William S. Burroughs, author. New York: Viking/Penguin, 1985. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A59a)_
 
-- “With grateful acknowledgement [sic] of the kind cooperation of Robert H. Jackson, and for his aid in the publication of this book.”—T.p. verso.
 - Written in 1953.
+- “With grateful acknowledgement [sic] of the kind cooperation of Robert H. Jackson, and for his aid in the publication of this book.”—T.p. verso.
 
 #### Related entities
 
@@ -1130,11 +1130,11 @@
 #### A59d. _Queer._ William S. Burroughs, author. London: Picador, 1987. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A59d)_
 
 
-#### A59e. _Queer._ William S. Burroughs, author; Oliver Harris, editor, writer of introduction. New York: Penguin Books, 2010. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A59e)_
+#### A59e. _Queer._ Oliver Harris, writer of introduction, editor; William S. Burroughs, author. New York: Penguin Books, 2010. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A59e)_
 
-- 25th Anniversary ed.
-- “This new edition of Queer is based substantially on the same sources as the 1985 edition ...the most significant differences lie not in the text itself but in its presentation ... First, I have preserved a little more of the roughness in Burroughs’ manuscript, not making a number of very small corrections ... And second, as well as reediting and retitling the epilogue (now, ‘Two Years Later: Mexico City Return’), and re-creating the ‘Panama’ chapter (chapter 7), I have made a number of short insertions of material that was either previously unused or unavailable—roughly five hundred words in the notes and just over a thousand in the text.”—Introduction.
 - Edited and with an Introduction by Oliver Harris.
+- “This new edition of Queer is based substantially on the same sources as the 1985 edition ...the most significant differences lie not in the text itself but in its presentation ... First, I have preserved a little more of the roughness in Burroughs’ manuscript, not making a number of very small corrections ... And second, as well as reediting and retitling the epilogue (now, ‘Two Years Later: Mexico City Return’), and re-creating the ‘Panama’ chapter (chapter 7), I have made a number of short insertions of material that was either previously unused or unavailable—roughly five hundred words in the notes and just over a thousand in the text.”—Introduction.
+- 25th Anniversary ed.
 
 ## 1986
 
@@ -1145,16 +1145,16 @@
 - Drawings by Brion Gysin.
 - Limited to 133 numbered copies, all signed by Burroughs and Gysin: 1–115 bound in quarter vellum with red and black hand-painted paper over boards; i–xviii bound in full vellum with a Gysin drawing stamped in gold on the front cover, in quarter vellum clamshell box.
 
-#### A60b. _The Cat Inside._ William S. Burroughs, author; Brion Gysin, illustrator, artist. New York: Viking Penguin, 1992. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A60b)_
+#### A60b. _The Cat Inside._ Brion Gysin, illustrator, artist; William S. Burroughs, author. New York: Viking Penguin, 1992. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A60b)_
 
 - “The Cat Inside, in different form, was published in a limited edition of 133 copies by The Grenfell Press in 1986, with eight illustrations by Brion Gysin, including those that appear on the cover, title page, and endpapers of this edition.”—T.p. verso.
 
-#### A60c. _The Cat Inside._ Brion Gysin, artist, illustrator; William S. Burroughs, author. New York: Penguin Books, 2002. ©1992. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A60c)_
+#### A60c. _The Cat Inside._ William S. Burroughs, author; Brion Gysin, artist, illustrator. New York: Penguin Books, 2002. ©1992. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A60c)_
 
 
 ## 1987
 
-### A61. _From The Western Lands._ William S. Burroughs, author; Santa Fe, contributor; Casa Sin Nombre, contributor. Santa Fe, N.M.: Casa Sin Nombre, 1987. Broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A61)_
+### A61. _From The Western Lands._ Casa Sin Nombre, contributor; Santa Fe, contributor; William S. Burroughs, author. Santa Fe, N.M.: Casa Sin Nombre, 1987. Broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A61)_
 
 - Limited to 750 copies.
 
@@ -1173,52 +1173,52 @@
 
 ### A63. _Clause 27 Is Proposition 6 Is the Whole Tamale._ William S. Burroughs, author. [n.p.]: The Horse Press, [1989?]. Pamphlet.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A63)_
 
-- “Short text concerning the anti-gay Proposition 6 in the U.S., reprinted here in an abridged form in response to  the Tories’ homophobic Clause 27 (which later became Clause 28).” [BeatBooks 51]
 - Issued with two different cover colors, green and blue.
+- “Short text concerning the anti-gay Proposition 6 in the U.S., reprinted here in an abridged form in response to  the Tories’ homophobic Clause 27 (which later became Clause 28).” [BeatBooks 51]
 
 ### A64. _Interzone._
 
-#### A64a. _Interzone._ James Grauerholz, editor; William S. Burroughs, author. New York: Viking Penguin, 1989. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A64a)_
+#### A64a. _Interzone._ William S. Burroughs, author; James Grauerholz, editor. New York: Viking Penguin, 1989. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A64a)_
 
+- “’Interzone’ was the working title for ... Naked Lunch.”—Dustjacket.
 - “A collection of previously unpublished short stories, routines, letters, and notebook entries, dating from the mid-50s, rediscovered among Allen Ginsberg’s papers at Columbia University in 1984.” [BeatBooks 51]
 - Edited by James Grauerholz.
 - Includes “WORD,” “... that had been cut, save for a few scattered fragments, from the final manuscript of Naked Lunch.”—Dustjacket.
-- “’Interzone’ was the working title for ... Naked Lunch.”—Dustjacket.
 
-#### A64b. _Interzone._ William S. Burroughs, author; James Grauerholz, editor. London: Picador, 1989. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A64b)_
+#### A64b. _Interzone._ James Grauerholz, editor; William S. Burroughs, author. London: Picador, 1989. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A64b)_
 
 
-#### A64c. _Interzone._ James Grauerholz, editor; William S. Burroughs, author. New York: Penguin Books, 1990. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A64c)_
+#### A64c. _Interzone._ William S. Burroughs, author; James Grauerholz, editor. New York: Penguin Books, 1990. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A64c)_
 
 
 ### A65. _Tornado Alley._ S. Clay Wilson, illustrator; William S. Burroughs, author. Cherry Valley, N.Y.: Cherry Valley Editions, 1989.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A65)_
 
-- Hardbound (issued without dustjacket), and softbound.
-- Illustrations by S. Clay Wilson.
-- Hardbound edition limited to 400 copies, of which 90 are signed by Burroughs and 10 are signed by Burroughs and Wilson.
 - 1st ed.
+- Hardbound edition limited to 400 copies, of which 90 are signed by Burroughs and 10 are signed by Burroughs and Wilson.
+- Illustrations by S. Clay Wilson.
+- Hardbound (issued without dustjacket), and softbound.
 
 #### Related entities
 
+##### A65a1a. _Promotional Postcard for Tornado Alley._ S. Clay Wilson, illustrator; William S. Burroughs, author. Berkeley, Calif.: Small Press Distribution, [1989?].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A65a1a)_
+
+- Illustrated postcard.
+- Features one of the illustrations in the volume, by S. Clay Wilson.
+
 ##### A65a1b. _Promotional Postcard for Tornado Alley._ S Clay Wilson, illustrator; William S. Burroughs, author. Sudbury, Mass.: Water Row Books, [1989?].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A65a1b)_
 
+- Features one of the illustrations in the volume, by S. Clay Wilson.
 - Illustrated postcard on cream cardstock.
 - [Distributed by Water Row Books?]
-- Features one of the illustrations in the volume, by S. Clay Wilson.
-
-##### A65a1a. _Promotional Postcard for Tornado Alley._ William S. Burroughs, author; S. Clay Wilson, illustrator. Berkeley, Calif.: Small Press Distribution, [1989?].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A65a1a)_
-
-- Features one of the illustrations in the volume, by S. Clay Wilson.
-- Illustrated postcard.
 
 ## 1991
 
 ### A66. _Ghost of Chance._
 
-#### A66a. _Ghost of Chance._ William S. Burroughs, author; George Condo, illustrator; James Grauerholz, editor. New York: Library Fellows of the Whitney Museum of American Art, 1991. Hardbound; handbound (issued without dustjacket in slipcase).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A66a)_
+#### A66a. _Ghost of Chance._ George Condo, illustrator; William S. Burroughs, author; James Grauerholz, editor. New York: Library Fellows of the Whitney Museum of American Art, 1991. Hardbound; handbound (issued without dustjacket in slipcase).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A66a)_
 
-- [Edited by James Grauerholz.]
 - Limited to 160 copies printed at the Grenfell Press, signed by Burroughs and Condo.
+- [Edited by James Grauerholz.]
 - Illustrated by George Condo.
 
 #### Related entities
@@ -1227,10 +1227,10 @@
 
 - Features one of the illustrations in the volume, by George Condo.
 
-#### A66b. _Ghost of Chance._ William S. Burroughs, author; George Condo, illustrator; James Grauerholz, editor. New York: Serpent’s Tail/High Risk Books, 1995. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A66b)_
+#### A66b. _Ghost of Chance._ George Condo, illustrator; James Grauerholz, editor; William S. Burroughs, author. New York: Serpent’s Tail/High Risk Books, 1995. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A66b)_
 
-- Includes 125 numbered copies signed by Burroughs, issued in publisher’s slipcase with pullout ribbon.
 - “First published in 1991 as a limited edition by the Library Fellows of the Whitney Museum of American Art.”—T.p. verso.
+- Includes 125 numbered copies signed by Burroughs, issued in publisher’s slipcase with pullout ribbon.
 
 #### Related entities
 
@@ -1238,44 +1238,44 @@
 
 - Poster.
 
-#### A66c. _Ghost of Chance._ William S. Burroughs, author; George Condo, illustrator; James Grauerholz, editor. London: Serpent’s Tail, 2002. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A66c)_
+#### A66c. _Ghost of Chance._ George Condo, illustrator; William S. Burroughs, author; James Grauerholz, editor. London: Serpent’s Tail, 2002. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A66c)_
 
 
 ## 1992
 
 ### A67. _Painting & Guns._ Raymond Foye, interviewer; Francesco Clemente, interviewer; William S. Burroughs, interviewee. Madras, India; New York: Hanuman Books, 1992. Softbound in dustjacket (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A67)_
 
-- (Hanuman Books; 46)
 - Includes “The Creative Observer,” which originated as an interview with Burroughs by Raymond Foye and Francesco Clemente, excerpts from which were originally published in a different form in the exhibition catalogue accompanying Burroughs’ first one-man show, 19 December–24 January 1988, at the Tony Shafrazi Gallery (see Section B below); and “The War Universe,” an interview with Burroughs by Foye, originally published in a slightly different form in Grand Street, Vol. 10, No. 1 (1991). [See Section C below]
+- (Hanuman Books; 46)
 
 ## 1993
 
 ### A68. _Le Temps des Assassins._ William S. Burroughs, author; Lucien Suel, translator. Berguette, France: Station Underground d’Emerveillement Littéraire, 1993. Softbound (no hardbound issued)  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A68)_
 
 - Originally published in The Starscrewer, No. 7 (1978) and No. 12 (1979).
-- French translation by Lucien Suel of Time of the Assassins, originally published in Crawdaddy in 1977 and 1978. (See Section C, below).
 - No equivalent English-language edition.
 - Softbound (no hardbound issued).
 - (Collection du Starscrewer, 3)
+- French translation by Lucien Suel of Time of the Assassins, originally published in Crawdaddy in 1977 and 1978. (See Section C, below).
 
 ## 1994
 
-### A69. _Photos, and Remembering Jack Kerouac._ William S. Burroughs, author; Allen Ginsberg, photographer. Louisville, Ky.: White Fields Press, [1994]. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A69)_
+### A69. _Photos, and Remembering Jack Kerouac._ Allen Ginsberg, photographer; William S. Burroughs, author. Louisville, Ky.: White Fields Press, [1994]. Staplebound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A69)_
 
-- Features photos of Burroughs by Ginsberg and Burroughs’ text about Kerouac, also published separately as a broadside titled Remembering Jack Kerouac, below.
-- 1st ed.
 - (Heaven Chapbook Series; No. 46)
+- 1st ed.
 - Limited to 250 copies, including 49 numbered and 26 lettered copies signed by Burroughs.
+- Features photos of Burroughs by Ginsberg and Burroughs’ text about Kerouac, also published separately as a broadside titled Remembering Jack Kerouac, below.
 
 ### A70. _Remembering Jack Kerouac._ William S. Burroughs, author. [Louisville, Ky.]: White Fields Press, [1994]. Broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A70)_
 
 - Limited to 500 copies signed by Burroughs, 49 of which are numbered and 26 of which are lettered.
 - (Heaven Poster Series; No. 10)
 
-### A71. _Rien Que Des Mots, Ce Qui En Sort Rugit Sur Cette Page._ William S. Burroughs, author; Mary Beach, translator; Claude Pélieu, translator. Caen, France: Cahiers de Nuit, 1994. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A71)_
+### A71. _Rien Que Des Mots, Ce Qui En Sort Rugit Sur Cette Page._ Mary Beach, translator; William S. Burroughs, author; Claude Pélieu, translator. Caen, France: Cahiers de Nuit, 1994. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A71)_
 
-- No equivalent English-language edition.
 - Translated into French by Mary Beach and Claude Pélieu.
+- No equivalent English-language edition.
 
 ## 1995
 
@@ -1297,8 +1297,8 @@
 
 ### A74. _Pantopon Rose._ William S. Burroughs, author. Charleston, W.Va.: Parchment Gallery Graphics, Department of Humanities, University of Charleston, 1995. Broadside.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A74)_
 
-- Limited to 60 numbered copies signed by Burroughs.
 - “The lyrics for the song ‘Pantopon Rose,’ written in January 1995, are based on a real character ... She appears in several of Burroughs’ books, including The Naked Lunch ...”
+- Limited to 60 numbered copies signed by Burroughs.
 - Silkscreen print (from the authors handwriting) and colophon page enclosed in a printed folder, which is, in turn, enclosed in a printed envelope.
 
 ## 1998
@@ -1309,18 +1309,18 @@
 
 ### A76. _Word Virus: The William S. Burroughs Reader._
 
-#### A76a. _Word Virus: The William S. Burroughs Reader._ James Grauerholz, editor; Ira Silverberg, editor; William S. Burroughs, author; Jack Kerouac, author; Ann Douglas, writer of introduction. New York: Grove Press, 1998. Hardbound in dustjacket, issued with compact disc bound in rear.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A76a)_
+#### A76a. _Word Virus: The William S. Burroughs Reader._ Ann Douglas, writer of introduction; Jack Kerouac, author; William S. Burroughs, author; James Grauerholz, editor; Ira Silverberg, editor. New York: Grove Press, 1998. Hardbound in dustjacket, issued with compact disc bound in rear.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A76a)_
 
 - Compact disc: Selections from The Best of William Burroughs from Giorno Poetry Systems (also issued separately; see Section E below).
 - Includes a chapter from Burroughs’ previously unpublished novel written collaboratively with Jack Kerouac, And the Hippos Were Boiled in Their Tanks, below.
 - Edited by James Grauerholz and Ira Silverberg, with an Introduction by Ann Douglas.
 - 1st ed.
 
-#### A76b. _Word Virus: The William S. Burroughs Reader._ Ann Douglas, writer of introduction; Ira Silverberg, editor; William S. Burroughs, author; James Grauerholz, editor; Jack Kerouac, author. London: Flamingo, 1999. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A76b)_
+#### A76b. _Word Virus: The William S. Burroughs Reader._ Ira Silverberg, editor; Ann Douglas, writer of introduction; William S. Burroughs, author; Jack Kerouac, author; James Grauerholz, editor. London: Flamingo, 1999. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A76b)_
 
 - (Modern Classic)
 
-#### A76c. _Word Virus: The William S. Burroughs Reader._ Ann Douglas, writer of introduction; James Grauerholz, editor; William S. Burroughs, author; Ira Silverberg, editor; Jack Kerouac, author. New York: Grove Press, 2000. ©1998. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A76c)_
+#### A76c. _Word Virus: The William S. Burroughs Reader._ Jack Kerouac, author; Ann Douglas, writer of introduction; James Grauerholz, editor; William S. Burroughs, author; Ira Silverberg, editor. New York: Grove Press, 2000. ©1998. Softbound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A76c)_
 
 - 1st paperback ed.
 
@@ -1328,48 +1328,48 @@
 
 ### A77. _In Search of Yage: A William S. Burroughs Pictorial._ Burroughs, depicted. Forest Knolls, Calif.: Skyline Books, 1999. Softbound; handbound (no hardbound issued).  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A77)_
 
-- Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon.
 - “This edition consists of 26 lettered copies. The photographs were reproduced from the original negatives and are the only prints that will be made from these negatives.”—Colophon.
+- Contains three original b&w photographs, “... two of which are previously unpublished ... taken by an unknown person who accompanied Burroughs on his expedition through the Amazon.”—Colophon.
 
 ## 2001
 
 ### A78. _Parler pour Joe._ William S. Burroughs, author; Mary Beach, adapter, translator. Rouen, France: Derrière la Salle de Bains, 2001. Staplebound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A78)_
 
+- Originally published in Univers, No. 10 (1977).
 - Translation and adaptation by Mary Beach of “To Talk for Joe” (published in Transatlantic Review,  No. 60 (June 1977); see Section C below).
 - No equivalent English-language edition.
-- Originally published in Univers, No. 10 (1977).
 
 ### A79. _Words of Advice for Young People._ Michael Montfort, photographer; William S. Burroughs, author. [Encinitas, Calif.]: FreeThought Publications, 2001. Staplebound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A79)_
 
-- Limited to 250 numbered and 26 lettered copies signed by the photographer.
 - Includes five copies stamped “publisher’s copy.” [Shoaf 2]
+- Limited to 250 numbered and 26 lettered copies signed by the photographer.
 - (FreeThought Flyer, No. 16)
 - Cover photo of Burroughs by Michael Montfort.
 
 ## 2008
 
-### A80. _Everything Lost: The Latin American Notebook of William S. Burroughs._ John M. Bennett, editor; Oliver Harris, editor; Geoffrey D. Smith, editor; William S. Burroughs, author. Columbus, Ohio: The Ohio State University Press, 2008. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A80)_
+### A80. _Everything Lost: The Latin American Notebook of William S. Burroughs._ John M. Bennett, editor; William S. Burroughs, author; Oliver Harris, editor; Geoffrey D. Smith, editor. Columbus, Ohio: The Ohio State University Press, 2008. Hardbound, issued without dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A80)_
 
 - General editors, Geoffrey D. Smith and John M. Bennett; volume editor, Oliver Harris.
 - “... written by William Burroughs in Latin America during July and August 1953 ...” - Introduction.
 
-### A81. _And the Hippos Were Boiled in Their Tanks._ Jack Kerouac, author; William S. Burroughs, author. New York: Grove Press, 2008. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A81)_
+### A81. _And the Hippos Were Boiled in Their Tanks._ William S. Burroughs, author; Jack Kerouac, author. New York: Grove Press, 2008. Hardbound in dustjacket.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A81)_
 
-- “Will Dennison chapters written by William Lee, Mike Ryko chapters by John Kerouac.”—p. [1].
-- Written by the authors in 1945 as a fictionalized account of Lucien Carr’s relationship with, and eventual murder of, David Kammerer.
-- 1st ed.
 - With Jack Kerouac.
+- Written by the authors in 1945 as a fictionalized account of Lucien Carr’s relationship with, and eventual murder of, David Kammerer.
+- “Will Dennison chapters written by William Lee, Mike Ryko chapters by John Kerouac.”—p. [1].
+- 1st ed.
 
 ## 2015
 
-### A82. _The Travel Agency Is on Fire._ Alex Wermer-Colan, editor; William S. Burroughs, author. New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015. Staplebound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A82)_
+### A82. _The Travel Agency Is on Fire._ William S. Burroughs, author; Alex Wermer-Colan, editor. New York: The Center for the Humanities, The Graduate Center, The City University of New York, 2015. Staplebound.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A82)_
 
-- “Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p. verso.
 - (Lost and Found: The CUNY Poetics Document Initiative; Ser. 5, No. 2)
+- “Various cut-ups by William S. Burroughs courtesy of Ohio State University’s Rare Books & Manuscripts Library and the New York Public Library’s Henry W. and Albert A. Berg Collection of English and American Literature ...”—T.p. verso.
 
 #### Related entities
 
-##### A82a1. _Promotional Postcard for The Travel Agency Is on Fire._ William S. Burroughs, depicted, author; Byron James Bignell, photographer; Kathy Acker, depicted. [New York]: [The Center for the Humanities, The Graduate Center, The City University of New York], [2015].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A82a1)_
+##### A82a1. _Promotional Postcard for The Travel Agency Is on Fire._ Kathy Acker, depicted; Byron James Bignell, photographer; William S. Burroughs, author, depicted. [New York]: [The Center for the Humanities, The Graduate Center, The City University of New York], [2015].  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/A82a1)_
 
 - On recto: “William S. Burroughs and Kathy Acker at Cold City Gallery in 1989.” (B&W photo by Byron James Bignell.)
 
@@ -1380,22 +1380,22 @@
 ### C1. _The John Burroughs Review, Vol. 15, Nos. 1-2 (February 1938)._ William S. Burroughs, author.  _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/C1)_
 
 - “Fifteenth anniversary of the John Burroughs School [St. Louis, MO].”—[p. 1]
-- “February, 1929”—p. 45.
-- “Personal Magnetism.”
 - “We take you back to 1924, and there, year by year, through the pages of the REVIEW,” bring you back to 1938.”—p. 4.
+- “Personal Magnetism.”
+- “February, 1929”—p. 45.
 
 ## 1957
 
 ### C2. _The Black Mountain Review, [No.] 7 (Autumn 1957)._ William S. Burroughs, author. {M&M C2} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/C2)_
 
-- “From Naked Lunch, Book III: In Search of Yage.”
 - Actually published Spring, 1958. [BeatBooks 59]
 - Published under the pseudonym William Lee.
+- “From Naked Lunch, Book III: In Search of Yage.”
 
 ### C3. _The British Journal of Addiction, Vol. 53, No. 2 (January 1957)._ William S. Burroughs, author. {M&M C1} _[ttl](https://wsburroughs.link/anything-but-routine/4.0/instance/C3)_
 
 - Letter dated “August 3rd, 1956.”
-- “Letter from a Master Addict to Dangerous Drugs.”
 - Burroughs’ first appearance in print under his own name.
+- “Letter from a Master Addict to Dangerous Drugs.”
 - “Approximately fifty copies or less were off-printed for the use of the author at his request.” [Am Here 4]
 
