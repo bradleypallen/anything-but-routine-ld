@@ -23,11 +23,12 @@ abr: a void:Dataset ;
             foaf:mbox <mailto:bradley.p.allen@gmail.com> ] ;
     dcterms:description "Brian E.C. Schottlaender's annotated bibliography of William S. Burroughs rendered as a linked data resource." ;
     dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode> ;
-    dcterms:modified "2018-05-18T16:09:47.681449-07:00"^^xsd:dateTime ;
+    dcterms:modified "2018-05-19T07:21:44.831921-07:00"^^xsd:dateTime ;
     dcterms:source <https://escholarship.org/uc/item/0xj4d6bm> ;
     dcterms:subject <http://dbpedia.org/resource/Category:20th-century_American_novelists>,
         <http://dbpedia.org/resource/William_S._Burroughs> ;
     dcterms:title "Anything But Routine LD" ;
+    void:entities 324 ;
     void:exampleResource abrc:B,
         abri:A3c,
         abrw:A8 ;
@@ -119,7 +120,10 @@ abr: a void:Dataset ;
         abrw:C1,
         abrw:C2,
         abrw:C3 ;
+    void:triples 10445 ;
+    void:uriRegexPattern "^http://wsburroughs\\.link/anything-but-routine/4\\.0/(.+)/(.+)" ;
     void:vocabulary bf:,
-        arm:,
-        dcterms: ;
+        dcterms:,
+        arm: ;
     foaf:homepage <http://bradleypallen.org/anything-but-routine-ld/> .
+
