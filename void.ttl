@@ -23,11 +23,15 @@ abr: a void:Dataset ;
             foaf:mbox <mailto:bradley.p.allen@gmail.com> ] ;
     dcterms:description "Brian E.C. Schottlaender's annotated bibliography of William S. Burroughs rendered as a linked data resource." ;
     dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode> ;
-    dcterms:modified "2018-05-19T07:21:44.831921-07:00"^^xsd:dateTime ;
+    dcterms:modified "2018-05-21T16:44:22.692197+00:00"^^xsd:dateTime ;
     dcterms:source <https://escholarship.org/uc/item/0xj4d6bm> ;
-    dcterms:subject <http://dbpedia.org/resource/Category:20th-century_American_novelists>,
-        <http://dbpedia.org/resource/William_S._Burroughs> ;
+    dcterms:subject <http://dbpedia.org/resource/Beat_Generation>,
+        <http://dbpedia.org/resource/Category:20th-century_American_novelists>,
+        <http://dbpedia.org/resource/William_S._Burroughs>,
+        <http://id.loc.gov/authorities/names/n79026862>,
+        <http://id.loc.gov/authorities/names/no2008166023> ;
     dcterms:title "Anything But Routine LD" ;
+    void:dataDump abr:void ;
     void:entities 324 ;
     void:exampleResource abrc:B,
         abri:A3c,
