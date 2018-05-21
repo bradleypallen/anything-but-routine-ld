@@ -1,27 +1,36 @@
-import rdflib, glob, pandas as pd
-from rdflib import URIRef
-from rdflib.namespace import RDF, RDFS
+import rdflib, glob, datetime, time, pandas as pd
+from rdflib import URIRef, Literal
+from rdflib.namespace import RDF, RDFS, VOID, DCTERMS, XSD
 
 class ABRBibliography():
 
     def __init__(self, ttl='docs/4.0/*/*.ttl'):
-        self.ld_path_prefix = "https://wsburroughs.link/anything-but-routine/4.0/"
-        self.abrc = rdflib.Namespace(self.ld_path_prefix + "classification/")
-        self.abri = rdflib.Namespace(self.ld_path_prefix + "instance/")
-        self.abrw = rdflib.Namespace(self.ld_path_prefix + "work/")
+        self.ld_path_prefix = "https://wsburroughs.link/anything-but-routine/"
+        self.abr = rdflib.Namespace(self.ld_path_prefix)
+        self.abrc = rdflib.Namespace(self.ld_path_prefix + "4.0/classification/")
+        self.abri = rdflib.Namespace(self.ld_path_prefix + "4.0/instance/")
+        self.abrw = rdflib.Namespace(self.ld_path_prefix + "4.0/work/")
         self.bf = rdflib.Namespace("http://id.loc.gov/ontologies/bibframe/")
         self.arm = rdflib.Namespace("https://w3id.org/arm/core/ontology/0.1/")
         self.dcterms = rdflib.Namespace("http://purl.org/dc/terms/")
+        self.void = rdflib.Namespace("http://rdfs.org/ns/void#")
+        self.foaf = rdflib.Namespace("http://xmlns.com/foaf/0.1/")
         self.terminating_chars = ['!', '?', '.']
         self.graph = rdflib.Graph()
-        self.graph.bind("abrc", self.ld_path_prefix + "classification/")
-        self.graph.bind("abri", self.ld_path_prefix + "instance/")
-        self.graph.bind("abrw", self.ld_path_prefix + "work/")
-        self.graph.bind("bf", "http://id.loc.gov/ontologies/bibframe/")
-        self.graph.bind("arm", "https://w3id.org/arm/core/ontology/0.1/")
-        self.graph.bind("dcterms", "http://purl.org/dc/terms/")
+        self.initialize_graph_namespaces(self.graph)
         for infile in glob.glob(ttl):
             self.graph.parse(infile, format='n3')
+
+    def initialize_graph_namespaces(self, graph):
+        graph.bind("abr", self.ld_path_prefix)
+        graph.bind("abrc", self.ld_path_prefix + "4.0/classification/")
+        graph.bind("abri", self.ld_path_prefix + "4.0/instance/")
+        graph.bind("abrw", self.ld_path_prefix + "4.0/work/")
+        graph.bind("bf", "http://id.loc.gov/ontologies/bibframe/")
+        graph.bind("arm", "https://w3id.org/arm/core/ontology/0.1/")
+        graph.bind("dcterms", "http://purl.org/dc/terms/")
+        graph.bind("void", "http://rdfs.org/ns/void#")
+        graph.bind("foaf", "http://xmlns.com/foaf/0.1/")
 
     def instance_entry(self, instance):
         entry = ''
@@ -85,7 +94,7 @@ class ABRBibliography():
         instance_df = instance_df[['year', 'workid', 'category', 'catlabel', 'worktitle', 'id', 'instance']]
         return instance_df.to_dict('records')
 
-    def to_markdown(self, file='docs/index.md'):
+    def generate_documentation(self, file='docs/index.md'):
         with open(file, 'w') as mdfile:
             current_category = None
             current_work = None
@@ -130,8 +139,42 @@ class ABRBibliography():
                             print('- {}'.format(self.graph.value(note, RDF.value)), file=mdfile)
                         print('', file=mdfile)
 
+    def update_void_description(self):
+        void_file = 'docs/void.ttl'
+        h = rdflib.Graph()
+        self.initialize_graph_namespaces(h)
+        h.parse(void_file, format='n3')
+        # dcterms:modified
+        utc_offset_sec = time.altzone if time.localtime().tm_isdst else time.timezone
+        utc_offset = datetime.timedelta(seconds=-utc_offset_sec)
+        now = datetime.datetime.now().replace(tzinfo=datetime.timezone(offset=utc_offset)).isoformat()
+        h.remove( (self.abr[''], self.dcterms.modified, None) )
+        h.add( (self.abr[''], self.dcterms.modified, Literal(now, datatype=XSD.dateTime)) )
+        # void:triples
+        h.remove( (self.abr[''], self.void.triples, None) )
+        h.add( (self.abr[''], self.void.triples, Literal(len(self.graph), datatype=XSD.integer)) )
+        # void:entities
+        n_entities = len([ cl for cl in self.graph.subjects(RDF.type, self.bf.Classification) ])
+        n_entities += len([ w for w in self.graph.subjects(RDF.type, self.bf.Work) ])
+        n_entities += len([ i for i in self.graph.subjects(RDF.type, self.bf.Instance) ])
+        h.remove( (self.abr[''], self.void.entities, None) )
+        h.add( (self.abr[''], self.void.entities, Literal(n_entities, datatype=XSD.integer)) )
+        # void:rootResource
+        h.remove( (self.abr[''], self.void.rootResource, None) )
+        for work in self.graph.subjects(RDF.type, self.bf.Work):
+            h.add( (self.abr[''], self.void.rootResource, work) )
+        h.serialize(void_file, format='turtle')
+
+    def generate_dump_file(self):
+        dump_file = 'docs/dump.ttl'
+        self.graph.serialize(dump_file, format='turtle')
+
 if __name__ == "__main__":
-    print('Building bibliography...')
     bibliography = ABRBibliography()
-    bibliography.to_markdown()
+    print('Generating documentation...')
+    bibliography.generate_documentation()
+    print('Updating VOID description...')
+    bibliography.update_void_description()
+    print('Generating dump file...')
+    bibliography.generate_dump_file()
     print('Done.')
