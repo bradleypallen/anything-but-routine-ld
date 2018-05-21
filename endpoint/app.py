@@ -26,6 +26,12 @@ def get_void(media_type):
     void_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/void.ttl"
     return emit_acceptable_serialization(void_ttl_uri, media_type)
 
+@app.route('/anything-but-routine/dump')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+def get_dump(media_type):
+    dump_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/dump.ttl"
+    return emit_acceptable_serialization(dump_ttl_uri, media_type)
+
 @app.route("/<path:entity>")
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
 def get_entity(entity, media_type):

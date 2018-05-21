@@ -31,7 +31,7 @@ abr: a void:Dataset ;
         <http://id.loc.gov/authorities/names/n79026862>,
         <http://id.loc.gov/authorities/names/no2008166023> ;
     dcterms:title "Anything But Routine LD" ;
-    void:dataDump abr:void ;
+    void:dataDump abr:dump ;
     void:entities 324 ;
     void:exampleResource abrc:B,
         abri:A3c,
