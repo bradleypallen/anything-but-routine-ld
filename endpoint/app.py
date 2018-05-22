@@ -1,4 +1,4 @@
-from flask import Flask, abort, make_response
+from flask import Flask, abort, redirect, make_response
 from flask_negotiation import provides
 from rdflib import Graph
 import urllib2
@@ -30,7 +30,7 @@ def get_void(media_type):
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
 def get_dump(media_type):
     dump_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/dump.ttl"
-    return emit_acceptable_serialization(dump_ttl_uri, media_type)
+    return redirect(dump_ttl_uri)
 
 @app.route("/<path:entity>")
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
