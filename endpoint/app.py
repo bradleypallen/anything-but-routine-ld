@@ -4,7 +4,12 @@ from rdflib import Graph
 import urllib2
 app = Flask(__name__)
 
-def emit_acceptable_serialization(ttl_uri, media_type):
+gh_pages_root_uri = "http://bradleypallen.org/anything-but-routine-ld"
+root_relative_uri = "/anything-but-routine/"
+dump_file_relative_uri = "/anything-but-routine/dump"
+resource_relative_uri = "/anything-but-routine/<path:resource>"
+
+def emit_accepted_rdf_serialization(ttl_uri, media_type):
     try:
         graph = Graph().parse(ttl_uri, format='n3')
     except urllib2.HTTPError as e:
@@ -20,20 +25,22 @@ def emit_acceptable_serialization(ttl_uri, media_type):
         response.headers['content-type'] = 'text/turtle'
     return response
 
-@app.route('/anything-but-routine/')
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
-def get_void(media_type):
-    void_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/void.ttl"
-    return emit_acceptable_serialization(void_ttl_uri, media_type)
+def target_gh_pages_ttl_uri(path=""):
+    return "{}/{}.ttl".format(gh_pages_root_uri, path)
 
-@app.route('/anything-but-routine/dump')
+@app.route(root_relative_uri)
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+def get_root(media_type):
+    if media_type == 'text/html':
+        return redirect(gh_pages_root_uri)
+    return emit_accepted_rdf_serialization(target_gh_pages_ttl_uri("void"), media_type)
+
+@app.route(dump_file_relative_uri)
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
 def get_dump(media_type):
-    dump_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld/dump.ttl"
-    return redirect(dump_ttl_uri)
+    return redirect(target_gh_pages_ttl_uri("dump"))
 
-@app.route("/<path:entity>")
+@app.route(resource_relative_uri)
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
-def get_entity(entity, media_type):
-    entity_ttl_uri = "http://bradleypallen.org/anything-but-routine-ld{}.ttl".format(entity[entity.rfind('/4.0'):])
-    return emit_acceptable_serialization(entity_ttl_uri, media_type)
+def get_resource(resource, media_type):
+    return emit_accepted_rdf_serialization(target_gh_pages_ttl_uri(resource), media_type)
