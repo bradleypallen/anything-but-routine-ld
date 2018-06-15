@@ -51,6 +51,8 @@ def target_gh_pages_ttl_uri(path=""):
 
 dump_graph = initialize_graph_namespaces(Graph().parse(target_gh_pages_ttl_uri("dump"), format="n3"))
 
+void_graph = initialize_graph_namespaces(Graph().parse(target_gh_pages_ttl_uri("void"), format="n3"))
+
 page_size = 100
 
 def emit_accepted_rdf_serialization(graph, media_type):
@@ -85,7 +87,7 @@ def get_dump(media_type):
 @app.route(well_known_void_uri)
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
 def get_well_known_void(media_type):
-    return emit_accepted_rdf_serialization(target_gh_pages_ttl_uri("void"), media_type)
+    return emit_accepted_rdf_serialization(void_graph, media_type)
 
 @app.route(resource_relative_uri)
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
