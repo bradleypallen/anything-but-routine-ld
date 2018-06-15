@@ -12,6 +12,7 @@ gh_pages_root_uri = "http://bradleypallen.org/anything-but-routine-ld"
 root_relative_uri = "/anything-but-routine/"
 root_uri = dataset_uri + root_relative_uri
 dump_file_relative_uri = "/anything-but-routine/dump"
+well_known_void_uri = "/anything-but-routine/.well-known/void"
 resource_relative_uri = "/anything-but-routine/<path:resource>"
 tpf_relative_uri = "/anything-but-routine/fragment"
 
@@ -80,6 +81,11 @@ def get_root(media_type):
 def get_dump(media_type):
 #    return redirect(target_gh_pages_ttl_uri("dump"))
     return emit_accepted_rdf_serialization(dump_graph, media_type)
+
+@app.route(well_known_void_uri)
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+def get_well_known_void(media_type):
+    return emit_accepted_rdf_serialization(target_gh_pages_ttl_uri("void"), media_type)
 
 @app.route(resource_relative_uri)
 @provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
