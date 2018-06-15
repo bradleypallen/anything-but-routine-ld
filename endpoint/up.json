@@ -7,14 +7,18 @@
     "production": {
       "domain": "wsburroughs.link",
       "lambda": {
-          "memory": 128,
+          "memory": 128
+      },
+      "proxy": {
           "timeout": 25
       }
     },
     "staging": {
       "domain": "dev.wsburroughs.link",
       "lambda": {
-          "memory": 128,
+          "memory": 128
+      },
+      "proxy": {
           "timeout": 25
       }
     }
