@@ -15,6 +15,7 @@ class ABRBibliography():
         self.dcterms = rdflib.Namespace("http://purl.org/dc/terms/")
         self.void = rdflib.Namespace("http://rdfs.org/ns/void#")
         self.foaf = rdflib.Namespace("http://xmlns.com/foaf/0.1/")
+        self.hydra = rdflib.Namespace("http://www.w3.org/ns/hydra/core#")
         self.terminating_chars = ['!', '?', '.']
         self.graph = rdflib.Graph()
         self.initialize_graph_namespaces(self.graph)
@@ -31,6 +32,7 @@ class ABRBibliography():
         graph.bind("dcterms", "http://purl.org/dc/terms/")
         graph.bind("void", "http://rdfs.org/ns/void#")
         graph.bind("foaf", "http://xmlns.com/foaf/0.1/")
+        graph.bind("hydra", "http://www.w3.org/ns/hydra/core#")
 
     def instance_entry(self, instance):
         entry = ''
