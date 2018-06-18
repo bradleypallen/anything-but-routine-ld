@@ -3,8 +3,8 @@ from flask_negotiation import provides
 from rdflib import Graph, URIRef, BNode, Literal
 from rdflib.namespace import RDF, VOID, XSD
 from itertools import izip_longest
-import urllib2
-import rdflib
+import urllib2, rdflib, math
+
 app = Flask(__name__)
 
 dataset_uri = "https://wsburroughs.link/"
@@ -126,9 +126,9 @@ def get_tpf(media_type):
             for triple in page:
                 if triple:
                     data.add(triple)
+            #break
     metadata = initialize_graph_namespaces(Graph())
     fragment_uri = dataset_uri[:-1] + request.full_path
-    metadata.add( (URIRef(fragment_uri), VOID.triples, Literal(n_triples, datatype=XSD.integer)) )
     controls = initialize_graph_namespaces(Graph())
     controls.add( (URIRef(dataset_uri), VOID.subset, URIRef(fragment_uri)) )
     controls.add( (URIRef(dataset_uri), hydra.template, Literal("https://wsburroughs.link/anything-but-routine/fragment{?s,p,o}")) )
@@ -144,5 +144,18 @@ def get_tpf(media_type):
     controls.add( (URIRef(dataset_uri), hydra.mapping, s_var) )
     controls.add( (URIRef(dataset_uri), hydra.mapping, p_var) )
     controls.add( (URIRef(dataset_uri), hydra.mapping, o_var) )
+    controls.add( (URIRef(fragment_uri), RDF.type, hydra.Collection) )
+    controls.add( (URIRef(fragment_uri), RDF.type, hydra.PagedCollection) )
+    controls.add( (URIRef(fragment_uri), dcterms.title, Literal("Linked Data Fragment of Anything But Routine LD")) )
+    controls.add( (URIRef(fragment_uri), dcterms.description, Literal("A Triple Pattern Fragment of the Anything But Routine LD dataset containing triples matching the pattern { ?s ?p ?o }.")) )
+    metadata.add( (URIRef(fragment_uri), VOID.triples, Literal(n_triples, datatype=XSD.integer)) )
+    controls.add( (URIRef(fragment_uri), hydra.totalItems, Literal(n_triples, datatype=XSD.integer)) )
+    controls.add( (URIRef(fragment_uri), hydra.itemsPerPage, Literal(page_size, datatype=XSD.integer)) )
+    if pg > 1:
+        controls.add( (URIRef(fragment_uri), hydra.firstPage, Literal(0, datatype=XSD.integer)) )
+    if pg > 2:
+        controls.add( (URIRef(fragment_uri), hydra.previousPage, Literal(pg - 1, datatype=XSD.integer)) )
+    if pg < math.ceil(n_triples / page_size):
+        controls.add( (URIRef(fragment_uri), hydra.nextPage, Literal(pg + 1, datatype=XSD.integer)) )
     graph = data + metadata + controls
     return emit_accepted_rdf_serialization(graph, media_type)
