@@ -119,14 +119,14 @@ def get_tpf(media_type):
     else:
         pg = 0
     data = initialize_graph_namespaces(Graph())
-    n_triples = 0
-    for i, page in enumerate(grouper(dump_graph.triples( (s, p, o) ), page_size)):
-        n_triples += len([ _ for _ in page if _ ])
+    triples = [ triple for triple in dump_graph.triples( (s, p, o) ) ]
+    n_triples = len(triples)
+    for i, page in enumerate(grouper(triples, page_size)):
         if i == pg:
             for triple in page:
                 if triple:
                     data.add(triple)
-            #break
+            break
     metadata = initialize_graph_namespaces(Graph())
     fragment_uri = dataset_uri[:-1] + request.full_path
     controls = initialize_graph_namespaces(Graph())
@@ -151,9 +151,9 @@ def get_tpf(media_type):
     metadata.add( (URIRef(fragment_uri), VOID.triples, Literal(n_triples, datatype=XSD.integer)) )
     controls.add( (URIRef(fragment_uri), hydra.totalItems, Literal(n_triples, datatype=XSD.integer)) )
     controls.add( (URIRef(fragment_uri), hydra.itemsPerPage, Literal(page_size, datatype=XSD.integer)) )
-    if pg > 1:
+    if pg >= 1:
         controls.add( (URIRef(fragment_uri), hydra.firstPage, Literal(0, datatype=XSD.integer)) )
-    if pg > 2:
+    if pg > 1:
         controls.add( (URIRef(fragment_uri), hydra.previousPage, Literal(pg - 1, datatype=XSD.integer)) )
     if pg < math.ceil(n_triples / page_size):
         controls.add( (URIRef(fragment_uri), hydra.nextPage, Literal(pg + 1, datatype=XSD.integer)) )
