@@ -2,10 +2,14 @@ from flask import Flask, abort, redirect, request, make_response
 from flask_negotiation import provides
 from rdflib import Graph, URIRef, BNode, Literal
 from rdflib.namespace import RDF, VOID, XSD
+from rdflib.plugin import register, Serializer
 from itertools import izip_longest
 import urllib2, rdflib, math
 
 app = Flask(__name__)
+
+rdflib.plugin.register('application/ld+json', Serializer, 'rdflib_jsonld.serializer', 'JsonLDSerializer')
+rdflib.plugin.register('json-ld', Serializer, 'rdflib_jsonld.serializer', 'JsonLDSerializer')
 
 dataset_uri = "https://wsburroughs.link/"
 gh_pages_root_uri = "http://bradleypallen.org/anything-but-routine-ld"
@@ -62,13 +66,16 @@ def emit_accepted_rdf_serialization(graph, media_type):
     elif media_type == 'text/plain':
         response = make_response(graph.serialize(None, format='ntriples'))
         response.headers['content-type'] = 'text/plain'
+    elif media_type == 'application/ld+json':
+        response = make_response(graph.serialize(None, format='json-ld', indent=4))
+        response.headers['content-type'] = 'application/ld+json'
     else: # return text/turtle
         response = make_response(graph.serialize(None, format='turtle'))
         response.headers['content-type'] = 'text/turtle'
     return response
 
 @app.route(root_relative_uri)
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', 'application/ld+json', to='media_type')
 def get_root(media_type):
     if media_type == 'text/html':
         return redirect(gh_pages_root_uri)
@@ -79,18 +86,18 @@ def get_root(media_type):
     return emit_accepted_rdf_serialization(graph, media_type)
 
 @app.route(dump_file_relative_uri)
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', 'application/ld+json', to='media_type')
 def get_dump(media_type):
 #    return redirect(target_gh_pages_ttl_uri("dump"))
     return emit_accepted_rdf_serialization(dump_graph, media_type)
 
 @app.route(well_known_void_uri)
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', 'application/ld+json', to='media_type')
 def get_well_known_void(media_type):
     return emit_accepted_rdf_serialization(void_graph, media_type)
 
 @app.route(resource_relative_uri)
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', 'application/ld+json', to='media_type')
 def get_resource(resource, media_type):
     try:
         graph = initialize_graph_namespaces(Graph().parse(target_gh_pages_ttl_uri(resource), format='n3'))
@@ -99,8 +106,9 @@ def get_resource(resource, media_type):
     return emit_accepted_rdf_serialization(graph, media_type)
 
 @app.route(tpf_relative_uri)
-@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', to='media_type')
+@provides('text/html', 'text/turtle', 'application/rdf+xml', 'text/plain', 'application/x-turtle', 'text/rdf+n3', 'application/ld+json', to='media_type')
 def get_tpf(media_type):
+    fragment_uri = dataset_uri[:-1] + request.full_path
     s = request.args.get('s')
     if s:
         s = URIRef(s)
@@ -118,6 +126,7 @@ def get_tpf(media_type):
         pg = int(pg)
     else:
         pg = 0
+
     data = initialize_graph_namespaces(Graph())
     triples = [ triple for triple in dump_graph.triples( (s, p, o) ) ]
     n_triples = len(triples)
@@ -127,8 +136,10 @@ def get_tpf(media_type):
                 if triple:
                     data.add(triple)
             break
+
     metadata = initialize_graph_namespaces(Graph())
-    fragment_uri = dataset_uri[:-1] + request.full_path
+    metadata.add( (URIRef(fragment_uri), VOID.triples, Literal(n_triples, datatype=XSD.integer)) )
+
     controls = initialize_graph_namespaces(Graph())
     controls.add( (URIRef(dataset_uri), VOID.subset, URIRef(fragment_uri)) )
     controls.add( (URIRef(dataset_uri), hydra.template, Literal("https://wsburroughs.link/anything-but-routine/fragment{?s,p,o}")) )
@@ -148,7 +159,6 @@ def get_tpf(media_type):
     controls.add( (URIRef(fragment_uri), RDF.type, hydra.PagedCollection) )
     controls.add( (URIRef(fragment_uri), dcterms.title, Literal("Linked Data Fragment of Anything But Routine LD")) )
     controls.add( (URIRef(fragment_uri), dcterms.description, Literal("A Triple Pattern Fragment of the Anything But Routine LD dataset containing triples matching the pattern { ?s ?p ?o }.")) )
-    metadata.add( (URIRef(fragment_uri), VOID.triples, Literal(n_triples, datatype=XSD.integer)) )
     controls.add( (URIRef(fragment_uri), hydra.totalItems, Literal(n_triples, datatype=XSD.integer)) )
     controls.add( (URIRef(fragment_uri), hydra.itemsPerPage, Literal(page_size, datatype=XSD.integer)) )
     if pg >= 1:
@@ -157,5 +167,6 @@ def get_tpf(media_type):
         controls.add( (URIRef(fragment_uri), hydra.previousPage, Literal(pg - 1, datatype=XSD.integer)) )
     if pg < math.ceil(n_triples / page_size):
         controls.add( (URIRef(fragment_uri), hydra.nextPage, Literal(pg + 1, datatype=XSD.integer)) )
+
     graph = data + metadata + controls
     return emit_accepted_rdf_serialization(graph, media_type)

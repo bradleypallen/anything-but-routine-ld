@@ -6,4 +6,5 @@ click==6.7
 itsdangerous==0.24
 wsgiref==0.1.2
 rdflib==4.2.2
+rdflib-jsonld==0.4.0
 Flask-Negotiation==0.1.9
