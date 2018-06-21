@@ -24,7 +24,7 @@ abr: a void:Dataset ;
             foaf:mbox <mailto:bradley.p.allen@gmail.com> ] ;
     dcterms:description "Brian E.C. Schottlaender's annotated bibliography of William S. Burroughs rendered as a linked data resource." ;
     dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode> ;
-    dcterms:modified "2018-06-19T14:41:08.765425+00:00"^^xsd:dateTime ;
+    dcterms:modified "2018-06-21T05:57:45.588991+00:00"^^xsd:dateTime ;
     dcterms:source <https://escholarship.org/uc/item/0xj4d6bm> ;
     dcterms:subject <http://dbpedia.org/resource/Beat_Generation>,
         <http://dbpedia.org/resource/Category:20th-century_American_novelists>,
