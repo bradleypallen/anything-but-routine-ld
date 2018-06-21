@@ -11,14 +11,15 @@
         "xml": "http://www.w3.org/XML/1998/namespace",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
-    "host_uri": "https://wsburroughs.link"
+    "protocol": "https",
+    "domainname": "wsburroughs.link",
     "context": "anything-but-routine",
     "subcontext": "4.0",
     "entitytypes": [
         "instance",
         "work",
         "classification"
-    ]
+    ],
     "dataDump": "dump.ttl",
     "voidFile": "void.ttl",
     "pageSize": 100
