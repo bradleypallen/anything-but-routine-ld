@@ -1,0 +1,25 @@
+{
+    "prefixes": {
+        "arm": "https://w3id.org/arm/core/ontology/0.1/",
+        "bf": "http://id.loc.gov/ontologies/bibframe/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "hydra": "http://www.w3.org/ns/hydra/core#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "void": "http://rdfs.org/ns/void#",
+        "xml": "http://www.w3.org/XML/1998/namespace",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "host_uri": "https://wsburroughs.link"
+    "context": "anything-but-routine",
+    "subcontext": "4.0",
+    "entitytypes": [
+        "instance",
+        "work",
+        "classification"
+    ]
+    "dataDump": "dump.ttl",
+    "voidFile": "void.ttl",
+    "pageSize": 100
+}
