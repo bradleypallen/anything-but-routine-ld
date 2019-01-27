@@ -11,14 +11,6 @@ abri:A13a a bf:Instance ;
     rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Skyline" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Fuck" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "Ed Sanders" ;
             bf:role "contributor" ],
         [ a bf:Agent,
@@ -43,4 +35,3 @@ abri:A13a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Health Bulletin: APO-33, A Metabolic Regulator. A Report on the Synthesis of the Apomorphine Formula" ] .
-
