@@ -1,0 +1,36 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B17 a bf:Instance ;
+    rdfs:label "Prints and Prose: A Collaboration of Art and Text by Keith Haring & William S. Burroughs" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Postcard [6 x 4⅛ in.]" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B17" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "Postcard for exhibition at Murray Feldman Gallery at Pacific Design Center in Los Angeles,  3–28 September 1991." ],
+        [ a bf:Note ;
+            rdf:value "Abstract image of Pacific Design Center on recto." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Murray Feldman Gallery" ;
+            bf:date "1991" ;
+            bf:place "West  Hollywood" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Prints and Prose: A Collaboration of Art and Text by Keith Haring & William S. Burroughs" ] .
+

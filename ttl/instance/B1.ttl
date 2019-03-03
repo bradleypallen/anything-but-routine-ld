@@ -1,0 +1,37 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B1 a bf:Instance ;
+    rdfs:label "Peinture, Poésie, Musique: David Budd Recontree William Burroughs et Earl Brown Chez Rodolphe Stadler" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Single sheet, folded to make 12 panels (6 on each side)" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "F11" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B1" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "“A two-column piece by Burroughs printed alternately in red and orange ink occupies half of the catalogue,  both in English and in a French translation.” [BeatBooks 39]" ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Galerie Stadler" ;
+            bf:date "1964" ;
+            bf:place " Paris" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Peinture, Poésie, Musique: David Budd Recontree William Burroughs et Earl Brown Chez Rodolphe Stadler" ] .
+

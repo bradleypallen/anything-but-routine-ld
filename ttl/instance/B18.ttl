@@ -1,0 +1,44 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B18 a bf:Instance ;
+    rdfs:label "The Seven Deadly Sins.  A" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Hardbound, issued without dustjacket" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B18" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "Bound in black cloth, with a small plywood “shotgun” painting affixed to the front cover." ],
+        [ a bf:Note ;
+            rdf:value "Features color reproductions of Burroughs’ paintings illustrating the seven deadly sins, with text by  Burroughs." ],
+        [ a bf:Note ;
+            rdf:value "Limited to 90 signed copies, with 10 artist proofs, 4 hors commerce, 3 printer’s proofs, and one right to  print." ],
+        [ a bf:Note ;
+            rdf:value "150 numbered copies signed by Burroughs, bound in black leather, also with a small, plywood “shotgun”  painting affixed to the front cover. “Most … were never distributed, probably because of the high  publisher’s price …” [Shoaf 1]  B. Deluxe ed. New York: Lococo/Mulder, 1991. Portfolio, in Luan Crate." ],
+        [ a bf:Note ;
+            rdf:value "Frontispiece photo of Burroughs by Robert Mapplethorpe." ],
+        [ a bf:Note ;
+            rdf:value "Consists of serigraphed woodcuts (seven images and seven pages of text), each 32 x 46 inches." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Lococo/Mulder" ;
+            bf:date "1991" ;
+            bf:place "New York" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "The Seven Deadly Sins.  A" ] .
+
