@@ -1,0 +1,34 @@
+
+Why participate:
+
+I have two reasons for wanting to participate in the conference, one professional and one personal.
+
+In my professional role as Chief Architect at Elsevier, I am responsible for driving our data strategy, and linked data principles are a key component of that strategy. Critical to this work is close acquaintance with the evolution of library linked data standards and best practices, into which I believe the LD4 conference can provide direct insight. So the first perspective I can bring to bear at the conference is that of a technologist within a large enterprise engaged in the use of library linked data in the context of content and data publishing workflows at industrial scale.
+
+As a private individual, I have been using library linked data standards and technologies to build datasets and tools for the creation and maintenance of data about rare book collections. My efforts are heavily dependent on ontologies such as BIBFRAME 2.0 and the Art and Rare Materials Core Ontology, and engaging with the community responsible for them at the conference would be of tremendous value to me. The perspective that I can bring to the conference from this angle is that of an amateur from outside the traditional library community who is actively addressing specific questions about modeling and workflow stemming from the use of BIBFRAME, and who believes there is an opportunity for library linked data to significantly improve how knowledge is shared within the community of rare book bibliographers, sellers and collectors.
+
+How participate:
+
+I would be happy to do either a presentation (at 20-30 mins. with Q&A) or a lightning talk (around 5 mins.) on the following topic:
+
+"Representing and Publishing Schottlaender's "Anything But Routine" as Linked Data"
+
+Brian E.C. Schottlaender's "Anything But Routine" (ABR) is the definitive annotated bibliography of the works of William S. Burroughs, the American Beat Generation
+author. Burroughs' oeuvre is notorious among collectors and bibliographers for its size and complexity. In this talk, we describe our experience in converting the content in Anything But
+Routine into published linked data expressed using BIBFRAME 2.0 and its extension ontologies, exploring those ontologies' application to bibliographies and catalogs typical of those
+created by and for rare book collectors and sellers. We will specifically touch on the following topics:
+- Applying the BIBFRAME and ARM ontologies to modeling the cataloging data within ABR.
+- Using a notebook coding and analytics tool to automate data extraction and transformation of ABR into a knowledge graph.
+- Using Git-based collaboration, continuous integration and serverless computing platforms to manage and publish the generated knowledge graph with an eye towards minimizing ongoing cost and labor.
+
+Beyond or instead of the above, simply engaging in ad hoc discussions with people on related topics would be of tremendous value to me.
+
+What topics or tools:
+
+I would love to see tutorials on two topics:
+- The main tool stack(s) under development by members of the LD4P community (e.g. BFE.)
+- An overview of developments around BIBFRAME 2.0 and its extensions, addressing emerging consensus and areas of ongoing debate.
+
+What facilitated deep-dive topic:
+
+The one thing I would like to see discussed in depth is where the community sees itself in five years with respect to the evolution of these standards and the communication of best practices in their use and application. The main outcomes I would hope for are a consensus roadmap of that evolution and the identification of initiatives or collaborations driving awareness and adoption of the standards beyond the community represented by those in attendance at the conference.
