@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,34 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C280 a bf:Instance ;
-    rdfs:label "IT: [The International Times], No. 74 (27 February13 March 1970)" ;
+    rdfs:label "IT: [The International Times], No. 74" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Cape Goliard" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Mind Control.”  a. “Wait Here, Go There.”  b. “Abstract.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C269" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C280" ] ;
-    bf:instanceOf abrw:C280 ;
+            rdf:value "C280" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C269" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "a.  b." ],
-        [ a bf:Note ;
-            rdf:value "(The book was actually published as The Last Words of Dutch Schultz by Cape Goliard Press." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C269}  p. 9." ],
-        [ a bf:Note ;
-            rdf:value "See Section A above.)" ] ;
+            rdf:value "“William Burroughs’ new book: THE MOB, will be published by Jonathan Cape on April 16th.”—p. 9. (The  book was actually published as The Last Words of Dutch Schultz by Cape Goliard Press. See Section A above.)" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1970" ] ;
+            bf:date "27 February–13 March 1970" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "IT: [The International Times], No. 74 (27 February13 March 1970)" ] .
+            rdfs:label "IT: [The International Times], No. 74" ] .
 

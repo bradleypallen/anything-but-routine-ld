@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,24 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C40 a bf:Instance ;
-    rdfs:label "The Floating Bear, No. 24 (1962)" ;
+    rdfs:label "The Floating Bear, No. 24" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Spain & 42 St.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Where Flesh Circulates.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Dead Whistle Stop Already End.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C47C49" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C40" ] ;
-    bf:instanceOf abrw:C40 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C47C49}" ] ;
+            rdf:value "C40" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C47-C49" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1962" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Floating Bear, No. 24 (1962)" ] .
+            rdfs:label "The Floating Bear, No. 24" ] .
 

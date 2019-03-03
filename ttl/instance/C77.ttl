@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,26 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C77 a bf:Instance ;
-    rdfs:label "Fuck You/A Magazine of the Arts, No. 5, Vol. 7 [sic] (September 1964)" ;
+    rdfs:label "Fuck You/A Magazine of the Arts, No. 5, Vol. 7 [sic]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Fluck [sic] You Fluck [sic] You Fluck [sic] You.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Three-column layout.    37" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C77" ],
         [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C80" ] ;
-    bf:instanceOf abrw:C77 ;
-    bf:note [ a bf:Note ;
-            rdf:value "37" ],
-        [ a bf:Note ;
-            rdf:value "{M&M C80}  sic] You Fluck [sic] You Fluck [sic  Three-column layout." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1964" ] ;
+            bf:date "September 1964" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Fuck You/A Magazine of the Arts, No. 5, Vol. 7 [sic] (September 1964)" ] .
+            rdfs:label "Fuck You/A Magazine of the Arts, No. 5, Vol. 7 [sic]" ] .
 

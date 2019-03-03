@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C33 a bf:Instance ;
-    rdfs:label "The Outsider, Vol. 1, No. 1 (Fall 1961)" ;
+    rdfs:label "The Outsider, Vol. 1, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Brion Gysin" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Operation: ‘Soft Machine’/Cut.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… from a work in progress.”—[p. 75]" ],
+                [ a bf:Note ;
+                    rdf:value "Facsimile of three-column-layout typescript, with a photograph of Burroughs by Brion Gysin." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C35" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C33" ] ;
-    bf:instanceOf abrw:C33 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C35}    [p. 75]  Facsimile of three-column-layout typescript, with a photograph of Burroughs by Brion Gysin." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1961" ] ;
+            bf:date "Fall 1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Outsider, Vol. 1, No. 1 (Fall 1961)" ] .
+            rdfs:label "The Outsider, Vol. 1, No. 1" ] .
 

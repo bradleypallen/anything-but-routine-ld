@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,42 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C72 a bf:Instance ;
-    rdfs:label "Esquire, Vol. 62, No. 3, Whole No. 370 (September 1964)" ;
+    rdfs:label "Esquire, Vol. 62, No. 3, Whole No. 370" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Robert Fréson" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Text" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Cartographical" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Photo-Optical, Cartographical, & Literary Footnotes to a Survey of the American  Socio-Intellectual Enclave in the City of Tangier.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "TOC title: “Tangier.”" ],
+                [ a bf:Note ;
+                    rdf:value "Text and captions by Burroughs. Photographs by Robert Fréson." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C72" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C83" ] ;
-    bf:instanceOf abrw:C72 ;
-    bf:note [ a bf:Note ;
-            rdf:value "Photographs by Robert Fréson." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C83}  -Optical, Cartographical, & Literary Footnotes to a Survey of the American Socio-  TOC title  Text and captions by Burroughs." ] ;
+            rdf:value "C83" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C72" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1964" ] ;
+            bf:date "September 1964" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Esquire, Vol. 62, No. 3, Whole No. 370 (September 1964)" ] .
+            rdfs:label "Esquire, Vol. 62, No. 3, Whole No. 370" ] .
 

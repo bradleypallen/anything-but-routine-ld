@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,31 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C617 a bf:Instance ;
-    rdfs:label "Grand Street, Vol. 10, No. 1, Whole No. 37 (1991)" ;
+    rdfs:label "Grand Street, Vol. 10, No. 1, Whole No. 37" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Robert Wilson" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“BV War Universe: Interviews with Raymond Foye.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“At the outset of our talk, Burroughs refers to the opera The Black Rider … with music by Tom Waits,  staging by Robert Wilson, and a libretto by Burroughs. Excerpts from the libretto are printed in bold in  this text.”—p. 95." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C617" ] ;
-    bf:instanceOf abrw:C617 ;
-    bf:note [ a bf:Note ;
-            rdf:value " BV   e opera The Black Rider staging by Robert Wilson, and a libretto by Burroughs." ],
-        [ a bf:Note ;
-            rdf:value "Excerpts from the libretto are printed in bold in p. 95." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1991" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Grand Street, Vol. 10, No. 1, Whole No. 37 (1991)" ] .
+            rdfs:label "Grand Street, Vol. 10, No. 1, Whole No. 37" ] .
 

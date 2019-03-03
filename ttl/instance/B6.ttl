@@ -1,0 +1,37 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B6 a bf:Instance ;
+    rdfs:label "William S. Burroughs. New York: Tony Shafrazi Gallery, 1988" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Single sheet of cardstock, folded to make 10 panels (5 on each side)" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B6" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "Brochure accompanying one-man exhibition at Shafrazi Gallery in New York, 19 December 1987–" ],
+        [ a bf:Note ;
+            rdf:value "" ],
+        [ a bf:Note ;
+            rdf:value "24 January 1988, organized by Diego Cortez." ],
+        [ a bf:Note ;
+            rdf:value "Poster advertising one-man exhibition at Shafrazi Gallery in New York, 19 December 1987–  24 January 1988." ],
+        [ a bf:Note ;
+            rdf:value "Includes “Entrance to the Museum of Lost Species” by Burroughs, edited by James Grauerholz.  Includes reproductions of four paintings by Burroughs: Sore Shoulder, The Red Skull, Mr. Bradley Mr.  Martin, and People of the Lie/The Lie Decade.  B. [Promotional Poster]. [New York: Tony Shafrazi Gallery, 1988.] 23⅜ x 17½ in. poster." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "William S. Burroughs. New York: Tony Shafrazi Gallery, 1988" ] .
+

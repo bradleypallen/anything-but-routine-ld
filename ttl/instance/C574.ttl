@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,37 +9,28 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C574 a bf:Instance ;
-    rdfs:label "Art & Design Profile, No. 10 (1988)" ;
+    rdfs:label "Art & Design Profile, No. 10" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Vol" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Entrance to the Museum of Lost Species.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… appeared in an earlier form in a catalogue accompanying the exhibition ‘William S. Burroughs,’ at the  October Gallery, London, from 1 June–2 July 1988.”—p. 4. Actually, this appeared in the catalogue  accompanying the exhibition ‘William S. Burroughs,’ at the Shafrazi Gallery, New York, 19 December  1987–24 January 1988. [See Section B, above.]" ] ],
+        [ a bf:Text ;
+            rdfs:label "“Long Radio Silence Over Portland Place.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C574" ] ;
-    bf:instanceOf abrw:C574 ;
     bf:note [ a bf:Note ;
-            rdf:value "Actually, this appeared in the catalogue 198724 January 1988." ],
+            rdf:value "Includes “The Art of William Burroughs” by James Grauerholz." ],
         [ a bf:Note ;
-            rdf:value "October Gallery, London, from 1 Junep." ],
-        [ a bf:Note ;
-            rdf:value "[See Section B, above.]" ],
-        [ a bf:Note ;
-            rdf:value "4." ],
-        [ a bf:Note ;
-            rdf:value "7/8  Grauerholz." ],
-        [ a bf:Note ;
-            rdf:value "4, No." ],
-        [ a bf:Note ;
-            rdf:value " Art & Design, Vol." ] ;
+            rdf:value "“… published as part of Art & Design, Vol. 4, No. 7/8–1988.”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1988" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Art & Design Profile, No. 10 (1988)" ] .
+            rdfs:label "Art & Design Profile, No. 10" ] .
 

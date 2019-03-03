@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,29 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C11 a bf:Instance ;
-    rdfs:label "New Departures, No. 1 (Summer 1959)" ;
+    rdfs:label "New Departures, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Naked Lunch" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“2: Coke Bugs.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "TOC title: “Two Scenes.”" ],
+                [ a bf:Note ;
+                    rdf:value "Excerpts from Naked Lunch." ] ],
+        [ a bf:Text ;
+            rdfs:label "“1: The Exterminator Does a Good Job.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C11" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C8" ] ;
-    bf:instanceOf abrw:C11 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C8}      TOC title  Excerpts from Naked Lunch." ] ;
+            rdf:value "C8" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C11" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1959" ] ;
+            bf:date "Summer 1959" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "New Departures, No. 1 (Summer 1959)" ] .
+            rdfs:label "New Departures, No. 1" ] .
 

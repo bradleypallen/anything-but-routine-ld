@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,29 +9,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C667 a bf:Instance ;
-    rdfs:label "Beat Scene, No. 71a (Winter 2014).     (by Gregory Corso and Allen Ginsberg)" ;
+    rdfs:label "Beat Scene, No. 71a" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Oliver Harris" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“An Interview with ……. William S. Burroughs.” (by Gregory Corso and Allen Ginsberg)." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“According to … Maynard & Miles … this is the first published interview with William Burroughs. It  appeared in the 1961 issue of Journal for the Protection of All Beings …”—p. 5. [See above]" ] ],
+        [ a bf:Text ;
+            rdfs:label "“Problems After a Certain Point are Insoluble: Lawrence, Kansas, 23 November 1984.”  [Burroughs interviewed by Oliver Harris]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C667" ] ;
-    bf:instanceOf abrw:C667 ;
     bf:note [ a bf:Note ;
-            rdf:value " appeared in the 1961 issue of Journal for the Protection of All Beings p. 5." ],
-        [ a bf:Note ;
-            rdf:value "[See above]  awrence, Kansas, 23 November 1984[Burroughs interviewed by Oliver Harris]   92  D. FOREIGN TRANSLATIONS   Ah Pook Is Here." ],
-        [ a bf:Note ;
-            rdf:value "French" ] ;
+            rdf:value "“A William Burroughs Special Issue, 1914–2014.”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "2014" ] ;
+            bf:date "Winter 2014" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Beat Scene, No. 71a (Winter 2014).     (by Gregory Corso and Allen Ginsberg)" ] .
+            rdfs:label "Beat Scene, No. 71a" ] .
 

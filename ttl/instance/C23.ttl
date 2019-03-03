@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,26 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C23 a bf:Instance ;
-    rdfs:label "Evergreen Review, Vol. 5, No. 20 (SeptemberOctober 1961)" ;
+    rdfs:label "Evergreen Review, Vol. 5, No. 20" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Comments on ‘The Night Before Thinking.’”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Commentary by Burroughs on Ahmed Yacoubi’s “The Night Before Thinking,”  included in the same issue." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C30" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C23" ] ;
-    bf:instanceOf abrw:C23 ;
-    bf:note [ a bf:Note ;
-            rdf:value "C included in the same issue." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C30}  The Night Before Thinking." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1961" ] ;
+            bf:date "September-October 1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Evergreen Review, Vol. 5, No. 20 (SeptemberOctober 1961)" ] .
+            rdfs:label "Evergreen Review, Vol. 5, No. 20" ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,25 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C363 a bf:Instance ;
-    rdfs:label "Doris, No. 4 (August 1974)" ;
+    rdfs:label "Doris, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Letter Out of Nowhere.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“Sequences: Sir Cyril Osborne: a cut-in by W.S. Burroughs from the Times obituary 1969 with a scene of  Porky Snut from the novel We All Drop Dead (Over and Over) by A.B. Harris …”—p. 26." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C363" ] ;
-    bf:instanceOf abrw:C363 ;
-    bf:note [ a bf:Note ;
-            rdf:value "   -in by W.S." ],
-        [ a bf:Note ;
-            rdf:value "Burroughs from the Times obituary 1969 with a scene of Porky Snut from the novel We All Drop Dead (Over and Over) by A.p." ],
-        [ a bf:Note ;
-            rdf:value "26." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1974" ] ;
+            bf:date "August 1974" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Doris, No. 4 (August 1974)" ] .
+            rdfs:label "Doris, No. 4" ] .
 

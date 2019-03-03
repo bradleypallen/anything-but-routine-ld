@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,27 +9,24 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C639 a bf:Instance ;
-    rdfs:label "SoHo Journal (1995/96)" ;
+    rdfs:label "SoHo Journal" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "See Section H" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“I Give the Command ‘Sit Down’.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Excerpts from The Job. [See Section H, below.]" ] ],
+        [ a bf:Text ;
+            rdfs:label "“Fear and Desire, Red Alert.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C639" ] ;
-    bf:instanceOf abrw:C639 ;
-    bf:note [ a bf:Note ;
-            rdf:value "     Excerpts from The Job." ],
-        [ a bf:Note ;
-            rdf:value "[See Section H, below.]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1995" ] ;
+            bf:date "1995/96" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "SoHo Journal (1995/96)" ] .
+            rdfs:label "SoHo Journal" ] .
 

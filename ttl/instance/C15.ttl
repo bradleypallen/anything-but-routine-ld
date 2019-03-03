@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C15 a bf:Instance ;
-    rdfs:label "Evergreen Review, Vol. 4, No. 11 (JanuaryFebruary 1960)" ;
+    rdfs:label "Evergreen Review, Vol. 4, No. 11" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Précis" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Deposition: Testimony Concerning a Sickness.”" ],
+        [ a bf:Text ;
+            rdfs:label "“A Newspeak Précis of the Article Made In Its Image With Its Materials.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C12 & C14" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C15" ] ;
-    bf:instanceOf abrw:C15 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C12 & C14}    eak Précis of the Article Made In Its Image W" ] ;
+            rdf:value "C15" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C12 & C14" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1960" ] ;
+            bf:date "January-February 1960" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Evergreen Review, Vol. 4, No. 11 (JanuaryFebruary 1960)" ] .
+            rdfs:label "Evergreen Review, Vol. 4, No. 11" ] .
 

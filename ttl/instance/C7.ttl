@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,34 +9,31 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C7 a bf:Instance ;
-    rdfs:label "Big Table, No. 1 (Spring 1959)" ;
+    rdfs:label "Big Table, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Paul Bowles" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Lunch -in-" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Ten Episodes from Naked Lunch.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Episodes 2 and 5 “reprinted from Chicago Review, Spring 1958,” above." ],
+                [ a bf:Note ;
+                    rdf:value "“… his novel-in-progress …”—[p. 2]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C7" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C6" ] ;
-    bf:instanceOf abrw:C7 ;
+            rdf:value "C6" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C7" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M C6}  coverChicago Review  by Paul Bowles." ],
+            rdf:value "cover: “The complete contents of the suppressed Winter 1959 Chicago Review.”" ],
         [ a bf:Note ;
-            rdf:value "Naked Lunch  -in-[p. 2]  Chicago Review above." ] ;
+            rdf:value "Includes “Anyone Who Can Pick Up a Frying Pan Owns Death” by Alan Ansen and “Burroughs In Tangier”  by Paul Bowles." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1959" ] ;
+            bf:date "Spring 1959" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Big Table, No. 1 (Spring 1959)" ] .
+            rdfs:label "Big Table, No. 1" ] .
 

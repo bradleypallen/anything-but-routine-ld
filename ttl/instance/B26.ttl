@@ -1,0 +1,36 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B26 a bf:Instance ;
+    rdfs:label "Cut-Outs and Cut-Ups: Hans Christian Andersen and William Seward Burroughs. Edited by Hendel  Teicher" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Softbound (no hardbound issued)" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B26" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "9 April-29 June 2008.”—Colophon.  Includes “Nagual Art,” originally published in William S. Burroughs (Cleto Polcina, 1989) [above] and “The  Creative Observer” “… [which] originated as a series of interviews of Burroughs conducted by Raymond Foye  and Francesco Clemente … It was originally published in … Paintings and Guns [sic; i.e., Painting & Guns  (Hanuman, 1992); see Section A above] … It incorporated text … from a text by William Burroughs, ‘Entrance  to the Museum of Lost Species.’ This originally appeared in … William S. Burroughs …” [(Shafrazi, 1988),  above]" ],
+        [ a bf:Note ;
+            rdf:value "“Published on the occasion of the exhibition … [held at the] Irish Museum of Modern Art, Dublin," ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Irish Museum of Modern Art" ;
+            bf:date "2008" ;
+            bf:place "Dublin" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Cut-Outs and Cut-Ups: Hans Christian Andersen and William Seward Burroughs. Edited by Hendel  Teicher" ] .
+

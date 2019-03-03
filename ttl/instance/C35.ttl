@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C35 a bf:Instance ;
-    rdfs:label "Swank, Vol. 8, No. 3 (July 1961)" ;
+    rdfs:label "Swank, Vol. 8, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Naked Lunch" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“The Word.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“ ... a first draft of a section of the book [Naked Lunch] ... contains material that has never been published  before … ”—[p. 51]" ],
+                [ a bf:Note ;
+                    rdf:value "Preceded by “Uncle Bill Burroughs’ Guided Tour: Naked Lunch” by John Fles, “an ex-Chicago Review        editor.”" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C34" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C35" ] ;
-    bf:instanceOf abrw:C35 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C34}     ... a first draft of a section of the book [Naked Lunch] ... contains material that has never been published  [p. 51]  Naked Lunch-Chicago Review" ] ;
+            rdf:value "C35" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C34" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1961" ] ;
+            bf:date "July 1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Swank, Vol. 8, No. 3 (July 1961)" ] .
+            rdfs:label "Swank, Vol. 8, No. 3" ] .
 

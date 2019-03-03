@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,37 +9,24 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C519 a bf:Instance ;
-    rdfs:label "NME: New Musical Express (3 April 1982)" ;
+    rdfs:label "NME: New Musical Express" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Cover" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Trouser Press" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Vol" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Beat Meets Blank.” [Burroughs interviews Devo.]" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Cover title: “Devo vs. Burroughs.”" ],
+                [ a bf:Note ;
+                    rdf:value "Reprint of “Devo Meets Burroughs” from Trouser Press, Vol. 8, No. 12 (February 1982), below." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C519" ] ;
-    bf:instanceOf abrw:C519 ;
-    bf:note [ a bf:Note ;
-            rdf:value "12 (February 1982), below." ],
-        [ a bf:Note ;
-            rdf:value "8, No." ],
-        [ a bf:Note ;
-            rdf:value "   Cover   Trouser Press, Vol." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1982" ] ;
+            bf:date "3 April 1982" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "NME: New Musical Express (3 April 1982)" ] .
+            rdfs:label "NME: New Musical Express" ] .
 

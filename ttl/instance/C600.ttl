@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,67 +9,40 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C600 a bf:Instance ;
-    rdfs:label "Rapid Eye, [No.] 1 (1989)" ;
+    rdfs:label "Rapid Eye, [No.] 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Rapid" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Alley" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Tornado" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Rapid" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“The Johnson Family.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… extract … from The Adding Machine. —p. 248. [See Section A, above.]" ] ],
+        [ a bf:Text ;
+            rdfs:label "“Dead Fingers Talk: An Interview with William S. Burroughs” [by V. Vale]." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Reprint of “W. S. Burroughs Interview” from Re/Search, No. 4/5 (1982), abovc." ] ],
+        [ a bf:Text ;
+            rdfs:label "“The Fall of Art.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… extract … from The Adding Machine.” —p. 248. [See Section A, above.]" ] ],
+        [ a bf:Text ;
+            rdfs:label "“A Thanksgiving Prayer.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… originally published in Tornado Alley …”—p. 248. [See Section A, above.]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C600" ] ;
-    bf:instanceOf abrw:C600 ;
     bf:note [ a bf:Note ;
-            rdf:value "[See Section A, above.]" ],
+            rdf:value "3rd. rev. ed., 1995." ],
         [ a bf:Note ;
-            rdf:value "rev." ],
+            rdf:value "“Rapid Eye was founded in … 1979 … It has taken several different forms: as magazine, mailart campaign,  series of booklets and audio tapes, etc. Rapid Eye 1 is the first in a series of deluxe editions …”—p. 248." ],
         [ a bf:Note ;
-            rdf:value "ed., 1995.       from The Adding Machine.p." ],
-        [ a bf:Note ;
-            rdf:value "248." ],
-        [ a bf:Note ;
-            rdf:value "2nd rev." ],
-        [ a bf:Note ;
-            rdf:value "[See Section A, above.]" ],
-        [ a bf:Note ;
-            rdf:value "p. 248." ],
-        [ a bf:Note ;
-            rdf:value "4/5 (1982), abovc." ],
-        [ a bf:Note ;
-            rdf:value "Rapid Eye 1 is the first in a sep. 248." ],
-        [ a bf:Note ;
-            rdf:value "ed., 1993." ],
-        [ a bf:Note ;
-            rdf:value "Tornado Alley p. 248." ],
-        [ a bf:Note ;
-            rdf:value " Rapid Eye series of booklets and audio tapes, etc." ],
-        [ a bf:Note ;
-            rdf:value "The Adding Machine." ],
-        [ a bf:Note ;
-            rdf:value "Re/Search, No." ],
-        [ a bf:Note ;
-            rdf:value "3rd." ],
-        [ a bf:Note ;
-            rdf:value "[See Section A, above.]" ] ;
+            rdf:value "2nd rev. ed., 1993." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1989" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Rapid Eye, [No.] 1 (1989)" ] .
+            rdfs:label "Rapid Eye, [No.] 1" ] .
 

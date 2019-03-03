@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,40 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C12 a bf:Instance ;
-    rdfs:label "Semina, No. 4 (1959)" ;
+    rdfs:label "Semina, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Pantopon" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Pantapon" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Naked Lunch" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Excerpt from ‘[Have You Seen] Pantapon [sic; i.e., Pantopon] Rose [?].’”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "An excerpt from Naked Lunch." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C12" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C11" ] ;
-    bf:instanceOf abrw:C12 ;
+            rdf:value "C11" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C12" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "1 9 6 0" ],
-        [ a bf:Note ;
-            rdf:value "An excerpt from Naked Lunch." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C11}  ...   [Have You Seen] Pantapon [sic; i.e., Pantopon] Rose [?]." ] ;
+            rdf:value "“... many copes destroyed during police raid.” [Am Here 3]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1959" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Semina, No. 4 (1959)" ] .
+            rdfs:label "Semina, No. 4" ] .
 

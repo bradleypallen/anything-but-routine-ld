@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,24 +9,23 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C36 a bf:Instance ;
-    rdfs:label "Two Cities, No. 6 (Summer 1961)" ;
+    rdfs:label "Two Cities, No. 6" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Transitional Period.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C28" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C36" ] ;
-    bf:instanceOf abrw:C36 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C28}    1 9 6 2" ] ;
+            rdf:value "C36" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C28" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1961" ] ;
+            bf:date "Summer 1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Two Cities, No. 6 (Summer 1961)" ] .
+            rdfs:label "Two Cities, No. 6" ] .
 

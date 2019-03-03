@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,23 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C373 a bf:Instance ;
-    rdfs:label "Vinduet, Vol. 28, No. 3 (1974)" ;
+    rdfs:label "Vinduet, Vol. 28, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Slutten på linjen.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Translation into Norwegian by Olav Angell of “End of the Line,” a chapter of Exterminator!        64" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C373" ] ;
-    bf:instanceOf abrw:C373 ;
-    bf:note [ a bf:Note ;
-            rdf:value "64  1 9 7 5" ],
-        [ a bf:Note ;
-            rdf:value "   Translation into NExterminator!" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1974" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Vinduet, Vol. 28, No. 3 (1974)" ] .
+            rdfs:label "Vinduet, Vol. 28, No. 3" ] .
 

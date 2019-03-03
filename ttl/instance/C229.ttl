@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,50 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C229 a bf:Instance ;
-    rdfs:label "Evergreen Review, Vol. 13, No. 67 (June 1969). {M&M C227 & E26}  technique in a collage of interviews interspersed with excerpts from his writing. The book, Academy 23, will be pubp. 6. In fact, the book was not published by Grove Press until 1970, under the title The Job. [See Section H below.]    -Space: An Interview with William S. Burroughs (by Daniel Odier)" ;
+    rdfs:label "Evergreen Review, Vol. 13, No. 67" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Daniel Odier" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William S. Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "See Section H" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Grove Press" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“My Mother and I Would Like to Know.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Journey Through Time-Space: An Interview with William S. Burroughs” (by Daniel  Odier)." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C229" ],
         [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C227 & E26" ] ;
-    bf:instanceOf abrw:C229 ;
     bf:note [ a bf:Note ;
-            rdf:value "[See Section H below.]" ],
-        [ a bf:Note ;
-            rdf:value "In fact, the book was not published by Grove Press until 1970, under the title The Job." ],
-        [ a bf:Note ;
-            rdf:value "-Space: An Interview with William S. Burroughs (by Daniel Odier)." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C227 & E26}  technique in a collage of interviews interspersed with excerpts from his writing." ],
-        [ a bf:Note ;
-            rdf:value "The book, Academy 23, will be pubp." ],
-        [ a bf:Note ;
-            rdf:value "6." ] ;
+            rdf:value "“… Burroughs recently collaborated with French journalist Daniel Odier on a book exploring his art and  technique in a collage of interviews interspersed with excerpts from his writing. The book, Academy 23, will  be published by Grove Press this fall …”—p. 6. In fact, the book was not published by Grove Press until  1970, under the title The Job. [See Section H below.]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1969" ] ;
+            bf:date "June 1969" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Evergreen Review, Vol. 13, No. 67 (June 1969). {M&M C227 & E26}  technique in a collage of interviews interspersed with excerpts from his writing. The book, Academy 23, will be pubp. 6. In fact, the book was not published by Grove Press until 1970, under the title The Job. [See Section H below.]    -Space: An Interview with William S. Burroughs (by Daniel Odier)" ] .
+            rdfs:label "Evergreen Review, Vol. 13, No. 67" ] .
 

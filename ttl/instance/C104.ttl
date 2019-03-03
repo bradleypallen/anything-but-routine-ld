@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,30 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C104 a bf:Instance ;
-    rdfs:label "Krea Kritiek, No. 5 (May 1965)" ;
+    rdfs:label "Krea Kritiek, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Valentines" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Transcript of Dutch Schultz’ Last Words.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Reprinted from Valentine’s Day Reading. [M&M]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C115" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C104" ] ;
-    bf:instanceOf abrw:C104 ;
-    bf:note [ a bf:Note ;
-            rdf:value "[M&M]" ],
-        [ a bf:Note ;
-            rdf:value "{M&M C115}     Reprinted from Valentines Day Reading." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1965" ] ;
+            bf:date "May 1965" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Krea Kritiek, No. 5 (May 1965)" ] .
+            rdfs:label "Krea Kritiek, No. 5" ] .
 

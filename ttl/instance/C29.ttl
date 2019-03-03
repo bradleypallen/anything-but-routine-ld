@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,35 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C29 a bf:Instance ;
-    rdfs:label "Locus Solus, [No.] 2 (Summer 1961)" ;
+    rdfs:label "Locus Solus, [No.] 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Sons of Your In.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Both are cut-ups of Arthur Rimbaud’s “To a Reason,” “arranged” by Burroughs and Gregory Corso." ],
+                [ a bf:Note ;
+                    rdf:value "“… first published in Minutes To Go …”—p. 204. [See Section A, above]  32" ],
+                [ a bf:Note ;
+                    rdf:value "TOC title: “Two Cut Ups.”" ] ],
+        [ a bf:Text ;
+            rdfs:label "“Everywhere March Your Head.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C26 & C27" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C29" ] ;
-    bf:instanceOf abrw:C29 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M C26 & C27}  cover  ... [p. 2]  erywhere March Your Head." ],
+            rdf:value "“Fifty copies ... have been printed in a limited numbered edition.”—[p. 2]" ],
         [ a bf:Note ;
-            rdf:value "TOC title  Both are cut-a  Minutes To Go p. 204." ],
-        [ a bf:Note ;
-            rdf:value "[See Section A, above]" ] ;
+            rdf:value "cover: “A Special Issue of Collaborations”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1961" ] ;
+            bf:date "Summer 1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Locus Solus, [No.] 2 (Summer 1961)" ] .
+            rdfs:label "Locus Solus, [No.] 2" ] .
 

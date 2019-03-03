@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,30 +9,31 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C330 a bf:Instance ;
-    rdfs:label "Ginger Snaps, [No. 1] (March 1972)" ;
+    rdfs:label "Ginger Snaps, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "See" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Abstract.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… previously published in Best & Co. [sic] anthology ed. …,” above.—[p. 3]" ] ],
+        [ a bf:Text ;
+            rdfs:label "“Preface/Take It To Cut City”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Excerpt from The Exterminator (Auerhahn Press, 1960) [See Section A, above]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C324" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C330" ] ;
-    bf:instanceOf abrw:C330 ;
     bf:note [ a bf:Note ;
-            rdf:value "Excerpt from The Exterminator (Auerhahn Press, 1960) [See Section A, above]    Best & Co. [sic,[p. 3]" ],
-        [ a bf:Note ;
-            rdf:value "{M&M C324}  Limited to 300 copies." ] ;
+            rdf:value "Limited to 300 copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1972" ] ;
+            bf:date "March 1972" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Ginger Snaps, [No. 1] (March 1972)" ] .
+            rdfs:label "Ginger Snaps, [No. 1]" ] .
 

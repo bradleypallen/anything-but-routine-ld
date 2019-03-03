@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,35 +9,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C483 a bf:Instance ;
-    rdfs:label "Magazine Littéraire, No. 157 (February 1980)" ;
+    rdfs:label "Magazine Littéraire, No. 157" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Les" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Lemaire" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Jane Gozzett" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“La Fonction de l’Art.” [Burroughs interviewed by Gérard-Georges Lemaire]" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Translated with the collaboration of Jane Gozzett." ] ],
+        [ a bf:Text ;
+            rdfs:label "“Les Limites du Contrôle.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Translated by Gérard-Georges Lemaire." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C483" ] ;
-    bf:instanceOf abrw:C483 ;
-    bf:note [ a bf:Note ;
-            rdf:value "Les Limites du Contrô  Translated by Gérard-Georges Lemaire." ],
-        [ a bf:Note ;
-            rdf:value " érard-Georges Lemaire]  Translated with the collaboration of Jane Gozzett." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1980" ] ;
+            bf:date "February 1980" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Magazine Littéraire, No. 157 (February 1980)" ] .
+            rdfs:label "Magazine Littéraire, No. 157" ] .
 

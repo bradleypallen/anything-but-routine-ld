@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,39 +9,24 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C644 a bf:Instance ;
-    rdfs:label "Grand Street, Vol. 15, No. 3, Whole No. 59 (Winter 1997, ©1996).  (with Brion Gysin)" ;
+    rdfs:label "Grand Street, Vol. 15, No. 3, Whole No. 59" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "See Section E" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Beat Hotel" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Ports of Entry” (with Brion Gysin)." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“I [Burroughs] don’t think I had ever seen painting until I saw the painting of Brion Gysin. Here is a  transcript of a tape we recorded while talking in front of some of these pictures during the time we both  lived in the old Beat Hotel in Paris back in 1960 …”—p. 72." ],
+                [ a bf:Note ;
+                    rdf:value "“… first published in a different form in the catalogue for Gysin’s exhibition at the October Gallery,  London in 1981.”—p. 254. [See Section E, below.]  89" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C644" ] ;
-    bf:instanceOf abrw:C644 ;
-    bf:note [ a bf:Note ;
-            rdf:value " [Burroughs] transcript of a tape we recorded while talking in front of some of these pictures during the time we both lived in the old Beat Hotel in Pp." ],
-        [ a bf:Note ;
-            rdf:value "[See Section E, below.]" ],
-        [ a bf:Note ;
-            rdf:value "89" ],
-        [ a bf:Note ;
-            rdf:value "72.  p. 254." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1997" ] ;
+            bf:date "Winter 1997, ©1996" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Grand Street, Vol. 15, No. 3, Whole No. 59 (Winter 1997, ©1996).  (with Brion Gysin)" ] .
+            rdfs:label "Grand Street, Vol. 15, No. 3, Whole No. 59" ] .
 

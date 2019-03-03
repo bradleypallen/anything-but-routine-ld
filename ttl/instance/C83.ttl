@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,32 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C83 a bf:Instance ;
-    rdfs:label "The Moving Times, [No. 3] (1964)" ;
+    rdfs:label "The Moving Times, [No. 3]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Personals Special to The Moving Times.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Extracts from Letter to Homosap.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C101102" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C83" ] ;
-    bf:instanceOf abrw:C83 ;
+            rdf:value "C83" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C101–102" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M C101102}  A magazine edited by Burroughs, appearing as the last two pages of My Own Mag, [No." ],
-        [ a bf:Note ;
-            rdf:value "The Moving Times" ],
-        [ a bf:Note ;
-            rdf:value "9] (1 November 1964), below." ] ;
+            rdf:value "A magazine edited by Burroughs, appearing as the last two pages of My Own Mag, [No. 9] (1 November 1964),  38  below." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1964" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Moving Times, [No. 3] (1964)" ] .
+            rdfs:label "The Moving Times, [No. 3]" ] .
 

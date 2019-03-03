@@ -1,0 +1,44 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B23 a bf:Instance ;
+    rdfs:label "Ports of Entry: William S. Burroughs and the Arts.  A. Sobieszek, Robert A. Ports of Entry: William S. Burroughs and the Arts. With an Afterword by  Burroughs" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Softbound (no hardbound issued)" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B23" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "Reproduction of Burroughs and Gysin collage Untitled [Rub Out the Word] on recto.  D. Burroughs, William S. and Brion Gysin. “Collage for The Third Mind, Untitled  [W.R. Hearst Jr.].” Los Angeles: Los Angeles County Museum of Art, 1996. Folded card." ],
+        [ a bf:Note ;
+            rdf:value "Reproduction issued in conjunction with the exhibition “Ports of Entry: William S. Burroughs and the  Arts.”" ],
+        [ a bf:Note ;
+            rdf:value "Poster advertising exhibition at LACMA, 18 July–6 October 1996.  C. [Promotional Postcard] 6 x 4¼ in. cardstock." ],
+        [ a bf:Note ;
+            rdf:value "Postcard for exhibition at LACMA, 18 July–6 October 1996." ],
+        [ a bf:Note ;
+            rdf:value "“… [catalogue] published in conjunction with the exhibition … organized by the Los Angeles County  Museum of Art [LACMA] and held there from July 18 through October 6, 1996.”—T.p. verso.  B. [Promotional Poster]" ],
+        [ a bf:Note ;
+            rdf:value "Reproduction issued in conjunction with the exhibition “Ports of Entry: William S. Burroughs and the  Arts.”  E. ———. “Collage for The Third Mind, Untitled [William Vacates Rooms].” Los Angeles:  Los Angeles County Museum of Art, 1996. Folded card." ] ;
+    bf:provisionActivity [ a bf:ProvisionActivity,
+                bf:Publication ;
+            bf:agent "Los Angeles County Museum of Art" ;
+            bf:date "1996; distributed by Thames  and Hudson" ;
+            bf:place "Los Angeles" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "Ports of Entry: William S. Burroughs and the Arts.  A. Sobieszek, Robert A. Ports of Entry: William S. Burroughs and the Arts. With an Afterword by  Burroughs" ] .
+

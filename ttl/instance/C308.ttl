@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C308 a bf:Instance ;
-    rdfs:label "The Marijuana Review, Vol. 1, No. 6 (JanuaryJune 1971)" ;
+    rdfs:label "The Marijuana Review, Vol. 1, No. 6" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Kim Deitch" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Carrion Road.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Illustrated by Kim Deitch." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C300" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C308" ] ;
-    bf:instanceOf abrw:C308 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C300}    Illustrated by Kim Deitch." ] ;
+            rdf:value "C308" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C300" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1971" ] ;
+            bf:date "January–June 1971" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Marijuana Review, Vol. 1, No. 6 (JanuaryJune 1971)" ] .
+            rdfs:label "The Marijuana Review, Vol. 1, No. 6" ] .
 

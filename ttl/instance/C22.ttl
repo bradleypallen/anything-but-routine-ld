@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,24 +9,29 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C22 a bf:Instance ;
-    rdfs:label "Evergreen Review, Vol. 5, No. 16 (JanuaryFebruary 1961)" ;
+    rdfs:label "Evergreen Review, Vol. 5, No. 16" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“From Naked Lunch”" ],
+        [ a bf:Text ;
+            rdfs:label "“3. Interzone.”" ],
+        [ a bf:Text ;
+            rdfs:label "“2. The Country Clerk.”" ],
+        [ a bf:Text ;
+            rdfs:label "“1. Meeting of International Conference of Technological Psychiatry.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C22" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C24" ] ;
-    bf:instanceOf abrw:C22 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C24}  Naked Lunch" ] ;
+            rdf:value "C24" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C22" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1961" ] ;
+            bf:date "January-February 1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Evergreen Review, Vol. 5, No. 16 (JanuaryFebruary 1961)" ] .
+            rdfs:label "Evergreen Review, Vol. 5, No. 16" ] .
 

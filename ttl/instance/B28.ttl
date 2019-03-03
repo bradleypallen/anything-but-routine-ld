@@ -1,0 +1,27 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B28 a bf:Instance ;
+    rdfs:label "None" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B28" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "“This catalogue was published on the occasion of the Exhibition ‘William S. Burroughs: All Out of Time and  Into Space,’ 6 December 2012–16 February 2013 at October Gallery, London.”—Inside back cover ." ],
+        [ a bf:Note ;
+            rdf:value "Reprints “Nova Police Besieged McEwan Hall” from Transatlantic Review, No. 11 (Winter 1962).  [See Section C below]." ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "None" ] .
+

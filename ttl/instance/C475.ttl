@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,33 +9,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C475 a bf:Instance ;
-    rdfs:label "Unmuzzled Ox, Vol. 4, No. 4/Vol. 5 (1979)" ;
+    rdfs:label "Unmuzzled Ox, Vol. 4, No. 4/Vol. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William Jay Smith" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Art Linkletter" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Junk” [Part 1]." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "[Part 2] by William Jay Smith; [Part 3] by Art Linkletter." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C475" ] ;
-    bf:instanceOf abrw:C475 ;
     bf:note [ a bf:Note ;
-            rdf:value "[Part 2] by William Jay Smith; [Part 3] by Art Linkletter." ],
+            rdf:value "Cover: “A Special Issue: The Poets’ Encyclopedia.”" ],
         [ a bf:Note ;
-            rdf:value " Cover:   The Poets Encyclopedia Unmuzzled OxFFEP, verso." ],
-        [ a bf:Note ;
-            rdf:value "1]." ] ;
+            rdf:value "“The Poets’ Encyclopedia is available in hardbound, paperbound, and magazine editions … [and] as an issue of  Unmuzzled Ox, was made possible by grants …”—FFEP, verso." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1979" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Unmuzzled Ox, Vol. 4, No. 4/Vol. 5 (1979)" ] .
+            rdfs:label "Unmuzzled Ox, Vol. 4, No. 4/Vol. 5" ] .
 

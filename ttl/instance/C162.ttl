@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,32 +9,29 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C162 a bf:Instance ;
-    rdfs:label "Klacto/23 Special (September 1967)" ;
+    rdfs:label "Klacto/23 Special" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Klaus Staeck" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Parenthetically 7 Hertz.”  Includes signed woodcut by Klaus Staeck." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“ ... published concurrently with an hour-long audio recording [Klacto/23 Tape; see Section E below] of  readings by Klacto contributors and others ... ” [Ken Lopez]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C162" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C174" ] ;
-    bf:instanceOf abrw:C162 ;
+            rdf:value "C174" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C162" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Includes signed woodcut by Klaus Staeck." ],
+            rdf:value "Limited to 500 copies." ],
         [ a bf:Note ;
-            rdf:value "... published concurrently with an hour-long audio recording [Klacto/23 Tape; see Section E below] of readings by Klacto contributors and others ..." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C174}  Limited to 500 copies." ] ;
+            rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1967" ] ;
+            bf:date "September 1967" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Klacto/23 Special (September 1967)" ] .
+            rdfs:label "Klacto/23 Special" ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,33 +9,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C610 a bf:Instance ;
-    rdfs:label "Northwest EXTRA!, Vol. 1, No. 12 (April 1990)" ;
+    rdfs:label "Northwest EXTRA!, Vol. 1, No. 12" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Wilson" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Tornado Alley" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Book of Shadows.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Illustrated by S. Clay Wilson." ],
+                [ a bf:Note ;
+                    rdf:value "Excerpt from Tornado Alley." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C610" ] ;
-    bf:instanceOf abrw:C610 ;
     bf:note [ a bf:Note ;
-            rdf:value " Jacket portrait of Burroughs by R. Crumb." ],
-        [ a bf:Note ;
-            rdf:value "Excerpt from Tornado Alley." ],
-        [ a bf:Note ;
-            rdf:value "Illustrated by S. Clay Wilson." ] ;
+            rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1990" ] ;
+            bf:date "April 1990" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Northwest EXTRA!, Vol. 1, No. 12 (April 1990)" ] .
+            rdfs:label "Northwest EXTRA!, Vol. 1, No. 12" ] .
 

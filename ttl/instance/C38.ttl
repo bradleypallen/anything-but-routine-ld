@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,44 +9,35 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C38 a bf:Instance ;
-    rdfs:label "Evergreen Review, Vol. 6, No. 22 (JanuaryFebruary 1962)" ;
+    rdfs:label "Evergreen Review, Vol. 6, No. 22" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Lunch Naked Lunch" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Novia" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Nova" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Nova" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Pure Song of New Before the Traveller.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Twilight’s Last Gleamings.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Photo Falling—Word Falling.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Towers Open Fire.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Introduction to Naked Lunch, The Soft Machine, Novia [sic; i.e. Nova] Express.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Episodes from Novia [sic; i.e. Nova] Express.”  33" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C39" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C38" ] ;
-    bf:instanceOf abrw:C38 ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M C39}  ibal Feast: [Review of] Naked Lunch   Naked Lunch, The Soft Machine, Novia [sic; i.e." ],
-        [ a bf:Note ;
-            rdf:value "Nova] Express  Novia [sic; i.e." ],
-        [ a bf:Note ;
-            rdf:value "Nova] Express      Photo Falling" ] ;
+            rdf:value "Also includes “The Cannibal Feast: [Review of] Naked Lunch by William Burroughs” by E. S. Seldon." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1962" ] ;
+            bf:date "January-February 1962" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Evergreen Review, Vol. 6, No. 22 (JanuaryFebruary 1962)" ] .
+            rdfs:label "Evergreen Review, Vol. 6, No. 22" ] .
 

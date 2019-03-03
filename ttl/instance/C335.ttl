@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C335 a bf:Instance ;
-    rdfs:label "OU, No. 4041 (March 1972)" ;
+    rdfs:label "OU, No. 40–41" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Valentine [sic, i.e. Valentine’s] Day Reading.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“Item is present as approximately 9¾ minutes of Side A of a 10-inch ... phono-disc [see Section E,  below].” [M&M]" ],
+                [ a bf:Note ;
+                    rdf:value "From Valentine’s Day Reading [see Section A, above]." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C335" ],
         [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C325" ] ;
-    bf:instanceOf abrw:C335 ;
-    bf:note [ a bf:Note ;
-            rdf:value "From  [see Section A, above]." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C325}  sic] Day Reading." ],
-        [ a bf:Note ;
-            rdf:value "Item is present as approximately 9¾ minutes of Side A of a 10-inch ... phono-disc [see Section E, below][M&M]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1972" ] ;
+            bf:date "March 1972" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "OU, No. 4041 (March 1972)" ] .
+            rdfs:label "OU, No. 40–41" ] .
 

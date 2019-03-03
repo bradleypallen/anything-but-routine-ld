@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,24 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C210 a bf:Instance ;
-    rdfs:label "[The] Rat: [Subterranean News], Vol. 1, No. 23 (13 December 19682 January 1969).  {M&M C220 & E23}  cover   ...   rey Shero)" ;
+    rdfs:label "[The] Rat: [Subterranean News], Vol. 1, No. 23" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Interview” (by Jeffrey Shero)." ],
+        [ a bf:Text ;
+            rdfs:label "“Suppressed Discoveries.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“Synopsis of his new book ... ”" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C220 & E23" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C210" ] ;
-    bf:instanceOf abrw:C210 ;
-    bf:note [ a bf:Note ;
-            rdf:value " {M&M C220 & E23}  cover   ...   rey Shero)." ] ;
+            rdf:value "C210" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C220 & E23" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1968" ] ;
+            bf:date "13 December 1968–2 January 1969" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "[The] Rat: [Subterranean News], Vol. 1, No. 23 (13 December 19682 January 1969).  {M&M C220 & E23}  cover   ...   rey Shero)" ] .
+            rdfs:label "[The] Rat: [Subterranean News], Vol. 1, No. 23" ] .
 

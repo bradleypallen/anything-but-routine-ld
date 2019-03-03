@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,38 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C24 a bf:Instance ;
-    rdfs:label "The Floating Bear, No. 5 (1961)" ;
+    rdfs:label "The Floating Bear, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Dear Allen" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Letter" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "[Letter:] “Dear Allen: There is no thing to fear. Vaya adalante. Look. Listen .../”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Letter dated 21 June 1960." ] ],
+        [ a bf:Text ;
+            rdfs:label "“Out Show Window and We’re Proud of It.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C31 & C32" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C24" ] ;
-    bf:instanceOf abrw:C24 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C31 & C32}     [Letter:] Dear Allen: There is no thing to fear." ],
-        [ a bf:Note ;
-            rdf:value "Listen .../  Letter dated 21 June 1960." ],
-        [ a bf:Note ;
-            rdf:value "Vaya adalante." ],
-        [ a bf:Note ;
-            rdf:value "Look." ] ;
+            rdf:value "C24" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C31 & C32" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1961" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Floating Bear, No. 5 (1961)" ] .
+            rdfs:label "The Floating Bear, No. 5" ] .
 

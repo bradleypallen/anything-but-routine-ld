@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,31 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C476 a bf:Instance ;
-    rdfs:label "Wet, Vol. 4, No. 3 (Issue 21) (November/December 1979)" ;
+    rdfs:label "Wet, Vol. 4, No. 3 (Issue 21)" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Magazine" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“It is generally assumed that the spoken …/”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“This excerpt is part of the article entitled ‘Playback from Eden to Watergate’ that appeared in Harper’s  [sic; i.e. Harpers] Magazine, November 1973.”—p. 31. [See above]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C476" ] ;
-    bf:instanceOf abrw:C476 ;
-    bf:note [ a bf:Note ;
-            rdf:value "Harpers] Magazine, November 1973p." ],
-        [ a bf:Note ;
-            rdf:value "31." ],
-        [ a bf:Note ;
-            rdf:value " is generally assumed that the spoken /  red in  [sic; i.e." ],
-        [ a bf:Note ;
-            rdf:value "[See above]  1 9 8 0" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1979" ] ;
+            bf:date "November/December 1979" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Wet, Vol. 4, No. 3 (Issue 21) (November/December 1979)" ] .
+            rdfs:label "Wet, Vol. 4, No. 3 (Issue 21)" ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,49 +9,40 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C234 a bf:Instance ;
-    rdfs:label "Intrepid, No. 14/15 (Fall/Winter 1969/1970)" ;
+    rdfs:label "Intrepid, No. 14/15" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "William Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Hi" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“The Coldspring News ... (William Burroughs, Editor) ... On the Back Porch of His Farm.”" ],
+        [ a bf:Text ;
+            rdfs:label "“On the E Meter.”        52" ],
+        [ a bf:Text ;
+            rdfs:label "“Valentine’s Day Reading: Transcript of Dutch Schultz’s Last Words.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Roosevelt After Inauguration.”" ],
+        [ a bf:Text ;
+            rdfs:label "“[Letter to Allen Ginsberg dated] March 23, 1969.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Last Awning Flaps on the Pier.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Single-column style layout." ] ],
+        [ a bf:Text ;
+            rdfs:label "“Salt Chunk Mary.”" ],
+        [ a bf:Text ;
+            rdfs:label "“[Note on Alfred Chester].”" ],
+        [ a bf:Text ;
+            rdfs:label "“Abstract.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C234" ] ;
-    bf:instanceOf abrw:C234 ;
     bf:note [ a bf:Note ;
-            rdf:value "52" ],
-        [ a bf:Note ;
-            rdf:value "the Pier." ],
-        [ a bf:Note ;
-            rdf:value "... (William Burroughs, Editor) ... On the Back Porch of Hi   dated] March 23, 1969." ],
-        [ a bf:Note ;
-            rdf:value "." ],
-        [ a bf:Note ;
-            rdf:value "." ],
-        [ a bf:Note ;
-            rdf:value "[M&M C256C264}  Cover: about and by Burroughs, including :  ." ],
-        [ a bf:Note ;
-            rdf:value "." ],
-        [ a bf:Note ;
-            rdf:value "." ],
-        [ a bf:Note ;
-            rdf:value "Single-column style layout." ] ;
+            rdf:value "Cover: “Special Burroughs Issue.” Entire issue devoted to writings about and by Burroughs, including :" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1969" ] ;
+            bf:date "Fall/Winter 1969/1970" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Intrepid, No. 14/15 (Fall/Winter 1969/1970)" ] .
+            rdfs:label "Intrepid, No. 14/15" ] .
 

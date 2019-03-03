@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,35 +9,24 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C662 a bf:Instance ;
-    rdfs:label "Headpress, [No.] 25 (2003).    (by Johnny Strike and Gregory Ego)" ;
+    rdfs:label "Headpress, [No.] 25" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Gregory Daurer" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Journal" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“The Burroughs Brain Machine: An Interview with William Burroughs” (by Johnny Strike  and Gregory Ego)." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Amalgamated reprint of Strike’s interview in Ambit, No. 95 (1983) and Ego’s in Journal Wired, [No. 3]  (Summer/Fall 1990) (under the name Gregory Daurer), above." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C662" ] ;
-    bf:instanceOf abrw:C662 ;
     bf:note [ a bf:Note ;
-            rdf:value " Ambit, No." ],
-        [ a bf:Note ;
-            rdf:value "3] (Summer/Fall 1990) (under the name Gregory Daurer), above." ],
-        [ a bf:Note ;
-            rdf:value "2 0 0 4" ],
-        [ a bf:Note ;
-            rdf:value "Journal Wired, [No." ] ;
+            rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "2003" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Headpress, [No.] 25 (2003).    (by Johnny Strike and Gregory Ego)" ] .
+            rdfs:label "Headpress, [No.] 25" ] .
 

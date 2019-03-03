@@ -1,0 +1,37 @@
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
+@prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+abri:B5 a bf:Instance ;
+    rdfs:label "William S. Burroughs. London: The October Gallery, 1988" ;
+    bf:classification abrc:B ;
+    bf:contributor [ a bf:Agent,
+                bf:Person ;
+            rdfs:label "William S. Burroughs" ;
+            bf:role "author" ] ;
+    bf:hasPart [ a arm:Binding ;
+            bf:note [ a bf:DescriptiveNote,
+                        bf:Note ;
+                    rdf:value "Single sheet of cardstock, folded to make 8 panels (4 on each side)" ] ] ;
+    bf:identifiedBy [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "B5" ] ;
+    bf:note [ a bf:Note ;
+            rdf:value "Includes untitled offprint of “On Burroughs’ Art” by James Grauerholz and photocopy of 1988 British  newspaper article about Burroughs.  C. [Promotional Postcard]. London: The October Gallery, 1988. 6 x 4⅛ in. postcard." ],
+        [ a bf:Note ;
+            rdf:value "1 June–2nd July 1988”].  Includes “Excerpts from the essay ‘On Burroughs’ Art’ by James Grauerholz, April 28, 1988.”  Includes reproductions of three paintings by Burroughs: Through a Fish Eye, Burn Unit, and Fear Death by  Water.  B. [Press Release for and list of works from exhibition]" ],
+        [ a bf:Note ;
+            rdf:value "B&W photograph of Burroughs by John Minihan on recto.        25" ],
+        [ a bf:Note ;
+            rdf:value "Brochure accompanying one-man exhibition at October Gallery in London, [“Paintings and Drawings," ],
+        [ a bf:Note ;
+            rdf:value "" ] ;
+    bf:title [ a bf:Title ;
+            rdfs:label "William S. Burroughs. London: The October Gallery, 1988" ] .
+

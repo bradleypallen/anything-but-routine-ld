@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,21 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C359 a bf:Instance ;
-    rdfs:label "The Anchor, Vol. 66, No. 21 (19 April 1974).  Spectre in a Black Fedbra [sic; i.e. Fedora]: An IGeorge McFadden and Robert Mayoh)" ;
+    rdfs:label "The Anchor, Vol. 66, No. 21" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Spectre in a Black Fedbra [sic; i.e. Fedora]: An Interview with William S. Burroughs” (by  George McFadden and Robert Mayoh)." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Includes “Horrible burns and odor of sweating. Boats of rosy fire. A little …/” — “A Burroughs Cut- Up of Rimbaud: ‘A Poet Does Not Own His Words.’”" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C359" ] ;
-    bf:instanceOf abrw:C359 ;
-    bf:note [ a bf:Note ;
-            rdf:value "  -" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1974" ] ;
+            bf:date "19 April 1974" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "The Anchor, Vol. 66, No. 21 (19 April 1974).  Spectre in a Black Fedbra [sic; i.e. Fedora]: An IGeorge McFadden and Robert Mayoh)" ] .
+            rdfs:label "The Anchor, Vol. 66, No. 21" ] .
 

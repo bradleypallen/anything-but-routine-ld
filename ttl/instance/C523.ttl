@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,23 +9,36 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C523 a bf:Instance ;
-    rdfs:label "Re/Search, No. 4/5.  A. (1982). Softbound.  The Revised Boy Scout Manual [Excerpt (Cassette #1)].  ... a novel in the form of three one-p. 5.  Early Routines: [Two Excerpts].   The Place of Dead Roads: [Two Excerpts].      Cities of the Red Night [A Chapter Not Included].   -Up Method of Brion  B. 2nd exp. ed. (2007)" ;
+    rdfs:label "Re/Search, No. 4/5.  A." ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "The Revised Boy Scout Manual [Excerpt (Cassette #1)]." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“... a novel in the form of three one-hour cassettes.”—p. 5." ] ],
+        [ a bf:Text ;
+            rdfs:label "“V. Vale’s Last Taping of William Seward Burroughs, Lawrence, Kansas, April 27,  1997. WSB died August 2, 1997.”" ],
+        [ a bf:Text ;
+            rdfs:label "Early Routines: [Two Excerpts]." ],
+        [ a bf:Text ;
+            rdfs:label "“The Cut-Up Method of Brion Gysin.”  B. 2nd exp. ed. (2007). Hardbound, and softbound." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Content as above, plus:" ] ],
+        [ a bf:Text ;
+            rdfs:label "Cities of the Red Night [A Chapter Not Included]." ],
+        [ a bf:Text ;
+            rdfs:label "The Place of Dead Roads: [Two Excerpts]." ],
+        [ a bf:Text ;
+            rdfs:label "“W. S. Burroughs Interview” (by Vale)." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C523" ] ;
-    bf:instanceOf abrw:C523 ;
-    bf:note [ a bf:Note ;
-            rdf:value "Hardbound, and softbound." ],
-        [ a bf:Note ;
-            rdf:value "Content as above, plus:" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1982" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Re/Search, No. 4/5.  A. (1982). Softbound.  The Revised Boy Scout Manual [Excerpt (Cassette #1)].  ... a novel in the form of three one-p. 5.  Early Routines: [Two Excerpts].   The Place of Dead Roads: [Two Excerpts].      Cities of the Red Night [A Chapter Not Included].   -Up Method of Brion  B. 2nd exp. ed. (2007)" ] .
+            rdfs:label "Re/Search, No. 4/5.  A." ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,29 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C554 a bf:Instance ;
-    rdfs:label "Frank, No. 4 (SummerAutumn 1985)" ;
+    rdfs:label "Frank, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "John Calder Pu" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Ten Years and a Billion Dollars.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… from Misogyny and Other Essays, to be published by John Calder Publishers Ltd. later this year.”  —p. 61. Actually published as: The Adding Machine—Collected Essays. [See Section A, above.]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C554" ] ;
-    bf:instanceOf abrw:C554 ;
-    bf:note [ a bf:Note ;
-            rdf:value "   Misogyny and Other Essays, to be published by John Calder Pu p. 61." ],
-        [ a bf:Note ;
-            rdf:value "Actually published as: The Adding MachineCollected Essays." ],
-        [ a bf:Note ;
-            rdf:value "[See Section A, above.]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1985" ] ;
+            bf:date "Summer–Autumn 1985" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Frank, No. 4 (SummerAutumn 1985)" ] .
+            rdfs:label "Frank, No. 4" ] .
 

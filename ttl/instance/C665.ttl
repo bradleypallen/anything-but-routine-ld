@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,31 +9,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C665 a bf:Instance ;
-    rdfs:label "Inkblot, [No.] 11 (2007)" ;
+    rdfs:label "Inkblot, [No.] 11" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Gysin" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Drawer Smell of Summer Sky ...” [with Brion Gysin]." ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Three-color facsimile of three-column-layout manuscript reproduced as the inside front and back Jackets  of the issue." ],
+                [ a bf:Note ;
+                    rdf:value "“... 1965, from ‘The Cut-Ups’ (an unpublished collaboration).”—[p. 3]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C665" ] ;
-    bf:instanceOf abrw:C665 ;
     bf:note [ a bf:Note ;
-            rdf:value "... -)[p. 3]   Three-color facsimile of three-column-layout manuscript reproduced as the inside front and back Jackets of the issue." ],
-        [ a bf:Note ;
-            rdf:value "...Gysin]." ],
-        [ a bf:Note ;
-            rdf:value " Includes a facsimile of the verso of a postcard from WSB to Theo Green (editor of Inkblot), dated December 1983." ],
-        [ a bf:Note ;
-            rdf:value "2 0 1 2" ] ;
+            rdf:value "Includes a facsimile of the verso of a postcard from WSB to Theo Green (editor of Inkblot), dated December  1983." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "2007" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Inkblot, [No.] 11 (2007)" ] .
+            rdfs:label "Inkblot, [No.] 11" ] .
 

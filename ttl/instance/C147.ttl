@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,32 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C147 a bf:Instance ;
-    rdfs:label "Residu, No. 2 (Spring 1966)" ;
+    rdfs:label "Residu, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Sigma Portfolio" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Martin’s Folly.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“From Sigma’s ‘Moving Times’ No. 1” [i.e., Moving Times, [No. 5 (1965)], which was issued as Sigma  Portfolio, [No. 1 (1965)], above." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C141" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C147" ] ;
-    bf:instanceOf abrw:C147 ;
-    bf:note [ a bf:Note ;
-            rdf:value "1 (1965)], above." ],
-        [ a bf:Note ;
-            rdf:value "5 (1965)], which was issued as Sigma Portfolio, [No." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C141}    SigmaMoving Times, [No." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1966" ] ;
+            bf:date "Spring 1966" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Residu, No. 2 (Spring 1966)" ] .
+            rdfs:label "Residu, No. 2" ] .
 

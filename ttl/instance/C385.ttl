@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,25 +9,28 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C385 a bf:Instance ;
-    rdfs:label "Mandala, No. 2 (Summer 1975)" ;
+    rdfs:label "Mandala, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Peter H." ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Op de Veranda Achter Zijn Boerderij”" ],
+        [ a bf:Text ;
+            rdfs:label "“Heel wat Jaren Wachten aan de Grens”" ],
+        [ a bf:Text ;
+            rdfs:label "“The Coldspring News”" ],
+        [ a bf:Text ;
+            rdfs:label "“Trieste Knecht van de Eilandkant”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Translations into Dutch by Peter H. van Lieshout." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C385" ] ;
-    bf:instanceOf abrw:C385 ;
-    bf:note [ a bf:Note ;
-            rdf:value " The Coldspring News        Translations into Dutch by Peter H. van Lieshout." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1975" ] ;
+            bf:date "Summer 1975" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Mandala, No. 2 (Summer 1975)" ] .
+            rdfs:label "Mandala, No. 2" ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,28 +9,27 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C53 a bf:Instance ;
-    rdfs:label "Evergreen Review, Vol. 7, No. 29 (MarchApril 1963)" ;
+    rdfs:label "Evergreen Review, Vol. 7, No. 29" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Nova Express" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“2. The Fish Poison Con.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Two Episodes from Nova Express.”" ],
+        [ a bf:Text ;
+            rdfs:label "“1. Gave Proof Through the Night—”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C53" ],
         [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C53" ] ;
-    bf:instanceOf abrw:C53 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C53}  Nova Express" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1963" ] ;
+            bf:date "March–April 1963" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Evergreen Review, Vol. 7, No. 29 (MarchApril 1963)" ] .
+            rdfs:label "Evergreen Review, Vol. 7, No. 29" ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,36 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C66 a bf:Instance ;
-    rdfs:label "Art and Literature, [No.] 2 (Summer 1964)" ;
+    rdfs:label "Art and Literature, [No.] 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Brion Gysin" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Who Is the Third That Walks Beside You?”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… he is working at present on a Book of Methods in collaboration with Brion Gysin. The text we present  here is part of this work in progress, to be published first in Germany.”—p. 227. Actually, it was  published first in France (1976) as: Œuvre Croisée and subsequently in the U.S. (1978) as: The Third Mind.  [See Section A, above.]" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C66" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C82" ] ;
-    bf:instanceOf abrw:C66 ;
-    bf:note [ a bf:Note ;
-            rdf:value "The text we present here is part of this work in progress, tp." ],
-        [ a bf:Note ;
-            rdf:value "227." ],
-        [ a bf:Note ;
-            rdf:value "Actually, it was published first in France (1976) as:  and subsequently in the U.S. (1978) as: The Third Mind." ],
-        [ a bf:Note ;
-            rdf:value "{M&M C82}    Book of Methods in collaboration with Brion Gysin." ],
-        [ a bf:Note ;
-            rdf:value "[See Section A, above.]" ] ;
+            rdf:value "C82" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C66" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1964" ] ;
+            bf:date "Summer 1964" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Art and Literature, [No.] 2 (Summer 1964)" ] .
+            rdfs:label "Art and Literature, [No.] 2" ] .
 

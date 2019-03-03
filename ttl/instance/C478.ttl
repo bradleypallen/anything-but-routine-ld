@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,37 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C478 a bf:Instance ;
-    rdfs:label "Blueboy, Vol. [sic] 48 (October 1980)" ;
+    rdfs:label "Blueboy, Vol. [sic] 48" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Andre Leon Talley" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Media Mavens" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Warhol" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Bill" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Dinner With Andy [Warhol] and Bill [Burroughs]: Media Mavens Dish It Out to Victor  Bockris.” [Interview]" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“ ... Andre Leon Talley was also present ... ”—p. 61.  73" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C478" ] ;
-    bf:instanceOf abrw:C478 ;
-    bf:note [ a bf:Note ;
-            rdf:value " [Warhol] and Bill [Burroughs]: Media Mavens Dish It Out to Victor    ... Andre Leon Talley was also present ... p. 61." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1980" ] ;
+            bf:date "October 1980" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Blueboy, Vol. [sic] 48 (October 1980)" ] .
+            rdfs:label "Blueboy, Vol. [sic] 48" ] .
 

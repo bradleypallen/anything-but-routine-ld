@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,32 +9,31 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C78 a bf:Instance ;
-    rdfs:label "Gnaoua. No. 1 (Spring 1964). {M&M C6871}  See also Pry Yourself Loose and L (Section A, above)" ;
+    rdfs:label "Gnaoua. No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Pry Yourself Loose" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "See" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Pry Yourself Loose and Listen.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Ancient Face Gone Out.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Just So Long and Long Enough.”" ],
+        [ a bf:Text ;
+            rdfs:label "“Notes on Page One.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C6871" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C78" ] ;
-    bf:instanceOf abrw:C78 ;
+            rdf:value "C78" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C68-71" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "{M&M C6871}  See also Pry Yourself Loose and L (Section A, above)." ] ;
+            rdf:value "See also Pry Yourself Loose and Listen …/ (Section A, above)." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1964" ] ;
+            bf:date "Spring 1964" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Gnaoua. No. 1 (Spring 1964). {M&M C6871}  See also Pry Yourself Loose and L (Section A, above)" ] .
+            rdfs:label "Gnaoua. No. 1" ] .
 

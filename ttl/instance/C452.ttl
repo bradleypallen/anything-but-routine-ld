@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,21 +9,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C452 a bf:Instance ;
-    rdfs:label "Pearl, No. 6 (FallWinter 1978)" ;
+    rdfs:label "Pearl, No. 6" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“Fear and the Monkey.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“… this is a Oui-Ja [sic] board poem …”" ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C452" ] ;
-    bf:instanceOf abrw:C452 ;
-    bf:note [ a bf:Note ;
-            rdf:value "   -Ja [sic]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1978" ] ;
+            bf:date "Fall–Winter 1978" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Pearl, No. 6 (FallWinter 1978)" ] .
+            rdfs:label "Pearl, No. 6" ] .
 

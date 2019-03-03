@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,26 +9,25 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C288 a bf:Instance ;
-    rdfs:label "Los Angeles Free Press, Vol. 7, No. 34 (Issue 318) (2127 August 1970)" ;
+    rdfs:label "Los Angeles Free Press, Vol. 7, No. 34 (Issue 318)" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“This Man Has Been Scrambled.”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "Reprint of “Scrambles” from IT: [The International Times], No. 83 (17 July–July 1970), above." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C292" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C288" ] ;
-    bf:instanceOf abrw:C288 ;
-    bf:note [ a bf:Note ;
-            rdf:value "{M&M C292}     from IT: [The International Times], No." ],
-        [ a bf:Note ;
-            rdf:value "83 (17 JulyJuly 1970), above." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
-            bf:date "1970" ] ;
+            bf:date "21–27 August 1970" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Los Angeles Free Press, Vol. 7, No. 34 (Issue 318) (2127 August 1970)" ] .
+            rdfs:label "Los Angeles Free Press, Vol. 7, No. 34 (Issue 318)" ] .
 

@@ -1,6 +1,6 @@
-@prefix abrc: <http://bradleypallen.org/anything-but-routine-ld/4.0/classification/> .
-@prefix abri: <http://bradleypallen.org/anything-but-routine-ld/4.0/instance/> .
-@prefix abrw: <http://bradleypallen.org/anything-but-routine-ld/4.0/work/> .
+@prefix abrc: <https://wsburroughs.link/anything-but-routine/4.0/classification/> .
+@prefix abri: <https://wsburroughs.link/anything-but-routine/4.0/instance/> .
+@prefix abrw: <https://wsburroughs.link/anything-but-routine/4.0/work/> .
 @prefix arm: <https://w3id.org/arm/core/ontology/0.1/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,50 +9,31 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 abri:C97 a bf:Instance ;
-    rdfs:label "Brown Paper (1965)" ;
+    rdfs:label "Brown Paper" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
-            rdfs:label "Lauffer" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "William Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Burroughs" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Daniel" ;
-            bf:role "contributor" ],
-        [ a bf:Agent,
-                bf:Person ;
             rdfs:label "William S. Burroughs" ;
-            bf:role "author" ],
-        [ a bf:Agent,
-                bf:Person ;
-            rdfs:label "Gestalt" ;
-            bf:role "contributor" ] ;
+            bf:role "author" ] ;
+    bf:hasPart [ a bf:Text ;
+            rdfs:label "“If you take baloney and cut it yup [sic], you get baloney. This is Gestalt spelled  Inserted in back flap (“Manuscripts & Notes”).  backwards …/”" ;
+            bf:note [ a bf:Note ;
+                    rdf:value "“This is a parody of Burroughs’ The Exterminator, generally putting down the cutup method, which  [Daniel] Lauffer sent (sneakily) to William Burroughs as a lost manuscript! Burroughs enjoyed the  putdown and promptly produced this cutup of the putdown! Feeling the whole thing was incomplete, he  wrote this multidirectional and altogether groovy cutup of November 20, 1962.”" ],
+                [ a bf:Note ;
+                    rdf:value "" ],
+                [ a bf:Note ;
+                    rdf:value "Titled “November 20, 1962” in M&M." ] ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C116" ],
         [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C97" ] ;
-    bf:instanceOf abrw:C97 ;
     bf:note [ a bf:Note ;
-            rdf:value "Feeling the whole thing was incomplete, he wrote this multidirectional and altogether groovy cutup of November 20, 196" ],
-        [ a bf:Note ;
-            rdf:value "Burroughs enjoyed the putdown and promptly produced this cutup of the putdown!" ],
-        [ a bf:Note ;
-            rdf:value "{M&M C116}  ... sic  you take baloney and cut it yup [sic], you get baloney." ],
-        [ a bf:Note ;
-            rdf:value "This is Gestalt spelled  backwards       The Exterminator, generally putting down the cutup method, which [Daniel] Lauffer sent (sneakily) to William Burroughs as a lost manuscript!" ] ;
+            rdf:value "“... printed in a limited edition of 243 copies at the Philadelphia College of Art” “… though the editor has  stated that ‘there were probably less [sic] than 100 issued’.” [BeatBooks 56]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1965" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Brown Paper (1965)" ] .
+            rdfs:label "Brown Paper" ] .
 
