@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C190 a bf:Instance ;
+abri:C190 a bf:Instance,
+        bf:Text ;
     rdfs:label "Los Angeles Free Press, Vol. 5, No. 46 (Issue 226)" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Interview: William Burroughs” (by Jeff Shero)." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Reprint of “William Burroughs Interview [Part 1]” by Jeff Shero in Rat, Vol. 1, No. 18, below." ] ] ;
+            bf:note "Reprint of “William Burroughs Interview [Part 1]” by Jeff Shero in Rat, Vol. 1, No. 18, below." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "E21" ],

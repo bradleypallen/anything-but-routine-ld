@@ -8,25 +8,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C263 a bf:Instance ;
+abri:C263 a bf:Instance,
+        bf:Text ;
     rdfs:label "Actuel, New Ser., No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Le Ticket Qui ... Junkie ... Nova ... Machine Molle ... Festin Nu ... William Burroughs.” [Burroughs interviewed by Jean-François Bizot.]" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Ecoutez Mes Derniers Mots.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "An excerpt from Nova Express, translated by Mary Beach and Bob Kaufman." ] ],
-        [ a bf:Text ;
-            rdfs:label "“Le Ticket Qui ... Junkie ... Nova ... Machine Molle ... Festin Nu ... William Burroughs.”  [Burroughs interviewed by Jean-François Bizot.]" ] ;
+            bf:note "An excerpt from Nova Express, translated by Mary Beach and Bob Kaufman." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C263" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C297 & E30" ] ;
+            rdf:value "C297 & E30" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C263" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "November 1970" ] ;

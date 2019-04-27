@@ -8,24 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C90 a bf:Instance ;
+abri:C90 a bf:Instance,
+        bf:Text ;
     rdfs:label "Rhinozeros, No. 9" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Brion Gysin, ein amerikanischer Maler, der in Paris lebt, hat, was er …/”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Text of Burroughs’ remarks on his literary methods, delivered at the 1962 International Writers  Conference held in Edinburgh." ],
-                [ a bf:Note ;
-                    rdf:value "German translation by Anselm Hollo." ] ] ;
+            bf:note "German translation by Anselm Hollo.",
+                "Text of Burroughs’ remarks on his literary methods, delivered at the 1962 International Writers Conference held in Edinburgh." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
+            bf:source "Maynard & Miles" ;
             rdf:value "C90" ],
         [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
+            bf:source "Schottlaender v4.0" ;
             rdf:value "C90" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;

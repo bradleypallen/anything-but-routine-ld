@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C650 a bf:Instance ;
+abri:C650 a bf:Instance,
+        bf:Text ;
     rdfs:label "Bombay Gin, No. 25" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Swine, Swine … Wherefore Art Thou Swine?”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“February 22, 1997 Saturday”" ] ] ;
+            bf:note "“February 22, 1997 Saturday”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C650" ] ;

@@ -8,21 +8,26 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C78 a bf:Instance ;
+abri:C78 a bf:Instance,
+        bf:Text ;
     rdfs:label "Gnaoua. No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Pry Yourself Loose and Listen.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Ancient Face Gone Out.”" ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Just So Long and Long Enough.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Notes on Page One.”" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Pry Yourself Loose and Listen.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Notes on Page One.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Ancient Face Gone Out.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C78" ],

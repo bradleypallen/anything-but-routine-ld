@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C115 a bf:Instance ;
+abri:C115 a bf:Instance,
+        bf:Text ;
     rdfs:label "My Own Mag, No. 13" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Dead Star.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Facsimile of three-column-layout manuscript." ] ] ;
+            bf:note "Facsimile of three-column-layout manuscript." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C115" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C122" ] ;
+            rdf:value "C122" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C115" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 500 numbered copies." ],
         [ a bf:Note ;

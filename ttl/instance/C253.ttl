@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C253 a bf:Instance ;
+abri:C253 a bf:Instance,
+        bf:Text ;
     rdfs:label "[The] Rat: Subterranean News, Vol. 2, No. 16" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Burroughs on Bloodworld.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "A review of the novel by Lawrence M. Jennifer." ] ] ;
+            bf:note "A review of the novel by Lawrence M. Jennifer." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "236" ],

@@ -8,14 +8,16 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C32 a bf:Instance ;
+abri:C32 a bf:Instance,
+        bf:Text ;
     rdfs:label "Olympia, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Ten Episodes from The Soft Machine.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

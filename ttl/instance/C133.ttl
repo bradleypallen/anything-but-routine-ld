@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C133 a bf:Instance ;
+abri:C133 a bf:Instance,
+        bf:Text ;
     rdfs:label "IT: [The] International Times, No. 5.5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“The Invisible Generation.”  43" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“The Invisible Generation.” 43" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C160" ],
@@ -24,7 +26,7 @@ abri:C133 a bf:Instance ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C133" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Poster on stiff card, designed so that part of card could be cut out and assembled to make a word-machine,  “The Invisible Generator.” Two eds.: ca. 200 copies, silkscreened silver ink; ca. 1,600 copies, silkscreened  gold ink. [M&M]" ] ;
+            rdf:value "Poster on stiff card, designed so that part of card could be cut out and assembled to make a word-machine, “The Invisible Generator.” Two eds.: ca. 200 copies, silkscreened silver ink; ca. 1,600 copies, silkscreened gold ink. [M&M]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "24 December 1966" ] ;

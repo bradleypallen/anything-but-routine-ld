@@ -8,21 +8,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C343 a bf:Instance ;
+abri:C343 a bf:Instance,
+        bf:Text ;
     rdfs:label "Shantih International Writings, Vol. 2, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Tickertape.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C343" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C332" ] ;
+            rdf:value "C332" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C343" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Summer 1972" ] ;

@@ -8,31 +8,37 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C523 a bf:Instance ;
-    rdfs:label "Re/Search, No. 4/5.  A." ;
+abri:C523 a bf:Instance,
+        bf:Text ;
+    rdfs:label "Re/Search, No. 4/5. A." ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“The Cut-Up Method of Brion Gysin.” B. 2nd exp. ed. (2007). Hardbound, and softbound." ;
+            bf:note "Content as above, plus:" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "The Revised Boy Scout Manual [Excerpt (Cassette #1)]." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“... a novel in the form of three one-hour cassettes.”—p. 5." ] ],
-        [ a bf:Text ;
-            rdfs:label "“V. Vale’s Last Taping of William Seward Burroughs, Lawrence, Kansas, April 27,  1997. WSB died August 2, 1997.”" ],
-        [ a bf:Text ;
-            rdfs:label "Early Routines: [Two Excerpts]." ],
-        [ a bf:Text ;
-            rdfs:label "“The Cut-Up Method of Brion Gysin.”  B. 2nd exp. ed. (2007). Hardbound, and softbound." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Content as above, plus:" ] ],
-        [ a bf:Text ;
-            rdfs:label "Cities of the Red Night [A Chapter Not Included]." ],
-        [ a bf:Text ;
+            bf:note "“... a novel in the form of three one-hour cassettes.”—p. 5." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“W. S. Burroughs Interview” (by Vale)." ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "The Place of Dead Roads: [Two Excerpts]." ],
-        [ a bf:Text ;
-            rdfs:label "“W. S. Burroughs Interview” (by Vale)." ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "Cities of the Red Night [A Chapter Not Included]." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "Early Routines: [Two Excerpts]." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“V. Vale’s Last Taping of William Seward Burroughs, Lawrence, Kansas, April 27, 1997. WSB died August 2, 1997.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C523" ] ;
@@ -40,5 +46,5 @@ abri:C523 a bf:Instance ;
                 bf:Publication ;
             bf:date "1982" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Re/Search, No. 4/5.  A." ] .
+            rdfs:label "Re/Search, No. 4/5. A." ] .
 

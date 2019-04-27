@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C376 a bf:Instance ;
+abri:C376 a bf:Instance,
+        bf:Text ;
     rdfs:label "Bananas, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Eras Are Written Into Existence.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Notes of conversations between Burroughs and Barry Miles, taken from Miles’ journals of 1972." ] ] ;
+            bf:note "Notes of conversations between Burroughs and Barry Miles, taken from Miles’ journals of 1972." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C376" ] ;

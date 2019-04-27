@@ -8,21 +8,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C56 a bf:Instance ;
+abri:C56 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Harvard Advocate, Vol. 97, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Who Him? Don’t Let Him Out There.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C56" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C59" ] ;
+            rdf:value "C59" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C56" ] ;
     bf:note [ a bf:Note ;
             rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

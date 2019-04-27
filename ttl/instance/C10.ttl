@@ -8,21 +8,20 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C10 a bf:Instance ;
+abri:C10 a bf:Instance,
+        bf:Text ;
     rdfs:label "Man’s Wildcat Adventures, Vol. 1, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Amazing Truth About a Junkie.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC: Junkie." ],
-                [ a bf:Note ;
-                    rdf:value "“Wildcat Booklength Bonus: Junkie”—p. 23." ],
-                [ a bf:Note ;
-                    rdf:value "Published under the pseudonym William Lee." ] ] ;
+            bf:note "Published under the pseudonym William Lee.",
+                "TOC: Junkie.",
+                "“Wildcat Booklength Bonus: Junkie”—p. 23." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C10" ] ;

@@ -8,19 +8,21 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C407 a bf:Instance ;
+abri:C407 a bf:Instance,
+        bf:Text ;
     rdfs:label "Lightworks (December" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Interview: William S. Burroughs” (by Telesis Video)." ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“From Here to Eternity.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Excerpted from The Wild Boys.”—p. 12." ] ],
-        [ a bf:Text ;
-            rdfs:label "“Interview: William S. Burroughs” (by Telesis Video)." ] ;
+            bf:note "“Excerpted from The Wild Boys.”—p. 12." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C407" ] ;

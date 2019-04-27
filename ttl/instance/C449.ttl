@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C449 a bf:Instance ;
+abri:C449 a bf:Instance,
+        bf:Text ;
     rdfs:label "Blueboy, Vol. [sic] 19" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Dear Allen ... Love, Bill.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Excerpts from Letters to Allen Ginsberg, 1953–1957. (Soon to be available in limited edition from  Editions Claude Givaudan/Am Here Books, 1874 Champery. Valais, Switzerland.)”—p. 62." ] ] ;
+            bf:note "“Excerpts from Letters to Allen Ginsberg, 1953–1957. (Soon to be available in limited edition from Editions Claude Givaudan/Am Here Books, 1874 Champery. Valais, Switzerland.)”—p. 62." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C449" ] ;

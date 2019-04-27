@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C35 a bf:Instance ;
+abri:C35 a bf:Instance,
+        bf:Text ;
     rdfs:label "Swank, Vol. 8, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Word.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“ ... a first draft of a section of the book [Naked Lunch] ... contains material that has never been published  before … ”—[p. 51]" ],
-                [ a bf:Note ;
-                    rdf:value "Preceded by “Uncle Bill Burroughs’ Guided Tour: Naked Lunch” by John Fles, “an ex-Chicago Review        editor.”" ] ] ;
+            bf:note "Preceded by “Uncle Bill Burroughs’ Guided Tour: Naked Lunch” by John Fles, “an ex-Chicago Review editor.”",
+                "“ ... a first draft of a section of the book [Naked Lunch] ... contains material that has never been published before … ”—[p. 51]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C35" ],

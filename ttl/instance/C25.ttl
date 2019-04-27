@@ -8,21 +8,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C25 a bf:Instance ;
+abri:C25 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Floating Bear, No. 9" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Routine: Roosevelt After Inauguration.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C33" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C25" ] ;
+            rdf:value "C25" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C33" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1961" ] ;

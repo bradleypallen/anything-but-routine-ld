@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C16 a bf:Instance ;
+abri:C16 a bf:Instance,
+        bf:Text ;
     rdfs:label "Haute Société, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Nothing Is True, Everything Is Permitted: Hassan Sabbah” =  “Rien n’est vrai, Tout est permis: Hassan Sabbah.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "English and French in parallel columns." ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Nothing Is True, Everything Is Permitted: Hassan Sabbah” = “Rien n’est vrai, Tout est permis: Hassan Sabbah.”" ;
+            bf:note "English and French in parallel columns." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C18" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C16" ] ;
+            rdf:value "C16" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C18" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "June 1960" ] ;

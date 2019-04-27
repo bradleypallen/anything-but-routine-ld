@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C120 a bf:Instance ;
+abri:C120 a bf:Instance,
+        bf:Text ;
     rdfs:label "Randstad, No. 9" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Beëdige Verklaring: Een Getuigenis over een Ziekte.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Dutch translation by Lex de Bruijn." ] ] ;
+            bf:note "Dutch translation by Lex de Bruijn." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C126" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C120" ] ;
+            rdf:value "C120" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C126" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1965" ] ;

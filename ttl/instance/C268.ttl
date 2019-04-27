@@ -8,21 +8,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C268 a bf:Instance ;
+abri:C268 a bf:Instance,
+        bf:Text ;
     rdfs:label "Crawdaddy, Vol. 5, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Unspeakable Mr. Hart (Part One).”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C298" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C268" ] ;
+            rdf:value "C268" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C298" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "22 November 1970" ] ;

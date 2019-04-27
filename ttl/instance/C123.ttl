@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C123 a bf:Instance ;
+abri:C123 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Spero, Vol. 1, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Coldspring News.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Designed as a poster in three-column-style newspaper layout, ©1964; folded in three. Some copies have  item bound in; others tipped in. Also issued separately in unfolded state, and in later state that lacks  copyright statement. [M&M]  42" ] ] ;
+            bf:note "Designed as a poster in three-column-style newspaper layout, ©1964; folded in three. Some copies have item bound in; others tipped in. Also issued separately in unfolded state, and in later state that lacks copyright statement. [M&M] 42" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C124" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C123" ] ;
+            rdf:value "C123" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C124" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 500 numbered copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

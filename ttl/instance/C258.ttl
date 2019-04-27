@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C258 a bf:Instance ;
+abri:C258 a bf:Instance,
+        bf:Text ;
     rdfs:label "The San Francisco Earthquake, [Vol. 1], No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "[Includes reprint of The Moving Times, [No. 1], above.]      54" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "[Includes reprint of The Moving Times, [No. 1], above.] 54" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C258" ] ;

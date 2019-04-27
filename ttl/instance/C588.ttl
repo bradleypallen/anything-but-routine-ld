@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C588 a bf:Instance ;
+abri:C588 a bf:Instance,
+        bf:Text ;
     rdfs:label "Spin, Vol. 4, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“When Patti Rocked.” [Burroughs interviews Patti Smith.]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Jacket title: “William Burroughs’ Unpublished Interview with Patti Smith.”" ] ] ;
+            bf:note "Jacket title: “William Burroughs’ Unpublished Interview with Patti Smith.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C588" ] ;

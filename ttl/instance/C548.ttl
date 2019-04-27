@@ -8,22 +8,26 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C548 a bf:Instance ;
+abri:C548 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Review of Contemporary Fiction, Vol. 4, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Ruski.”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Last European Interview.” [Burroughs interviewed by Philippe Mikriammos.]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… conducted on 4 July 1974, the very day before William Burroughs left England for good and went  back to live in America.”—p. 12." ] ],
-        [ a bf:Text ;
+            bf:note "“… conducted on 4 July 1974, the very day before William Burroughs left England for good and went back to live in America.”—p. 12." ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Creative Reading.”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Revenge of the Icebox.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

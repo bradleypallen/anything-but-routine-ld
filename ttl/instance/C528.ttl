@@ -8,14 +8,16 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C528 a bf:Instance ;
-    rdfs:label "Gateavisa, No. 7 (December 1983).  Includes excerpt from Naken Lunsj, the Norwegian translation of Naked Lunch" ;
+abri:C528 a bf:Instance,
+        bf:Text ;
+    rdfs:label "Gateavisa, No. 7 (December 1983). Includes excerpt from Naken Lunsj, the Norwegian translation of Naked Lunch" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“El Hombre Invisible I Oslo” [Burroughs interviewed by Olav Angell.]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
@@ -26,5 +28,5 @@ abri:C528 a bf:Instance ;
                 bf:Publication ;
             bf:date "see Section D below" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "Gateavisa, No. 7 (December 1983).  Includes excerpt from Naken Lunsj, the Norwegian translation of Naked Lunch" ] .
+            rdfs:label "Gateavisa, No. 7 (December 1983). Includes excerpt from Naken Lunsj, the Norwegian translation of Naked Lunch" ] .
 

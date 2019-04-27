@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C337 a bf:Instance ;
+abri:C337 a bf:Instance,
+        bf:Text ;
     rdfs:label "Parvis à l’Echo des Cils" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "[Three pages from Burroughs’ St. Louis Journal]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Three full-page reproductions of collaged manuscript pages." ] ] ;
+            bf:note "Three full-page reproductions of collaged manuscript pages." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C330" ],

@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C345 a bf:Instance ;
+abri:C345 a bf:Instance,
+        bf:Text ;
     rdfs:label "Unmuzzled Ox, Vol. 1, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Claude Pelieu and I have never …/”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“... intended as an introduction to one of Claude Pélieu’s books ...” [M&M]" ] ] ;
+            bf:note "“... intended as an introduction to one of Claude Pélieu’s books ...” [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C345" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C322" ] ;
+            rdf:value "C322" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C345" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "February 1972" ] ;

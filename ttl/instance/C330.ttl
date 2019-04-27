@@ -8,27 +8,28 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C330 a bf:Instance ;
+abri:C330 a bf:Instance,
+        bf:Text ;
     rdfs:label "Ginger Snaps, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Abstract.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… previously published in Best & Co. [sic] anthology ed. …,” above.—[p. 3]" ] ],
-        [ a bf:Text ;
+            bf:note "“… previously published in Best & Co. [sic] anthology ed. …,” above.—[p. 3]" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Preface/Take It To Cut City”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Excerpt from The Exterminator (Auerhahn Press, 1960) [See Section A, above]" ] ] ;
+            bf:note "Excerpt from The Exterminator (Auerhahn Press, 1960) [See Section A, above]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C324" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C330" ] ;
+            rdf:value "C330" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C324" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 300 copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

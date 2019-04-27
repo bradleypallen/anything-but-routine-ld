@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C131 a bf:Instance ;
+abri:C131 a bf:Instance,
+        bf:Text ;
     rdfs:label "IT: The International Times, [No. 2] (31 October–13 November" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Antony Balch: ‘Towers Open Fire’!”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“The following commentary is by William Burroughs for the film ‘Towers Open Fire,’ in which he  appears.”—p. 8." ] ] ;
+            bf:note "“The following commentary is by William Burroughs for the film ‘Towers Open Fire,’ in which he appears.”—p. 8." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C155" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C131" ] ;
+            rdf:value "C131" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C155" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1966]" ] ;

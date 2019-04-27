@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C193 a bf:Instance ;
+abri:C193 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mayfair, Vol. 3, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Scientology Revisited.” (The Burroughs Academy Bulletin 4)" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “Why I Was Converted.”" ],
-                [ a bf:Note ;
-                    rdf:value "“… he [Burroughs] gave us [Mayfair] a signed affidavit, confirming his conversion. And in his fourth  bulletin, he outlines how and why this dramatic change of heart took place.”—p. 6." ] ] ;
+            bf:note "TOC title: “Why I Was Converted.”",
+                "“… he [Burroughs] gave us [Mayfair] a signed affidavit, confirming his conversion. And in his fourth bulletin, he outlines how and why this dramatic change of heart took place.”—p. 6." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C187" ],

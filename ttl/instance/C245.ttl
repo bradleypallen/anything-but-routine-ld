@@ -8,25 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C245 a bf:Instance ;
+abri:C245 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mayfair, Vol. 4, No. 9" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Days of Grand Luxury Are Coming Back: Hire Me a Bodyguard for When the Poor Find  Out.” (The Burroughs Academy Bulletin 21)" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“William Burroughs celebrates two years’ continuous contribution to Mayfair …”—p. 4.      53" ],
-                [ a bf:Note ;
-                    rdf:value "TOC title: “The Rich Above, The Poor Below.”" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Days of Grand Luxury Are Coming Back: Hire Me a Bodyguard for When the Poor Find Out.” (The Burroughs Academy Bulletin 21)" ;
+            bf:note "TOC title: “The Rich Above, The Poor Below.”",
+                "“William Burroughs celebrates two years’ continuous contribution to Mayfair …”—p. 4. 53" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C237" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C245" ] ;
+            rdf:value "C245" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C237" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "November 1969" ] ;

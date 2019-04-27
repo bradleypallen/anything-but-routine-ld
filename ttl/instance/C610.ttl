@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C610 a bf:Instance ;
+abri:C610 a bf:Instance,
+        bf:Text ;
     rdfs:label "Northwest EXTRA!, Vol. 1, No. 12" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Book of Shadows.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Illustrated by S. Clay Wilson." ],
-                [ a bf:Note ;
-                    rdf:value "Excerpt from Tornado Alley." ] ] ;
+            bf:note "Excerpt from Tornado Alley.",
+                "Illustrated by S. Clay Wilson." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C610" ] ;

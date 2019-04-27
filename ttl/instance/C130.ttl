@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C130 a bf:Instance ;
+abri:C130 a bf:Instance,
+        bf:Text ;
     rdfs:label "Grist, No. 10" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Afterbirth of Dream Now.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Reprint of “Method Text” from Now, No. 3, above. [M&M]" ] ] ;
+            bf:note "Reprint of “Method Text” from Now, No. 3, above. [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C130" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C150" ] ;
+            rdf:value "C150" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C130" ] ;
     bf:note [ a bf:Note ;
             rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

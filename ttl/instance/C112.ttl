@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C112 a bf:Instance ;
+abri:C112 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Moving Times, [No. 6]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "[Contains quotes by Burroughs in collaged material by Carl Weissner.]  41" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "[Contains quotes by Burroughs in collaged material by Carl Weissner.] 41" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C112" ],
@@ -24,7 +26,7 @@ abri:C112 a bf:Instance ;
             bf:source "Maynard & Miles" ;
             rdf:value "C131" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "A magazine edited by Burroughs, issued as the last three pages of My Own Mag, No. 14 (December 1965),  below." ] ;
+            rdf:value "A magazine edited by Burroughs, issued as the last three pages of My Own Mag, No. 14 (December 1965), below." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "19 October 1965" ] ;

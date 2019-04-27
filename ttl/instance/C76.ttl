@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C76 a bf:Instance ;
+abri:C76 a bf:Instance,
+        bf:Text ;
     rdfs:label "Ex, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Afternoon Ticker Tape.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Run-off copies of “Afternoon Ticker Tape” [from The Burrough, [No. 1 (1964)], above], issued in a folder  with a variety of other loose and stapled items. [M&M]" ] ] ;
+            bf:note "Run-off copies of “Afternoon Ticker Tape” [from The Burrough, [No. 1 (1964)], above], issued in a folder with a variety of other loose and stapled items. [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C96" ],

@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C236 a bf:Instance ;
+abri:C236 a bf:Instance,
+        bf:Text ;
     rdfs:label "Kaleidoscope, Vol. 1, No. 16" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "[Includes, in “Second Section,” one sheet of VDRSVP, which includes reprint of The  Moving Times, [No. 1], above.]" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "[Includes, in “Second Section,” one sheet of VDRSVP, which includes reprint of The Moving Times, [No. 1], above.]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C236" ] ;

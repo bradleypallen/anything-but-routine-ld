@@ -8,21 +8,22 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C483 a bf:Instance ;
+abri:C483 a bf:Instance,
+        bf:Text ;
     rdfs:label "Magazine Littéraire, No. 157" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“La Fonction de l’Art.” [Burroughs interviewed by Gérard-Georges Lemaire]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Translated with the collaboration of Jane Gozzett." ] ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Les Limites du Contrôle.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Translated by Gérard-Georges Lemaire." ] ] ;
+            bf:note "Translated by Gérard-Georges Lemaire." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“La Fonction de l’Art.” [Burroughs interviewed by Gérard-Georges Lemaire]" ;
+            bf:note "Translated with the collaboration of Jane Gozzett." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C483" ] ;

@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C138 a bf:Instance ;
+abri:C138 a bf:Instance,
+        bf:Text ;
     rdfs:label "Klactoveedsedsteen, No. 4 (Fall/Winter" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Tape Recorder Mutations” (with Claude Pélieu and Carl Weissner)." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“The tape recording William Burroughs made here June 6, 1966 started a series of experiments from  which the samples in this issue are taken.”—[p. 51]" ] ] ;
+            bf:note "“The tape recording William Burroughs made here June 6, 1966 started a series of experiments from which the samples in this issue are taken.”—[p. 51]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C151" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C138" ] ;
+            rdf:value "C138" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C151" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Limited to 300 copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

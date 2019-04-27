@@ -8,31 +8,38 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C38 a bf:Instance ;
+abri:C38 a bf:Instance,
+        bf:Text ;
     rdfs:label "Evergreen Review, Vol. 6, No. 22" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Pure Song of New Before the Traveller.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Twilight’s Last Gleamings.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Photo Falling—Word Falling.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Towers Open Fire.”" ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Introduction to Naked Lunch, The Soft Machine, Novia [sic; i.e. Nova] Express.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Episodes from Novia [sic; i.e. Nova] Express.”  33" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Pure Song of New Before the Traveller.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Towers Open Fire.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Episodes from Novia [sic; i.e. Nova] Express.” 33" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Photo Falling—Word Falling.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Twilight’s Last Gleamings.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C39" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C38" ] ;
+            rdf:value "C38" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C39" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Also includes “The Cannibal Feast: [Review of] Naked Lunch by William Burroughs” by E. S. Seldon." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C360 a bf:Instance ;
+abri:C360 a bf:Instance,
+        bf:Text ;
     rdfs:label "Bastard Angel, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Cut Throat Trout.”        63" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Cut Throat Trout.” 63" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C360" ] ;

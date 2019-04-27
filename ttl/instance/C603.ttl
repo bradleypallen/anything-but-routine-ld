@@ -8,24 +8,29 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C603 a bf:Instance ;
+abri:C603 a bf:Instance,
+        bf:Text ;
     rdfs:label "Stiletto, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Twilight’s Last Gleamings”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Includes foldout reproduction of Burroughs painting, Twilight’s Last Gleamings.  85" ] ],
-        [ a bf:Text ;
-            rdfs:label "“In the Café Central”" ],
-        [ a bf:Text ;
-            rdfs:label "“From the Interzone: Twilight’s Last Gleaming [sic; i.e. Gleamings]”:" ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Dream of the Penal Colony”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Twilight’s Last Gleamings”" ;
+            bf:note "Includes foldout reproduction of Burroughs painting, Twilight’s Last Gleamings. 85" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“From the Interzone: Twilight’s Last Gleaming [sic; i.e. Gleamings]”:" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“In the Café Central”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Junky’s Christmas”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

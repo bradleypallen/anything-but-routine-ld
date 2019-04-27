@@ -8,28 +8,30 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C57 a bf:Instance ;
-    rdfs:label "My Own Mag, [No. 2 (December 1963)]. {M&M C93}  cover: “An Odour-Fill" ;
+abri:C57 a bf:Instance,
+        bf:Text ;
+    rdfs:label "My Own Mag, [No. 2 (December 1963)]. {M&M C93} cover: “An Odour-Fill" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“From H. B. William S. Burroughs.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C93" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C57" ] ;
+            rdf:value "C57" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C93" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "" ],
+            rdf:value "Limited to 50 copies. Printed on recto only." ],
         [ a bf:Note ;
-            rdf:value "Limited to 50 copies. Printed on recto only." ] ;
+            rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "sic" ] ;
     bf:title [ a bf:Title ;
-            rdfs:label "My Own Mag, [No. 2 (December 1963)]. {M&M C93}  cover: “An Odour-Fill" ] .
+            rdfs:label "My Own Mag, [No. 2 (December 1963)]. {M&M C93} cover: “An Odour-Fill" ] .
 

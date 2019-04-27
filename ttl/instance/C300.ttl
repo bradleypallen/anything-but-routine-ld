@@ -8,25 +8,26 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C300 a bf:Instance ;
+abri:C300 a bf:Instance,
+        bf:Text ;
     rdfs:label "Rolling Stone, No. 69" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Discipline of DE.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“... a chapter excerpted from William Burroughs’ forthcoming novel, The Revised Boy Scout Manual” [a  version of which was published in 1973 under the title Exterminator! See Section A above.]—p. 34." ] ] ;
+            bf:note "“... a chapter excerpted from William Burroughs’ forthcoming novel, The Revised Boy Scout Manual” [a version of which was published in 1973 under the title Exterminator! See Section A above.]—p. 34." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C300" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C296" ] ;
+            rdf:value "C296" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C300" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "NOTE: This is the issue of Rollling Stone in which the death of Janis Joplin and the burial of Jimi Hendrix  were reported." ] ;
+            rdf:value "NOTE: This is the issue of Rollling Stone in which the death of Janis Joplin and the burial of Jimi Hendrix were reported." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "29 October 1970" ] ;

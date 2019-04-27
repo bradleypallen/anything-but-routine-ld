@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C26 a bf:Instance ;
+abri:C26 a bf:Instance,
+        bf:Text ;
     rdfs:label "International Literary Annual, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Thing Police Keep All Board Room Reports.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“A section from a novel [i.e., The Soft Machine].”" ] ] ;
+            bf:note "“A section from a novel [i.e., The Soft Machine].”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C26" ] ;

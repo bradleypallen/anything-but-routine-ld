@@ -8,22 +8,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C448 a bf:Instance ;
+abri:C448 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Blue Ridge Review, Vol. 1, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“It Is Possible—World War II.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… an outtake from his recently completed long novel, Cities of the Red Night.”—p. 59." ] ] ;
+            bf:note "“… an outtake from his recently completed long novel, Cities of the Red Night.”—p. 59." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C448" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Includes review by Charles A. Taormina (publisher and editor of The Blue Ridge Review) of Maynard & Miles’  William S. Burroughs, 1953-1973: A Bibliography [sic]." ] ;
+            rdf:value "Includes review by Charles A. Taormina (publisher and editor of The Blue Ridge Review) of Maynard & Miles’ William S. Burroughs, 1953-1973: A Bibliography [sic]." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Fall 1978" ] ;

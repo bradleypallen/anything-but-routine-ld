@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C51 a bf:Instance ;
+abri:C51 a bf:Instance,
+        bf:Text ;
     rdfs:label "City Lights Journal, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“I Am Dying, Meester?”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "An excerpt from The Yage Letters." ] ] ;
+            bf:note "An excerpt from The Yage Letters." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C51" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C66" ] ;
+            rdf:value "C66" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C51" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Includes “The Death of 9, Rue Git-Le Coeur” by Harold Norse." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

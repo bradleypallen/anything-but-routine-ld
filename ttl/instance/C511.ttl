@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C511 a bf:Instance ;
+abri:C511 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Unicorn Times, No. 8" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Flash Cancer and Crystal Skulls: William S. Burroughs’ Cataclysms of the Red Night.”    [Burroughs interviewed by David Beaudouin.]    76" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Flash Cancer and Crystal Skulls: William S. Burroughs’ Cataclysms of the Red Night.” [Burroughs interviewed by David Beaudouin.] 76" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C511" ] ;

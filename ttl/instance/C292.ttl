@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C292 a bf:Instance ;
+abri:C292 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mayfair, Vol. 5, No. 6" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“ ... And a Final Word from William Burroughs.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "A response to “World Exclusive” by L. Ron Hubbard, which is itself a response to Burroughs’ previous  writings in Mayfair on Scientology.      57" ] ] ;
+            bf:note "A response to “World Exclusive” by L. Ron Hubbard, which is itself a response to Burroughs’ previous writings in Mayfair on Scientology. 57" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C292" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C276" ] ;
+            rdf:value "C276" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C292" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "June 1970" ] ;

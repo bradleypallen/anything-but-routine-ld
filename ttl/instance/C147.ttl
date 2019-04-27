@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C147 a bf:Instance ;
+abri:C147 a bf:Instance,
+        bf:Text ;
     rdfs:label "Residu, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Martin’s Folly.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“From Sigma’s ‘Moving Times’ No. 1” [i.e., Moving Times, [No. 5 (1965)], which was issued as Sigma  Portfolio, [No. 1 (1965)], above." ] ] ;
+            bf:note "“From Sigma’s ‘Moving Times’ No. 1” [i.e., Moving Times, [No. 5 (1965)], which was issued as Sigma Portfolio, [No. 1 (1965)], above." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C141" ],

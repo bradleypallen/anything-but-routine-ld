@@ -8,24 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C475 a bf:Instance ;
+abri:C475 a bf:Instance,
+        bf:Text ;
     rdfs:label "Unmuzzled Ox, Vol. 4, No. 4/Vol. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Junk” [Part 1]." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "[Part 2] by William Jay Smith; [Part 3] by Art Linkletter." ] ] ;
+            bf:note "[Part 2] by William Jay Smith; [Part 3] by Art Linkletter." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C475" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Cover: “A Special Issue: The Poets’ Encyclopedia.”" ],
+            rdf:value "“The Poets’ Encyclopedia is available in hardbound, paperbound, and magazine editions … [and] as an issue of Unmuzzled Ox, was made possible by grants …”—FFEP, verso." ],
         [ a bf:Note ;
-            rdf:value "“The Poets’ Encyclopedia is available in hardbound, paperbound, and magazine editions … [and] as an issue of  Unmuzzled Ox, was made possible by grants …”—FFEP, verso." ] ;
+            rdf:value "Cover: “A Special Issue: The Poets’ Encyclopedia.”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1979" ] ;

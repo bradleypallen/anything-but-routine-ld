@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C18 a bf:Instance ;
+abri:C18 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mademoiselle, Vol. 50, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Quo Vadis?”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“A symposium by William Seward Burroughs, Allen Ginsberg, Lorraine Hansberry, Christopher Logue,  Norman Podhoretz, François Truffaut, and John Wain.”—TOC." ] ] ;
+            bf:note "“A symposium by William Seward Burroughs, Allen Ginsberg, Lorraine Hansberry, Christopher Logue, Norman Podhoretz, François Truffaut, and John Wain.”—TOC." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C15" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C18" ] ;
+            rdf:value "C18" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C15" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "January 1960" ] ;

@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C338 a bf:Instance ;
+abri:C338 a bf:Instance,
+        bf:Text ;
     rdfs:label "Penthouse (New York), Vol. 3, No. 7" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“William Burroughs: Penthouse Interview” (by Graham Masterton and Andrew Rossabi)." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Reprint of “William Burroughs, Mind Engineer” in Penthouse (London), Vol. 6, No. 6 (September 1971),  above.      61" ] ] ;
+            bf:note "Reprint of “William Burroughs, Mind Engineer” in Penthouse (London), Vol. 6, No. 6 (September 1971), above. 61" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "E37" ],

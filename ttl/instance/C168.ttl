@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C168 a bf:Instance ;
+abri:C168 a bf:Instance,
+        bf:Text ;
     rdfs:label "Opus International, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Cieux brûlants, idiot.” (Fragment)" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "French translation by Mary Beach and Claude Pélieu of “Burning Heavens, Idiot.”" ] ] ;
+            bf:note "French translation by Mary Beach and Claude Pélieu of “Burning Heavens, Idiot.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C168" ],

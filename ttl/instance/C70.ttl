@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C70 a bf:Instance ;
+abri:C70 a bf:Instance,
+        bf:Text ;
     rdfs:label "Chicago Review, Vol. 17, No. 1, [Whole No.] 54" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Boys Magazine: Gone Away. Back When.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“This short piece of work in progress is representative of recent experiments in which I extend the  newspaper and magazine format to fictional material.”—p. 130." ],
-                [ a bf:Note ;
-                    rdf:value "Three-column layout." ] ] ;
+            bf:note "Three-column layout.",
+                "“This short piece of work in progress is representative of recent experiments in which I extend the newspaper and magazine format to fictional material.”—p. 130." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C91" ],

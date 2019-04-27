@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C473 a bf:Instance ;
+abri:C473 a bf:Instance,
+        bf:Text ;
     rdfs:label "Sphinx Magazin [sic], [No.] 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Interview: William Burroughs im Gesprãch mit Victor Bockris.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "German translation by Udo Breger." ] ] ;
+            bf:note "German translation by Udo Breger." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C473" ] ;

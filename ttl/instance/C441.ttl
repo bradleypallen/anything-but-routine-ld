@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C441 a bf:Instance ;
+abri:C441 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Paris Review, Vol. 18, No. 69" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Valley.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… part of the original manuscript of Junk, Burroughs’ first book. Ace Books, who published it in 1953,  insisted the title be changed to Junkie … This chapter, except for a few paragraphs, was entirely deleted  from the 1953 edition and is here printed for the first time.”—p. [43]-44." ] ] ;
+            bf:note "“… part of the original manuscript of Junk, Burroughs’ first book. Ace Books, who published it in 1953, insisted the title be changed to Junkie … This chapter, except for a few paragraphs, was entirely deleted from the 1953 edition and is here printed for the first time.”—p. [43]-44." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C441" ] ;

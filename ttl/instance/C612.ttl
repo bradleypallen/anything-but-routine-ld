@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C612 a bf:Instance ;
+abri:C612 a bf:Instance,
+        bf:Text ;
     rdfs:label "Rampike, Vol. 7, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“‘To wall the fault you visualize. What form would …/”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Excerpt from The Western Lands." ] ] ;
+            bf:note "Excerpt from The Western Lands." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C612" ] ;

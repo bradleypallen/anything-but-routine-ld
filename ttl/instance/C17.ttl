@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C17 a bf:Instance ;
+abri:C17 a bf:Instance,
+        bf:Text ;
     rdfs:label "Kulchur, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Conspiracy.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… a section from the original manuscript of Naked Lunch. It was not available and does not appear in  the otherwise complete edition of Naked Lunch, published by Olympia Press, Paris, 1959.”—p. 5." ] ] ;
+            bf:note "“… a section from the original manuscript of Naked Lunch. It was not available and does not appear in the otherwise complete edition of Naked Lunch, published by Olympia Press, Paris, 1959.”—p. 5." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C17" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C19" ] ;
+            rdf:value "C19" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C17" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Spring 1960" ] ;

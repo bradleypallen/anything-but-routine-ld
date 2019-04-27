@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C620 a bf:Instance ;
+abri:C620 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mondo 2000, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“A Thanksgiving Prayer.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… still frames from the video … written by William S. Burroughs and directed by Gus van Sant in  1990.”—p. 2." ],
-                [ a bf:Note ;
-                    rdf:value "TOC: “Special Guest Editorial.”" ] ] ;
+            bf:note "TOC: “Special Guest Editorial.”",
+                "“… still frames from the video … written by William S. Burroughs and directed by Gus van Sant in 1990.”—p. 2." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C620" ] ;

@@ -8,24 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C525 a bf:Instance ;
+abri:C525 a bf:Instance,
+        bf:Text ;
     rdfs:label "Stereo Headphones, No. 8-9-10" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Typescript of ‘The Future of the Novel’”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… published in manuscript form for the first time …”" ] ] ;
+            bf:note "“… published in manuscript form for the first time …”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C525" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "" ],
+            rdf:value "“… printed in a limited edition of 1000 copies. 15 de luxe copies, numbered 1 to 15, and seven hors commerce copies, numbered H.C.1 to H.C.7, are printed on special paper and additionally contain a signed hand-made silhouette multiple by Lourdes Castro, a signed silk-screen print by Barry McCallion, [ and] a signed etching by Tom Phillips.” Includes sound recording (EMI Australia, PRS-2743, 7” record) of material by Henri Chopin and Bernard Heidsieck." ],
         [ a bf:Note ;
-            rdf:value "“… printed in a limited edition of 1000 copies. 15 de luxe copies, numbered 1 to 15, and seven hors  commerce copies, numbered H.C.1 to H.C.7, are printed on special paper and additionally contain a signed  hand-made silhouette multiple by Lourdes Castro, a signed silk-screen print by Barry McCallion, [ and] a  signed etching by Tom Phillips.”  Includes sound recording (EMI Australia, PRS-2743, 7” record) of material by Henri Chopin and Bernard  Heidsieck." ] ;
+            rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1982" ] ;

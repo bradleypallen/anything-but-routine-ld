@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C288 a bf:Instance ;
+abri:C288 a bf:Instance,
+        bf:Text ;
     rdfs:label "Los Angeles Free Press, Vol. 7, No. 34 (Issue 318)" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“This Man Has Been Scrambled.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Reprint of “Scrambles” from IT: [The International Times], No. 83 (17 July–July 1970), above." ] ] ;
+            bf:note "Reprint of “Scrambles” from IT: [The International Times], No. 83 (17 July–July 1970), above." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C292" ],

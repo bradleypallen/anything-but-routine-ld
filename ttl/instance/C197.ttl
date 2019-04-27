@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C197 a bf:Instance ;
+abri:C197 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mayfair, Vol. 3, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“In That Year of 1969, Astonished Motorists Were Hustled at Random Into the Death  Cells for Parking Offences.” (The Burroughs Academy Bulletin 8)" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “The Death Cell for Motorists.”" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“In That Year of 1969, Astonished Motorists Were Hustled at Random Into the Death Cells for Parking Offences.” (The Burroughs Academy Bulletin 8)" ;
+            bf:note "TOC title: “The Death Cell for Motorists.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C196" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C197" ] ;
+            rdf:value "C197" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C196" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "May 1968" ] ;

@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C279 a bf:Instance ;
+abri:C279 a bf:Instance,
+        bf:Text ;
     rdfs:label "Hotcha!, No. 39 [?]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Akademie 23—eine Entwöhnung.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "German translation of “Academy 23: A Deconditioning.”" ] ] ;
+            bf:note "German translation of “Academy 23: A Deconditioning.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C279" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C273" ] ;
+            rdf:value "C273" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C279" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "April 1970" ] ;

@@ -8,19 +8,23 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C53 a bf:Instance ;
+abri:C53 a bf:Instance,
+        bf:Text ;
     rdfs:label "Evergreen Review, Vol. 7, No. 29" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“2. The Fish Poison Con.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Two Episodes from Nova Express.”" ],
-        [ a bf:Text ;
-            rdfs:label "“1. Gave Proof Through the Night—”" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“1. Gave Proof Through the Night—”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Two Episodes from Nova Express.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C53" ],

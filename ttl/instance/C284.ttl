@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C284 a bf:Instance ;
+abri:C284 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Listener, Vol. 84, No. 2171" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Is an Elite Necessary?” [Part 2]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Transcribed from a BBC broadcast interview with Frank Kermode in which Burroughs took part." ] ] ;
+            bf:note "Transcribed from a BBC broadcast interview with Frank Kermode in which Burroughs took part." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C284" ] ;

@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C332 a bf:Instance ;
+abri:C332 a bf:Instance,
+        bf:Text ;
     rdfs:label "Honk, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Teil 1: Was ist Sucht?”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "German translation of “Points of Distinction between Sedative and Consciousness-Expanding Drugs.”  [M&M]" ] ] ;
+            bf:note "German translation of “Points of Distinction between Sedative and Consciousness-Expanding Drugs.” [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C332" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C328" ] ;
+            rdf:value "C328" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C332" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "June 1972" ] ;

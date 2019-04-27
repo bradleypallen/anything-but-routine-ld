@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C156 a bf:Instance ;
+abri:C156 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Great Society, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Adios of Saturn.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "A cut-up by Burroughs of a poem by his son. [M&M]" ] ] ;
+            bf:note "A cut-up by Burroughs of a poem by his son. [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C168" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C156" ] ;
+            rdf:value "C156" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C168" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "[June] 1967" ] ;

@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C266 a bf:Instance ;
+abri:C266 a bf:Instance,
+        bf:Text ;
     rdfs:label "Crawdaddy, Vol. 4, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "[“Out-takes:] A Flower Pot from a High Window: A View of Contemporary America.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Compiled [from The Job], Edited, and Presented by Michael March.”—p. 26." ] ] ;
+            bf:note "“Compiled [from The Job], Edited, and Presented by Michael March.”—p. 26." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C289 & E31" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C266" ] ;
+            rdf:value "C266" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C289 & E31" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Summer 1970" ] ;

@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C435 a bf:Instance ;
+abri:C435 a bf:Instance,
+        bf:Text ;
     rdfs:label "Lightworks, No. 8/9" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Take Nirvana: From ‘Time of the Assassins.’”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… originally written to accompany a screening of “Street Film Part Zero,” a film composition ... by  Robert E. Fulton.”—p. 16." ] ] ;
+            bf:note "“… originally written to accompany a screening of “Street Film Part Zero,” a film composition ... by Robert E. Fulton.”—p. 16." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C435" ] ;

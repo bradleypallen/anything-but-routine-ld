@@ -8,19 +8,21 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C574 a bf:Instance ;
+abri:C574 a bf:Instance,
+        bf:Text ;
     rdfs:label "Art & Design Profile, No. 10" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Long Radio Silence Over Portland Place.”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Entrance to the Museum of Lost Species.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… appeared in an earlier form in a catalogue accompanying the exhibition ‘William S. Burroughs,’ at the  October Gallery, London, from 1 June–2 July 1988.”—p. 4. Actually, this appeared in the catalogue  accompanying the exhibition ‘William S. Burroughs,’ at the Shafrazi Gallery, New York, 19 December  1987–24 January 1988. [See Section B, above.]" ] ],
-        [ a bf:Text ;
-            rdfs:label "“Long Radio Silence Over Portland Place.”" ] ;
+            bf:note "“… appeared in an earlier form in a catalogue accompanying the exhibition ‘William S. Burroughs,’ at the October Gallery, London, from 1 June–2 July 1988.”—p. 4. Actually, this appeared in the catalogue accompanying the exhibition ‘William S. Burroughs,’ at the Shafrazi Gallery, New York, 19 December 1987–24 January 1988. [See Section B, above.]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C574" ] ;

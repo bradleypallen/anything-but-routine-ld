@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C160 a bf:Instance ;
+abri:C160 a bf:Instance,
+        bf:Text ;
     rdfs:label "[IT: The] International Times, [No. 12] (28 April-12 May" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Cut me up, Brion Gysin, cut me up …/”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… taken from Minutes To Go, a cut-up laboratory work put together by William Burroughs, Gregory  Corso, Brion Gysin, and Sinclair Beiles some years ago, but still not on worldwide circulation  channels.”—[p. 6]" ] ] ;
+            bf:note "“… taken from Minutes To Go, a cut-up laboratory work put together by William Burroughs, Gregory Corso, Brion Gysin, and Sinclair Beiles some years ago, but still not on worldwide circulation channels.”—[p. 6]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C160" ] ;

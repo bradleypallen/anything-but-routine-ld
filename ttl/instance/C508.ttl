@@ -8,22 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C508 a bf:Instance ;
+abri:C508 a bf:Instance,
+        bf:Text ;
     rdfs:label "Talk Talk, Vol. 3, No. 6" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Interview: William S. Burroughs” (by Bill Rich)." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C508" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "" ],
+            rdf:value "Issued with flexidisc containing “Abandoned Artifacts” and “On the Nova Lark” (see Section E, below). Limited to 2,000 copies. Includes a facsimile of a leaf from one of Burroughs’ scrapbooks, which includes a “… block of photographs … from Tangiers, Europe, and South America. The cover is a blow up from this.”—[p. 3]" ],
         [ a bf:Note ;
-            rdf:value "Issued with flexidisc containing “Abandoned Artifacts” and  “On the Nova Lark” (see Section E, below). Limited to 2,000 copies.  Includes a facsimile of a leaf from one of Burroughs’ scrapbooks, which includes a “… block of photographs  … from Tangiers, Europe, and South America. The cover is a blow up from this.”—[p. 3]" ] ;
+            rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Autumn 1981" ] ;

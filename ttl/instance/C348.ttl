@@ -8,27 +8,30 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C348 a bf:Instance ;
+abri:C348 a bf:Instance,
+        bf:Text ;
     rdfs:label "AQ, No. 14" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Cut/up Made in 1973 Using the Words of William Burroughs and Arthur Rimbaud.”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Die Stadt der Mutanten.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "German translation by Carl Weissner." ] ],
-        [ a bf:Text ;
-            rdfs:label "“Cut/up of Ezra Pound Made in 1959 Using Only the Very Own Words of Ezra Pound.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Cut/up Made in 1973 Using the Words of William Burroughs and Arthur Rimbaud.”" ] ;
+            bf:note "German translation by Carl Weissner." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Cut/up of Ezra Pound Made in 1959 Using Only the Very Own Words of Ezra Pound.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C350–C352" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C348" ] ;
+            rdf:value "C348" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C350–C352" ] ;
     bf:note [ a bf:Note ;
             rdf:value "" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

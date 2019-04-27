@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C540 a bf:Instance ;
+abri:C540 a bf:Instance,
+        bf:Text ;
     rdfs:label "Fotografie, No. 32/33" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Notizen zu Playback-Experimenten.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Translation by Carl Weissner of excerpt from “Playback from Eden to Watergate.”" ] ] ;
+            bf:note "Translation by Carl Weissner of excerpt from “Playback from Eden to Watergate.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C540" ] ;

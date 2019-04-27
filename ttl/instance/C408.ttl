@@ -8,18 +8,22 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C408 a bf:Instance ;
+abri:C408 a bf:Instance,
+        bf:Text ;
     rdfs:label "Loka: A Journal from Naropa Institute, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Poet’s Colloquium” [With Burroughs; Allen Ginsberg; W.S. Merwyn; Chögyam Trungpa, Rinpoche; Anne Waldman; Philip Whalen; and Rick Fields, David Rome, and Joshua Zim]" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“A Lecture.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Poet’s Colloquium” [With Burroughs; Allen Ginsberg; W.S. Merwyn; Chögyam Trungpa,  Rinpoche; Anne Waldman; Philip Whalen; and Rick Fields, David Rome, and Joshua Zim]" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Lokations [sic] & Tales: Walk Around Boulder.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

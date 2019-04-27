@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C586 a bf:Instance ;
+abri:C586 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Paris Review, Vol. 30, No. 109" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Twilight’s Last Gleamings.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Excerpted from Interzone." ],
-                [ a bf:Note ;
-                    rdf:value "“Much shorter versions of it have appeared throughout his [i.e., Burroughs’] writings, most notably in  Nova Express … this is the fullest version yet published.”—[p. 154]" ] ] ;
+            bf:note "Excerpted from Interzone.",
+                "“Much shorter versions of it have appeared throughout his [i.e., Burroughs’] writings, most notably in Nova Express … this is the fullest version yet published.”—[p. 154]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C586" ] ;

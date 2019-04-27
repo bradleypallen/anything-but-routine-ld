@@ -8,21 +8,22 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C11 a bf:Instance ;
+abri:C11 a bf:Instance,
+        bf:Text ;
     rdfs:label "New Departures, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“1: The Exterminator Does a Good Job.”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“2: Coke Bugs.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “Two Scenes.”" ],
-                [ a bf:Note ;
-                    rdf:value "Excerpts from Naked Lunch." ] ],
-        [ a bf:Text ;
-            rdfs:label "“1: The Exterminator Does a Good Job.”" ] ;
+            bf:note "Excerpts from Naked Lunch.",
+                "TOC title: “Two Scenes.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C8" ],

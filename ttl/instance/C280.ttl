@@ -8,23 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C280 a bf:Instance ;
+abri:C280 a bf:Instance,
+        bf:Text ;
     rdfs:label "IT: [The International Times], No. 74" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Mind Control.”  a. “Wait Here, Go There.”  b. “Abstract.”" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Mind Control.” a. “Wait Here, Go There.” b. “Abstract.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C280" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C269" ] ;
+            rdf:value "C269" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C280" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "“William Burroughs’ new book: THE MOB, will be published by Jonathan Cape on April 16th.”—p. 9. (The  book was actually published as The Last Words of Dutch Schultz by Cape Goliard Press. See Section A above.)" ] ;
+            rdf:value "“William Burroughs’ new book: THE MOB, will be published by Jonathan Cape on April 16th.”—p. 9. (The book was actually published as The Last Words of Dutch Schultz by Cape Goliard Press. See Section A above.)" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "27 February–13 March 1970" ] ;

@@ -8,24 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C1 a bf:Instance ;
+abri:C1 a bf:Instance,
+        bf:Text ;
     rdfs:label "The John Burroughs Review, Vol. 15, Nos. 1-2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Personal Magnetism.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“February, 1929”—p. 45." ] ] ;
+            bf:note "“February, 1929”—p. 45." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C1" ] ;
     bf:note [ a bf:Note ;
             rdf:value "“Fifteenth anniversary of the John Burroughs School [St. Louis, MO].”—[p. 1]" ],
         [ a bf:Note ;
-            rdf:value "“We take you back to 1924, and there, year by year, through the pages of the REVIEW,” bring you back to  1938.”—p. 4." ] ;
+            rdf:value "“We take you back to 1924, and there, year by year, through the pages of the REVIEW,” bring you back to 1938.”—p. 4." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "February 1938" ] ;

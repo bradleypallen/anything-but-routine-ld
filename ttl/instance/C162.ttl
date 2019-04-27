@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C162 a bf:Instance ;
+abri:C162 a bf:Instance,
+        bf:Text ;
     rdfs:label "Klacto/23 Special" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Parenthetically 7 Hertz.”  Includes signed woodcut by Klaus Staeck." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“ ... published concurrently with an hour-long audio recording [Klacto/23 Tape; see Section E below] of  readings by Klacto contributors and others ... ” [Ken Lopez]" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Parenthetically 7 Hertz.” Includes signed woodcut by Klaus Staeck." ;
+            bf:note "“ ... published concurrently with an hour-long audio recording [Klacto/23 Tape; see Section E below] of readings by Klacto contributors and others ... ” [Ken Lopez]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C174" ],
@@ -26,9 +27,9 @@ abri:C162 a bf:Instance ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C162" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Limited to 500 copies." ],
+            rdf:value "" ],
         [ a bf:Note ;
-            rdf:value "" ] ;
+            rdf:value "Limited to 500 copies." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "September 1967" ] ;

@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C179 a bf:Instance ;
+abri:C179 a bf:Instance,
+        bf:Text ;
     rdfs:label "Cavalier, Vol. 18, No. 12" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Perfect Servant.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Titled “Oh Say Can You See If Bently’s Who He Appears To Be?” in M&M." ] ] ;
+            bf:note "Titled “Oh Say Can You See If Bently’s Who He Appears To Be?” in M&M." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C179" ],

@@ -8,25 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C58 a bf:Instance ;
+abri:C58 a bf:Instance,
+        bf:Text ;
     rdfs:label "Olympia, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Habit, the Detonator Vice: The Charge in William Burroughs’ The Ticket That Exploded.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “The Ticket That Exploded.”" ],
-                [ a bf:Note ;
-                    rdf:value "“ ... a continuous excerpt from his latest novel, The Ticket That Exploded ... ”—p. 10.      35" ] ] ;
+            bf:note "TOC title: “The Ticket That Exploded.”",
+                "“ ... a continuous excerpt from his latest novel, The Ticket That Exploded ... ”—p. 10. 35" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C58" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C54" ] ;
+            rdf:value "C54" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C58" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "April 1963" ] ;

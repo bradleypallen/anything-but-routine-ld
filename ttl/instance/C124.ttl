@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C124 a bf:Instance ;
+abri:C124 a bf:Instance,
+        bf:Text ;
     rdfs:label "Apparatus" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“La Douce Machine à Écrire.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "French translation by Jean-Jacques Lebel of “Interview with William Burroughs” by Corso and Ginsberg  in Journal for the Protection of All Beings, No. 1 (1961), above." ] ] ;
+            bf:note "French translation by Jean-Jacques Lebel of “Interview with William Burroughs” by Corso and Ginsberg in Journal for the Protection of All Beings, No. 1 (1961), above." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "E6" ],

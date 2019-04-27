@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C543 a bf:Instance ;
+abri:C543 a bf:Instance,
+        bf:Text ;
     rdfs:label "L.A. Weekly, Vol. 6, No. 14" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“William Burroughs: The Genial Phantom Speaks.”  [Burroughs interviewed by Leslie Wolf.]" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“William Burroughs: The Genial Phantom Speaks.” [Burroughs interviewed by Leslie Wolf.]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C543" ] ;

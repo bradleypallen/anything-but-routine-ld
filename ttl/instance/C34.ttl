@@ -8,25 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C34 a bf:Instance ;
+abri:C34 a bf:Instance,
+        bf:Text ;
     rdfs:label "Rhinozeros, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Windhand in die Tür verklemmt/Wind Hand Caught in the Door.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "A hand-lettered version of the penultimate paragraph in the American edition of The Soft Machine." ],
-                [ a bf:Note ;
-                    rdf:value "German translation by Anselm Hollo. German and English on opposite pages." ] ] ;
+            bf:note "A hand-lettered version of the penultimate paragraph in the American edition of The Soft Machine.",
+                "German translation by Anselm Hollo. German and English on opposite pages." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C38" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C34" ] ;
+            rdf:value "C34" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C38" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1961" ] ;

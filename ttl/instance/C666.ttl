@@ -8,21 +8,20 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C666 a bf:Instance ;
+abri:C666 a bf:Instance,
+        bf:Text ;
     rdfs:label "Sensitive Skin, No. 8" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“William S. Burroughs: Interview” (by Allen Ginsberg)." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Transcribed by Steven Taylor, with initial edits by Taylor and Ginsberg." ],
-                [ a bf:Note ;
-                    rdf:value "A “very small selection” from the transcript of “the many hours of taped conversation [between  Burroughs and Ginsberg] which took place in Lawrence, Kansas, from March 17–22, 1992.”—p. 30." ],
-                [ a bf:Note ;
-                    rdf:value "Originally published in 1992 in The San Francisco Review of Books (Vol. 17, No. 1 (1992), above) under the  title “Naked Burroughs: William S. Burroughs and Allan Ginsberg in Conversation.” Subsequently  published in Burroughs Live (Los Angeles, 2001) [see Section H, below] under the title “The Ugly Spirit.”" ] ] ;
+            bf:note "A “very small selection” from the transcript of “the many hours of taped conversation [between Burroughs and Ginsberg] which took place in Lawrence, Kansas, from March 17–22, 1992.”—p. 30.",
+                "Originally published in 1992 in The San Francisco Review of Books (Vol. 17, No. 1 (1992), above) under the title “Naked Burroughs: William S. Burroughs and Allan Ginsberg in Conversation.” Subsequently published in Burroughs Live (Los Angeles, 2001) [see Section H, below] under the title “The Ugly Spirit.”",
+                "Transcribed by Steven Taylor, with initial edits by Taylor and Ginsberg." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C666" ] ;

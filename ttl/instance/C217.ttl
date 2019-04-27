@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C217 a bf:Instance ;
+abri:C217 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Scimitar, Vol. 1, No. 7" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“I’m Tired of Sitting on My Ass.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Reprint of “William Burroughs Interview [Part 1]” by Jeff Shero in Rat, Vol. 1, No. 18, above." ] ] ;
+            bf:note "Reprint of “William Burroughs Interview [Part 1]” by Jeff Shero in Rat, Vol. 1, No. 18, above." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "E22" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C217" ] ;
+            rdf:value "C217" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "E22" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "10 December 1968" ] ;

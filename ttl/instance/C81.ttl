@@ -8,29 +8,31 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C81 a bf:Instance ;
+abri:C81 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Moving Times, [No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“September 17, 1899. Last Gun Post Erased in a Small Town Newspaper, September 17,  1899.”  A. A magazine edited by Burroughs, appearing as pages [3] and [4] of My Own Mag,  [No. 5 (May 1964)], below." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“The Moving Times [No. 1 (1964)] is reprinted here, for the first time in the United States, by courtesy of  the author and by courtesy of Jeff Nuttall, who first published it in England in My Own Mag  [No. 5 (May 1964)].”  B. A magazine edited by Burroughs, reissued as part of VDRSVP (San Francisco: Nova  Broadcast Press, 1969) on one of three large sheets of newsprint. VDRSVP appeared as The  San Francisco Eearthquake, [Vol. 1], No. 5 (1969) [below] and in Kaleidoscope, Vol. 1, No. 16  (4–17 July 1969) [below]." ],
-                [ a bf:Note ;
-                    rdf:value "“The Moving Times [No. 1 (1964)] is reprinted here, for the first time in the United States, by courtesy of  the author and by courtesy of Jeff Nuttall, who first published it in England in My Own Mag  [No. 5 (May 1964)].”" ] ],
-        [ a bf:Text ;
-            rdfs:label "“February 10, 1964. ‘We Will Travel Not Only in Space But in Time As Well.’”" ],
-        [ a bf:Text ;
-            rdfs:label "“January 17, 1947. English Made Easy for Beginners. It Revolves Flexible Formula.”" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“September 17, 1899. Last Gun Post Erased in a Small Town Newspaper, September 17, 1899.” A. A magazine edited by Burroughs, appearing as pages [3] and [4] of My Own Mag, [No. 5 (May 1964)], below." ;
+            bf:note "“The Moving Times [No. 1 (1964)] is reprinted here, for the first time in the United States, by courtesy of the author and by courtesy of Jeff Nuttall, who first published it in England in My Own Mag [No. 5 (May 1964)].”",
+                "“The Moving Times [No. 1 (1964)] is reprinted here, for the first time in the United States, by courtesy of the author and by courtesy of Jeff Nuttall, who first published it in England in My Own Mag [No. 5 (May 1964)].” B. A magazine edited by Burroughs, reissued as part of VDRSVP (San Francisco: Nova Broadcast Press, 1969) on one of three large sheets of newsprint. VDRSVP appeared as The San Francisco Eearthquake, [Vol. 1], No. 5 (1969) [below] and in Kaleidoscope, Vol. 1, No. 16 (4–17 July 1969) [below]." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“January 17, 1947. English Made Easy for Beginners. It Revolves Flexible Formula.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“February 10, 1964. ‘We Will Travel Not Only in Space But in Time As Well.’”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C100 and C232" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C81" ] ;
+            rdf:value "C81" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C100 and C232" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1964)" ] ;

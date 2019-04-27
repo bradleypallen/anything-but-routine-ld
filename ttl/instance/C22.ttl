@@ -8,27 +8,32 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C22 a bf:Instance ;
+abri:C22 a bf:Instance,
+        bf:Text ;
     rdfs:label "Evergreen Review, Vol. 5, No. 16" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“1. Meeting of International Conference of Technological Psychiatry.”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“From Naked Lunch”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“3. Interzone.”" ],
-        [ a bf:Text ;
-            rdfs:label "“2. The Country Clerk.”" ],
-        [ a bf:Text ;
-            rdfs:label "“1. Meeting of International Conference of Technological Psychiatry.”" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“2. The Country Clerk.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C24" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C22" ] ;
+            rdf:value "C22" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C24" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "January-February 1961" ] ;

@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C139 a bf:Instance ;
+abri:C139 a bf:Instance,
+        bf:Text ;
     rdfs:label "Los Angeles Free Press, Vol. 3, No. 49 (Issue 125)" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Invisible Generation.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Reprinted from the International Times,” No. 3 (14-27 November 1966), above.—p. 8." ] ] ;
+            bf:note "“Reprinted from the International Times,” No. 3 (14-27 November 1966), above.—p. 8." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C158" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C139" ] ;
+            rdf:value "C139" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C158" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "9 December 1966" ] ;

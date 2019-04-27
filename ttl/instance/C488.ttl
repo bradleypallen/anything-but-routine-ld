@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C488 a bf:Instance ;
+abri:C488 a bf:Instance,
+        bf:Text ;
     rdfs:label "Wet, Vol. 4, No. 5 [(Issue 23)]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“New Lines.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“From ‘The Dream Machine’.”—p. 25.      74" ],
-                [ a bf:Note ;
-                    rdf:value "TOC title: “Selected Lines.”" ] ] ;
+            bf:note "TOC title: “Selected Lines.”",
+                "“From ‘The Dream Machine’.”—p. 25. 74" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C488" ] ;

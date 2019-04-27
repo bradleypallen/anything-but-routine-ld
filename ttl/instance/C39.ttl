@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C39 a bf:Instance ;
+abri:C39 a bf:Instance,
+        bf:Text ;
     rdfs:label "Evergreen Review, Vol. 6, No. 25" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Outskirts of the City.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… Novia [sic; i.e. Nova] Express, from which the following section is taken.”—p. 73." ] ] ;
+            bf:note "“… Novia [sic; i.e. Nova] Express, from which the following section is taken.”—p. 73." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C44" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C39" ] ;
+            rdf:value "C39" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C44" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "July-August 1962" ] ;

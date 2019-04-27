@@ -8,27 +8,26 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C146 a bf:Instance ;
+abri:C146 a bf:Instance,
+        bf:Text ;
     rdfs:label "[Project Sigma" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Invisible Generation.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“... produced and distributed by International Times after [Alexander] Trocchi’s request for a contribution  from Burroughs to his Sigma Portfolio was not forthcoming.” [BeatBooks 42]" ],
-                [ a bf:Note ;
-                    rdf:value "“... no evidence exists to show distribution except by International Times itself ...” [M&M]" ],
-                [ a bf:Note ;
-                    rdf:value "“Reprinted from International Timebs,” [No. 3 (14-27 November 1966), above]." ] ] ;
+            bf:note "“... no evidence exists to show distribution except by International Times itself ...” [M&M]",
+                "“... produced and distributed by International Times after [Alexander] Trocchi’s request for a contribution from Burroughs to his Sigma Portfolio was not forthcoming.” [BeatBooks 42]",
+                "“Reprinted from International Timebs,” [No. 3 (14-27 November 1966), above]." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C159" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C146" ] ;
+            rdf:value "C146" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C159" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "December 1966)" ] ;

@@ -8,25 +8,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C210 a bf:Instance ;
+abri:C210 a bf:Instance,
+        bf:Text ;
     rdfs:label "[The] Rat: [Subterranean News], Vol. 1, No. 23" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Interview” (by Jeffrey Shero)." ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Suppressed Discoveries.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Synopsis of his new book ... ”" ] ] ;
+            bf:note "“Synopsis of his new book ... ”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Interview” (by Jeffrey Shero)." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C210" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C220 & E23" ] ;
+            rdf:value "C220 & E23" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C210" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "13 December 1968–2 January 1969" ] ;

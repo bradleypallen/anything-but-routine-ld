@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C33 a bf:Instance ;
+abri:C33 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Outsider, Vol. 1, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Operation: ‘Soft Machine’/Cut.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… from a work in progress.”—[p. 75]" ],
-                [ a bf:Note ;
-                    rdf:value "Facsimile of three-column-layout typescript, with a photograph of Burroughs by Brion Gysin." ] ] ;
+            bf:note "Facsimile of three-column-layout typescript, with a photograph of Burroughs by Brion Gysin.",
+                "“… from a work in progress.”—[p. 75]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C35" ],

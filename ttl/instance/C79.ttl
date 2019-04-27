@@ -8,27 +8,31 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C79 a bf:Instance ;
+abri:C79 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Insect Trust Gazette, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Grids.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Excerpt from a letter from Burroughs to the editors in explanation of  the writing which follows.”—p. 27." ] ],
-        [ a bf:Text ;
-            rdfs:label "“Grid No. 1.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Fragment of Grid.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Facsimile of grid-layout manuscript." ] ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Grid No. 2.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Burning Heavens, Idiot.”" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Fragment of Grid.”" ;
+            bf:note "Facsimile of grid-layout manuscript." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Burning Heavens, Idiot.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Grids.”" ;
+            bf:note "“Excerpt from a letter from Burroughs to the editors in explanation of the writing which follows.”—p. 27." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Grid No. 1.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C78–79" ],

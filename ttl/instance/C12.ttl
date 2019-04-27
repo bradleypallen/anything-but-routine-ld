@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C12 a bf:Instance ;
+abri:C12 a bf:Instance,
+        bf:Text ;
     rdfs:label "Semina, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Excerpt from ‘[Have You Seen] Pantapon [sic; i.e., Pantopon] Rose [?].’”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "An excerpt from Naked Lunch." ] ] ;
+            bf:note "An excerpt from Naked Lunch." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C11" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C12" ] ;
+            rdf:value "C12" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C11" ] ;
     bf:note [ a bf:Note ;
             rdf:value "“... many copes destroyed during police raid.” [Am Here 3]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

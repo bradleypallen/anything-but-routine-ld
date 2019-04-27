@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C335 a bf:Instance ;
+abri:C335 a bf:Instance,
+        bf:Text ;
     rdfs:label "OU, No. 40–41" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Valentine [sic, i.e. Valentine’s] Day Reading.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Item is present as approximately 9¾ minutes of Side A of a 10-inch ... phono-disc [see Section E,  below].” [M&M]" ],
-                [ a bf:Note ;
-                    rdf:value "From Valentine’s Day Reading [see Section A, above]." ] ] ;
+            bf:note "From Valentine’s Day Reading [see Section A, above].",
+                "“Item is present as approximately 9¾ minutes of Side A of a 10-inch ... phono-disc [see Section E, below].” [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C335" ],

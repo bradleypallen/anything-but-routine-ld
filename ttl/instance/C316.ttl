@@ -8,25 +8,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C316 a bf:Instance ;
+abri:C316 a bf:Instance,
+        bf:Text ;
     rdfs:label "Suck, No. 6" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Blue Movie/Who Are These Boys?”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… a chapter from the novel The Wild Boys: A Book of the Dead (August 1969). Unpublished MS.”  59" ] ],
-        [ a bf:Text ;
+            bf:note "“… a chapter from the novel The Wild Boys: A Book of the Dead (August 1969). Unpublished MS.” 59" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“William S. Burroughs Takes a New Look at Sex Films.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C316" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C319 & 320" ] ;
+            rdf:value "C319 & 320" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C316" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1971" ] ;

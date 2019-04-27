@@ -8,25 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C264 a bf:Instance ;
+abri:C264 a bf:Instance,
+        bf:Text ;
     rdfs:label "Contact, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“MOB.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Edited by William Burroughs and Alexander Trocchi." ],
-                [ a bf:Note ;
-                    rdf:value "“This original MOB statement provides the editorial for the first of  a regular CONTACT feature.”—p. 10." ] ] ;
+            bf:note "Edited by William Burroughs and Alexander Trocchi.",
+                "“This original MOB statement provides the editorial for the first of a regular CONTACT feature.”—p. 10." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C264" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C280" ] ;
+            rdf:value "C280" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C264" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "July 1970" ] ;

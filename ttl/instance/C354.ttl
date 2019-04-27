@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C354 a bf:Instance ;
+abri:C354 a bf:Instance,
+        bf:Text ;
     rdfs:label "Poudrie de Dent" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Qui est le—marche à vos côtés—écrit 3e.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "French translation of “Who Is the/Walks Beside You/Written Third” by Claude Pélieu and Mary  Beach." ] ] ;
+            bf:note "French translation of “Who Is the/Walks Beside You/Written Third” by Claude Pélieu and Mary Beach." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C346" ],

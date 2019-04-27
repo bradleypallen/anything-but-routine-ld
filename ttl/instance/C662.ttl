@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C662 a bf:Instance ;
+abri:C662 a bf:Instance,
+        bf:Text ;
     rdfs:label "Headpress, [No.] 25" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“The Burroughs Brain Machine: An Interview with William Burroughs” (by Johnny Strike  and Gregory Ego)." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Amalgamated reprint of Strike’s interview in Ambit, No. 95 (1983) and Ego’s in Journal Wired, [No. 3]  (Summer/Fall 1990) (under the name Gregory Daurer), above." ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“The Burroughs Brain Machine: An Interview with William Burroughs” (by Johnny Strike and Gregory Ego)." ;
+            bf:note "Amalgamated reprint of Strike’s interview in Ambit, No. 95 (1983) and Ego’s in Journal Wired, [No. 3] (Summer/Fall 1990) (under the name Gregory Daurer), above." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C662" ] ;

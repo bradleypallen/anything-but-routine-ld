@@ -8,27 +8,32 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C141 a bf:Instance ;
+abri:C141 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Moving Times, [No. 7" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“WB Talking.”" ],
-        [ a bf:Text ;
-            rdfs:label "“There I was in the corpse finger …/”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Quantities of the Gas Girls.”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Nut Note on the Column Cutup Thing.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Quantities of the Gas Girls.”" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“There I was in the corpse finger …/”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C137−C140" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C141" ] ;
+            rdf:value "C141" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C137−C140" ] ;
     bf:note [ a bf:Note ;
             rdf:value "A magazine edited by Burroughs, issued as the last six pages of My Own Mag, No. 15 (April 1966) , below." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

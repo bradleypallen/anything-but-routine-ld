@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C145 a bf:Instance ;
+abri:C145 a bf:Instance,
+        bf:Text ;
     rdfs:label "Ole, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“From William S. Burroughs, Writing of Norse’s Exhibition in Paris of  ‘Cosmographs’ …/”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“Reprinted from the exhibition leaflet ...” [M&M]" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“From William S. Burroughs, Writing of Norse’s Exhibition in Paris of ‘Cosmographs’ …/”" ;
+            bf:note "“Reprinted from the exhibition leaflet ...” [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C145" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C147" ] ;
+            rdf:value "C147" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C145" ] ;
     bf:note [ a bf:Note ;
             rdf:value "Title Page: “Harold Norse Special Issue.”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,

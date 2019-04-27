@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C14 a bf:Instance ;
+abri:C14 a bf:Instance,
+        bf:Text ;
     rdfs:label "Big Table, Vol. 1, No. 4" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“But Is All Back Seat of Dreaming.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“‘Back Seat of Dreaming’ is part of my current novel [i.e., Naked Lunch].”—p. 13." ] ] ;
+            bf:note "“‘Back Seat of Dreaming’ is part of my current novel [i.e., Naked Lunch].”—p. 13." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C16" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C14" ] ;
+            rdf:value "C14" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C16" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Spring 1960" ] ;

@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C476 a bf:Instance ;
+abri:C476 a bf:Instance,
+        bf:Text ;
     rdfs:label "Wet, Vol. 4, No. 3 (Issue 21)" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“It is generally assumed that the spoken …/”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“This excerpt is part of the article entitled ‘Playback from Eden to Watergate’ that appeared in Harper’s  [sic; i.e. Harpers] Magazine, November 1973.”—p. 31. [See above]" ] ] ;
+            bf:note "“This excerpt is part of the article entitled ‘Playback from Eden to Watergate’ that appeared in Harper’s [sic; i.e. Harpers] Magazine, November 1973.”—p. 31. [See above]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C476" ] ;

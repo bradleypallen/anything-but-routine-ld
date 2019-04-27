@@ -8,28 +8,30 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C406 a bf:Instance ;
+abri:C406 a bf:Instance,
+        bf:Text ;
     rdfs:label "Kontexts, No. 8" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Burroughs on Language.”    67" ],
-        [ a bf:Text ;
-            rdfs:label "“From The Third Mind.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Two full-page reproductions of collaged manuscript pages." ] ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“William S. Burroughs: A Portrait, A Videotape.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "[Extracts of an interview with Burroughs by Gerald Minkoff.]" ] ] ;
+            bf:note "[Extracts of an interview with Burroughs by Gerald Minkoff.]" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“From The Third Mind.”" ;
+            bf:note "Two full-page reproductions of collaged manuscript pages." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Burroughs on Language.” 67" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C406" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Includes “Le Colloque de Tanger,” a report [by Michael Gibbs?] on the gathering at the Musée de L’Athenée  “last [i.e., 1975] September.”" ] ;
+            rdf:value "Includes “Le Colloque de Tanger,” a report [by Michael Gibbs?] on the gathering at the Musée de L’Athenée “last [i.e., 1975] September.”" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Spring 1976" ] ;

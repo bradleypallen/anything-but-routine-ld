@@ -8,15 +8,17 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C550 a bf:Instance ;
+abri:C550 a bf:Instance,
+        bf:Text ;
     rdfs:label "St. Louis Weekly, No. 210" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Steppin’ Out: William Burroughs and the Power of Dreams.”    [Burroughs interviewed by Jan Herman.]" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Steppin’ Out: William Burroughs and the Power of Dreams.” [Burroughs interviewed by Jan Herman.]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C550" ] ;

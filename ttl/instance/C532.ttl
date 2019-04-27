@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C532 a bf:Instance ;
+abri:C532 a bf:Instance,
+        bf:Text ;
     rdfs:label "Rampike, Vol. 3, No. 1 [i.e., Vol. 3, No. 2]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Diary Excerpts.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Excerpt from The Retreat Diaries (see Section A above)." ],
-                [ a bf:Note ;
-                    rdf:value "“… from a Dream Diary kept … while in a Buddhist Retreat.”—p. 4." ] ] ;
+            bf:note "Excerpt from The Retreat Diaries (see Section A above).",
+                "“… from a Dream Diary kept … while in a Buddhist Retreat.”—p. 4." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C532" ] ;

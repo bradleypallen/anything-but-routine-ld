@@ -8,17 +8,20 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C410 a bf:Instance ;
+abri:C410 a bf:Instance,
+        bf:Text ;
     rdfs:label "Roof, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“A Cut-Up from W. S. Burroughs Jr.’s Column in the September 1976 Crawdaddy.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Do-Rights.”" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Do-Rights.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“A Cut-Up from W. S. Burroughs Jr.’s Column in the September 1976 Crawdaddy.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C410" ] ;

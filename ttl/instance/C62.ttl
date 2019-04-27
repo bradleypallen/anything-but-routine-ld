@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C62 a bf:Instance ;
+abri:C62 a bf:Instance,
+        bf:Text ;
     rdfs:label "Il Verri, No. 8" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“La Censura e il Romanzo.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Italian translation of “Censorship,” with a note by V. Riva." ] ] ;
+            bf:note "Italian translation of “Censorship,” with a note by V. Riva." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C62" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C61" ] ;
+            rdf:value "C61" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C62" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "June 1963" ] ;

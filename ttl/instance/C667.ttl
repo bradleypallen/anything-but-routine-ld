@@ -8,19 +8,21 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C667 a bf:Instance ;
+abri:C667 a bf:Instance,
+        bf:Text ;
     rdfs:label "Beat Scene, No. 71a" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“An Interview with ……. William S. Burroughs.” (by Gregory Corso and Allen Ginsberg)." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“According to … Maynard & Miles … this is the first published interview with William Burroughs. It  appeared in the 1961 issue of Journal for the Protection of All Beings …”—p. 5. [See above]" ] ],
-        [ a bf:Text ;
-            rdfs:label "“Problems After a Certain Point are Insoluble: Lawrence, Kansas, 23 November 1984.”  [Burroughs interviewed by Oliver Harris]" ] ;
+            bf:note "“According to … Maynard & Miles … this is the first published interview with William Burroughs. It appeared in the 1961 issue of Journal for the Protection of All Beings …”—p. 5. [See above]" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Problems After a Certain Point are Insoluble: Lawrence, Kansas, 23 November 1984.” [Burroughs interviewed by Oliver Harris]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C667" ] ;

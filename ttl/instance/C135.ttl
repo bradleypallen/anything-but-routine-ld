@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C135 a bf:Instance ;
+abri:C135 a bf:Instance,
+        bf:Text ;
     rdfs:label "Jaguar, Vol. 2, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“William Burroughs: Prophet or Pornographer?” [Burroughs interviewed by  unnamed staff reporter.]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Excerpts from Naked Lunch interspersed throughout." ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“William Burroughs: Prophet or Pornographer?” [Burroughs interviewed by unnamed staff reporter.]" ;
+            bf:note "Excerpts from Naked Lunch interspersed throughout." ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "E5" ],

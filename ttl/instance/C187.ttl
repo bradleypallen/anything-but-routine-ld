@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C187 a bf:Instance ;
+abri:C187 a bf:Instance,
+        bf:Text ;
     rdfs:label "Georgia Straight, Vol. 2, No. 38" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Burroughs Academy: Bulletin 4—Scientology Revisited.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“... reprint from Mayfair [January] 1968 [below] is preceded by a short facsimile TLS cover note from  WSB.” [M&M]" ] ] ;
+            bf:note "“... reprint from Mayfair [January] 1968 [below] is preceded by a short facsimile TLS cover note from WSB.” [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C216" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C187" ] ;
+            rdf:value "C187" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C216" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "22–28 November 1968" ] ;

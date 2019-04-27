@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C526 a bf:Instance ;
+abri:C526 a bf:Instance,
+        bf:Text ;
     rdfs:label "Trouser Press, Vol. 8, No. 12" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Devo Meets Burroughs.” [Burroughs interviews Devo’s Jerry Casale and Mark  Mothersbaugh.]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Jacket title: “Devo Gets Down With William S. Burroughs.”" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Devo Meets Burroughs.” [Burroughs interviews Devo’s Jerry Casale and Mark Mothersbaugh.]" ;
+            bf:note "Jacket title: “Devo Gets Down With William S. Burroughs.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C526" ] ;

@@ -8,33 +8,42 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C234 a bf:Instance ;
+abri:C234 a bf:Instance,
+        bf:Text ;
     rdfs:label "Intrepid, No. 14/15" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“The Coldspring News ... (William Burroughs, Editor) ... On the Back Porch of His Farm.”" ],
-        [ a bf:Text ;
-            rdfs:label "“On the E Meter.”        52" ],
-        [ a bf:Text ;
-            rdfs:label "“Valentine’s Day Reading: Transcript of Dutch Schultz’s Last Words.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Roosevelt After Inauguration.”" ],
-        [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“[Letter to Allen Ginsberg dated] March 23, 1969.”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Abstract.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Roosevelt After Inauguration.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Valentine’s Day Reading: Transcript of Dutch Schultz’s Last Words.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“On the E Meter.” 52" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Last Awning Flaps on the Pier.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Single-column style layout." ] ],
-        [ a bf:Text ;
-            rdfs:label "“Salt Chunk Mary.”" ],
-        [ a bf:Text ;
+            bf:note "Single-column style layout." ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“The Coldspring News ... (William Burroughs, Editor) ... On the Back Porch of His Farm.”" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“[Note on Alfred Chester].”" ],
-        [ a bf:Text ;
-            rdfs:label "“Abstract.”" ] ;
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Salt Chunk Mary.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C234" ] ;

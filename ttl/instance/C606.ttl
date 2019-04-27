@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C606 a bf:Instance ;
+abri:C606 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Dirty Goat, [No. 4]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“The Time of the Wart: From The Cat That Walks Alone by David Ohle.”    [Burroughs interviewed by David Ohle.]" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “Interview with William Burroughs.”" ],
-                [ a bf:Note ;
-                    rdf:value "“… The Cat That Walks Alone, a prose scrapbook devoted to my personal encounters with William S.    Burroughs, 1984 to the present.”" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“The Time of the Wart: From The Cat That Walks Alone by David Ohle.” [Burroughs interviewed by David Ohle.]" ;
+            bf:note "TOC title: “Interview with William Burroughs.”",
+                "“… The Cat That Walks Alone, a prose scrapbook devoted to my personal encounters with William S. Burroughs, 1984 to the present.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C606" ] ;

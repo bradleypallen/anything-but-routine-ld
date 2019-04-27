@@ -8,17 +8,20 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C273 a bf:Instance ;
+abri:C273 a bf:Instance,
+        bf:Text ;
     rdfs:label "The East Village Other, Vol. 5, No. 3 [i.e., 32]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“M.O.B.”" ],
-        [ a bf:Text ;
-            rdfs:label "“Open Letter to Mister Gorden [sic] Mustain.”" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Open Letter to Mister Gorden [sic] Mustain.”" ],
+        [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“M.O.B.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C273" ],

@@ -8,27 +8,28 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C317 a bf:Instance ;
+abri:C317 a bf:Instance,
+        bf:Text ;
     rdfs:label "UFO, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“UFO Space Bulletin—‘Revolution durch Information.’”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "German translation ... by “Bradley Martin/Space Agent 23.” [M&M]" ] ],
-        [ a bf:Text ;
+            bf:note "German translation ... by “Bradley Martin/Space Agent 23.” [M&M]" ],
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Deconditioning—der nicht-chemische Trip.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "German translation. [M&M]" ] ] ;
+            bf:note "German translation. [M&M]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C308 & 309" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C317" ] ;
+            rdf:value "C317" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C308 & 309" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "June 1971" ] ;

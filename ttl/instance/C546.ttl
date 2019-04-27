@@ -8,17 +8,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C546 a bf:Instance ;
+abri:C546 a bf:Instance,
+        bf:Text ;
     rdfs:label "Pigeon, [No. 1]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Burroughs On Writing.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… quotations were recorded during a visit William Burroughs made to Allen Ginsberg’s class on the 4th  of July … [1984] … and during his public talk with Norman Mailer on ‘The Soul.’”" ] ] ;
+            bf:note "“… quotations were recorded during a visit William Burroughs made to Allen Ginsberg’s class on the 4th of July … [1984] … and during his public talk with Norman Mailer on ‘The Soul.’”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
             rdf:value "C546" ] ;

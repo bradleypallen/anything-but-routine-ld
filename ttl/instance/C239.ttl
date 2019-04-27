@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C239 a bf:Instance ;
+abri:C239 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mayfair, Vol. 4, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Rally Round the Secrets, Boys.” (The Burroughs Academy, Bulletin 15)" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “The Help You Can’t Have.”" ] ] ;
+            bf:note "TOC title: “The Help You Can’t Have.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C239" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C221" ] ;
+            rdf:value "C221" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C239" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "January 1969" ] ;

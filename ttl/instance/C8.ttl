@@ -8,23 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C8 a bf:Instance ;
+abri:C8 a bf:Instance,
+        bf:Text ;
     rdfs:label "Big Table, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“In Quest of Yage.”  30" ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“In Quest of Yage.” 30" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C7" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C8" ] ;
+            rdf:value "C8" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C7" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "Includes “Anyone Who Can Pick Up a Frying Pan Owns Death” by Alan Ansen and “Burroughs In Tangier”  by Paul Bowles." ] ;
+            rdf:value "Includes “Anyone Who Can Pick Up a Frying Pan Owns Death” by Alan Ansen and “Burroughs In Tangier” by Paul Bowles." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Summer 1959" ] ;

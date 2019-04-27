@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C296 a bf:Instance ;
+abri:C296 a bf:Instance,
+        bf:Text ;
     rdfs:label "Notes from Underground, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“After the Inauguration.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "“… originally called ‘Roosevelt After Inauguration’ … we took the liberty of substituting ‘The President’  for Burroughs’ original ‘Roosevelt’ and altering the names of the more prominent Roosevelt Era figures  …”—p. 30." ] ] ;
+            bf:note "“… originally called ‘Roosevelt After Inauguration’ … we took the liberty of substituting ‘The President’ for Burroughs’ original ‘Roosevelt’ and altering the names of the more prominent Roosevelt Era figures …”—p. 30." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Maynard & Miles" ;
-            rdf:value "C293" ],
-        [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;
-            rdf:value "C296" ] ;
+            rdf:value "C296" ],
+        [ a bf:Identifier ;
+            bf:source "Maynard & Miles" ;
+            rdf:value "C293" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "[1970?]" ] ;

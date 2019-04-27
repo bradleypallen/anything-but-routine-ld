@@ -8,19 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C7 a bf:Instance ;
+abri:C7 a bf:Instance,
+        bf:Text ;
     rdfs:label "Big Table, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Ten Episodes from Naked Lunch.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Episodes 2 and 5 “reprinted from Chicago Review, Spring 1958,” above." ],
-                [ a bf:Note ;
-                    rdf:value "“… his novel-in-progress …”—[p. 2]" ] ] ;
+            bf:note "Episodes 2 and 5 “reprinted from Chicago Review, Spring 1958,” above.",
+                "“… his novel-in-progress …”—[p. 2]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
             rdf:value "C6" ],
@@ -30,7 +30,7 @@ abri:C7 a bf:Instance ;
     bf:note [ a bf:Note ;
             rdf:value "cover: “The complete contents of the suppressed Winter 1959 Chicago Review.”" ],
         [ a bf:Note ;
-            rdf:value "Includes “Anyone Who Can Pick Up a Frying Pan Owns Death” by Alan Ansen and “Burroughs In Tangier”  by Paul Bowles." ] ;
+            rdf:value "Includes “Anyone Who Can Pick Up a Frying Pan Owns Death” by Alan Ansen and “Burroughs In Tangier” by Paul Bowles." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Spring 1959" ] ;

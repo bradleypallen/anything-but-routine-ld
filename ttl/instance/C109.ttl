@@ -8,27 +8,26 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C109 a bf:Instance ;
+abri:C109 a bf:Instance,
+        bf:Text ;
     rdfs:label "Mother, No. 5" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
-            rdfs:label "“Pieces” (with Brion Gysin).  Includes three pages of facsimiles of manuscripts." ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Laid in: “special supplement [by Tom Veitch], consisting of a folded, glued sheet forming a continuous  loop of text.” [Third Mind 2]" ],
-                [ a bf:Note ;
-                    rdf:value "“Gysin and Burroughs are also working on The Book of Methods [i.e., The Third Mind; see Section A above],  from which the ‘Pieces’ in this issue are excerpted.”—Inside back cover." ],
-                [ a bf:Note ;
-                    rdf:value "" ] ] ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
+            rdfs:label "“Pieces” (with Brion Gysin). Includes three pages of facsimiles of manuscripts." ;
+            bf:note "",
+                "Laid in: “special supplement [by Tom Veitch], consisting of a folded, glued sheet forming a continuous loop of text.” [Third Mind 2]",
+                "“Gysin and Burroughs are also working on The Book of Methods [i.e., The Third Mind; see Section A above], from which the ‘Pieces’ in this issue are excerpted.”—Inside back cover." ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C109" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C120" ] ;
+            rdf:value "C120" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C109" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "Summer 1965" ] ;

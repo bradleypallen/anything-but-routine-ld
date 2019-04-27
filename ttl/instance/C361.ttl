@@ -8,16 +8,19 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C361 a bf:Instance ;
+abri:C361 a bf:Instance,
+        bf:Text ;
     rdfs:label "Black Mask, Vol. 1, No. 1" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“In S.F., I read a lot of and some I …/” [Letter to the Editor]" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“The Coldspring News.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
             bf:source "Schottlaender v4.0" ;

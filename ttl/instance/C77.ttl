@@ -8,23 +8,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C77 a bf:Instance ;
+abri:C77 a bf:Instance,
+        bf:Text ;
     rdfs:label "Fuck You/A Magazine of the Arts, No. 5, Vol. 7 [sic]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Fluck [sic] You Fluck [sic] You Fluck [sic] You.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Three-column layout.    37" ] ] ;
+            bf:note "Three-column layout. 37" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C77" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C80" ] ;
+            rdf:value "C80" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C77" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "September 1964" ] ;

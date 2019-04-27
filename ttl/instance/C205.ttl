@@ -8,25 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C205 a bf:Instance ;
+abri:C205 a bf:Instance,
+        bf:Text ;
     rdfs:label "Orpheus Magazine, Vol. 1, No. 3" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Academy Twenty Three: A Deconditioning.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "TOC title: “Academy 23: A Deconditioning.”" ],
-                [ a bf:Note ;
-                    rdf:value "“From the [City of] San Francisco Oracle.”—p. 4. [Vol. 1, No. 10 (October 1967); see above]" ] ] ;
+            bf:note "TOC title: “Academy 23: A Deconditioning.”",
+                "“From the [City of] San Francisco Oracle.”—p. 4. [Vol. 1, No. 10 (October 1967); see above]" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C205" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C192" ] ;
+            rdf:value "C192" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C205" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1968?" ] ;

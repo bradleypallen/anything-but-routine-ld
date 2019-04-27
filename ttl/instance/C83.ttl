@@ -8,25 +8,28 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C83 a bf:Instance ;
+abri:C83 a bf:Instance,
+        bf:Text ;
     rdfs:label "The Moving Times, [No. 3]" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Personals Special to The Moving Times.”" ],
-        [ a bf:Text ;
+        [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Extracts from Letter to Homosap.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C83" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C101–102" ] ;
+            rdf:value "C101–102" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C83" ] ;
     bf:note [ a bf:Note ;
-            rdf:value "A magazine edited by Burroughs, appearing as the last two pages of My Own Mag, [No. 9] (1 November 1964),  38  below." ] ;
+            rdf:value "A magazine edited by Burroughs, appearing as the last two pages of My Own Mag, [No. 9] (1 November 1964), 38 below." ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
                 bf:Publication ;
             bf:date "1964" ] ;

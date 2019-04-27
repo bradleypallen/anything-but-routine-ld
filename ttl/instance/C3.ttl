@@ -8,25 +8,25 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-abri:C3 a bf:Instance ;
+abri:C3 a bf:Instance,
+        bf:Text ;
     rdfs:label "The British Journal of Addiction, Vol. 53, No. 2" ;
     bf:classification abrc:C ;
     bf:contributor [ a bf:Agent,
                 bf:Person ;
             rdfs:label "William S. Burroughs" ;
             bf:role "author" ] ;
-    bf:hasPart [ a bf:Text ;
+    bf:hasPart [ a bf:Instance,
+                bf:Text ;
             rdfs:label "“Letter from a Master Addict to Dangerous Drugs.”" ;
-            bf:note [ a bf:Note ;
-                    rdf:value "Burroughs’ first appearance in print under his own name." ],
-                [ a bf:Note ;
-                    rdf:value "Letter dated “August 3rd, 1956.”" ] ] ;
+            bf:note "Burroughs’ first appearance in print under his own name.",
+                "Letter dated “August 3rd, 1956.”" ] ;
     bf:identifiedBy [ a bf:Identifier ;
-            bf:source "Schottlaender v4.0" ;
-            rdf:value "C3" ],
-        [ a bf:Identifier ;
             bf:source "Maynard & Miles" ;
-            rdf:value "C1" ] ;
+            rdf:value "C1" ],
+        [ a bf:Identifier ;
+            bf:source "Schottlaender v4.0" ;
+            rdf:value "C3" ] ;
     bf:note [ a bf:Note ;
             rdf:value "“Approximately fifty copies or less were off-printed for the use of the author at his request.” [Am Here 4]" ] ;
     bf:provisionActivity [ a bf:ProvisionActivity,
