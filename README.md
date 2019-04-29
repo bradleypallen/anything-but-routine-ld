@@ -15,13 +15,13 @@ author.
 - Explore platforms for data analytics applied to rare book bibliographies and catalogs, in the spirit of the [Santa Barbara Statement on Collections as Data](https://collectionsasdata.github.io/statement/)
 - Investigate the utility of [BIBFRAME 2.0](http://www.loc.gov/bibframe/docs/index.html) for bibliographies and catalogs of rare materials typical of those created by and for rare book collectors and sellers
 - Gain and share experience in the description of such materials in BIBFRAME 2.0 and other BIBFRAME extension ontologies
-- Exploit all of the above in building a flashy new linked data resource for [my own Burroughs collection](http://bradleypallen.org/wsb-catalog)
+- Exploit all of the above in building a linked data resource for [my own Burroughs collection](http://bradleypallen.org/wsb-catalog)
 
 Design decisions and relevant musings are documented on [this project's wiki.](https://github.com/bradleypallen/anything-but-routine-ld/wiki)
 
 ## Disclaimer
 
-Early days here. Still working out the details and best practices to apply. I'm not a trained cataloger, though if you hum a few bars I can fake it. Just kidding.
+Still working out the details and best practices to apply. Lots of cleanup to do at this point. I'm not a trained cataloger, though if you hum a few bars I can fake it. Just kidding.
 
 ## License
 
