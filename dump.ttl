@@ -7,8 +7,8 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix hydra: <http://www.w3.org/ns/hydra/core#> .
-@prefix ns1: <http://purl.org/dc/terms/> .
-@prefix ns11: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns11: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -18,37 +18,37 @@
 abrc:B a bf:Classification ;
     rdfs:label "ART BOOKS, EXHIBITION CATALOGUES, AND RELATED ITEMS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... Burroughs’ art books (several of which were co-authored) and catalogs of exhibitions of his art.\"-Introduction." .
+    ns1:definition "\"... Burroughs’ art books (several of which were co-authored) and catalogs of exhibitions of his art.\"-Introduction." .
 
 abrc:D a bf:Classification ;
     rdfs:label "FOREIGN TRANSLATIONS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... foreign translations of Burroughs’ work.\"-Introduction." .
+    ns1:definition "\"... foreign translations of Burroughs’ work.\"-Introduction." .
 
 abrc:E a bf:Classification ;
     rdfs:label "SOUND RECORDINGS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... Burroughs’ own sound recordings, and his contributions to or appearances on those by others.\"-Introduction." .
+    ns1:definition "\"... Burroughs’ own sound recordings, and his contributions to or appearances on those by others.\"-Introduction." .
 
 abrc:F a bf:Classification ;
     rdfs:label "VIDEO RECORDINGS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... the video formats in which Burroughs’ early film work has been made available, along with various of Burroughs’ readings and other Burroughs-related material that have also been made available as video recordings.\"-Introduction." .
+    ns1:definition "\"... the video formats in which Burroughs’ early film work has been made available, along with various of Burroughs’ readings and other Burroughs-related material that have also been made available as video recordings.\"-Introduction." .
 
 abrc:G a bf:Classification ;
     rdfs:label "MISCELLANEOUS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... various miscellaneous items which, while most are not by Burroughs, are nevertheless relevant in and to his bibliography.\"-Introduction." .
+    ns1:definition "\"... various miscellaneous items which, while most are not by Burroughs, are nevertheless relevant in and to his bibliography.\"-Introduction." .
 
 abrc:H a bf:Classification ;
     rdfs:label "BIOGRAPHY, INTERVIEWS, AND LETTERS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... biographies of, interviews with, and letters by Burroughs\"-Introduction." .
+    ns1:definition "\"... biographies of, interviews with, and letters by Burroughs\"-Introduction." .
 
 abrc:I a bf:Classification ;
     rdfs:label "BIBLIOGRAPHY AND CRITICISM" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... bibliographies and criticism of him [Burroughs]. Bibliographic and critical works are included only if issued as stand-alone publications, and only if they deal exclusively with Burroughs or if he is named in the title.\"-Introduction." .
+    ns1:definition "\"... bibliographies and criticism of him [Burroughs]. Bibliographic and critical works are included only if issued as stand-alone publications, and only if they deal exclusively with Burroughs or if he is named in the title.\"-Introduction." .
 
 abri:A10a a bf:Instance ;
     rdfs:label "Nova Express" ;
@@ -71,7 +71,7 @@ abri:A10a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Nova Express" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -101,7 +101,7 @@ abri:A10b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Nova Express" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -128,7 +128,7 @@ abri:A10c a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Nova Express" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -161,7 +161,7 @@ abri:A10d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Nova Express" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -219,7 +219,7 @@ abri:A10f a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Nova Express: The Restored Text" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -246,7 +246,7 @@ abri:A11 a bf:Instance ;
             bf:place "Tangier" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Pry Yourself Loose And Listen .../" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -286,7 +286,7 @@ abri:A12 a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Roosevelt After Inauguration" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound mimeograph (no hardbound issued)." ] ] .
@@ -320,7 +320,7 @@ abri:A13a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Health Bulletin: APO-33, A Metabolic Regulator. A Report on the Synthesis of the Apomorphine Formula" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound." ] ] .
@@ -364,7 +364,7 @@ abri:A13b a bf:Instance ;
             bf:place "[San Francisco]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -404,7 +404,7 @@ abri:A13c a bf:Instance ;
             bf:place "[San Francisco]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "APO-33 Bulletin: A Metabolic Regulator" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -429,7 +429,7 @@ abri:A14 a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Invisible Generation" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Folio broadside." ] ] .
@@ -467,7 +467,7 @@ abri:A15a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Time" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, and softbound." ] ] .
@@ -501,7 +501,7 @@ abri:A15b a bf:Instance ;
             bf:place "Sussex, England" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Time" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -531,7 +531,7 @@ abri:A16 a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Valentines Day Reading" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound." ] ] .
@@ -573,7 +573,7 @@ abri:A17a a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "So Who Owns Death TV?" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -623,7 +623,7 @@ abri:A17b a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "So Who Owns Death TV?" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -664,7 +664,7 @@ abri:A17c a bf:Instance ;
             bf:place "Birmingham, England" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "So Who Owns Death TV?" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -723,7 +723,7 @@ abri:A18a a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -763,7 +763,7 @@ abri:A18b a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "William Burroughs, Claude Pélieu, Bob Kaufman" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -794,7 +794,7 @@ abri:A19a a bf:Instance ;
             bf:place "[n.p.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Scientology Revisited" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound pamphlet." ] ] .
@@ -825,7 +825,7 @@ abri:A19b a bf:Instance ;
             bf:place "[n.p.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Scientology Revisited" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound pamphlet." ] ] .
@@ -863,7 +863,7 @@ abri:A1a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junkie" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -895,7 +895,7 @@ abri:A1b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junkie: Confessions of an Unredeemed Drug Addict" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -938,7 +938,7 @@ abri:A1c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junkie" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -973,7 +973,7 @@ abri:A1d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junkie" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1011,7 +1011,7 @@ abri:A1e a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junkie" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -1045,7 +1045,7 @@ abri:A1f a bf:Instance ;
                 "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junky" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1093,7 +1093,7 @@ abri:A1h a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junky" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1127,7 +1127,7 @@ abri:A1i a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junky: The Definitive Text of “Junk”" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1157,7 +1157,7 @@ abri:A1j a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junky: The Definitive Text of “Junk”" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1187,7 +1187,7 @@ abri:A1k a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junky: The Definitive Text of “Junk”" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1231,7 +1231,7 @@ abri:A20 a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Apomorphine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1268,7 +1268,7 @@ abri:A21 a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Dead Star" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Pamphlet with long folding broadside tipped in." ] ] .
@@ -1299,7 +1299,7 @@ abri:A22a a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Last Words of Dutch Schultz" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -1326,7 +1326,7 @@ abri:A22b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -1354,7 +1354,7 @@ abri:A22c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1377,7 +1377,7 @@ abri:A22d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1401,7 +1401,7 @@ abri:A22e a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Last Words of Dutch Schultz: A Fiction in the Form of a Film Script" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1437,7 +1437,7 @@ abri:A23a a bf:Instance ;
             bf:place "Brighton, England" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ali's Smile" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, issued without dustjacket in cardboard carton with 12” LP record [blank labels— Side A, white; Side B, black; matrix number: UB LP 1 A S/S]." ] ] .
@@ -1476,7 +1476,7 @@ abri:A23b a bf:Instance ;
             bf:place "Göttingen" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ali's Smile" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1524,7 +1524,7 @@ abri:A24b1 a bf:Instance ;
             bf:date "1972" ;
             bf:place "Göttingen" ] ;
     bf:relatedTo abri:A24b ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Pamphlet." ] ] .
@@ -1561,7 +1561,7 @@ abri:A24c a bf:Instance ;
             bf:place "[Bonn]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1598,7 +1598,7 @@ abri:A24d a bf:Instance ;
             bf:place "[Bonn]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1629,7 +1629,7 @@ abri:A24e a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1659,7 +1659,7 @@ abri:A24f a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1688,7 +1688,7 @@ abri:A24g a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1717,7 +1717,7 @@ abri:A24h a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1746,7 +1746,7 @@ abri:A24i a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1800,7 +1800,7 @@ abri:A25 a bf:Instance ;
             bf:place "[Paris]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Jack Kerouac" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1826,7 +1826,7 @@ abri:A26a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Wild Boys: A Book of the Dead" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -1854,7 +1854,7 @@ abri:A26b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Wild Boys: A Book of the Dead" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -1882,7 +1882,7 @@ abri:A26c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Wild Boys: A Book of the Dead" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1908,7 +1908,7 @@ abri:A26d a bf:Instance ;
             bf:place "[London]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Wild Boys: A Book of the Dead" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -1933,7 +1933,7 @@ abri:A26e a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Wild Boys: A Book of the Dead" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1959,7 +1959,7 @@ abri:A26f a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Wild Boys: A Book of the Dead" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -1987,7 +1987,7 @@ abri:A27a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator! A Novel" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -2012,7 +2012,7 @@ abri:A27b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator! A Novel" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -2039,7 +2039,7 @@ abri:A27c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator! A Novel" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -2062,7 +2062,7 @@ abri:A27d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator!" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2088,7 +2088,7 @@ abri:A27e a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator!" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -2111,7 +2111,7 @@ abri:A27f a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Exterminator!" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2141,7 +2141,7 @@ abri:A28 a bf:Instance ;
             bf:place "Brighton, England" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Mayfair Acadamy [sic] Series More or Less" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -2175,7 +2175,7 @@ abri:A29a a bf:Instance ;
             bf:place "Ollon, Switzerland" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Port of Saints" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -2210,7 +2210,7 @@ abri:A29b a bf:Instance ;
             bf:place "Berkeley, Calif." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Port of Saints" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -2234,7 +2234,7 @@ abri:A29c a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Port of Saints" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -2272,7 +2272,7 @@ abri:A2a a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound in dustjacket (no hardbound issued)." ] ] .
@@ -2324,7 +2324,7 @@ abri:A2b1 a bf:Instance ;
             bf:date "[1962]" ;
             bf:place "New York" ] ;
     bf:relatedTo abri:A2b ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Pamphlet." ] ] .
@@ -2349,7 +2349,7 @@ abri:A2c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -2388,7 +2388,7 @@ abri:A2d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -2421,7 +2421,7 @@ abri:A2e a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2450,7 +2450,7 @@ abri:A2f a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2476,7 +2476,7 @@ abri:A2g a bf:Instance ;
             bf:place "Secaucus, N.J." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -2502,7 +2502,7 @@ abri:A2h a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2535,7 +2535,7 @@ abri:A2i a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2569,7 +2569,7 @@ abri:A2j a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -2595,7 +2595,7 @@ abri:A2k a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -2618,7 +2618,7 @@ abri:A2l a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2652,7 +2652,7 @@ abri:A2m a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2681,7 +2681,7 @@ abri:A2n a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -2706,7 +2706,7 @@ abri:A2o a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -2748,7 +2748,7 @@ abri:A2p a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch: The Restored Text" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -2831,7 +2831,7 @@ abri:A2r a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch: The Restored Text" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, issued without dustjacket." ] ] .
@@ -2863,7 +2863,7 @@ abri:A30 a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "White Subway" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -2906,7 +2906,7 @@ abri:A31a a bf:Instance ;
             bf:place "Ingatestone, Essex, England" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Book of Breething [= Le Livre des Respirations = Het Boek der Ademhalingen]" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -3012,7 +3012,7 @@ abri:A32 a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Snack" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -3037,7 +3037,7 @@ abri:A33 a bf:Instance ;
             bf:place "[Holland]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Verdelgen" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3074,7 +3074,7 @@ abri:A34 a bf:Instance ;
             bf:place "Cherry Valley, N.Y." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cobble Stone Gardens" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound (issued without dustjacket), and softbound." ] ] .
@@ -3109,7 +3109,7 @@ abri:A35 a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Retreat Diaries" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -3154,7 +3154,7 @@ abri:A36a a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Œuvre Croisée" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3187,7 +3187,7 @@ abri:A36b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Third Mind" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -3214,7 +3214,7 @@ abri:A36c a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Third Mind" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -3241,7 +3241,7 @@ abri:A36d a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Third Mind" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3277,7 +3277,7 @@ abri:A37a a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ali's Smile; Naked Scientology" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -3329,7 +3329,7 @@ abri:A39 a bf:Instance ;
             bf:place "Northridge, [UK]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Where Naked Troubadours Shoot Snotty Baboons" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -3375,7 +3375,7 @@ abri:A3a a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Exterminator" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -3412,7 +3412,7 @@ abri:A3b a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Exterminator" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -3441,7 +3441,7 @@ abri:A40a a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ah Pook Is Here, and Other Texts" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -3471,7 +3471,7 @@ abri:A40b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ah Pook Is Here, and Other Texts" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3527,7 +3527,7 @@ abri:A41b a bf:Instance ;
             bf:place "Berkeley, Calif." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Blade Runner: A Movie" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3566,7 +3566,7 @@ abri:A42 a bf:Instance ;
     bf:relatedTo abri:A42a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Doctor Benway: A [Variant] Passage from The Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -3623,7 +3623,7 @@ abri:A43 a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Roosevelt After Inauguration and Other Atrocities" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -3650,7 +3650,7 @@ abri:A44 a bf:Instance ;
             bf:place "[Geneva]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Scrapbook 3" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound." ] ] .
@@ -3679,7 +3679,7 @@ abri:A45 a bf:Instance ;
             bf:place "[St. Paul, Minn.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Wouldn't You Polish Pine Floors With a South African ..." ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -3716,7 +3716,7 @@ abri:A46a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine; Nova Express; The Wild Boys: Three Novels" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3744,7 +3744,7 @@ abri:A46b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine; Nova Express; The Wild Boys: Three Novels" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3781,7 +3781,7 @@ abri:A47a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -3804,7 +3804,7 @@ abri:A47b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -3832,7 +3832,7 @@ abri:A47c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3855,7 +3855,7 @@ abri:A47d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3883,7 +3883,7 @@ abri:A47e a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -3909,7 +3909,7 @@ abri:A47f a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Cities of the Red Night" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -3946,7 +3946,7 @@ abri:A48a a bf:Instance ;
             bf:place "Santa Barbara, Calif." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Early Routines" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in tissue dustjacket, and softbound." ] ] .
@@ -3979,7 +3979,7 @@ abri:A48b a bf:Instance ;
             bf:place "Santa Barbara, Calif." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Early Routines" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, and softbound." ] ] .
@@ -4020,7 +4020,7 @@ abri:A49 a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Essais" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4066,7 +4066,7 @@ abri:A4a a bf:Instance ;
             bf:place "[Paris]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Minutes To Go" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -4108,7 +4108,7 @@ abri:A4b a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Minutes To Go" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -4149,7 +4149,7 @@ abri:A50 a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Streets of Chance" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, issued without dustjacket." ] ] .
@@ -4184,7 +4184,7 @@ abri:A51 a bf:Instance ;
             bf:place "Düsseldorf; New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Mummies" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound with hand-made orange tissue guards inserted." ] ] .
@@ -4215,7 +4215,7 @@ abri:A52a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Sinki's Sauna" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -4269,7 +4269,7 @@ abri:A53 a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "A William Burroughs Reader" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -4307,7 +4307,7 @@ abri:A54 a bf:Instance ;
     bf:relatedTo abri:A54a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "The Burroughs File" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, and softbound." ] ] .
@@ -4363,7 +4363,7 @@ abri:A55a a bf:Instance ;
             bf:place "Bonn" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Four Horsemen of the Apocalypse = Die vier apokalyptischen Reiter" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -4408,7 +4408,7 @@ abri:A56b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -4436,7 +4436,7 @@ abri:A56c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4459,7 +4459,7 @@ abri:A56d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4484,7 +4484,7 @@ abri:A56e a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4512,7 +4512,7 @@ abri:A56f a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4538,7 +4538,7 @@ abri:A56g a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -4563,7 +4563,7 @@ abri:A57a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ruski" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -4590,7 +4590,7 @@ abri:A57b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ruski" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -4613,7 +4613,7 @@ abri:A58a a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Adding Machine: Collected Essays" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -4644,7 +4644,7 @@ abri:A58b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Adding Machine: Selected Essays" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -4669,7 +4669,7 @@ abri:A58c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Adding Machine: Selected Essays" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4712,7 +4712,7 @@ abri:A59b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Queer" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -4736,7 +4736,7 @@ abri:A59c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Queer" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4759,7 +4759,7 @@ abri:A59d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Queer" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4793,7 +4793,7 @@ abri:A59e a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Queer" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -4831,7 +4831,7 @@ abri:A5a a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound in dustjacket (no hardbound issued)." ] ] .
@@ -4863,7 +4863,7 @@ abri:A5b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -4894,7 +4894,7 @@ abri:A5c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ],
@@ -4929,7 +4929,7 @@ abri:A5d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine: A Novel" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -4957,7 +4957,7 @@ abri:A5e a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -4983,7 +4983,7 @@ abri:A5f a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -5006,7 +5006,7 @@ abri:A5g a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5033,7 +5033,7 @@ abri:A5h a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5059,7 +5059,7 @@ abri:A5i a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -5082,7 +5082,7 @@ abri:A5j a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5118,7 +5118,7 @@ abri:A5k a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Soft Machine: The Restored Text" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -5150,7 +5150,7 @@ abri:A60a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Cat Inside" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound." ] ] .
@@ -5180,7 +5180,7 @@ abri:A60b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Cat Inside" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, issued without dustjacket." ] ] .
@@ -5209,7 +5209,7 @@ abri:A60c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Cat Inside" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5242,7 +5242,7 @@ abri:A61 a bf:Instance ;
             bf:place "Santa Fe, N.M." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "From The Western Lands" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -5265,7 +5265,7 @@ abri:A62a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Western Lands" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -5289,7 +5289,7 @@ abri:A62b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Western Lands" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5312,7 +5312,7 @@ abri:A62c a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Western Lands" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -5339,7 +5339,7 @@ abri:A63 a bf:Instance ;
             bf:place "[n.p.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Clause 27 Is Proposition 6 Is the Whole Tamale" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Pamphlet." ] ] .
@@ -5374,7 +5374,7 @@ abri:A64a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Interzone" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -5401,7 +5401,7 @@ abri:A64b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Interzone" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -5428,7 +5428,7 @@ abri:A64c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Interzone" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5540,7 +5540,7 @@ abri:A66a1 a bf:Instance ;
             bf:date "1991" ;
             bf:place "New York" ] ;
     bf:relatedTo abri:A66a ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Pamphlet." ] ] .
@@ -5590,7 +5590,7 @@ abri:A66c a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Ghost of Chance" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5625,7 +5625,7 @@ abri:A67 a bf:Instance ;
             bf:place "Madras, India; New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Painting & Guns" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound in dustjacket (no hardbound issued)." ] ] .
@@ -5662,7 +5662,7 @@ abri:A68 a bf:Instance ;
             bf:place "Berguette, France" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Le Temps des Assassins" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)" ] ] .
@@ -5697,7 +5697,7 @@ abri:A69 a bf:Instance ;
             bf:place "Louisville, Ky." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Photos, and Remembering Jack Kerouac" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound (no hardbound issued)." ] ] .
@@ -5745,7 +5745,7 @@ abri:A6a a bf:Instance ;
             bf:place "Paris" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound with dustjacket (no hardbound issued)." ] ] .
@@ -5773,7 +5773,7 @@ abri:A6b a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -5803,7 +5803,7 @@ abri:A6c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -5830,7 +5830,7 @@ abri:A6d a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -5856,7 +5856,7 @@ abri:A6e a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -5887,7 +5887,7 @@ abri:A6f a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5913,7 +5913,7 @@ abri:A6g a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -5936,7 +5936,7 @@ abri:A6h a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5959,7 +5959,7 @@ abri:A6i a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -5982,7 +5982,7 @@ abri:A6j a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -6022,7 +6022,7 @@ abri:A6k a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Ticket That Exploded: The Restored Text" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6049,7 +6049,7 @@ abri:A70 a bf:Instance ;
             bf:place "[Louisville, Ky.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Remembering Jack Kerouac" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -6084,7 +6084,7 @@ abri:A71 a bf:Instance ;
             bf:place "Caen, France" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Rien Que Des Mots, Ce Qui En Sort Rugit Sur Cette Page" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -6107,7 +6107,7 @@ abri:A72 a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Junky; Queer; Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -6132,7 +6132,7 @@ abri:A73a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "My Education: A Book of Dreams" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -6157,7 +6157,7 @@ abri:A73b a bf:Instance ;
             bf:place "[London]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "My Education: A Book of Dreams" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, and softbound." ] ] .
@@ -6181,7 +6181,7 @@ abri:A73c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "My Education: A Book of Dreams" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6210,7 +6210,7 @@ abri:A74 a bf:Instance ;
             bf:place "Charleston, W.Va." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Pantopon Rose" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -6235,7 +6235,7 @@ abri:A75 a bf:Instance ;
             bf:place "[Lawrence, Kansas?]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "A Spiritual Exercise" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -6282,7 +6282,7 @@ abri:A76a a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Word Virus: The William S. Burroughs Reader" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket, issued with compact disc bound in rear." ] ] .
@@ -6323,7 +6323,7 @@ abri:A76b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Word Virus: The William S. Burroughs Reader" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -6365,7 +6365,7 @@ abri:A76c a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Word Virus: The William S. Burroughs Reader" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound." ] ] .
@@ -6392,7 +6392,7 @@ abri:A77 a bf:Instance ;
             bf:place "Forest Knolls, Calif." ] ;
     bf:title [ a bf:Title ;
             rdfs:label "In Search of Yage: A William S. Burroughs Pictorial" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound; handbound (no hardbound issued)." ] ] .
@@ -6426,7 +6426,7 @@ abri:A78 a bf:Instance ;
             bf:place "Rouen, France" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Parler pour Joe" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound." ] ] .
@@ -6461,7 +6461,7 @@ abri:A79 a bf:Instance ;
             bf:place "[Encinitas, Calif.]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Words of Advice for Young People" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound." ] ] .
@@ -6497,7 +6497,7 @@ abri:A7a a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Dead Fingers Talk" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket (no softbound issued)." ] ] .
@@ -6528,7 +6528,7 @@ abri:A7b a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Dead Fingers Talk" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6553,7 +6553,7 @@ abri:A7c a bf:Instance ;
             bf:place "London" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Dead Fingers Talk" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6592,7 +6592,7 @@ abri:A80 a bf:Instance ;
             bf:place "Columbus, Ohio" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "Everything Lost: The Latin American Notebook of William S. Burroughs" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, issued without dustjacket." ] ] .
@@ -6627,7 +6627,7 @@ abri:A81 a bf:Instance ;
             bf:place "New York" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "And the Hippos Were Boiled in Their Tanks" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -6659,7 +6659,7 @@ abri:A82 a bf:Instance ;
     bf:relatedTo abri:A82a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "The Travel Agency Is on Fire" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Staplebound." ] ] .
@@ -6725,7 +6725,7 @@ abri:A8a a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Yage Letters" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6757,7 +6757,7 @@ abri:A8b a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Yage Letters" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6788,7 +6788,7 @@ abri:A8c a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Yage Letters" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6820,7 +6820,7 @@ abri:A8d a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Yage Letters" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6860,7 +6860,7 @@ abri:A8e a bf:Instance ;
             bf:place "San Francisco" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Yage Letters Redux" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -6887,7 +6887,7 @@ abri:A9 a bf:Instance ;
             bf:place "[Flint, Michigan]" ] ;
     bf:title [ a bf:Title ;
             rdfs:label "The Coldspring News" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Broadside." ] ] .
@@ -7627,7 +7627,7 @@ abri:A24a a bf:Instance ;
     bf:relatedTo abri:A24a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Electronic Revolution 1970-71" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound (no hardbound issued)." ] ] .
@@ -7665,7 +7665,7 @@ abri:A24b a bf:Instance ;
     bf:relatedTo abri:A24b1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Die elektronische Revolution = Electronic Revolution" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Softbound in dustjacket (no hardbound issued)." ] ] .
@@ -7705,7 +7705,7 @@ abri:A2b a bf:Instance ;
     bf:relatedTo abri:A2b1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Naked Lunch" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -7738,7 +7738,7 @@ abri:A56a a bf:Instance ;
     bf:relatedTo abri:A56a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "The Place of Dead Roads" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -7770,7 +7770,7 @@ abri:A59a a bf:Instance ;
     bf:relatedTo abri:A59a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Queer" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound in dustjacket." ] ] .
@@ -7808,7 +7808,7 @@ abri:A66a a bf:Instance ;
     bf:relatedTo abri:A66a1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Ghost of Chance" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound; handbound (issued without dustjacket in slipcase)." ] ] .
@@ -7844,7 +7844,7 @@ abri:A66b a bf:Instance ;
     bf:relatedTo abri:A66b1 ;
     bf:title [ a bf:Title ;
             rdfs:label "Ghost of Chance" ] ;
-    ns1:hasPart [ a arm:Binding ;
+    ns11:hasPart [ a arm:Binding ;
             bf:note [ a bf:Note,
                         arm:DescriptiveNote ;
                     rdf:value "Hardbound, issued without dustjacket." ] ] .
@@ -8298,7 +8298,7 @@ abrw:A8 a bf:Text,
 abrc:C a bf:Classification ;
     rdfs:label "CONTRIBUTIONS TO PERIODICALS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... Burroughs’ many hundreds of contributions to periodicals.\"-Introduction." .
+    ns1:definition "\"... Burroughs’ many hundreds of contributions to periodicals.\"-Introduction." .
 
 abrw:A10 a bf:Text,
         bf:Work ;
@@ -8393,7 +8393,7 @@ abrw:A56 a bf:Text,
 
 abrc:Schottlaender_v4_0 a bf:Classification ;
     rdfs:label "Schottlaender v4.0" ;
-    ns11:definition "Works by and about William S. Burroughs, listed in Brian E.C. Schottlaender’s \"ANYTHING BUT ROUTINE: A Selectively Annotated Bibliography of William S. Burroughs v. 4.0\"" .
+    ns1:definition "Works by and about William S. Burroughs, listed in Brian E.C. Schottlaender’s \"ANYTHING BUT ROUTINE: A Selectively Annotated Bibliography of William S. Burroughs v. 4.0\"" .
 
 abrw:A24 a bf:Text,
         bf:Work ;
@@ -8518,5 +8518,5 @@ abrw:A2 a bf:Text,
 abrc:A a bf:Classification ;
     rdfs:label "BOOKS, BROADSIDES, AND PAMPHLETS" ;
     rdfs:subClassOf abrc:Schottlaender_v4_0 ;
-    ns11:definition "\"... Burroughs’ publications in book, broadside, and pamphlet form. Foreign titles are included only if they have no English-language analogue (e.g., A16) or represent the first publication of a particular title (e.g., A34a).\"-Introduction." .
+    ns1:definition "\"... Burroughs’ publications in book, broadside, and pamphlet form. Foreign titles are included only if they have no English-language analogue (e.g., A16) or represent the first publication of a particular title (e.g., A34a).\"-Introduction." .
 
