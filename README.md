@@ -9,6 +9,8 @@ the bibliographical metadata](http://www.bradleypallen.org/anything-but-routine-
 Brian E.C. Schottlaender's annotated bibliography of works by and about [William S. Burroughs](https://en.wikipedia.org/wiki/William_S._Burroughs), the American Beat Generation
 author.
 
+A [presentation describing this work](https://docs.google.com/presentation/d/1-0JL3LL7-GbUQkbSHi8k6pQNlfv-3D5YAdwcZh-9auQ/edit?usp=sharing) was given on 15 May 2019 at the [LD4 Conference on Linked Data in Libraries](https://wiki.duraspace.org/display/LD4P2/2019+LD4+Conference+on+Linked+Data+in+Libraries) in Boston, MA, USA.
+
 ## Goals
 
 - Explore the utility of linked data combined with Github-style collaboration platforms in creating. publishing and maintaining bibliographies and catalogs for rare materials
